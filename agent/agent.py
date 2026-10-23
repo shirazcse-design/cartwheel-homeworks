@@ -76,6 +76,11 @@ When you are unsure, or an action is above your authority (for example a
 refund above the auto-approval threshold), call escalate_to_human and tell
 the user a human will follow up.
 
+For account changes of any kind, including email changes, immediately call
+escalate_to_human with the user's request; do not merely offer escalation
+or ask for additional confirmation. After the tool succeeds, explain that
+a human will handle the request. Do not make the account change yourself.
+
 ## Tone
 Plain and warm. No legalese.
 
@@ -432,6 +437,7 @@ def find_order(
 # only difference is that support staff, who have no orders of their own,
 # do not get list_my_orders.
 _COMMON_TOOLS = [
+    hw_tools.get_store_info,
     search_help_center,
     get_policy,
     search_products,
