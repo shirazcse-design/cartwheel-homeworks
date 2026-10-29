@@ -1,0 +1,20 @@
+[
+  {
+    "trace_id": "bc2271f8c92b25d918f394dbcf5506ed",
+    "permalink": "http://localhost:3000/project/cartwheel-dev/traces?peek=bc2271f8c92b25d918f394dbcf5506ed&timestamp=2026-10-29T01%3A31%3A43.509Z&peekView=expanded",
+    "prompt_version": "d49b2f62900a",
+    "user_role": "shopper",
+    "user_id": "1",
+    "tool_order": ["search_products"],
+    "final_status": "completed"
+  },
+  {
+    "trace_id": "09c486fa8d3c9bc3e31ea112d573abff",
+    "permalink": "http://localhost:3000/project/cartwheel-dev/traces?peek=09c486fa8d3c9bc3e31ea112d573abff&timestamp=2026-10-29T01%3A37%3A54.770Z&peekView=expanded",
+    "prompt_version": "d108f6949e5e",
+    "user_role": "shopper",
+    "user_id": "1",
+    "tool_order": ["search_products"],
+    "final_status": "completed"
+  }
+]
