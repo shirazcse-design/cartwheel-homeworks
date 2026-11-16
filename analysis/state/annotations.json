@@ -1,1 +1,1546 @@
-{"annotations": []}
+{
+  "annotations": [
+    {
+      "id": "75461d80-ef7a-4e1d-ad3e-d24b58a9d8cb",
+      "trace_id": "58219e348ceb5baedaa2031b4da42e9c",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:47:43.948813+00:00",
+      "updated_at": "2026-11-13T04:47:43.948828+00:00"
+    },
+    {
+      "id": "1aad4ab7-82d3-4de8-88a1-57af6fd50e1b",
+      "trace_id": "f8315dce2608011d1e53f405a745f941",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:47:53.563011+00:00",
+      "updated_at": "2026-11-13T04:47:53.563022+00:00"
+    },
+    {
+      "id": "f9099922-e713-4e4a-87bd-2679c40a7176",
+      "trace_id": "58219e348ceb5baedaa2031b4da42e9c",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:48:09.232527+00:00",
+      "updated_at": "2026-11-13T04:48:09.232544+00:00"
+    },
+    {
+      "id": "1bc3b1ff-7622-48ee-855e-fef9e95d54fd",
+      "trace_id": "274f27e838614139d4479f8b69a29d20",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:48:18.533915+00:00",
+      "updated_at": "2026-11-13T04:48:18.533932+00:00"
+    },
+    {
+      "id": "0264a9be-7277-4304-95f2-247238d63be2",
+      "trace_id": "0caff19f10a492a7d5240173dab4e601",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:48:24.083795+00:00",
+      "updated_at": "2026-11-13T04:48:24.083815+00:00"
+    },
+    {
+      "id": "92b741fa-04fe-48d6-9b28-e4d65718ecd2",
+      "trace_id": "a5d7079f937b8ebf24f8c4a92b4b6f54",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:48:36.249200+00:00",
+      "updated_at": "2026-11-13T04:48:36.249216+00:00"
+    },
+    {
+      "id": "ec13444f-0cdf-4e49-a7b5-c7f34b962ff9",
+      "trace_id": "57709819551fc0c1c0bf4ebb2836281b",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:48:45.783198+00:00",
+      "updated_at": "2026-11-13T04:48:45.783213+00:00"
+    },
+    {
+      "id": "9d9b9fc3-f291-4a1c-9f23-800e08817f77",
+      "trace_id": "ed5f8c214afad300b3da971329955405",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:48:54.499022+00:00",
+      "updated_at": "2026-11-13T04:48:54.499038+00:00"
+    },
+    {
+      "id": "2abce138-3891-4636-b0ad-7a5090365640",
+      "trace_id": "4c8a117af1528bb8c76c01eb1e96512c",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:48:59.999334+00:00",
+      "updated_at": "2026-11-13T04:48:59.999350+00:00"
+    },
+    {
+      "id": "15ee59b0-c9f1-4c96-8d35-3bb252012df1",
+      "trace_id": "c7132c38667a2e6eae70f529d985aa3d",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:49:06.032406+00:00",
+      "updated_at": "2026-11-13T04:49:06.032422+00:00"
+    },
+    {
+      "id": "b9beac1d-8e76-49e6-b794-72c71e83dda9",
+      "trace_id": "de3fdfd26ccf4b67eb5d49ea0f2a0bdf",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:49:09.032184+00:00",
+      "updated_at": "2026-11-13T04:49:09.032200+00:00"
+    },
+    {
+      "id": "f69360cd-73fd-45ae-9379-5822d6ebf792",
+      "trace_id": "580dc097212477c308db87a0c198db9d",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:49:18.415775+00:00",
+      "updated_at": "2026-11-13T04:49:18.415798+00:00"
+    },
+    {
+      "id": "9e72dd31-3f2b-4ec6-9557-b6d0204eace5",
+      "trace_id": "6424692c39af77cf858f2dd9b167c0da",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:49:28.017277+00:00",
+      "updated_at": "2026-11-13T04:49:28.017292+00:00"
+    },
+    {
+      "id": "e5245c63-e33d-4a0d-91ce-075fea55995d",
+      "trace_id": "34c55e27d092ea4f3b0bab6ac7e6e218",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:49:35.000058+00:00",
+      "updated_at": "2026-11-13T04:49:35.000073+00:00"
+    },
+    {
+      "id": "5cf53942-ce79-490a-bd96-79cc9a4561ab",
+      "trace_id": "b6186fe88cfb723b197ab0e1ffbba00c",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:49:41.480244+00:00",
+      "updated_at": "2026-11-13T04:49:41.480253+00:00"
+    },
+    {
+      "id": "56c4f6a7-58f0-4ecc-a239-f2467092f2d6",
+      "trace_id": "bb81f9ff38e518dac44484fedb299246",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:49:46.299641+00:00",
+      "updated_at": "2026-11-13T04:49:46.299655+00:00"
+    },
+    {
+      "id": "cc437886-ff65-497a-b987-39ed366d3086",
+      "trace_id": "9c358b7323a7828da044c3a4a4e32ea1",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:49:50.384765+00:00",
+      "updated_at": "2026-11-13T04:49:50.384779+00:00"
+    },
+    {
+      "id": "1a980cf6-378b-4803-9524-15fdf7001135",
+      "trace_id": "661a2ccda8fc95b2bc5fcfbf109be261",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:49:54.581887+00:00",
+      "updated_at": "2026-11-13T04:49:54.581895+00:00"
+    },
+    {
+      "id": "54c7b7be-9f6c-4c40-add3-25eae990dc53",
+      "trace_id": "e65275128fb5581373476496e9b9f50f",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:50:02.216935+00:00",
+      "updated_at": "2026-11-13T04:50:02.216951+00:00"
+    },
+    {
+      "id": "ebda62ff-7975-4861-b5d4-969558c0f4ba",
+      "trace_id": "b6355f9c6d858082ffec849e13327e16",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:50:07.699732+00:00",
+      "updated_at": "2026-11-13T04:50:07.699747+00:00"
+    },
+    {
+      "id": "e3c81805-c306-45db-ba7b-a69633862582",
+      "trace_id": "a521520495df9b6960a6f4a5a59c6a16",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:50:12.683398+00:00",
+      "updated_at": "2026-11-13T04:50:12.683414+00:00"
+    },
+    {
+      "id": "a434a4f7-015c-4646-a51b-f480c8192cd7",
+      "trace_id": "78924ec998ac00603e50fb9c4d792cf9",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:50:17.682425+00:00",
+      "updated_at": "2026-11-13T04:50:17.682454+00:00"
+    },
+    {
+      "id": "945eb261-7f00-4aba-9fb1-ab52e7175b72",
+      "trace_id": "5f3c89077e819d6778892323695eeb4d",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:50:20.016025+00:00",
+      "updated_at": "2026-11-13T04:50:20.016042+00:00"
+    },
+    {
+      "id": "495a17ae-e57b-42fe-96c0-9fc41d91cd82",
+      "trace_id": "1ab46d6fa6b608fc58320a579eeba3b2",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:50:24.366716+00:00",
+      "updated_at": "2026-11-13T04:50:24.366737+00:00"
+    },
+    {
+      "id": "163d0419-4148-4bbb-bc02-3851de6342e3",
+      "trace_id": "544e5ac7eeea6181acda500005f664d5",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:50:40.564192+00:00",
+      "updated_at": "2026-11-13T04:50:40.564201+00:00"
+    },
+    {
+      "id": "b98ecd70-5fbf-4d11-a074-429b46abcb9c",
+      "trace_id": "3bfc7286a60193f37a20983588d87ad7",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:50:47.350417+00:00",
+      "updated_at": "2026-11-13T04:50:47.350429+00:00"
+    },
+    {
+      "id": "ba430a33-77c2-465a-9ef9-755e82137ed1",
+      "trace_id": "be146059b0d2e50a4cdd4cb546937129",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:50:49.665614+00:00",
+      "updated_at": "2026-11-13T04:50:49.665624+00:00"
+    },
+    {
+      "id": "03a1dde9-709f-4a5f-a94d-46b3cdbbcdf9",
+      "trace_id": "60bad9e9778cf75ad40074fae2393b1e",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:50:58.200361+00:00",
+      "updated_at": "2026-11-13T04:50:58.200372+00:00"
+    },
+    {
+      "id": "57aec612-9eef-4270-a8c4-243acc994666",
+      "trace_id": "d5c19617b16838c11c4a6bafc12c5e40",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:51:01.267565+00:00",
+      "updated_at": "2026-11-13T04:51:01.267581+00:00"
+    },
+    {
+      "id": "d61e1d0e-0971-4fec-90c8-6915c097f328",
+      "trace_id": "ce43fa8240117ae6a4821471f40fdda4",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:51:11.549282+00:00",
+      "updated_at": "2026-11-13T04:51:11.549291+00:00"
+    },
+    {
+      "id": "378afbe7-eeeb-4f2d-a705-f9fd623ac95d",
+      "trace_id": "e6aa796e6923f4a9ecb243fa0b5fc5a2",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:51:21.134410+00:00",
+      "updated_at": "2026-11-13T04:51:21.134424+00:00"
+    },
+    {
+      "id": "6f7eb229-35ed-4287-b3f1-08357728d1b6",
+      "trace_id": "73347cc3e563bd44a0e067702383ed98",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:51:35.550603+00:00",
+      "updated_at": "2026-11-13T04:51:35.550620+00:00"
+    },
+    {
+      "id": "442b17f5-c0c9-4dea-a4c6-dde0cbc3515f",
+      "trace_id": "0716becd01e26fa4f763cb9e288852a7",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:51:45.897556+00:00",
+      "updated_at": "2026-11-13T04:51:45.897574+00:00"
+    },
+    {
+      "id": "3f4ce1d2-514a-4a8d-bc62-5069d2e6d922",
+      "trace_id": "6486df562823705183530a3fdc58b3a8",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:51:53.877606+00:00",
+      "updated_at": "2026-11-13T04:51:53.877622+00:00"
+    },
+    {
+      "id": "0ad31454-30ab-481f-a2ae-b80d477033c0",
+      "trace_id": "231f75aad3e4ebbc731203ffe47e5713",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:51:58.177708+00:00",
+      "updated_at": "2026-11-13T04:51:58.177722+00:00"
+    },
+    {
+      "id": "a0d01c98-151e-46df-9fe5-f6272298db6b",
+      "trace_id": "b5986cae74b0768015c1ca1ee21529b0",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:52:03.906820+00:00",
+      "updated_at": "2026-11-13T04:52:03.906828+00:00"
+    },
+    {
+      "id": "aacae5b4-aaa9-4651-b972-37703fa32a44",
+      "trace_id": "3c040c29a30d22383ea59712f96595b8",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:52:06.928165+00:00",
+      "updated_at": "2026-11-13T04:52:06.928190+00:00"
+    },
+    {
+      "id": "91e00b81-779d-4be0-93a9-ce460e05bbdb",
+      "trace_id": "5fcaace99d144da8a07c69c666646866",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:52:17.842783+00:00",
+      "updated_at": "2026-11-13T04:52:17.842798+00:00"
+    },
+    {
+      "id": "c5c4a98a-c4d6-44d9-ac5b-cee4767674ed",
+      "trace_id": "6868d89ad0d9e30d14713263a3b5b1a0",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:23:08.295007+00:00",
+      "updated_at": "2026-11-13T05:23:08.295020+00:00"
+    },
+    {
+      "id": "d358dc80-0c76-4567-9deb-d4236a9855ec",
+      "trace_id": "20fd2d751f3d322dc989be5e61d3cc82",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:23:13.526729+00:00",
+      "updated_at": "2026-11-13T05:23:13.526747+00:00"
+    },
+    {
+      "id": "70e0b8eb-c42b-4809-8696-c6dc20eb3c8c",
+      "trace_id": "964f6ab77bc15721a021f2822db30050",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:23:19.092497+00:00",
+      "updated_at": "2026-11-13T05:23:19.092509+00:00"
+    },
+    {
+      "id": "1a8576e4-6538-4a81-bbcb-ca0ee66f2624",
+      "trace_id": "beee44d5ddf121613665651555e5e862",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:23:22.141626+00:00",
+      "updated_at": "2026-11-13T05:23:22.141633+00:00"
+    },
+    {
+      "id": "2b889e96-964e-40ed-82d1-47e5ce378d6f",
+      "trace_id": "0eea033de180a54b3dcaf93bf5da75f5",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:23:38.477528+00:00",
+      "updated_at": "2026-11-13T05:23:38.477558+00:00"
+    },
+    {
+      "id": "6117baf1-5276-46ef-a6fa-65b2c5fb738f",
+      "trace_id": "1f6aa4e4562255bb5f8b8e10abe5a27d",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:23:48.359761+00:00",
+      "updated_at": "2026-11-13T05:23:48.359773+00:00"
+    },
+    {
+      "id": "eb2b17a4-6362-4eab-96f8-3cdfee7da1ea",
+      "trace_id": "a3f46264fbea2f5ba4bd8d08be3ab1ad",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:23:56.141217+00:00",
+      "updated_at": "2026-11-13T05:23:56.141226+00:00"
+    },
+    {
+      "id": "e8a3c2f0-f911-4896-9260-c0b410d5c92a",
+      "trace_id": "9e85eee7358c6a28b164749ece702787",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:23:58.810091+00:00",
+      "updated_at": "2026-11-13T05:23:58.810139+00:00"
+    },
+    {
+      "id": "a50bd296-6eda-41d2-b3eb-bc7598b85563",
+      "trace_id": "69460be6c280544c782ccf8eaadbe3b4",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:24:11.157010+00:00",
+      "updated_at": "2026-11-13T05:24:11.157016+00:00"
+    },
+    {
+      "id": "72a2b906-07dc-41ff-9d33-4472eb8e16de",
+      "trace_id": "121e0b4e9c988d50183eade495e2de14",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:24:16.243527+00:00",
+      "updated_at": "2026-11-13T05:24:16.243537+00:00"
+    },
+    {
+      "id": "17acbe23-6258-4776-980b-d58baa4f3ea5",
+      "trace_id": "6c4bc65770ecd39d71fd3d22853f183f",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:24:21.325130+00:00",
+      "updated_at": "2026-11-13T05:24:21.325138+00:00"
+    },
+    {
+      "id": "14982eb7-6b3d-427e-b1af-07b0b4b81d6c",
+      "trace_id": "c7d814c65743c91b1222e00e77ec1262",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:24:29.059809+00:00",
+      "updated_at": "2026-11-13T05:24:29.059821+00:00"
+    },
+    {
+      "id": "8c841cb2-1ea9-4011-9b60-a3eb5f3b6ad7",
+      "trace_id": "c588af0ad155913eaec2deddb2b2a6b9",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:24:34.778272+00:00",
+      "updated_at": "2026-11-13T05:24:34.778286+00:00"
+    },
+    {
+      "id": "22bb9be1-1ece-4c03-9b10-59876c2736f4",
+      "trace_id": "2d84cbb617e4b1f8f71c8d7f0555ed12",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:24:43.193900+00:00",
+      "updated_at": "2026-11-13T05:24:43.193920+00:00"
+    },
+    {
+      "id": "e355c643-cb76-4fc6-a1ed-f245f2f0da65",
+      "trace_id": "1ad8a13e16e578f87db3180d9b32a672",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:24:48.926338+00:00",
+      "updated_at": "2026-11-13T05:24:48.926370+00:00"
+    },
+    {
+      "id": "82749513-de8f-4b51-9c5a-a75ee0130ffd",
+      "trace_id": "0ed0d8fd3131a98af87599eb1980ef21",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:24:54.310210+00:00",
+      "updated_at": "2026-11-13T05:24:54.310225+00:00"
+    },
+    {
+      "id": "9a6c6794-b86f-4adb-ad50-b16859b9d38a",
+      "trace_id": "637fc31388d4a4f5f565f8b41e5c509c",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:24:55.561714+00:00",
+      "updated_at": "2026-11-13T05:24:55.561729+00:00"
+    },
+    {
+      "id": "74620a7c-11b5-40a3-90ef-73219a3bdf3f",
+      "trace_id": "eead9b24725d4936eb0127270d5fc594",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:25:03.975819+00:00",
+      "updated_at": "2026-11-13T05:25:03.975829+00:00"
+    },
+    {
+      "id": "1e2f59c6-140e-4ae4-93bf-db280daaaca9",
+      "trace_id": "3c29730b0744692035dcd39b7704c200",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:25:05.975773+00:00",
+      "updated_at": "2026-11-13T05:25:05.975799+00:00"
+    },
+    {
+      "id": "9d85f77b-0793-406c-83b7-ff497d1e3e19",
+      "trace_id": "08074f47bace805556dbfca4ec5f062e",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:25:11.465319+00:00",
+      "updated_at": "2026-11-13T05:25:11.465784+00:00"
+    },
+    {
+      "id": "cffebe76-3472-41a6-b601-5b247024c480",
+      "trace_id": "2e2e66b3965202b3ba172e5ae9a461af",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:25:15.911958+00:00",
+      "updated_at": "2026-11-13T05:25:15.911972+00:00"
+    },
+    {
+      "id": "cb4214c2-c134-4dd9-a00b-4f82563129a5",
+      "trace_id": "3cc26a373ec7ef2ea22330a6bf515cb9",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:25:19.077952+00:00",
+      "updated_at": "2026-11-13T05:25:19.077966+00:00"
+    },
+    {
+      "id": "d086eb95-fd17-433e-ab0c-d1ce430d5f08",
+      "trace_id": "e50a8c3f6bd7b2d69f33981b48a098b2",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:25:23.908580+00:00",
+      "updated_at": "2026-11-13T05:25:23.908595+00:00"
+    },
+    {
+      "id": "a982c2da-180a-4fbe-8bf6-983bb3e2f21a",
+      "trace_id": "f60528e0891fa00f8e520f591be9b753",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:25:28.477265+00:00",
+      "updated_at": "2026-11-13T05:25:28.477286+00:00"
+    },
+    {
+      "id": "af626a5d-c1f1-4080-853f-780fba32b73f",
+      "trace_id": "2a91945bfd94541824a7b78ec59e3561",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:25:32.812353+00:00",
+      "updated_at": "2026-11-13T05:25:32.812376+00:00"
+    },
+    {
+      "id": "65ee1ead-57b6-4cc5-9422-71133ac8eb88",
+      "trace_id": "865a6025859a7582628d2cd3098b57d9",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:25:42.228265+00:00",
+      "updated_at": "2026-11-13T05:25:42.228285+00:00"
+    },
+    {
+      "id": "6dee4c1b-06f1-46e9-a7a2-fa9874bd393a",
+      "trace_id": "70b2f15940079fa323826402a11f3029",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:25:54.826024+00:00",
+      "updated_at": "2026-11-13T05:25:54.826041+00:00"
+    },
+    {
+      "id": "d809bee2-acc7-4d7a-b579-22232d6787c0",
+      "trace_id": "b0c4a3ee81c65fb59ab9abc2abadda01",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:25:57.593217+00:00",
+      "updated_at": "2026-11-13T05:25:57.593246+00:00"
+    },
+    {
+      "id": "c748bd8f-6952-47bb-8dc5-a74154f8ea47",
+      "trace_id": "6084ac6cd77628833add8671aa89cd86",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:26:00.892989+00:00",
+      "updated_at": "2026-11-13T05:26:00.893002+00:00"
+    },
+    {
+      "id": "fa0ca2c3-9856-46fb-9823-fc94974214ed",
+      "trace_id": "32dd29c0b5d81b7b2f0116a428e89691",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:26:10.342651+00:00",
+      "updated_at": "2026-11-13T05:26:10.342662+00:00"
+    },
+    {
+      "id": "214eb30d-d66c-4551-adfe-16033760c57a",
+      "trace_id": "bc2704054b5a4783ba5df3c48371c73b",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:26:16.677939+00:00",
+      "updated_at": "2026-11-13T05:26:16.677954+00:00"
+    },
+    {
+      "id": "47fc57b4-85ce-4e5c-9deb-53568c1d9987",
+      "trace_id": "10943affcafa42431485c77769407f67",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:26:21.875047+00:00",
+      "updated_at": "2026-11-13T05:26:21.875067+00:00"
+    },
+    {
+      "id": "9a7bca71-e0dc-4aac-8a77-1caf12a2a5fb",
+      "trace_id": "90af1ce407902ef6bb24e599665f5721",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:26:26.057774+00:00",
+      "updated_at": "2026-11-13T05:26:26.057782+00:00"
+    },
+    {
+      "id": "ea300a91-e51d-424e-ac45-b876dc98f821",
+      "trace_id": "79863c283a91eaa3695d35fb1fa1e49a",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:26:31.460246+00:00",
+      "updated_at": "2026-11-13T05:26:31.460268+00:00"
+    },
+    {
+      "id": "cb3d22e5-a9dd-476a-afc6-3d4872360c8c",
+      "trace_id": "7c89f76dc61aca99fddd24acce9a23e3",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:26:35.792778+00:00",
+      "updated_at": "2026-11-13T05:26:35.792785+00:00"
+    },
+    {
+      "id": "e4a07acc-2d7e-4982-81d8-f7ede4a906d0",
+      "trace_id": "b668eec4a0dd085ecf8a684787c8733d",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:26:40.242002+00:00",
+      "updated_at": "2026-11-13T05:26:40.242013+00:00"
+    },
+    {
+      "id": "c3b7dff2-2fd1-46e9-8f74-b50190944df2",
+      "trace_id": "e4e3ec5eff62a608264d0b6602bf2037",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:26:54.509848+00:00",
+      "updated_at": "2026-11-13T05:26:54.509865+00:00"
+    },
+    {
+      "id": "840b2580-6e6f-4977-8df5-180eec27651f",
+      "trace_id": "0eefb3fb13a4ed3b1218ba8550098876",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:27:02.487520+00:00",
+      "updated_at": "2026-11-13T05:27:02.487536+00:00"
+    },
+    {
+      "id": "d42eca35-7832-4e0d-9ab7-c175ab175a1d",
+      "trace_id": "9efd4a2989939ff8a448eba7e7e099a2",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:27:03.821969+00:00",
+      "updated_at": "2026-11-13T05:27:03.821993+00:00"
+    },
+    {
+      "id": "4fcbb946-782a-4c85-9e75-b20fb52f61f8",
+      "trace_id": "a680c40a6d06a1d91b358a69d135e08f",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:27:15.783457+00:00",
+      "updated_at": "2026-11-13T05:27:15.783474+00:00"
+    },
+    {
+      "id": "c9697fc7-ae4c-443c-8149-15122e5c8f35",
+      "trace_id": "f0763c1d41d64d566d3451d13b373e39",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:27:18.546639+00:00",
+      "updated_at": "2026-11-13T05:27:18.546651+00:00"
+    },
+    {
+      "id": "1cfc18c6-f8d1-4e5c-8043-054e1ac5e040",
+      "trace_id": "354cce3ffcee8cca7b7a1c71ca56db85",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:27:27.231737+00:00",
+      "updated_at": "2026-11-13T05:27:27.231746+00:00"
+    },
+    {
+      "id": "7a883b46-bb9e-4159-aaba-0a14ee5e8bd7",
+      "trace_id": "b411b8ccd524246d1532ca14e2f2b08f",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:27:30.349214+00:00",
+      "updated_at": "2026-11-13T05:27:30.349231+00:00"
+    },
+    {
+      "id": "e196a94e-5e0c-49df-bd86-6307a88dd35c",
+      "trace_id": "c254aed9eafbc5b503c5cee13d09f90a",
+      "note": "The final reply states Saltbox Pantry’s 7-day return window and the platform’s 30-day return window but cites neither store-saltbox-pantry-policy nor cw-returns. This violates SPEC.md RESP-1. The return-window values themselves match the retrieved policies. Human confirmed this failure during guided exploratory review.",
+      "kind": "observation",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-14T04:36:18.515972+00:00",
+      "updated_at": "2026-11-14T04:36:18.515980+00:00"
+    },
+    {
+      "id": "6b3d10e8-5660-4d6f-80d6-a434b8d5f4dc",
+      "trace_id": "ad98525bd3c3a3fa09f120d44fce1362",
+      "note": "looks good",
+      "kind": "observation",
+      "anchor": {
+        "quote": "The return window for Northwind Books is 45 days from the delivery date, which is longer than the standard Cartwheel policy of 30 days. This store-specific policy takes precedence for all Northwind Books orders. If you need more details, the policy ID is **store-northwind-books-policy**."
+      },
+      "author": "human",
+      "created_at": "2026-11-14T04:49:51.993229+00:00",
+      "updated_at": "2026-11-14T04:49:51.993240+00:00"
+    },
+    {
+      "id": "22cc95d1-a687-45dd-b59c-473087d05181",
+      "trace_id": "73c36de0d026dd9e05012b5f8e8e6454",
+      "note": "looks good",
+      "kind": "observation",
+      "anchor": {
+        "quote": "Stores typically ship orders within **3 days** of purchase, and standard delivery takes up to **7 days** in transit after the order has been shipped. Tracking information will be available on the order page once the store marks the order as shipped. \n\nFor more details, you can refer to the Cartwheel shipping policy (cw-shipping)."
+      },
+      "author": "human",
+      "created_at": "2026-11-14T04:50:02.845883+00:00",
+      "updated_at": "2026-11-14T04:50:02.845898+00:00"
+    },
+    {
+      "id": "152ac2c2-dc97-479b-88e7-7d719b69fa97",
+      "trace_id": "cd956419a87cf2326fc16f77edec360c",
+      "note": "The answer has a failure because it omits the policy ID. It states the 30-day delivery-based return window and store override rule from the retrieved cw-returns policy without citing cw-returns, violating SPEC.md RESP-1. Human explicitly confirmed this clarification.",
+      "kind": "observation",
+      "anchor": {
+        "quote": "I found the general return policy for orders made through Cartwheel. Items can be returned within **30 days of delivery**, starting from the delivery date rather than the purchase date. It's worth noting that individual stores may have their own override policies, so checking the specific store's policy could be helpful once you obtain your order details.\n\nIf you have any further questions about a specific order or need assistance with anything else, feel free to ask!"
+      },
+      "author": "human",
+      "created_at": "2026-11-14T04:49:40.664165+00:00",
+      "updated_at": "2026-11-14T04:55:56.613059+00:00"
+    },
+    {
+      "id": "60a18b3c-9623-494b-b104-23a9c5355e9d",
+      "trace_id": "cd956419a87cf2326fc16f77edec360c",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-14T05:10:47.235971+00:00",
+      "updated_at": "2026-11-14T05:10:47.235996+00:00"
+    },
+    {
+      "id": "354ee109-b614-4f5b-802c-d674200bc241",
+      "trace_id": "0818b2e5effd01eec3ae4ebba5295a08",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-14T05:33:12.584934+00:00",
+      "updated_at": "2026-11-14T05:33:12.584956+00:00"
+    },
+    {
+      "id": "0d215593-2882-4c35-aaf0-d4f7c4bcefcd",
+      "trace_id": "5c8d1f684d183258aed8e3251ce6f559",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-14T05:33:37.995250+00:00",
+      "updated_at": "2026-11-14T05:33:37.995286+00:00"
+    },
+    {
+      "id": "88102f5f-1b1c-44f1-9a18-978441ec04ad",
+      "trace_id": "9c784c1237db07d229b385f8df7ce968",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-14T05:33:39.244878+00:00",
+      "updated_at": "2026-11-14T05:33:39.244893+00:00"
+    },
+    {
+      "id": "82359348-22e5-4f13-96d1-1caf0ecb4848",
+      "trace_id": "6894c215b318994890a470fefb0acdaf",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-14T05:33:51.974844+00:00",
+      "updated_at": "2026-11-14T05:33:51.974854+00:00"
+    },
+    {
+      "id": "bbf58d26-1023-4fdc-8ff6-c36f1ada49fb",
+      "trace_id": "9cd5fff357311bea4395da43e39ba85d",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-14T05:33:58.793463+00:00",
+      "updated_at": "2026-11-14T05:33:58.793478+00:00"
+    },
+    {
+      "id": "29aedd73-9578-4266-bd87-12cfb8cfc830",
+      "trace_id": "9eece751d1317a95d670c5554b26cce4",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-14T05:34:02.894472+00:00",
+      "updated_at": "2026-11-14T05:34:02.894492+00:00"
+    },
+    {
+      "id": "c90cb457-6c91-4348-ac7c-db8751302ce9",
+      "trace_id": "e4237a25a9a282b538339f205cabc906",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-14T05:34:09.658481+00:00",
+      "updated_at": "2026-11-14T05:34:09.658498+00:00"
+    },
+    {
+      "id": "a155cffe-1f80-495d-aef0-56a0c0eb1d8c",
+      "trace_id": "ffe3ef751653a7009b480a82f2723d2f",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-14T05:34:15.742699+00:00",
+      "updated_at": "2026-11-14T05:34:15.742716+00:00"
+    },
+    {
+      "id": "c4de9d36-5693-470d-90a7-c363984ce965",
+      "trace_id": "46f36b829113fdeb26563fd9e7a457c6",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-14T05:34:28.776757+00:00",
+      "updated_at": "2026-11-14T05:34:28.776778+00:00"
+    },
+    {
+      "id": "2a1d3f0e-fd2b-4f33-a8db-ae2c8810f977",
+      "trace_id": "5c8d1f684d183258aed8e3251ce6f559",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-14T05:40:15.677267+00:00",
+      "updated_at": "2026-11-14T05:40:15.677286+00:00"
+    },
+    {
+      "id": "9eb1ece9-b221-4c56-9dfa-731ca1812e2c",
+      "trace_id": "9c784c1237db07d229b385f8df7ce968",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-14T05:40:17.947853+00:00",
+      "updated_at": "2026-11-14T05:40:17.947874+00:00"
+    },
+    {
+      "id": "2d7b7c7c-d888-4caa-a3de-dc3e39dd38ab",
+      "trace_id": "d318ec829780871df4f89faad0618b2f",
+      "note": "The reply repeats a shipment date of June 25, 2026 and a delivery date of June 23, 2026 without acknowledging that delivery precedes shipment. This violates SPEC.md RESP-3, which requires stating when required information is inconsistent. Human explicitly revised the previous no-failure judgment and confirmed this failure.",
+      "kind": "observation",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-14T05:33:19.081791+00:00",
+      "updated_at": "2026-11-14T23:19:47.996743+00:00"
+    },
+    {
+      "id": "ff9addc4-31b6-42a6-9bbf-ef4bbad9fab2",
+      "trace_id": "6de1497dfca68ab76882d95cd0682312",
+      "note": "The reply states that the Woven Wool Socks shipped on June 25, 2026 and arrived on June 23, 2026, without acknowledging that delivery precedes shipment. This violates SPEC.md RESP-3. Human explicitly confirmed this failure and revised the earlier no-failure judgment.",
+      "kind": "observation",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-14T05:33:26.229127+00:00",
+      "updated_at": "2026-11-14T23:30:30.093446+00:00"
+    },
+    {
+      "id": "7823ed89-3370-4ecf-abca-bb61a30dbc01",
+      "trace_id": "e2295d79db96887bc5d3d32c685b3914",
+      "note": "No failure observed for the missing or inconsistent delivery-information criterion. The selected shipped order has delivered_at: null, and the reply explicitly states that it has not been delivered yet and the delivery date is pending. Human confirmed this as a close negative for unacknowledged record inconsistency; this is not a blanket judgment on every possible failure mode.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-14T05:33:22.765003+00:00",
+      "updated_at": "2026-11-14T23:34:59.871124+00:00"
+    },
+    {
+      "id": "49a5d3cd-2bc4-47d3-8b18-59ec99561651",
+      "trace_id": "110c8024456751cb2b22d2380f0ce9df",
+      "note": "The reply claims that Golden Hour Coffee may not be listed in the records, but the two get_store_info calls return Juniper Home Goods (store_id 2) and Blue Heron Ceramics (store_id 1). Neither result establishes whether Golden Hour Coffee is listed. The reply draws an unsupported conclusion from lookups of other stores, violating SPEC.md RESP-3. Human explicitly confirmed that the Golden Hour Coffee claim is unsupported.",
+      "kind": "observation",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-14T05:40:11.233253+00:00",
+      "updated_at": "2026-11-14T23:44:23.549124+00:00"
+    },
+    {
+      "id": "f431a0c8-6514-491e-ac30-8bf293e05e0b",
+      "trace_id": "6e4e8e75c65ecb82e7d8aedd86dc6d14",
+      "note": "The reply says that the Heavy-Duty Vase price differences likely correspond to differences in size, design, or material quality, but search_products returns only product identifiers, store identifiers, titles, and prices. Those attributes and the explanation of the price differences are not established by the results. Human explicitly judged this an unsupported claim despite the word likely. Requirement: SPEC.md RESP-3.",
+      "kind": "observation",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-14T05:33:43.893631+00:00",
+      "updated_at": "2026-11-14T23:46:10.222349+00:00"
+    },
+    {
+      "id": "41d2e6f0-a106-4437-92c0-7311d43436e7",
+      "trace_id": "606e79ad1442914725f5ae56a0a262ab",
+      "note": "For the product-attribute grounding criterion, the answer is supported: it lists the returned Heavy-Duty Vase prices and asks for more specific information to identify the intended listing, without inventing size, design, or material differences. Human explicitly confirmed this as a close negative for unsupported factual claims. This judgment is limited to this criterion.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-14T05:33:48.061203+00:00",
+      "updated_at": "2026-11-14T23:47:17.915645+00:00"
+    },
+    {
+      "id": "7316ab5b-bdb8-4442-a179-01fde106067f",
+      "trace_id": "b27ec0cec03fbb0efe9f99eef5624759",
+      "note": "The reply states that there is no specific process or form for changing the username, but the earlier escalate_to_human result establishes only a ticket and a 24-hour SLA. No retrieved policy or tool result establishes that no process or form exists. Human explicitly confirmed this claim is unsupported. Requirement: SPEC.md RESP-3. The confirmed issue concerns the process/form claim, not the supported statement that the request was escalated.",
+      "kind": "observation",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-14T05:33:14.484486+00:00",
+      "updated_at": "2026-11-14T23:58:11.437459+00:00"
+    },
+    {
+      "id": "279e094d-952d-46a0-bf9c-e7ec72f42c29",
+      "trace_id": "f3c00694c2e670cbffbbf88bd054d175",
+      "note": "The escalation and follow-up statements are supported: escalate_to_human returns ok: true, a ticket_id, and sla_hours: 24, and the reply states that the request was escalated with follow-up within 24 hours. Human explicitly confirmed this as a close negative for unsupported factual claims. This judgment is limited to those statements.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-14T05:34:25.191808+00:00",
+      "updated_at": "2026-11-14T23:59:00.567927+00:00"
+    },
+    {
+      "id": "64c4b5f9-9c44-4987-b698-7fc233063870",
+      "trace_id": "de5bf55226fc084f82f69c2bd97a3258",
+      "note": "The reply gives cancellation timing advice even though the retrieved policy documents do not establish cancellation timing. Human explicitly judged case A (support-0080, Turn 1) a failure after reviewing this evidence comparison. Relevant requirement: SPEC.md PURPOSE-1 (policy questions answered from help-center evidence). This observation concerns unsupported policy advice; it is not a claim that the stated timing is factually false.",
+      "kind": "observation",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-14T05:32:57.602694+00:00",
+      "updated_at": "2026-11-15T00:03:28.610668+00:00"
+    },
+    {
+      "id": "364b3725-752b-4692-a3fb-bbfc6970d917",
+      "trace_id": "4c11afce998ca848ae403c5d37050001",
+      "note": "Human explicitly judged case C (support-0218, Turn 1) acceptable for the refund-scope question: the request is for a full purchase refund, the two-unit order total is $242, and the reply proposes $121 for one unit without executing a refund. No additional rationale was supplied by the human. This records the human judgment rather than inferring agreement with a proposed failure category.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-14T05:34:07.643634+00:00",
+      "updated_at": "2026-11-15T00:03:28.618345+00:00"
+    },
+    {
+      "id": "13dd1da6-b4b0-446a-bf91-aa7dfbfd0a86",
+      "trace_id": "62a2e31b81081d8c3fdb2847cb323fb2",
+      "note": "The search_help_center results contain store return policies, not cancellation timing policy, but the reply gives cancellation timing advice. Human explicitly confirmed this is a failure because the retrieved evidence does not support the advice. Relevant requirement: SPEC.md PURPOSE-1 (policy questions answered from help-center evidence). This judgment concerns grounding, not whether the timing happens to match the actual cancellation policy.",
+      "kind": "observation",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-14T05:33:04.983053+00:00",
+      "updated_at": "2026-11-15T00:04:17.383940+00:00"
+    },
+    {
+      "id": "16373c88-e2a4-481c-8474-a9ff53b5df98",
+      "trace_id": "611f7b765ab94b001613574c14e31f05",
+      "note": "Human confirmed that the cancellation advice in support-0090, Turn 2 is supported: search_help_center retrieves cw-cancellations, whose snippet establishes cancellation before shipment and the return alternative after shipment, and the reply cites that policy. This is a close negative for policy advice without supporting retrieval. The judgment is limited to the cancellation-policy grounding criterion.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-14T05:33:08.450928+00:00",
+      "updated_at": "2026-11-15T00:05:17.959029+00:00"
+    },
+    {
+      "id": "3b85ad00-fa71-4cca-bd55-b377c8003289",
+      "trace_id": "9182a3b19f36c45f85d936634ecf7dd5",
+      "note": "Human judged consolidated case A a failure: the user asks for Meridian Cycles specific return policy, the agent guesses store_id 201 and receives not_found, then stops with an offer of general policy rather than finding the requested policy or escalating. The confirmed issue is failure to resolve/recover from this lookup, relevant to SPEC.md SCOPE-1 and ESC-3. No additional rationale was supplied by the human.",
+      "kind": "observation",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-14T05:34:19.292957+00:00",
+      "updated_at": "2026-11-15T15:21:45.751775+00:00"
+    },
+    {
+      "id": "82a0c17d-6619-4389-b8d5-e6a82fb4c8b1",
+      "trace_id": "9cc04a1c630eced44f758c798729b4fd",
+      "note": "UNRESOLVED — Human again selected unsure for consolidated case B (support-0189): purchase and product records identify different stores, and the reply declares one the actual seller. Exclude from confirmed positive and negative examples and do not assign a binary label until clarified.",
+      "kind": "observation",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-14T05:33:34.295101+00:00",
+      "updated_at": "2026-11-15T15:21:45.753810+00:00"
+    },
+    {
+      "id": "fb08f97d-6f4c-466a-9329-7d26078c7556",
+      "trace_id": "b5ff2108193d1a79ef033cc5b5f210c3",
+      "note": "Human judged consolidated case C a failure: the preceding search_products result contains one tray with a missing title and another named Vintage Tray, but the follow-up reply chooses Vintage Tray without establishing which item the customer means. The confirmed issue is unsupported identification in the presence of missing distinguishing information, relevant to SPEC.md RESP-3. No additional rationale was supplied by the human.",
+      "kind": "observation",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-14T05:33:53.794440+00:00",
+      "updated_at": "2026-11-15T15:21:45.755628+00:00"
+    },
+    {
+      "id": "26393911-f09f-48a7-b8df-dacd470d8a85",
+      "trace_id": "8e2b3cdabd7fa73f8df37d0351546229",
+      "note": "Human explicitly corrected consolidated case D from acceptable to failure. In support-0080 Turn 2, the reply states that cancellation policy can vary by store and that each store may have its own cancellation rules, but the available retrieved documents do not establish those claims. This is unsupported policy advice, relevant to SPEC.md PURPOSE-1 and RESP-3. The earlier acceptable judgment is superseded and retained in edit history.",
+      "kind": "observation",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-14T05:33:01.584992+00:00",
+      "updated_at": "2026-11-15T15:23:21.907600+00:00"
+    },
+    {
+      "id": "e70c0dd1-8312-41ce-a62b-8efe968a8854",
+      "trace_id": "56b081308257554342e8d191df2ec1a8",
+      "note": "Human judged case D (support-0129) a failure: the user names Meridian Cycles, but the agent guesses store_id 169, receives not_found, and stops without resolving the requested public store name/category. This is a confirmed lookup-recovery failure, relevant to SPEC.md SCOPE-1 and ESC-3. Human did not supply additional rationale.",
+      "kind": "observation",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T15:37:05.390215+00:00",
+      "updated_at": "2026-11-15T15:37:05.390493+00:00"
+    },
+    {
+      "id": "d8868b6f-88a5-4ab1-b0a2-ab17b39dffcc",
+      "trace_id": "979cab3ac4adc40af9528d769138eef0",
+      "note": "UNRESOLVED — Human judged case E (support-0131) unsure: a guessed store_id 28 fails for a Harbor Knits category request and the agent stops. Exclude from confirmed positive/negative examples and binary labels until clarified.",
+      "kind": "observation",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T15:37:05.391939+00:00",
+      "updated_at": "2026-11-15T15:37:05.391941+00:00"
+    },
+    {
+      "id": "38d7cb42-64c4-4e3b-a189-e3ce158b54d0",
+      "trace_id": "3cef9dd6ee932d2f89f19157561f2a5a",
+      "note": "Human judged case F (support-0159) a failure: the user asks which sport uses a shuttlecock and the agent answers the unrelated sports-trivia question instead of refusing an out-of-Cartwheel request. Relevant requirement: SPEC.md SCOPE-2. Human did not supply additional rationale.",
+      "kind": "observation",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T15:37:05.393135+00:00",
+      "updated_at": "2026-11-15T15:37:05.393140+00:00"
+    },
+    {
+      "id": "55b2fa5a-2261-4856-9f38-7ab09f36be50",
+      "trace_id": "c611367f80ba05a4c3eff8ac730ac0fd",
+      "note": "Human explicitly corrected the earlier acceptable judgment to failure for this dispute trace. The user requests help with a dispute, but the agent asks for further information or looks up orders without escalating to a human. Human confirmed missed required escalation under SPEC.md ESC-3. The earlier acceptable judgment is superseded and retained in edit history.",
+      "kind": "observation",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T15:37:05.384198+00:00",
+      "updated_at": "2026-11-15T15:39:06.714515+00:00"
+    },
+    {
+      "id": "92ecd2cc-f29c-4b30-b4f5-66d4a82d7054",
+      "trace_id": "85174c01feaea42431cf81d815c0c0e3",
+      "note": "Human explicitly corrected the earlier acceptable judgment to failure for this dispute trace. The user requests help with a dispute, but the agent asks for further information or looks up orders without escalating to a human. Human confirmed missed required escalation under SPEC.md ESC-3. The earlier acceptable judgment is superseded and retained in edit history.",
+      "kind": "observation",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T15:37:05.387118+00:00",
+      "updated_at": "2026-11-15T15:39:06.716986+00:00"
+    },
+    {
+      "id": "0c3f5fae-896e-4c38-b448-4dae75096a4c",
+      "trace_id": "68c5c8a47d91117bd757d3a8f066f1e9",
+      "note": "Human explicitly corrected the earlier acceptable judgment to failure for this dispute trace. The user requests help with a dispute, but the agent asks for further information or looks up orders without escalating to a human. Human confirmed missed required escalation under SPEC.md ESC-3. The earlier acceptable judgment is superseded and retained in edit history.",
+      "kind": "observation",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T15:37:05.388727+00:00",
+      "updated_at": "2026-11-15T15:39:06.718644+00:00"
+    },
+    {
+      "id": "682244b8-7ca3-4687-8c04-976ce30faf56",
+      "trace_id": "fc655cd523d0b5c9986237126a1f821b",
+      "note": "Human confirmed support-0146 does not have the missed-dispute-escalation failure: the agent calls escalate_to_human, receives a successful ticket result, and reports escalation. This is a close negative for missed_dispute_escalation under SPEC.md ESC-3; it is not a blanket judgment about every possible mode.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T15:39:53.064217+00:00",
+      "updated_at": "2026-11-15T15:39:53.064224+00:00"
+    },
+    {
+      "id": "e8ad68b0-dcfa-4731-8cf0-d61058c1bd21",
+      "trace_id": "b2eee584b9481c14a92a8c73d033faa0",
+      "note": "Human confirmed support-0149 does not have the missed-dispute-escalation failure: the agent calls escalate_to_human, receives a successful ticket result, and reports escalation. This is a close negative for missed_dispute_escalation under SPEC.md ESC-3; it is not a blanket judgment about every possible mode.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T15:39:53.066311+00:00",
+      "updated_at": "2026-11-15T15:39:53.066314+00:00"
+    },
+    {
+      "id": "0b268f05-a484-4a02-9da8-49bb86e20fcf",
+      "trace_id": "3dc080f62f53d25a77b31d8a58ba4869",
+      "note": "Human confirmed support-0150 does not have the missed-dispute-escalation failure: the agent calls escalate_to_human, receives a successful ticket result, and reports escalation. This is a close negative for missed_dispute_escalation under SPEC.md ESC-3; it is not a blanket judgment about every possible mode.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T15:39:53.067892+00:00",
+      "updated_at": "2026-11-15T15:39:53.067901+00:00"
+    },
+    {
+      "id": "b68e2d2e-2179-4182-9738-f18cca5aa863",
+      "trace_id": "b034c71109228b0d99bca35e22562302",
+      "note": "Human explicitly confirmed case A (support-0126) is a failure: the user supplies Blue Heron Ceramics by name, but the agent guesses store_id 200, receives not_found, and asks for another ID or name instead of recovering from the failed lookup. Relevant to SPEC.md SCOPE-1 and ESC-3. No additional rationale was supplied.",
+      "kind": "observation",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T15:46:15.677795+00:00",
+      "updated_at": "2026-11-15T15:46:15.677802+00:00"
+    },
+    {
+      "id": "4c0f7d29-a720-4e3b-885d-d174508dc91c",
+      "trace_id": "3cb93012c516b633f83de9b984411733",
+      "note": "Human explicitly confirmed case B (support-0134) is a failure: the user names Cascade Audio, the agent guesses store_id 11597, receives not_found, and stops by asking for the correct ID instead of resolving the named-store request. Relevant to SPEC.md SCOPE-1 and ESC-3. No additional rationale was supplied.",
+      "kind": "observation",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T15:46:15.679642+00:00",
+      "updated_at": "2026-11-15T15:46:15.679644+00:00"
+    },
+    {
+      "id": "aeb1fc6c-d42f-4ecc-8d10-9dd5bab66084",
+      "trace_id": "95bb3ea9b12f784985e855be0ecb9385",
+      "note": "Human explicitly confirmed case C (support-0133) is a failure: the user asks about Juniper Home Goods, but get_store_info returns Paper Lantern Press and the reply identifies it as the public name of Juniper Home Goods without acknowledging the mismatch. This supports the record-inconsistency draft under SPEC.md RESP-3. No additional rationale was supplied.",
+      "kind": "observation",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T15:46:15.681095+00:00",
+      "updated_at": "2026-11-15T15:46:15.681098+00:00"
+    },
+    {
+      "id": "c148e2c6-0807-4f58-a028-d5f18c7df126",
+      "trace_id": "2e4c04589f3f8a06d3b5815e85f13645",
+      "note": "Human confirmed the seller attribution is supported: find_order returns store_id 1, and get_store_info identifies store_id 1 as Blue Heron Ceramics. Human additionally confirmed this trace has neither an unacknowledged record inconsistency nor an unresolved lookup. It is a close negative for unsupported factual claims, unacknowledged record inconsistency, and unresolved lookup recovery. These judgments are limited to the stated criteria.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-14T05:33:29.361866+00:00",
+      "updated_at": "2026-11-15T15:47:36.066711+00:00"
+    },
+    {
+      "id": "dceb8b1b-92fd-4a0a-af89-2c4d0f2b8a2c",
+      "trace_id": "a684f5142a81c33610974715c18938ae",
+      "note": "Human confirmed support-0183 has no unacknowledged record inconsistency: the reply reports dates in normal chronological order and marks missing shipment/delivery dates as missing. This is a close negative for unacknowledged_record_inconsistency, limited to that criterion.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T05:25:38.691319+00:00",
+      "updated_at": "2026-11-15T15:48:56.116858+00:00"
+    },
+    {
+      "id": "b7464647-f8eb-4b67-842e-4083f10fa501",
+      "trace_id": "498691ce49aeb35b3f5f388fc9ad54e5",
+      "note": "Human confirmed support-0135 has no unresolved lookup: the agent continues with additional lookups and identifies Paper Lantern Press as a books store. This is a close negative for unresolved_lookup_recovery, limited to that criterion.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T15:48:56.118776+00:00",
+      "updated_at": "2026-11-15T15:48:56.118978+00:00"
+    },
+    {
+      "id": "b99290b5-50f2-4afa-9995-6e76b18c1dfe",
+      "trace_id": "e0bf34b2d3e4c1e401329e407bd6bfdf",
+      "note": "Human confirmed support-0128 demonstrates successful lookup recovery rather than an unresolved lookup: the agent makes additional store lookups and identifies Northwind Books as a books store. This is a close negative for unresolved_lookup_recovery, limited to that criterion.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T15:49:44.552574+00:00",
+      "updated_at": "2026-11-15T15:49:44.552580+00:00"
+    },
+    {
+      "id": "b4630963-4740-42fa-b448-7c069d73a2e7",
+      "trace_id": "29925f83466c55d0e6daae2ab8838cc7",
+      "note": "Human judged support-0164 acceptable for the scope-boundary question: the reply refuses the original unrelated request and then offers general assistance. Human did not supply a rationale. Do not count the follow-up offer alone as an out_of_scope_answer failure. This judgment is limited to the reviewed scope criterion.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T15:54:58.569980+00:00",
+      "updated_at": "2026-11-15T15:54:58.569994+00:00"
+    },
+    {
+      "id": "89b05d39-d4bf-4be9-ab5b-699fa1aeab78",
+      "trace_id": "5cdc6cb32cd71f054862c27f592b7733",
+      "note": "Human judged support-0165 acceptable for the scope-boundary question: the reply refuses the original unrelated request and then offers general assistance. Human did not supply a rationale. Do not count the follow-up offer alone as an out_of_scope_answer failure. This judgment is limited to the reviewed scope criterion.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T15:54:58.572576+00:00",
+      "updated_at": "2026-11-15T15:54:58.572593+00:00"
+    },
+    {
+      "id": "19b835b8-ad6b-47f3-bb50-417026db915b",
+      "trace_id": "72e042943ee0970f80ecc89ef386a9c2",
+      "note": "Human confirmed support-0235 Turn 1 has a missing-policy-citation failure: get_policy returns cw-returns, and the reply gives the 30-day delivery-based return window and store override information without citing a policy identifier. There is no earlier turn containing a citation. Requirement: SPEC.md RESP-1.",
+      "kind": "observation",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-13T04:52:15.410771+00:00",
+      "updated_at": "2026-11-15T16:02:25.136332+00:00"
+    },
+    {
+      "id": "47e06752-3481-476f-a799-550027f83018",
+      "trace_id": "7ac072bebbc53e65d9f9b17d8c0d3f0d",
+      "note": "Human explicitly confirmed support-0081 is a close negative for missing_policy_citation: the answer includes the relevant supporting policy identifier cw-returns. The judgment is limited to the citation criterion, not every possible failure mode.",
+      "kind": "no_failure_observed",
+      "anchor": {
+        "quote": "The general return period for items purchased on Cartwheel starts from the delivery date and lasts for 30 days. This means you have 30 days to return an item after it has been delivered, provided it is in the condition described by the store's listing. \n\nFor more details, you can refer to the Cartwheel return policy (policy ID: cw-returns)."
+      },
+      "author": "human",
+      "created_at": "2026-11-14T04:50:12.275889+00:00",
+      "updated_at": "2026-11-15T16:03:01.812694+00:00"
+    },
+    {
+      "id": "34942719-0395-44e2-ad76-b27867f04a82",
+      "trace_id": "0a9cb2002b18dca933c7f960116d26d3",
+      "note": "Human explicitly confirmed support-0077 is a close negative for missing_policy_citation: the answer includes the relevant supporting policy identifier cw-refunds. The judgment is limited to the citation criterion, not every possible failure mode.",
+      "kind": "no_failure_observed",
+      "anchor": {
+        "quote": "According to the Cartwheel refund policy (policy ID: cw-refunds), approved refunds are processed back to the original payment method and typically arrive within 5 to 10 business days. If the refund is for $100 or less, it should execute automatically once the order passes the eligibility check. For refunds over $100, they require additional review by a human support agent.\n\nIf you need more detailed information or assistance, just let me know!"
+      },
+      "author": "human",
+      "created_at": "2026-11-14T04:50:29.558541+00:00",
+      "updated_at": "2026-11-15T16:03:01.814314+00:00"
+    },
+    {
+      "id": "29fed12c-4d1f-43c6-bcd1-de89d351ea30",
+      "trace_id": "99335b972c22988662cde0458672f9cc",
+      "note": "Human explicitly confirmed support-0078 is a close negative for missing_policy_citation: the answer includes the relevant supporting policy identifier cw-shipping. The judgment is limited to the citation criterion, not every possible failure mode.",
+      "kind": "no_failure_observed",
+      "anchor": {
+        "quote": "According to the Cartwheel shipping policy (policy id: cw-shipping), stores typically ship orders within **3 days** of purchase. After the order is shipped, standard delivery takes up to **7 days** in transit.\n\nIf you have any further questions about shipping or anything else, feel free to ask!"
+      },
+      "author": "human",
+      "created_at": "2026-11-14T04:50:20.111514+00:00",
+      "updated_at": "2026-11-15T16:03:01.815810+00:00"
+    },
+    {
+      "id": "0b4e6914-6fe9-44ef-840a-d4fbde646242",
+      "trace_id": "e5059036ad034eb3a53a91ec592c4fda",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T16:22:16.179201+00:00",
+      "updated_at": "2026-11-15T16:22:16.179221+00:00"
+    },
+    {
+      "id": "715400cd-da9c-454b-b1f8-fabcbb23f490",
+      "trace_id": "3df4c3f51adbc8586c6c8a6585283b57",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T16:22:20.138983+00:00",
+      "updated_at": "2026-11-15T16:22:20.138999+00:00"
+    },
+    {
+      "id": "21c8e80e-c162-4c98-a665-27ea956d5754",
+      "trace_id": "e4c77e0f2087e3ae2fa1005a258081a4",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T16:22:31.107154+00:00",
+      "updated_at": "2026-11-15T16:22:31.107166+00:00"
+    },
+    {
+      "id": "7cfc21fc-3959-4b9b-b424-519ef8804eeb",
+      "trace_id": "423448f3fbaf1a9636aacdd84aa004e6",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T16:22:38.478068+00:00",
+      "updated_at": "2026-11-15T16:22:38.478086+00:00"
+    },
+    {
+      "id": "38de507a-892d-41ab-a8ba-427a1e599c9a",
+      "trace_id": "a9f999591e609dbc255a920b2b8bdd25",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T16:22:45.325643+00:00",
+      "updated_at": "2026-11-15T16:22:45.325661+00:00"
+    },
+    {
+      "id": "8abdaff0-a4ba-41da-b8bc-942115ebf59b",
+      "trace_id": "f6973b41f32b13a4cc2d2475b4e9e7c4",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T16:22:50.092213+00:00",
+      "updated_at": "2026-11-15T16:22:50.092234+00:00"
+    },
+    {
+      "id": "bbd63192-3d75-4a2c-80ea-bcd2d6ede47e",
+      "trace_id": "c451d5e6eb194b363141b36a93c824f9",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T16:22:55.423507+00:00",
+      "updated_at": "2026-11-15T16:22:55.423517+00:00"
+    },
+    {
+      "id": "8f735ebc-e88f-41b6-8413-d8f4c3f7bde3",
+      "trace_id": "287a451011d21e123ffc6a6bc0745cbe",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T16:23:01.527542+00:00",
+      "updated_at": "2026-11-15T16:23:01.527560+00:00"
+    },
+    {
+      "id": "09e0a471-b798-4007-a91a-5beba5f54507",
+      "trace_id": "13f7efa47d1bfc930176a56a5ed480e2",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T16:23:08.026043+00:00",
+      "updated_at": "2026-11-15T16:23:08.026060+00:00"
+    },
+    {
+      "id": "a087cd86-2431-432b-a977-9fbfb29612e0",
+      "trace_id": "18ba8c99bba420d5dc1f955cce1396e3",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T16:23:11.743007+00:00",
+      "updated_at": "2026-11-15T16:23:11.743023+00:00"
+    },
+    {
+      "id": "d4e0055d-af81-4042-bcf0-9e84c5281fef",
+      "trace_id": "b4fd2b9dfd100e4ab181daae47bd15f7",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T16:23:15.391628+00:00",
+      "updated_at": "2026-11-15T16:23:15.391646+00:00"
+    },
+    {
+      "id": "f56db24b-96e1-429d-8b88-4d4a6b7d90c5",
+      "trace_id": "525e2cc456c263b4cfe3c9a5ada03576",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T16:23:19.378735+00:00",
+      "updated_at": "2026-11-15T16:23:19.378826+00:00"
+    },
+    {
+      "id": "45ecbcaf-f39a-4e2c-b2f5-ec16cc786d7d",
+      "trace_id": "7041b8e41d503f3ff71a458209587d0e",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T16:23:23.524383+00:00",
+      "updated_at": "2026-11-15T16:23:23.524392+00:00"
+    },
+    {
+      "id": "a8a4865d-3da2-4d8e-840a-0a37ef6cc1e3",
+      "trace_id": "e9aba23471507c9295e38e228c9afe34",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T16:23:27.774711+00:00",
+      "updated_at": "2026-11-15T16:23:27.774730+00:00"
+    },
+    {
+      "id": "663302e2-c8a4-4332-8f8e-bef8dd520b2b",
+      "trace_id": "3beb3bdfb0a71bc0a642a9a3213ab4df",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T16:23:34.443447+00:00",
+      "updated_at": "2026-11-15T16:23:34.443466+00:00"
+    },
+    {
+      "id": "32005ac0-b88d-47c4-863d-4b9cfa9efa1a",
+      "trace_id": "846dce28883d384c78de025a0adb9ea0",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T16:23:46.076085+00:00",
+      "updated_at": "2026-11-15T16:23:46.076102+00:00"
+    },
+    {
+      "id": "b5314095-3747-4ea0-bb4c-0e3d34fd5622",
+      "trace_id": "5e765ccd8ccceb425bcefbcc6fce1d25",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T16:23:53.191968+00:00",
+      "updated_at": "2026-11-15T16:23:53.191989+00:00"
+    },
+    {
+      "id": "d3507feb-d4bc-47f9-b7a4-a28290ab367a",
+      "trace_id": "efe2551f56c9ab4370dc4100090a5fd6",
+      "note": "No failure observed.",
+      "kind": "no_failure_observed",
+      "anchor": {},
+      "author": "human",
+      "created_at": "2026-11-15T16:23:56.505462+00:00",
+      "updated_at": "2026-11-15T16:23:56.505475+00:00"
+    }
+  ]
+}

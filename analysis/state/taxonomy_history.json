@@ -1,0 +1,269 @@
+[
+  {
+    "action": "expand_grouping",
+    "mode": "unsupported_factual_claim",
+    "at": "2026-11-15T15:27:26.429319+00:00",
+    "approved_by": "human",
+    "reason": "Human approved grouping unsupported policy advice and unsupported product identification with unsupported factual claims because the same claim-to-evidence checking fix addresses them.",
+    "previous": {
+      "name": "unsupported_factual_claim",
+      "status": "candidate",
+      "definition": "The reply makes a factual claim that the available conversation and tool results do not establish. Qualifying it with likely does not excuse inventing missing attributes.",
+      "requirement_source": "SPEC.md RESP-3",
+      "annotation_ids": [
+        "49a5d3cd-2bc4-47d3-8b18-59ec99561651",
+        "f431a0c8-6514-491e-ac30-8bf293e05e0b",
+        "7316ab5b-bdb8-4442-a179-01fde106067f"
+      ],
+      "positive_trace_ids": [
+        "110c8024456751cb2b22d2380f0ce9df",
+        "6e4e8e75c65ecb82e7d8aedd86dc6d14",
+        "b27ec0cec03fbb0efe9f99eef5624759"
+      ],
+      "negative_trace_ids": [
+        "2e4c04589f3f8a06d3b5815e85f13645",
+        "606e79ad1442914725f5ae56a0a262ab",
+        "f3c00694c2e670cbffbbf88bd054d175"
+      ],
+      "negative_annotation_ids": [
+        "c148e2c6-0807-4f58-a028-d5f18c7df126",
+        "41d2e6f0-a106-4437-92c0-7311d43436e7",
+        "279e094d-952d-46a0-bf9c-e7ec72f42c29"
+      ],
+      "boundary": "Unsupported information, rather than a supported policy claim with a missing citation or a failure to acknowledge contradictory records. Those remain separate drafts. Judge the particular factual claim, not the entire answer.",
+      "evaluator_type": "LLM judge",
+      "evaluator_type_status": "proposed; to confirm during full taxonomy review",
+      "definition_approved_by": "human",
+      "definition_approved_at": "2026-11-14T23:59:43.904245+00:00",
+      "approval_source": "Human explicitly approved the stated definition and three-positive/three-negative grouping in chat.",
+      "finalization_pending": "Check category boundaries and full taxonomy before enabling formal labels.",
+      "proposed_additional_positive_trace_ids": [
+        "de5bf55226fc084f82f69c2bd97a3258",
+        "62a2e31b81081d8c3fdb2847cb323fb2",
+        "8e2b3cdabd7fa73f8df37d0351546229",
+        "b5ff2108193d1a79ef033cc5b5f210c3"
+      ],
+      "grouping_proposal": "Include unsupported policy advice and unsupported item identification under this existing mode: the common corrective change is claim-to-evidence checking. Individual failures are human confirmed; proposed merge awaits human approval."
+    },
+    "added_positive_trace_ids": [
+      "de5bf55226fc084f82f69c2bd97a3258",
+      "62a2e31b81081d8c3fdb2847cb323fb2",
+      "8e2b3cdabd7fa73f8df37d0351546229",
+      "b5ff2108193d1a79ef033cc5b5f210c3"
+    ]
+  },
+  {
+    "action": "finalize_five_modes",
+    "at": "2026-11-15T16:26:42.999868+00:00",
+    "approved_by": "human",
+    "previous": {
+      "modes": [
+        {
+          "name": "unsupported_factual_claim",
+          "status": "candidate",
+          "definition": "The reply makes a factual claim that the available conversation and tool results do not establish. Qualifying it with likely does not excuse inventing missing attributes.",
+          "requirement_source": "SPEC.md RESP-3",
+          "annotation_ids": [
+            "49a5d3cd-2bc4-47d3-8b18-59ec99561651",
+            "f431a0c8-6514-491e-ac30-8bf293e05e0b",
+            "7316ab5b-bdb8-4442-a179-01fde106067f",
+            "64c4b5f9-9c44-4987-b698-7fc233063870",
+            "13dd1da6-b4b0-446a-bf91-aa7dfbfd0a86",
+            "26393911-f09f-48a7-b8df-dacd470d8a85",
+            "fb08f97d-6f4c-466a-9329-7d26078c7556"
+          ],
+          "positive_trace_ids": [
+            "110c8024456751cb2b22d2380f0ce9df",
+            "6e4e8e75c65ecb82e7d8aedd86dc6d14",
+            "b27ec0cec03fbb0efe9f99eef5624759",
+            "de5bf55226fc084f82f69c2bd97a3258",
+            "62a2e31b81081d8c3fdb2847cb323fb2",
+            "8e2b3cdabd7fa73f8df37d0351546229",
+            "b5ff2108193d1a79ef033cc5b5f210c3"
+          ],
+          "negative_trace_ids": [
+            "2e4c04589f3f8a06d3b5815e85f13645",
+            "606e79ad1442914725f5ae56a0a262ab",
+            "f3c00694c2e670cbffbbf88bd054d175"
+          ],
+          "negative_annotation_ids": [
+            "c148e2c6-0807-4f58-a028-d5f18c7df126",
+            "41d2e6f0-a106-4437-92c0-7311d43436e7",
+            "279e094d-952d-46a0-bf9c-e7ec72f42c29"
+          ],
+          "boundary": "Unsupported information, rather than a supported policy claim with a missing citation or a failure to acknowledge contradictory records. Those remain separate drafts. Judge the particular factual claim, not the entire answer.",
+          "evaluator_type": "LLM judge",
+          "evaluator_type_status": "proposed; to confirm during full taxonomy review",
+          "definition_approved_by": "human",
+          "definition_approved_at": "2026-11-14T23:59:43.904245+00:00",
+          "approval_source": "Human explicitly approved the stated definition and three-positive/three-negative grouping in chat.",
+          "finalization_pending": "Check category boundaries and full taxonomy before enabling formal labels.",
+          "grouping_approved_by": "human",
+          "grouping_approved_at": "2026-11-15T15:27:26.429319+00:00",
+          "grouping_scope": "Includes unsupported policy advice and unsupported item identification: both require checking factual claims against available evidence."
+        },
+        {
+          "name": "missing_policy_citation",
+          "status": "candidate",
+          "definition": "The reply makes a policy-derived claim without citing a supporting policy identifier.",
+          "requirement_source": "SPEC.md RESP-1",
+          "annotation_ids": [
+            "e196a94e-5e0c-49df-bd86-6307a88dd35c",
+            "60a18b3c-9623-494b-b104-23a9c5355e9d",
+            "19b835b8-ad6b-47f3-bb50-417026db915b"
+          ],
+          "positive_trace_ids": [
+            "c254aed9eafbc5b503c5cee13d09f90a",
+            "cd956419a87cf2326fc16f77edec360c",
+            "72e042943ee0970f80ecc89ef386a9c2"
+          ],
+          "negative_trace_ids": [
+            "7ac072bebbc53e65d9f9b17d8c0d3f0d",
+            "0a9cb2002b18dca933c7f960116d26d3",
+            "99335b972c22988662cde0458672f9cc"
+          ],
+          "negative_annotation_ids": [
+            "47e06752-3481-476f-a799-550027f83018",
+            "34942719-0395-44e2-ad76-b27867f04a82",
+            "29fed12c-4d1f-43c6-bcd1-de89d351ea30"
+          ],
+          "boundary": "One relevant identifier may support several claims; the reply need not cite every retrieved document. Unsupported information remains a separate category.",
+          "evaluator_type": "LLM judge",
+          "definition_approval": "approved by human",
+          "finalization_pending": "Full taxonomy review before final structured labeling.",
+          "definition_approved_by": "human",
+          "definition_approved_at": "2026-11-15T16:03:01.816870+00:00"
+        },
+        {
+          "name": "unacknowledged_record_inconsistency",
+          "status": "candidate",
+          "definition": "The reply reports conflicting information from the request or records without acknowledging the mismatch.",
+          "requirement_source": "SPEC.md RESP-3",
+          "annotation_ids": [
+            "2d7b7c7c-d888-4caa-a3de-dc3e39dd38ab",
+            "ff9addc4-31b6-42a6-9bbf-ef4bbad9fab2",
+            "aeb1fc6c-d42f-4ecc-8d10-9dd5bab66084"
+          ],
+          "positive_trace_ids": [
+            "d318ec829780871df4f89faad0618b2f",
+            "6de1497dfca68ab76882d95cd0682312",
+            "95bb3ea9b12f784985e855be0ecb9385"
+          ],
+          "negative_trace_ids": [
+            "e2295d79db96887bc5d3d32c685b3914",
+            "2e4c04589f3f8a06d3b5815e85f13645",
+            "a684f5142a81c33610974715c18938ae"
+          ],
+          "negative_annotation_ids": [
+            "7823ed89-3370-4ecf-abca-bb61a30dbc01",
+            "c148e2c6-0807-4f58-a028-d5f18c7df126",
+            "dceb8b1b-92fd-4a0a-af89-2c4d0f2b8a2c"
+          ],
+          "boundary": "Record inconsistency concerns handling conflicting evidence; lookup recovery concerns continuing after a failed lookup. Asking for genuinely necessary missing information is not automatically a failure.",
+          "evaluator_type": "LLM judge",
+          "definition_approval": "approved by human",
+          "finalization_pending": "Full taxonomy review before final structured labeling.",
+          "definition_approved_by": "human",
+          "definition_approved_at": "2026-11-15T15:51:12.469346+00:00"
+        },
+        {
+          "name": "unresolved_lookup_recovery",
+          "status": "candidate",
+          "definition": "After an unsuccessful lookup, the agent stops without an appropriate recovery step or required escalation.",
+          "requirement_source": "SPEC.md SCOPE-1; ESC-3",
+          "annotation_ids": [
+            "3b85ad00-fa71-4cca-bd55-b377c8003289",
+            "e70c0dd1-8312-41ce-a62b-8efe968a8854",
+            "b68e2d2e-2179-4182-9738-f18cca5aa863",
+            "4c0f7d29-a720-4e3b-885d-d174508dc91c"
+          ],
+          "positive_trace_ids": [
+            "9182a3b19f36c45f85d936634ecf7dd5",
+            "56b081308257554342e8d191df2ec1a8",
+            "b034c71109228b0d99bca35e22562302",
+            "3cb93012c516b633f83de9b984411733"
+          ],
+          "negative_trace_ids": [
+            "2e4c04589f3f8a06d3b5815e85f13645",
+            "498691ce49aeb35b3f5f388fc9ad54e5",
+            "e0bf34b2d3e4c1e401329e407bd6bfdf"
+          ],
+          "negative_annotation_ids": [
+            "c148e2c6-0807-4f58-a028-d5f18c7df126",
+            "b7464647-f8eb-4b67-842e-4083f10fa501",
+            "b99290b5-50f2-4afa-9995-6e76b18c1dfe"
+          ],
+          "boundary": "Record inconsistency concerns handling conflicting evidence; lookup recovery concerns continuing after a failed lookup. Asking for genuinely necessary missing information is not automatically a failure.",
+          "evaluator_type": "LLM judge",
+          "definition_approval": "approved by human",
+          "finalization_pending": "Full taxonomy review before final structured labeling.",
+          "definition_approved_by": "human",
+          "definition_approved_at": "2026-11-15T15:51:12.469513+00:00"
+        },
+        {
+          "name": "out_of_scope_answer",
+          "status": "candidate",
+          "definition": "The reply provides substantive assistance on a request outside Cartwheel instead of declining it.",
+          "definition_approval": "proposed; human confirmed the sports-trivia example only",
+          "requirement_source": "SPEC.md SCOPE-2",
+          "annotation_ids": [
+            "38d7cb42-64c4-4e3b-a189-e3ce158b54d0"
+          ],
+          "positive_trace_ids": [
+            "3cef9dd6ee932d2f89f19157561f2a5a"
+          ],
+          "negative_trace_ids": [
+            "29925f83466c55d0e6daae2ab8838cc7",
+            "5cdc6cb32cd71f054862c27f592b7733"
+          ],
+          "boundary": "Human judged support-0164 and support-0165 acceptable: refusal followed by a general offer alone does not count as this failure. Substantive fulfillment of an unrelated request, such as answering sports trivia, is the confirmed positive. No broader definition has been approved.",
+          "evaluator_type": "LLM judge",
+          "finalization_pending": "At least two more confirmed positives, close negatives where available, definition/boundary approval.",
+          "negative_annotation_ids": [
+            "b4630963-4740-42fa-b448-7c069d73a2e7",
+            "89b05d39-d4bf-4be9-ab5b-699fa1aeab78"
+          ]
+        },
+        {
+          "name": "missed_dispute_escalation",
+          "status": "candidate",
+          "definition": "The user presents a dispute, but the agent does not escalate it to a human as required by ESC-3.",
+          "definition_approval": "approved by human",
+          "requirement_source": "SPEC.md ESC-3",
+          "annotation_ids": [
+            "55b2fa5a-2261-4856-9f38-7ab09f36be50",
+            "92ecd2cc-f29c-4b30-b4f5-66d4a82d7054",
+            "0c3f5fae-896e-4c38-b448-4dae75096a4c"
+          ],
+          "positive_trace_ids": [
+            "c611367f80ba05a4c3eff8ac730ac0fd",
+            "85174c01feaea42431cf81d815c0c0e3",
+            "68c5c8a47d91117bd757d3a8f066f1e9"
+          ],
+          "negative_trace_ids": [
+            "fc655cd523d0b5c9986237126a1f821b",
+            "b2eee584b9481c14a92a8c73d033faa0",
+            "3dc080f62f53d25a77b31d8a58ba4869"
+          ],
+          "boundary": "A dispute itself requires human escalation, regardless of whether a lookup might help. This differs from failed lookup recovery, where the issue is stopping after an unsuccessful lookup. A successful escalation ticket and corresponding reply form a close negative.",
+          "evaluator_type": "LLM judge with tool-call check",
+          "finalization_pending": "Full taxonomy review before final structured labeling.",
+          "negative_annotation_ids": [
+            "682244b8-7ca3-4687-8c04-976ce30faf56",
+            "e8ad68b0-dcfa-4731-8cf0-d61058c1bd21",
+            "0b268f05-a484-4a02-9da8-49bb86e20fcf"
+          ],
+          "definition_approved_by": "human",
+          "definition_approved_at": "2026-11-15T15:42:01.571413+00:00"
+        }
+      ]
+    },
+    "final_mode_names": [
+      "missed_dispute_escalation",
+      "missing_policy_citation",
+      "unacknowledged_record_inconsistency",
+      "unresolved_lookup_recovery",
+      "unsupported_factual_claim"
+    ]
+  }
+]

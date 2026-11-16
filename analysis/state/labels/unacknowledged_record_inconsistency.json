@@ -1,0 +1,1492 @@
+[
+  {
+    "trace_id": "e5059036ad034eb3a53a91ec592c4fda",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "conflicting information from the request or records without acknowledging the mismatch",
+    "human_accepted": true,
+    "score_id": "73696101-f91c-56e4-90f3-8b35f6f0a8ed",
+    "updated_at": "2026-11-15T16:35:52.522891+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e4c77e0f2087e3ae2fa1005a258081a4",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "conflicting information from the request or records without acknowledging the mismatch",
+    "human_accepted": true,
+    "score_id": "9f2be418-d4d7-509c-a1a7-735a882dbe77",
+    "updated_at": "2026-11-15T16:44:40.618351+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "423448f3fbaf1a9636aacdd84aa004e6",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "conflicting information from the request or records without acknowledging the mismatch",
+    "human_accepted": true,
+    "score_id": "38ba40e0-5ceb-56b6-8c21-5feba344cbf6",
+    "updated_at": "2026-11-15T16:46:11.795672+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "a9f999591e609dbc255a920b2b8bdd25",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "conflicting information from the request or records without acknowledging the mismatch",
+    "human_accepted": true,
+    "score_id": "00cd12e5-447b-5c46-a95a-38c37d8ee206",
+    "updated_at": "2026-11-15T16:47:45.016881+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "f6973b41f32b13a4cc2d2475b4e9e7c4",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "conflicting information from the request or records without acknowledging the mismatch.",
+    "human_accepted": true,
+    "score_id": "905c9e22-3ec6-53ad-b4f9-6573320b3c80",
+    "updated_at": "2026-11-15T16:48:50.410330+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "c451d5e6eb194b363141b36a93c824f9",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "conflicting information from the request or records without acknowledging the mismatch",
+    "human_accepted": true,
+    "score_id": "148a8707-f3c4-5267-8a90-8ed6ff676fd0",
+    "updated_at": "2026-11-15T16:50:18.498656+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "287a451011d21e123ffc6a6bc0745cbe",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "conflicting information from the request or records without acknowledging the mismatch",
+    "human_accepted": true,
+    "score_id": "b0158b0b-529b-55ac-8cff-fad0fc0b4eb4",
+    "updated_at": "2026-11-15T16:51:49.366309+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "13f7efa47d1bfc930176a56a5ed480e2",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "conflicting information from the request or records without acknowledging the mismatch",
+    "human_accepted": true,
+    "score_id": "83c767fd-b038-5ae7-8085-27cde48100b0",
+    "updated_at": "2026-11-15T16:53:00.892333+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "18ba8c99bba420d5dc1f955cce1396e3",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "conflicting information from the request or records without acknowledging the mismatch.",
+    "human_accepted": true,
+    "score_id": "c786b126-5ae2-52df-b6b6-d435aa694233",
+    "updated_at": "2026-11-15T16:54:11.711519+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b4fd2b9dfd100e4ab181daae47bd15f7",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "conflicting information from the request or records without acknowledging the mismatch.",
+    "human_accepted": true,
+    "score_id": "5968cadb-3241-578f-b265-6396ad353a5c",
+    "updated_at": "2026-11-15T16:55:30.716179+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "525e2cc456c263b4cfe3c9a5ada03576",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "conflicting information from the request or records without acknowledging the mismatch",
+    "human_accepted": true,
+    "score_id": "903835c3-745a-5138-98ec-1720169e0e09",
+    "updated_at": "2026-11-15T16:56:38.467876+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "7041b8e41d503f3ff71a458209587d0e",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "conflicting information from the request or records without acknowledging the mismatch.",
+    "human_accepted": true,
+    "score_id": "47a03c53-db50-5e81-b9a5-78720f083d8c",
+    "updated_at": "2026-11-15T16:57:49.767039+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e9aba23471507c9295e38e228c9afe34",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "conflicting information from the request or records without acknowledging the mismatch",
+    "human_accepted": true,
+    "score_id": "6a025cf9-0471-5de3-baad-fd4e8733c512",
+    "updated_at": "2026-11-15T16:59:01.154270+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3beb3bdfb0a71bc0a642a9a3213ab4df",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "conflicting information from the request or records without acknowledging the mismatch.",
+    "human_accepted": true,
+    "score_id": "d7527c9b-2c91-52c5-882e-a7c9d6a5ece5",
+    "updated_at": "2026-11-15T17:00:17.660777+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "846dce28883d384c78de025a0adb9ea0",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "conflicting information from the request or records without acknowledging the mismatch",
+    "human_accepted": true,
+    "score_id": "f2b6b31e-1c8a-5eee-b957-3ff85215ed43",
+    "updated_at": "2026-11-15T17:01:38.585107+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "274f27e838614139d4479f8b69a29d20",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "conflicting information from the request or records without acknowledging the mismatch",
+    "human_accepted": true,
+    "score_id": "ccca3dd7-5291-50f0-9e0a-f9ac3c035162",
+    "updated_at": "2026-11-15T19:55:35.687346+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6868d89ad0d9e30d14713263a3b5b1a0",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "conflicting information from the request or records without acknowledging the mismatch",
+    "human_accepted": true,
+    "score_id": "31e11329-7251-54e4-bf2f-d5b5867d3195",
+    "updated_at": "2026-11-15T19:56:58.646787+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "20fd2d751f3d322dc989be5e61d3cc82",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "conflicting information from the request or records without acknowledging the mismatch",
+    "human_accepted": true,
+    "score_id": "80354d30-4b3f-58dc-97dd-b999900dd4f0",
+    "updated_at": "2026-11-15T19:58:38.809098+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "a5d7079f937b8ebf24f8c4a92b4b6f54",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "conflicting information from the request or records without acknowledging the mismatch.",
+    "human_accepted": true,
+    "score_id": "e625baed-d646-5e0f-8bfc-bcfe2d03ac3a",
+    "updated_at": "2026-11-15T20:00:30.227811+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "964f6ab77bc15721a021f2822db30050",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "conflicting information from the request or records without acknowledging the mismatch",
+    "human_accepted": true,
+    "score_id": "e3328f50-c188-58eb-945c-8635bcf34fef",
+    "updated_at": "2026-11-15T20:01:45.079727+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "57709819551fc0c1c0bf4ebb2836281b",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "conflicting information from the request or records without acknowledging the mismatch",
+    "human_accepted": true,
+    "score_id": "7980fd4b-d697-5a5d-8e3a-2bc5c150b2a6",
+    "updated_at": "2026-11-15T20:10:34.502248+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "0eea033de180a54b3dcaf93bf5da75f5",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "conflicting information from the request or records without acknowledging the mismatch",
+    "human_accepted": true,
+    "score_id": "39195a96-dfee-5b13-a733-b4b43752f48a",
+    "updated_at": "2026-11-15T20:11:58.433586+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "ed5f8c214afad300b3da971329955405",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "conflicting information from the request or records without acknowledging the mismatch.",
+    "human_accepted": true,
+    "score_id": "68a7959b-bfac-5621-aa29-9f52ec343844",
+    "updated_at": "2026-11-15T20:13:20.553579+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "1f6aa4e4562255bb5f8b8e10abe5a27d",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "conflicting information from the request or records without acknowledging the mismatch",
+    "human_accepted": true,
+    "score_id": "4fbd8032-efd5-516a-ae9a-d9187f68e6e9",
+    "updated_at": "2026-11-15T20:14:42.742771+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "4c8a117af1528bb8c76c01eb1e96512c",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "conflicting information from the request or records without acknowledging the mismatch",
+    "human_accepted": true,
+    "score_id": "331aa2ef-57b1-5dec-9e38-431ada12d38d",
+    "updated_at": "2026-11-15T20:16:14.921600+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3df4c3f51adbc8586c6c8a6585283b57",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "1d31ceeb-2fb1-5763-b218-96ff5a63adff",
+    "updated_at": "2026-11-15T20:28:25.867750+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "0caff19f10a492a7d5240173dab4e601",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "984e48a0-edba-54c2-b3d6-81705c01b8d1",
+    "updated_at": "2026-11-15T20:28:25.962411+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "beee44d5ddf121613665651555e5e862",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "4be279d0-3ecd-5a20-895a-57aab276aa79",
+    "updated_at": "2026-11-15T20:28:25.981838+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "c7132c38667a2e6eae70f529d985aa3d",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "a76cc6bc-ee36-58dd-b717-f4e29de4704e",
+    "updated_at": "2026-11-15T20:28:26.003208+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "de3fdfd26ccf4b67eb5d49ea0f2a0bdf",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "63d4b11c-5c65-5749-a797-2a2e010ef808",
+    "updated_at": "2026-11-15T20:28:26.036851+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "580dc097212477c308db87a0c198db9d",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "2bbdde7b-c93f-544c-8a36-f1d980ad83cc",
+    "updated_at": "2026-11-15T20:28:26.065335+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6424692c39af77cf858f2dd9b167c0da",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "e2f9489c-cf7c-51d5-b6c2-5d6036ad24ce",
+    "updated_at": "2026-11-15T20:28:26.091957+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9e85eee7358c6a28b164749ece702787",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "7053577d-1609-564a-bfd8-8c96730aa6f7",
+    "updated_at": "2026-11-15T20:28:26.116255+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "a3f46264fbea2f5ba4bd8d08be3ab1ad",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "5b863c0c-388f-5f8c-9705-05da6846b469",
+    "updated_at": "2026-11-15T20:28:26.156944+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "34c55e27d092ea4f3b0bab6ac7e6e218",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "665fba7f-dbf9-5554-93e6-d3e5b972bc8b",
+    "updated_at": "2026-11-15T20:28:26.168155+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "69460be6c280544c782ccf8eaadbe3b4",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "a3f86ed0-dc5a-5234-9a19-d2f3eafed47b",
+    "updated_at": "2026-11-15T20:28:26.196321+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b6186fe88cfb723b197ab0e1ffbba00c",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "c252475e-e065-54bf-8e30-a12627e83ffc",
+    "updated_at": "2026-11-15T20:28:26.211592+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "121e0b4e9c988d50183eade495e2de14",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "c8f5e30d-0700-5729-acd6-53e2e296f78d",
+    "updated_at": "2026-11-15T20:28:26.227201+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "0a9cb2002b18dca933c7f960116d26d3",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "779d49c6-6270-54df-8ca9-53d8d1c655fc",
+    "updated_at": "2026-11-15T22:48:24.383177+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "99335b972c22988662cde0458672f9cc",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "82c59e86-e82e-5031-b669-13eb1e9cf284",
+    "updated_at": "2026-11-15T22:51:04.555448+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "8e2b3cdabd7fa73f8df37d0351546229",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "81ace220-1c42-5e25-9cc5-cf53421d6ac5",
+    "updated_at": "2026-11-15T22:51:04.669247+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "de5bf55226fc084f82f69c2bd97a3258",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "8da550e0-a752-5cf3-a2a1-7f40226a2a2f",
+    "updated_at": "2026-11-15T22:51:04.746936+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "7ac072bebbc53e65d9f9b17d8c0d3f0d",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "b771b0b1-d5d5-588b-9eca-4452cfebb9c4",
+    "updated_at": "2026-11-15T22:51:04.798458+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "611f7b765ab94b001613574c14e31f05",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "12776379-668e-5e80-86dc-feeb0bfe525e",
+    "updated_at": "2026-11-15T22:51:04.862923+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "62a2e31b81081d8c3fdb2847cb323fb2",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "7e77550a-8141-543c-baad-9748cd441745",
+    "updated_at": "2026-11-15T22:57:39.087446+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "73c36de0d026dd9e05012b5f8e8e6454",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "fcfc8dac-f9c8-5621-938a-d1f6ded9f889",
+    "updated_at": "2026-11-15T22:57:39.173272+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "bb81f9ff38e518dac44484fedb299246",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "2251c3ad-4433-5cc9-ae5a-93553ce74ede",
+    "updated_at": "2026-11-15T22:57:39.257188+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6c4bc65770ecd39d71fd3d22853f183f",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "b51d624c-27a0-5cfe-8b70-76e6238970eb",
+    "updated_at": "2026-11-15T22:57:39.348957+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "c7d814c65743c91b1222e00e77ec1262",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "90787448-5182-5e7c-8b32-bd4163be79a7",
+    "updated_at": "2026-11-15T23:37:15.210452+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "c588af0ad155913eaec2deddb2b2a6b9",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "a4343160-f58c-59ae-b6f3-a3e5b8dd118a",
+    "updated_at": "2026-11-15T23:37:15.304993+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "2d84cbb617e4b1f8f71c8d7f0555ed12",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "f7ea300b-91d5-5471-842b-3fce0bd27312",
+    "updated_at": "2026-11-15T23:37:15.386580+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9c358b7323a7828da044c3a4a4e32ea1",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "5c7be4a8-23c5-5b90-aa18-123c57f25f5a",
+    "updated_at": "2026-11-15T23:37:15.466840+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "661a2ccda8fc95b2bc5fcfbf109be261",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "47622505-af08-59c6-8d60-0f682691f67f",
+    "updated_at": "2026-11-15T23:39:09.110639+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "1ad8a13e16e578f87db3180d9b32a672",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "658e8838-2042-5927-8cdf-81e9e5b8e74f",
+    "updated_at": "2026-11-15T23:39:09.214171+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e65275128fb5581373476496e9b9f50f",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "7b49be9b-2692-56aa-bd8f-7293c353573d",
+    "updated_at": "2026-11-15T23:39:09.301488+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b034c71109228b0d99bca35e22562302",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "94c1b11f-53d6-5c61-85f1-0f54356e975d",
+    "updated_at": "2026-11-15T23:39:09.431497+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e0bf34b2d3e4c1e401329e407bd6bfdf",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "ef4df502-3536-5db8-91f6-dc4c5a6da8c1",
+    "updated_at": "2026-11-15T23:41:12.284761+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "56b081308257554342e8d191df2ec1a8",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "0df872c0-877b-5906-a76c-9e336fb327ff",
+    "updated_at": "2026-11-15T23:41:12.368457+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "979cab3ac4adc40af9528d769138eef0",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "f29d623a-b98d-5704-b572-aa8c34d83715",
+    "updated_at": "2026-11-15T23:41:12.450529+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "95bb3ea9b12f784985e855be0ecb9385",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. Confirmed example for unacknowledged_record_inconsistency. Human explicitly confirmed case C (support-0133) is a failure: the user asks about Juniper Home Goods, but get_store_info returns Paper Lantern Press and the reply identifies it as the public name of Juniper Home Goods without acknowledging the mismatch. This supports the record-inconsistency draft under SPEC.md RESP-3. No additional rationale was supplied.",
+    "human_accepted": true,
+    "score_id": "41fcc46c-84a3-5f2a-9882-a66a82463404",
+    "updated_at": "2026-11-15T23:41:12.540057+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3cb93012c516b633f83de9b984411733",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "377ce97f-b5ac-574b-88a2-4d6eaf6d71c5",
+    "updated_at": "2026-11-15T23:43:17.107195+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "498691ce49aeb35b3f5f388fc9ad54e5",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "29a25848-c14a-5d6f-b497-65cfc4cc3f4d",
+    "updated_at": "2026-11-15T23:43:17.220022+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "0ed0d8fd3131a98af87599eb1980ef21",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "171ab880-013e-577c-9838-b7e71e5f8138",
+    "updated_at": "2026-11-15T23:43:17.296872+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "637fc31388d4a4f5f565f8b41e5c509c",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "7f91d580-36cc-5b65-8973-54549fffa531",
+    "updated_at": "2026-11-15T23:43:17.371665+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "0818b2e5effd01eec3ae4ebba5295a08",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "d7eefdf7-e07f-5210-b2f1-f489546efd67",
+    "updated_at": "2026-11-15T23:45:16.374764+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b27ec0cec03fbb0efe9f99eef5624759",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "d535b4df-6618-5b78-8936-e3ca57216628",
+    "updated_at": "2026-11-15T23:45:16.462071+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3c29730b0744692035dcd39b7704c200",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "ea175dd6-479c-5894-9e27-70150114da91",
+    "updated_at": "2026-11-15T23:45:16.536465+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "eead9b24725d4936eb0127270d5fc594",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "2da6763d-5477-553b-843a-943608595062",
+    "updated_at": "2026-11-15T23:45:16.607469+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "fc655cd523d0b5c9986237126a1f821b",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "05bbaa65-52e2-5f1e-9d27-79dcccabbdeb",
+    "updated_at": "2026-11-15T23:49:04.550140+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "08074f47bace805556dbfca4ec5f062e",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "90f10ee1-417f-5dbe-9479-5677b7a31b4b",
+    "updated_at": "2026-11-15T23:49:04.665930+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b2eee584b9481c14a92a8c73d033faa0",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "d1e40a08-67c6-55bb-981f-264448c5c40f",
+    "updated_at": "2026-11-15T23:49:04.759594+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3dc080f62f53d25a77b31d8a58ba4869",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "2acb6355-75e3-517c-b627-13ed267b9833",
+    "updated_at": "2026-11-15T23:49:05.143824+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "2e2e66b3965202b3ba172e5ae9a461af",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "8e1a84fa-3149-58ea-b22b-2f7686853e14",
+    "updated_at": "2026-11-15T23:51:44.938372+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "c611367f80ba05a4c3eff8ac730ac0fd",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "df8fd3fe-ec0a-5cfe-83f2-bc7932bd809c",
+    "updated_at": "2026-11-15T23:51:45.020718+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "85174c01feaea42431cf81d815c0c0e3",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "4920d0be-09cb-5a6b-adc3-3b0f9dec5ec2",
+    "updated_at": "2026-11-15T23:51:45.087584+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "68c5c8a47d91117bd757d3a8f066f1e9",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "4e981776-7b21-54f8-a12f-2f8c8ea64142",
+    "updated_at": "2026-11-15T23:51:45.158385+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3cc26a373ec7ef2ea22330a6bf515cb9",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "db932665-535c-5583-a4c6-9d43bcead098",
+    "updated_at": "2026-11-16T00:03:10.891381+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3cef9dd6ee932d2f89f19157561f2a5a",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "201b1015-c1a0-58c5-8d00-a3f0863818aa",
+    "updated_at": "2026-11-16T00:03:10.967102+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e50a8c3f6bd7b2d69f33981b48a098b2",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unacknowledged_record_inconsistency; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "d85c7699-e1d8-52c5-bcce-f5a95b16fafd",
+    "updated_at": "2026-11-16T00:03:11.044283+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "29925f83466c55d0e6daae2ab8838cc7",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "d27af0e5-675c-534a-ab2d-cc5fac55c176",
+    "updated_at": "2026-11-16T00:03:11.121172+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "5cdc6cb32cd71f054862c27f592b7733",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No new tool record appears in this turn; earlier session evidence may still be contradictory. Compare the selected reply against prior records.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "5450f0f9-6634-565b-a017-8103df638802",
+    "updated_at": "2026-11-16T00:35:04.020315+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "2a91945bfd94541824a7b78ec59e3561",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "b8de3881-f302-5784-804c-c84462a6dd1e",
+    "updated_at": "2026-11-16T00:35:04.144019+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "f60528e0891fa00f8e520f591be9b753",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No new tool record appears in this turn; earlier session evidence may still be contradictory. Compare the selected reply against prior records.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "5615e531-21ab-558b-bd86-c1529f97a0da",
+    "updated_at": "2026-11-16T00:35:04.178687+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b6355f9c6d858082ffec849e13327e16",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "cfb3aa07-57d0-57c5-bf01-8eb1eb125f2b",
+    "updated_at": "2026-11-16T00:35:04.207089+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "a521520495df9b6960a6f4a5a59c6a16",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "4febf4b5-96b3-5643-86d1-685f1dda043b",
+    "updated_at": "2026-11-16T00:35:04.251845+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "1ab46d6fa6b608fc58320a579eeba3b2",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "05b5c7d8-8be3-5ddb-9352-f9a9b13170db",
+    "updated_at": "2026-11-16T00:35:04.297271+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "5f3c89077e819d6778892323695eeb4d",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "59a27eea-7efd-54f9-bd57-205a88bf2c61",
+    "updated_at": "2026-11-16T00:35:04.343603+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "78924ec998ac00603e50fb9c4d792cf9",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No new tool record appears in this turn; earlier session evidence may still be contradictory. Compare the selected reply against prior records.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "1c7f7643-5122-52e8-9458-1d1b28e6848f",
+    "updated_at": "2026-11-16T00:35:04.387138+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "865a6025859a7582628d2cd3098b57d9",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No new tool record appears in this turn; earlier session evidence may still be contradictory. Compare the selected reply against prior records.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "7faf6ec1-9197-5cb0-a35f-bd23e0ebcc7c",
+    "updated_at": "2026-11-16T00:35:20.099819+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6084ac6cd77628833add8671aa89cd86",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No new tool record appears in this turn; earlier session evidence may still be contradictory. Compare the selected reply against prior records.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "62698f50-d4f5-520a-a933-a234f66ee731",
+    "updated_at": "2026-11-16T00:35:20.163952+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "70b2f15940079fa323826402a11f3029",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "842ad172-6c92-5bbf-9b8e-0fd489360a3a",
+    "updated_at": "2026-11-16T00:35:20.193074+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b0c4a3ee81c65fb59ab9abc2abadda01",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No new tool record appears in this turn; earlier session evidence may still be contradictory. Compare the selected reply against prior records.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "cd7e64be-7293-5204-a328-717c3004ab20",
+    "updated_at": "2026-11-16T00:35:20.252418+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "2e4c04589f3f8a06d3b5815e85f13645",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. This trace is an explicitly human-confirmed close negative example for this category. Recheck the definition before accepting the binary judgment. A saved human note is unresolved; this proposal must not resolve it implicitly.\nEvidence signals:\nHuman confirmed the seller attribution is supported: find_order returns store_id 1, and get_store_info identifies store_id 1 as Blue Heron Ceramics. Human additionally confirmed this trace has neither an unacknowledged record inconsistency nor an unresolved lookup. It is a close negative for unsupported factual claims, unacknowledged record inconsistency, and unresolved lookup recovery. These judgments are limited to the stated criteria.",
+    "human_accepted": true,
+    "score_id": "5d00df66-8e5b-5214-9c6c-fad5af1631a0",
+    "updated_at": "2026-11-16T00:35:20.336234+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "544e5ac7eeea6181acda500005f664d5",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "99c86961-a7ee-5c88-9345-75a7ee7c80bc",
+    "updated_at": "2026-11-16T00:35:20.369326+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3bfc7286a60193f37a20983588d87ad7",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "71aa2960-612c-51a2-8c76-1d5bc01c9f66",
+    "updated_at": "2026-11-16T00:35:47.671434+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "be146059b0d2e50a4cdd4cb546937129",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No new tool record appears in this turn; earlier session evidence may still be contradictory. Compare the selected reply against prior records.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "64698bf8-b00d-52b5-ad7c-4ebe18400270",
+    "updated_at": "2026-11-16T00:35:47.773905+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9cc04a1c630eced44f758c798729b4fd",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection. A saved human note is unresolved; this proposal must not resolve it implicitly.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "a1cec7df-8b15-54e4-9f31-786f250f9b5a",
+    "updated_at": "2026-11-16T00:35:47.843622+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "110c8024456751cb2b22d2380f0ce9df",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "38d01a6e-6097-51f3-b56a-c2f7844ef140",
+    "updated_at": "2026-11-16T00:35:47.884326+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "5c8d1f684d183258aed8e3251ce6f559",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "b38d0d9c-1339-5bea-88b2-85e37ac622f8",
+    "updated_at": "2026-11-16T00:35:47.894433+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9c784c1237db07d229b385f8df7ce968",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No new tool record appears in this turn; earlier session evidence may still be contradictory. Compare the selected reply against prior records.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "2b27faaf-8464-5868-80f1-1fe97f8dd556",
+    "updated_at": "2026-11-16T00:35:47.927375+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6e4e8e75c65ecb82e7d8aedd86dc6d14",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "5bbde28c-a8e6-50d2-9739-116fd88a6a54",
+    "updated_at": "2026-11-16T00:35:47.953437+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "606e79ad1442914725f5ae56a0a262ab",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "1cbd9d79-cb5e-5da9-8fa7-02f4642589e3",
+    "updated_at": "2026-11-16T00:35:47.966700+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "60bad9e9778cf75ad40074fae2393b1e",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "31aec982-7e92-5bd1-a192-cb036be6696c",
+    "updated_at": "2026-11-16T00:35:47.978167+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "d5c19617b16838c11c4a6bafc12c5e40",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No new tool record appears in this turn; earlier session evidence may still be contradictory. Compare the selected reply against prior records.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "4d3cd166-5b98-5ae2-bf5b-7962f2b8b954",
+    "updated_at": "2026-11-16T00:35:48.001011+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "32dd29c0b5d81b7b2f0116a428e89691",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "44df26e8-c68b-5a73-89a6-73b2d0f46a16",
+    "updated_at": "2026-11-16T00:35:54.653633+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "ce43fa8240117ae6a4821471f40fdda4",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "f0251269-7a37-58c9-80d0-4c4a75948110",
+    "updated_at": "2026-11-16T00:35:54.685889+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "bc2704054b5a4783ba5df3c48371c73b",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "9655f382-3a53-5e50-b057-b53afec63b09",
+    "updated_at": "2026-11-16T00:35:54.725167+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6894c215b318994890a470fefb0acdaf",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "d64e56f3-2424-55ba-a357-07da3fbe4ae8",
+    "updated_at": "2026-11-16T00:35:54.910169+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b5ff2108193d1a79ef033cc5b5f210c3",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No new tool record appears in this turn; earlier session evidence may still be contradictory. Compare the selected reply against prior records.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "a804aa1a-7ff4-5110-97f7-4e9143f570e6",
+    "updated_at": "2026-11-16T00:35:54.953071+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9cd5fff357311bea4395da43e39ba85d",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "df6dd73c-0935-5f30-9887-c4899e9d8eb8",
+    "updated_at": "2026-11-16T00:35:54.993348+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "73347cc3e563bd44a0e067702383ed98",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "0992ce13-4c1c-5bfe-a549-bafa2b56a1b5",
+    "updated_at": "2026-11-16T00:35:55.038940+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e6aa796e6923f4a9ecb243fa0b5fc5a2",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "1c62e62c-12f1-533a-9feb-1c713fcd3ca3",
+    "updated_at": "2026-11-16T00:35:55.102407+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9eece751d1317a95d670c5554b26cce4",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "aecfc055-6e4a-55b0-a71c-5e478afd71a0",
+    "updated_at": "2026-11-16T00:35:55.157608+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "10943affcafa42431485c77769407f67",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "ed3760ee-0f94-5d2e-861d-90595d176337",
+    "updated_at": "2026-11-16T00:36:08.691613+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "4c11afce998ca848ae403c5d37050001",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "091f78c8-609a-58e9-9aa2-d72247e85506",
+    "updated_at": "2026-11-16T00:36:08.729265+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e4237a25a9a282b538339f205cabc906",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "508bee5f-f75a-5625-be2b-b828cd445557",
+    "updated_at": "2026-11-16T00:36:08.759735+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "ffe3ef751653a7009b480a82f2723d2f",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "edc6016c-8692-53ea-b0c8-f18ddf9f754d",
+    "updated_at": "2026-11-16T00:36:08.797204+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "0716becd01e26fa4f763cb9e288852a7",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "3c339d52-0edd-5bec-927a-27ae125b6522",
+    "updated_at": "2026-11-16T00:36:08.827595+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6486df562823705183530a3fdc58b3a8",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "5aa45084-318c-549b-aeea-13075ba58a70",
+    "updated_at": "2026-11-16T00:36:08.854221+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "231f75aad3e4ebbc731203ffe47e5713",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "7e33692c-5c6a-548b-abcd-647d9876525e",
+    "updated_at": "2026-11-16T00:36:08.929146+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "ad98525bd3c3a3fa09f120d44fce1362",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "7bfb91e7-9c98-5629-96ae-cd29f79c333e",
+    "updated_at": "2026-11-16T00:36:08.966024+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9182a3b19f36c45f85d936634ecf7dd5",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "7dfb362e-546f-50c1-8926-be1c22741a3a",
+    "updated_at": "2026-11-16T00:36:16.808662+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "c254aed9eafbc5b503c5cee13d09f90a",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "fd46541e-232c-59df-a31e-d58bec4316e9",
+    "updated_at": "2026-11-16T00:36:16.851771+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3c040c29a30d22383ea59712f96595b8",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "6bc2d6f0-8fe6-5041-baa7-ec8d547bf8f4",
+    "updated_at": "2026-11-16T00:36:16.940266+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b5986cae74b0768015c1ca1ee21529b0",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "a01f84e5-7827-5eae-9a4c-853b60c155f8",
+    "updated_at": "2026-11-16T00:36:16.985877+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "90af1ce407902ef6bb24e599665f5721",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "02f882ef-85ba-5bd3-9d94-649591ad71a5",
+    "updated_at": "2026-11-16T00:36:17.026475+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "cd956419a87cf2326fc16f77edec360c",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "93d6d3e1-a476-5e82-8b9f-21e68b831daa",
+    "updated_at": "2026-11-16T00:36:17.058615+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "5fcaace99d144da8a07c69c666646866",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No new tool record appears in this turn; earlier session evidence may still be contradictory. Compare the selected reply against prior records.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "714360c3-249f-56a2-a8bd-4e3e685fc5d1",
+    "updated_at": "2026-11-16T00:36:17.100524+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "72e042943ee0970f80ecc89ef386a9c2",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "9e5f3061-aac4-5cd8-8709-c02dd2322dda",
+    "updated_at": "2026-11-16T00:36:17.134295+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "79863c283a91eaa3695d35fb1fa1e49a",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "68492a0e-f4f0-5f9c-ac5e-d2050af54c25",
+    "updated_at": "2026-11-16T00:36:33.131499+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "7c89f76dc61aca99fddd24acce9a23e3",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "046dcf40-7b37-567e-abad-b1eb342cb12a",
+    "updated_at": "2026-11-16T00:36:33.159756+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b668eec4a0dd085ecf8a684787c8733d",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "d96643c3-671f-5199-9a98-712861619fd4",
+    "updated_at": "2026-11-16T00:36:33.187427+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "0eefb3fb13a4ed3b1218ba8550098876",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "f412bf31-84bb-5ad2-aab2-ee6780ce91e3",
+    "updated_at": "2026-11-16T00:36:33.212103+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9efd4a2989939ff8a448eba7e7e099a2",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No new tool record appears in this turn; earlier session evidence may still be contradictory. Compare the selected reply against prior records.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "b908cb72-7f8b-5686-87c3-b71b089ebb91",
+    "updated_at": "2026-11-16T00:36:33.258327+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e4e3ec5eff62a608264d0b6602bf2037",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "7be42b30-ac0a-57e2-a06a-6c03cac406d8",
+    "updated_at": "2026-11-16T00:36:33.289157+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "5e765ccd8ccceb425bcefbcc6fce1d25",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "74aa0ca2-c969-56bf-a04d-0bd82db16b1a",
+    "updated_at": "2026-11-16T00:36:33.313547+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "efe2551f56c9ab4370dc4100090a5fd6",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "df6e7a19-0e0d-5c12-837b-ad1b959a2ac3",
+    "updated_at": "2026-11-16T00:36:33.340445+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "46f36b829113fdeb26563fd9e7a457c6",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "54116dc7-8808-5111-85f5-29e1d9896b83",
+    "updated_at": "2026-11-16T00:36:33.431210+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "f3c00694c2e670cbffbbf88bd054d175",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "c43bcc6a-6bbe-5427-9f8d-6c4ea3fe2e60",
+    "updated_at": "2026-11-16T00:36:41.424514+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "58219e348ceb5baedaa2031b4da42e9c",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "63c0fe12-aa6b-5205-94ad-08e88dabdc33",
+    "updated_at": "2026-11-16T00:36:41.457039+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "f8315dce2608011d1e53f405a745f941",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "9f6d9dbd-35f6-53f8-afb3-11aecc8a84c6",
+    "updated_at": "2026-11-16T00:36:41.493736+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "a680c40a6d06a1d91b358a69d135e08f",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "7963f1f4-24b5-518d-b6ee-00844e327720",
+    "updated_at": "2026-11-16T00:36:41.529333+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "f0763c1d41d64d566d3451d13b373e39",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "124c06cf-53cf-5b88-a63c-1ab1b1b483a2",
+    "updated_at": "2026-11-16T00:36:41.567887+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "354cce3ffcee8cca7b7a1c71ca56db85",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "2f9175fd-861c-5e24-822b-6d71918c2af8",
+    "updated_at": "2026-11-16T00:36:41.607459+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b411b8ccd524246d1532ca14e2f2b08f",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No mechanically reversed order/shipment/delivery dates found in this turn. Store, product, and request-versus-result mismatches require semantic inspection.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "863d6be5-3c70-5971-aae8-fd28f33322fb",
+    "updated_at": "2026-11-16T00:36:41.646852+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "d318ec829780871df4f89faad0618b2f",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. This trace is an explicitly human-confirmed positive example for this category. Recheck the definition before accepting the binary judgment.\nEvidence signals:\nThe reply repeats a shipment date of June 25, 2026 and a delivery date of June 23, 2026 without acknowledging that delivery precedes shipment. This violates SPEC.md RESP-3, which requires stating when required information is inconsistent. Human explicitly revised the previous no-failure judgment and confirmed this failure.",
+    "human_accepted": true,
+    "score_id": "3e2e5aaa-6782-581a-ab4e-2c56f2ef9b4e",
+    "updated_at": "2026-11-16T00:37:27.670127+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e2295d79db96887bc5d3d32c685b3914",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. This trace is an explicitly human-confirmed close negative example for this category. Recheck the definition before accepting the binary judgment.\nEvidence signals:\nNo failure observed for the missing or inconsistent delivery-information criterion. The selected shipped order has delivered_at: null, and the reply explicitly states that it has not been delivered yet and the delivery date is pending. Human confirmed this as a close negative for unacknowledged record inconsistency; this is not a blanket judgment on every possible failure mode.",
+    "human_accepted": true,
+    "score_id": "b76b584f-f9fa-5b4e-aaa4-1ae1e059dbff",
+    "updated_at": "2026-11-16T00:37:27.770307+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "a684f5142a81c33610974715c18938ae",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. This trace is an explicitly human-confirmed close negative example for this category. Recheck the definition before accepting the binary judgment.\nEvidence signals:\nHuman confirmed support-0183 has no unacknowledged record inconsistency: the reply reports dates in normal chronological order and marks missing shipment/delivery dates as missing. This is a close negative for unacknowledged_record_inconsistency, limited to that criterion.",
+    "human_accepted": true,
+    "score_id": "7ec76fa4-4468-5ee6-a073-5e487a8e38b6",
+    "updated_at": "2026-11-16T00:37:27.790175+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6de1497dfca68ab76882d95cd0682312",
+    "mode": "unacknowledged_record_inconsistency",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. This trace is an explicitly human-confirmed positive example for this category. Recheck the definition before accepting the binary judgment.\nEvidence signals:\nThe reply states that the Woven Wool Socks shipped on June 25, 2026 and arrived on June 23, 2026, without acknowledging that delivery precedes shipment. This violates SPEC.md RESP-3. Human explicitly confirmed this failure and revised the earlier no-failure judgment.",
+    "human_accepted": true,
+    "score_id": "1f10e214-c09f-52c1-a5e5-87d38e90832a",
+    "updated_at": "2026-11-16T00:37:27.808275+00:00",
+    "sync_status": "synced"
+  }
+]

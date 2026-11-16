@@ -1,0 +1,1492 @@
+[
+  {
+    "trace_id": "e5059036ad034eb3a53a91ec592c4fda",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "a policy-derived claim without citing a supporting policy identifier",
+    "human_accepted": true,
+    "score_id": "81fed8b3-2558-59ad-8692-086afb87e30d",
+    "updated_at": "2026-11-15T16:35:40.241775+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e4c77e0f2087e3ae2fa1005a258081a4",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "a policy-derived claim without citing a supporting policy identifier.",
+    "human_accepted": true,
+    "score_id": "45d75a5f-b0d4-5988-ae68-98e1c3d44629",
+    "updated_at": "2026-11-15T16:44:27.882010+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "423448f3fbaf1a9636aacdd84aa004e6",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "a policy-derived claim without citing a supporting policy identifier.",
+    "human_accepted": true,
+    "score_id": "7b54b380-8c68-5322-afa6-66b480da8840",
+    "updated_at": "2026-11-15T16:45:57.987725+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "a9f999591e609dbc255a920b2b8bdd25",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "a policy-derived claim without citing a supporting policy identifier.",
+    "human_accepted": true,
+    "score_id": "5526f887-9a5b-50e6-9b01-dc0134a6a099",
+    "updated_at": "2026-11-15T16:47:42.112655+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "f6973b41f32b13a4cc2d2475b4e9e7c4",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "a policy-derived claim without citing a supporting policy identifier.",
+    "human_accepted": true,
+    "score_id": "d3858e23-92f5-52ca-a65c-c8da1a796049",
+    "updated_at": "2026-11-15T16:48:39.602348+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "c451d5e6eb194b363141b36a93c824f9",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "a policy-derived claim without citing a supporting policy identifier.",
+    "human_accepted": true,
+    "score_id": "151c436c-9f2a-53bf-a004-ae69bea79b12",
+    "updated_at": "2026-11-15T16:50:05.902540+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "287a451011d21e123ffc6a6bc0745cbe",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "a policy-derived claim without citing a supporting policy identifier.",
+    "human_accepted": true,
+    "score_id": "57b8efe8-0fa3-5e6d-8d24-a5d5165f2268",
+    "updated_at": "2026-11-15T16:51:39.548064+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "13f7efa47d1bfc930176a56a5ed480e2",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "a policy-derived claim without citing a supporting policy identifier",
+    "human_accepted": true,
+    "score_id": "c72eb079-6bfe-5b33-a69b-e1ebcc3df485",
+    "updated_at": "2026-11-15T16:52:44.534325+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "18ba8c99bba420d5dc1f955cce1396e3",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "a policy-derived claim without citing a supporting policy identifier.",
+    "human_accepted": true,
+    "score_id": "38b81a27-a008-5965-981f-0481dc1c212d",
+    "updated_at": "2026-11-15T16:53:59.435222+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b4fd2b9dfd100e4ab181daae47bd15f7",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "a policy-derived claim without citing a supporting policy identifier.",
+    "human_accepted": true,
+    "score_id": "b1d7b6f0-45af-5a57-80fa-a2bb0ab9a125",
+    "updated_at": "2026-11-15T16:55:16.636358+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "525e2cc456c263b4cfe3c9a5ada03576",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "a policy-derived claim without citing a supporting policy identifier.",
+    "human_accepted": true,
+    "score_id": "df92689a-2578-5b9d-9272-eb9b3d209c79",
+    "updated_at": "2026-11-15T16:56:26.849097+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "7041b8e41d503f3ff71a458209587d0e",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "a policy-derived claim without citing a supporting policy identifier.",
+    "human_accepted": true,
+    "score_id": "e6e621e0-bf07-5b37-ac46-a34ce2b22514",
+    "updated_at": "2026-11-15T16:57:32.751399+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e9aba23471507c9295e38e228c9afe34",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "a policy-derived claim without citing a supporting policy identifier",
+    "human_accepted": true,
+    "score_id": "b45d6219-3388-5c0b-a321-747b19da874d",
+    "updated_at": "2026-11-15T16:58:49.102221+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3beb3bdfb0a71bc0a642a9a3213ab4df",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "a policy-derived claim without citing a supporting policy identifier",
+    "human_accepted": true,
+    "score_id": "f8bdc61c-342d-56fc-a077-5ed3980c1bc0",
+    "updated_at": "2026-11-15T16:59:59.465711+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "846dce28883d384c78de025a0adb9ea0",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "a policy-derived claim without citing a supporting policy identifier",
+    "human_accepted": true,
+    "score_id": "18304b6a-b149-5264-8523-035ee4208c9d",
+    "updated_at": "2026-11-15T17:01:28.033027+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "274f27e838614139d4479f8b69a29d20",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "a policy-derived claim without citing a supporting policy identifier.",
+    "human_accepted": true,
+    "score_id": "8524056a-cbd3-5ae1-9d90-d0e90645bb21",
+    "updated_at": "2026-11-15T19:55:18.310969+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6868d89ad0d9e30d14713263a3b5b1a0",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "a policy-derived claim without citing a supporting policy identifier.",
+    "human_accepted": true,
+    "score_id": "4e3e27e0-0a39-56bc-b711-f3103e065e8a",
+    "updated_at": "2026-11-15T19:56:45.988095+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "20fd2d751f3d322dc989be5e61d3cc82",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "a policy-derived claim without citing a supporting policy identifier.",
+    "human_accepted": true,
+    "score_id": "c0ec374f-24ec-5e54-af2a-3436b28f9ac8",
+    "updated_at": "2026-11-15T19:58:25.669818+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "a5d7079f937b8ebf24f8c4a92b4b6f54",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "a policy-derived claim without citing a supporting policy identifier.",
+    "human_accepted": true,
+    "score_id": "b3b0c021-8c4e-51e7-94c9-56e7e619553f",
+    "updated_at": "2026-11-15T20:00:12.849518+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "964f6ab77bc15721a021f2822db30050",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": " a policy-derived claim without citing a supporting policy identifier",
+    "human_accepted": true,
+    "score_id": "df0dacff-1db3-590e-9729-8673b49fadec",
+    "updated_at": "2026-11-15T20:01:32.036645+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "57709819551fc0c1c0bf4ebb2836281b",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "a policy-derived claim without citing a supporting policy identifier.",
+    "human_accepted": true,
+    "score_id": "31d80c29-58f1-5d57-9b4b-1b870c21cd73",
+    "updated_at": "2026-11-15T20:09:47.915393+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "0eea033de180a54b3dcaf93bf5da75f5",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "a policy-derived claim without citing a supporting policy identifier",
+    "human_accepted": true,
+    "score_id": "0779cc03-9a2d-5bfe-8330-7a2272467b1c",
+    "updated_at": "2026-11-15T20:11:44.135453+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "ed5f8c214afad300b3da971329955405",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "a policy-derived claim without citing a supporting policy identifier.",
+    "human_accepted": true,
+    "score_id": "23d649eb-a3c4-5fcc-9f07-41b2543ada48",
+    "updated_at": "2026-11-15T20:13:09.446991+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "1f6aa4e4562255bb5f8b8e10abe5a27d",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "a policy-derived claim without citing a supporting policy identifier",
+    "human_accepted": true,
+    "score_id": "8c79fe27-d73c-5399-98c6-9fc98366ca4e",
+    "updated_at": "2026-11-15T20:14:29.428748+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "4c8a117af1528bb8c76c01eb1e96512c",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "a policy-derived claim without citing a supporting policy identifier.",
+    "human_accepted": true,
+    "score_id": "f9820d34-d48c-5e57-8e7c-324ce19f769d",
+    "updated_at": "2026-11-15T20:15:55.087275+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3df4c3f51adbc8586c6c8a6585283b57",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "c518e02d-f3a6-52a7-ba03-37809a611e74",
+    "updated_at": "2026-11-15T20:28:12.953249+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "0caff19f10a492a7d5240173dab4e601",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "89db9985-224c-5d1d-a390-076a5fb5013d",
+    "updated_at": "2026-11-15T20:28:13.038700+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "beee44d5ddf121613665651555e5e862",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "d5901fa9-bb54-52b7-8693-f8301078205e",
+    "updated_at": "2026-11-15T20:28:13.169450+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "c7132c38667a2e6eae70f529d985aa3d",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "c2c4438f-e894-5682-b2b9-c6d8e6f0358c",
+    "updated_at": "2026-11-15T20:28:13.198851+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "de3fdfd26ccf4b67eb5d49ea0f2a0bdf",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "e42770bc-d7c8-5e7f-afa7-470cca4b2152",
+    "updated_at": "2026-11-15T20:28:13.216665+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "580dc097212477c308db87a0c198db9d",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "8746fbae-f515-5d10-a4eb-cb98d40ac251",
+    "updated_at": "2026-11-15T20:28:13.235696+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6424692c39af77cf858f2dd9b167c0da",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "52f7dec4-d4d5-5282-81e7-1a838094ece9",
+    "updated_at": "2026-11-15T20:28:13.262549+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9e85eee7358c6a28b164749ece702787",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "711e5a10-3bf8-5d70-ac5d-0d9af5cb0248",
+    "updated_at": "2026-11-15T20:28:13.292732+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "a3f46264fbea2f5ba4bd8d08be3ab1ad",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "e96d1d5b-bc52-5422-b7b8-09274ac9201e",
+    "updated_at": "2026-11-15T20:28:13.321317+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "34c55e27d092ea4f3b0bab6ac7e6e218",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "928099f0-6251-5abc-aae9-02ee56fee2fb",
+    "updated_at": "2026-11-15T20:28:13.351875+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "69460be6c280544c782ccf8eaadbe3b4",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "ad56c1a0-fec6-54fb-9cff-8797f31de8c9",
+    "updated_at": "2026-11-15T20:28:13.390345+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "0a9cb2002b18dca933c7f960116d26d3",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. Confirmed example for missing_policy_citation. Human explicitly confirmed support-0077 is a close negative for missing_policy_citation: the answer includes the relevant supporting policy identifier cw-refunds. The judgment is limited to the citation criterion, not every possible failure mode.",
+    "human_accepted": true,
+    "score_id": "003a095a-27d6-5846-9322-d89722010152",
+    "updated_at": "2026-11-15T20:28:13.411521+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "99335b972c22988662cde0458672f9cc",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. Confirmed example for missing_policy_citation. Human explicitly confirmed support-0078 is a close negative for missing_policy_citation: the answer includes the relevant supporting policy identifier cw-shipping. The judgment is limited to the citation criterion, not every possible failure mode.",
+    "human_accepted": true,
+    "score_id": "c1ab7458-81b0-59f9-b3e9-ded05e221852",
+    "updated_at": "2026-11-15T20:28:13.433621+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "7ac072bebbc53e65d9f9b17d8c0d3f0d",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. Confirmed example for missing_policy_citation. Human explicitly confirmed support-0081 is a close negative for missing_policy_citation: the answer includes the relevant supporting policy identifier cw-returns. The judgment is limited to the citation criterion, not every possible failure mode.",
+    "human_accepted": true,
+    "score_id": "63556666-6d9e-5f19-9934-4da6cb605e51",
+    "updated_at": "2026-11-15T20:28:13.455863+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b6186fe88cfb723b197ab0e1ffbba00c",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "caf62b55-978c-50e6-a3e0-51bfea5d3926",
+    "updated_at": "2026-11-15T20:28:13.478042+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "121e0b4e9c988d50183eade495e2de14",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "cbfb0f7c-8e56-58b1-a6ee-d87a03d32f1c",
+    "updated_at": "2026-11-15T20:28:13.508029+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "8e2b3cdabd7fa73f8df37d0351546229",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "099c30b8-8ebc-59dd-82f6-dfc8ec7302f6",
+    "updated_at": "2026-11-15T22:51:04.650383+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "de5bf55226fc084f82f69c2bd97a3258",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "240e34c1-0ae3-5a1a-940b-7bc962f26cb6",
+    "updated_at": "2026-11-15T22:51:04.728861+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "611f7b765ab94b001613574c14e31f05",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "1affab9a-037e-5801-8b44-cd6b10a4146e",
+    "updated_at": "2026-11-15T22:51:04.851052+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "62a2e31b81081d8c3fdb2847cb323fb2",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "82062eb4-1cc2-5a0e-9504-d2d5312abcc3",
+    "updated_at": "2026-11-15T22:57:39.071031+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "73c36de0d026dd9e05012b5f8e8e6454",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "a1d1de89-b515-5e61-a258-446ade3bc1a9",
+    "updated_at": "2026-11-15T22:57:39.157008+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "bb81f9ff38e518dac44484fedb299246",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "83bdd905-ee43-5485-93d0-5196835ce194",
+    "updated_at": "2026-11-15T22:57:39.239969+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6c4bc65770ecd39d71fd3d22853f183f",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "b63f149f-cb1c-5e46-bdbe-8c26f87f02ff",
+    "updated_at": "2026-11-15T22:57:39.329918+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "c7d814c65743c91b1222e00e77ec1262",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "78b89283-4aae-5d2f-adde-bd590a0794ef",
+    "updated_at": "2026-11-15T23:37:15.193089+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "c588af0ad155913eaec2deddb2b2a6b9",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "e8b8af9c-5674-5f53-a9bc-e7c4c07acb2e",
+    "updated_at": "2026-11-15T23:37:15.287637+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "2d84cbb617e4b1f8f71c8d7f0555ed12",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "74d895de-4261-5727-8d26-2f75ad9dce6c",
+    "updated_at": "2026-11-15T23:37:15.365228+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9c358b7323a7828da044c3a4a4e32ea1",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "1aa492b8-dddc-5c90-9bf6-72a8f335c62d",
+    "updated_at": "2026-11-15T23:37:15.451099+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "661a2ccda8fc95b2bc5fcfbf109be261",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "ae54906b-92c9-590a-9205-2efa7b0b85fc",
+    "updated_at": "2026-11-15T23:39:09.091605+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "1ad8a13e16e578f87db3180d9b32a672",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "ac317a26-6540-57ff-84a4-1974212bf487",
+    "updated_at": "2026-11-15T23:39:09.192370+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e65275128fb5581373476496e9b9f50f",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "7bbc8d77-6a85-503c-b3d3-0ec509c6c5cb",
+    "updated_at": "2026-11-15T23:39:09.281197+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b034c71109228b0d99bca35e22562302",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "5e3ab59b-ef0a-592d-8f47-8a495d84c7be",
+    "updated_at": "2026-11-15T23:39:09.391796+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e0bf34b2d3e4c1e401329e407bd6bfdf",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "ff8682a2-5ebe-51a0-b4a5-34e8e77f45d4",
+    "updated_at": "2026-11-15T23:41:12.267869+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "56b081308257554342e8d191df2ec1a8",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "7512520f-68be-5529-9412-3781173b1b0d",
+    "updated_at": "2026-11-15T23:41:12.351576+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "979cab3ac4adc40af9528d769138eef0",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "c57d5872-fea5-5a21-ad00-69f91e6faf0c",
+    "updated_at": "2026-11-15T23:41:12.433825+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "95bb3ea9b12f784985e855be0ecb9385",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "cc3fdd27-34f5-55a6-b45c-ca8a5faa927f",
+    "updated_at": "2026-11-15T23:41:12.524582+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3cb93012c516b633f83de9b984411733",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "7d2c2c26-5f36-54c4-9a7f-71806e9ce3c4",
+    "updated_at": "2026-11-15T23:43:17.085465+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "498691ce49aeb35b3f5f388fc9ad54e5",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "f1da9ea0-f837-5c81-8a90-c43a9bf226fd",
+    "updated_at": "2026-11-15T23:43:17.198087+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "0ed0d8fd3131a98af87599eb1980ef21",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "2ae83ea3-dc0b-5dfe-856f-30870687f92b",
+    "updated_at": "2026-11-15T23:43:17.284201+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "637fc31388d4a4f5f565f8b41e5c509c",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "6c4f7db5-8b7e-5932-b709-ec9c84c74909",
+    "updated_at": "2026-11-15T23:43:17.356706+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "0818b2e5effd01eec3ae4ebba5295a08",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "b352d073-8ec3-5440-a8b6-ec7d9c4c3c14",
+    "updated_at": "2026-11-15T23:45:16.356458+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b27ec0cec03fbb0efe9f99eef5624759",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "a2f28da8-2fe3-5af9-8e9d-370f18af53b3",
+    "updated_at": "2026-11-15T23:45:16.450529+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3c29730b0744692035dcd39b7704c200",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "a1d6e245-965b-5a8f-a0c3-0bcf6b899d1c",
+    "updated_at": "2026-11-15T23:45:16.520074+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "eead9b24725d4936eb0127270d5fc594",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "98d1fc16-f796-5a8e-a7a0-ae687f16f1c9",
+    "updated_at": "2026-11-15T23:45:16.595867+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "fc655cd523d0b5c9986237126a1f821b",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "03737a18-4ce0-5c50-a27a-1ad6af301668",
+    "updated_at": "2026-11-15T23:49:04.530696+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "08074f47bace805556dbfca4ec5f062e",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "b0275968-39e0-546a-ab77-11b3421ef51f",
+    "updated_at": "2026-11-15T23:49:04.646657+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b2eee584b9481c14a92a8c73d033faa0",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "1429f65b-f90c-553b-ae42-0727b902a2cd",
+    "updated_at": "2026-11-15T23:49:04.742989+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3dc080f62f53d25a77b31d8a58ba4869",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "ab93d99e-a0c9-5d5c-b714-04dff31c2dec",
+    "updated_at": "2026-11-15T23:49:05.102079+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "2e2e66b3965202b3ba172e5ae9a461af",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "09cefc5f-2cc3-51b9-ae60-e7b16c3a910a",
+    "updated_at": "2026-11-15T23:51:44.919778+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "c611367f80ba05a4c3eff8ac730ac0fd",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "fe3d059f-2e08-5e24-a336-d4a58d81dfac",
+    "updated_at": "2026-11-15T23:51:45.006594+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "85174c01feaea42431cf81d815c0c0e3",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "ec4a97ba-89b7-5ff1-8197-771acf2eec84",
+    "updated_at": "2026-11-15T23:51:45.076225+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "68c5c8a47d91117bd757d3a8f066f1e9",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "3a39cb23-9ada-5ef6-b3b0-23aecc24eb2e",
+    "updated_at": "2026-11-15T23:51:45.144788+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3cc26a373ec7ef2ea22330a6bf515cb9",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "46619fa0-29d3-558e-b28e-39a5aeaa3537",
+    "updated_at": "2026-11-16T00:03:10.874722+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3cef9dd6ee932d2f89f19157561f2a5a",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "a7717f4b-91c5-5d27-874e-34209f909307",
+    "updated_at": "2026-11-16T00:03:10.952340+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e50a8c3f6bd7b2d69f33981b48a098b2",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missing_policy_citation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "5aa3f92a-f1f8-5b95-8f9a-9c4242a9dd15",
+    "updated_at": "2026-11-16T00:03:11.029528+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "29925f83466c55d0e6daae2ab8838cc7",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "61f4342c-a475-59a4-8cb0-bfe091917a86",
+    "updated_at": "2026-11-16T00:03:11.103506+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "a521520495df9b6960a6f4a5a59c6a16",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The reply contains retrieved identifier(s): cw-returns. Verify that they support every policy-derived claim; identifier presence alone does not establish full coverage.\nEvidence signals:\nRetrieved policy IDs: cw-cancellations, cw-returns, store-cascade-audio-policy\nIDs in selected reply: cw-returns",
+    "human_accepted": true,
+    "score_id": "b3f005ed-27ef-55ee-9350-1fff4af14030",
+    "updated_at": "2026-11-16T00:35:04.236249+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "1ab46d6fa6b608fc58320a579eeba3b2",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The reply contains retrieved identifier(s): cw-returns. Verify that they support every policy-derived claim; identifier presence alone does not establish full coverage.\nEvidence signals:\nRetrieved policy IDs: cw-cancellations, cw-returns, store-cascade-audio-policy\nIDs in selected reply: cw-returns",
+    "human_accepted": true,
+    "score_id": "82681c72-708b-5cdb-9250-c568018e3ed0",
+    "updated_at": "2026-11-16T00:35:04.284102+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "5f3c89077e819d6778892323695eeb4d",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. The answer contains possible policy-derived claims and no retrieved policy identifier in this reply. Check earlier citations and whether the claims actually derive from policy rather than order/tool facts.\nEvidence signals:\nRetrieved policy IDs: cw-cancellations, cw-returns, store-cascade-audio-policy\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "f34be066-c030-52be-9161-2ff71e80a84c",
+    "updated_at": "2026-11-16T00:35:04.328200+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "78924ec998ac00603e50fb9c4d792cf9",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. The answer contains possible policy-derived claims and no retrieved policy identifier in this reply. Check earlier citations and whether the claims actually derive from policy rather than order/tool facts.\nEvidence signals:\nRetrieved policy IDs: cw-cancellations, cw-returns, store-cascade-audio-policy\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "1af6cab1-9b5b-528f-ad91-b5a353cbc5cb",
+    "updated_at": "2026-11-16T00:35:04.371219+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "2e4c04589f3f8a06d3b5815e85f13645",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice. A saved human note is unresolved; this proposal must not resolve it implicitly.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "b0ce18bc-2083-5872-abc9-173623ec5f82",
+    "updated_at": "2026-11-16T00:35:20.299953+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9cc04a1c630eced44f758c798729b4fd",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice. A saved human note is unresolved; this proposal must not resolve it implicitly.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "813fbe4d-7022-59f0-b461-da3d466942bc",
+    "updated_at": "2026-11-16T00:35:47.830793+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9cd5fff357311bea4395da43e39ba85d",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. Possible policy language appears without policy retrieval. Check whether this is uncited policy advice, unsupported content, or reporting an order/write-tool fact.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "e6cad582-dc62-5318-9650-8a80c1269c99",
+    "updated_at": "2026-11-16T00:35:54.973009+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9eece751d1317a95d670c5554b26cce4",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. Possible policy language appears without policy retrieval. Check whether this is uncited policy advice, unsupported content, or reporting an order/write-tool fact.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "1009090f-d7cc-5e91-9149-5905df3bbf66",
+    "updated_at": "2026-11-16T00:35:55.139712+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "10943affcafa42431485c77769407f67",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. Possible policy language appears without policy retrieval. Check whether this is uncited policy advice, unsupported content, or reporting an order/write-tool fact.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "c5260bbb-e39e-5eba-992a-bf532fb6e35c",
+    "updated_at": "2026-11-16T00:36:08.673321+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "231f75aad3e4ebbc731203ffe47e5713",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The reply contains retrieved identifier(s): store-juniper-home-goods-policy. Verify that they support every policy-derived claim; identifier presence alone does not establish full coverage.\nEvidence signals:\nRetrieved policy IDs: cw-cancellations, cw-returns, store-juniper-home-goods-policy\nIDs in selected reply: store-juniper-home-goods-policy",
+    "human_accepted": true,
+    "score_id": "d4d16c9d-226c-5bf7-ae35-e8aa24d84afa",
+    "updated_at": "2026-11-16T00:36:08.915207+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "ad98525bd3c3a3fa09f120d44fce1362",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The reply contains retrieved identifier(s): store-northwind-books-policy. Verify that they support every policy-derived claim; identifier presence alone does not establish full coverage.\nEvidence signals:\nRetrieved policy IDs: cw-cancellations, cw-returns, store-northwind-books-policy\nIDs in selected reply: store-northwind-books-policy",
+    "human_accepted": true,
+    "score_id": "5f3b2ee4-ae29-56ee-83f2-ef9b92758d05",
+    "updated_at": "2026-11-16T00:36:08.953900+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9182a3b19f36c45f85d936634ecf7dd5",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. Possible policy language appears without policy retrieval. Check whether this is uncited policy advice, unsupported content, or reporting an order/write-tool fact.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "9b580118-908d-5c29-aaf5-303801dcc256",
+    "updated_at": "2026-11-16T00:36:16.773225+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3c040c29a30d22383ea59712f96595b8",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. The answer contains possible policy-derived claims and no retrieved policy identifier in this reply. Check earlier citations and whether the claims actually derive from policy rather than order/tool facts.\nEvidence signals:\nRetrieved policy IDs: cw-cancellations, cw-returns, store-juniper-home-goods-policy\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "8279caf7-811b-5886-b422-e227cad2e47b",
+    "updated_at": "2026-11-16T00:36:16.919002+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b5986cae74b0768015c1ca1ee21529b0",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The reply contains retrieved identifier(s): store-juniper-home-goods-policy. Verify that they support every policy-derived claim; identifier presence alone does not establish full coverage.\nEvidence signals:\nRetrieved policy IDs: cw-cancellations, cw-returns, store-juniper-home-goods-policy\nIDs in selected reply: store-juniper-home-goods-policy",
+    "human_accepted": true,
+    "score_id": "278f4db7-37f6-5e54-a36a-c0fc07bdee4d",
+    "updated_at": "2026-11-16T00:36:16.971155+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "90af1ce407902ef6bb24e599665f5721",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The reply contains retrieved identifier(s): cw-returns. Verify that they support every policy-derived claim; identifier presence alone does not establish full coverage.\nEvidence signals:\nRetrieved policy IDs: cw-cancellations, cw-returns, store-cascade-audio-policy\nIDs in selected reply: cw-returns",
+    "human_accepted": true,
+    "score_id": "db7cd25a-8be8-5ce5-9fa9-d40e8ffd0a24",
+    "updated_at": "2026-11-16T00:36:17.012378+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "5fcaace99d144da8a07c69c666646866",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. The answer contains possible policy-derived claims and no retrieved policy identifier in this reply. Check earlier citations and whether the claims actually derive from policy rather than order/tool facts.\nEvidence signals:\nRetrieved policy IDs: cw-returns\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "575a7f5e-1f21-56b9-ae4c-b92fb68a9bf6",
+    "updated_at": "2026-11-16T00:36:17.087595+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "c254aed9eafbc5b503c5cee13d09f90a",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. This trace is an explicitly human-confirmed positive example for this category. Recheck the definition before accepting the binary judgment.\nEvidence signals:\nThe final reply states Saltbox Pantry’s 7-day return window and the platform’s 30-day return window but cites neither store-saltbox-pantry-policy nor cw-returns. This violates SPEC.md RESP-1. The return-window values themselves match the retrieved policies. Human confirmed this failure during guided exploratory review.",
+    "human_accepted": true,
+    "score_id": "ccb57846-38cc-5c72-b376-c52850c4d885",
+    "updated_at": "2026-11-16T00:37:27.988632+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "cd956419a87cf2326fc16f77edec360c",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. This trace is an explicitly human-confirmed positive example for this category. Recheck the definition before accepting the binary judgment.\nEvidence signals:\nThe answer has a failure because it omits the policy ID. It states the 30-day delivery-based return window and store override rule from the retrieved cw-returns policy without citing cw-returns, violating SPEC.md RESP-1. Human explicitly confirmed this clarification.\nNo failure observed.",
+    "human_accepted": true,
+    "score_id": "31266fef-c7b1-5079-ac12-3d5be3cfbf01",
+    "updated_at": "2026-11-16T00:37:28.008526+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "72e042943ee0970f80ecc89ef386a9c2",
+    "mode": "missing_policy_citation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. This trace is an explicitly human-confirmed positive example for this category. Recheck the definition before accepting the binary judgment.\nEvidence signals:\nHuman confirmed support-0235 Turn 1 has a missing-policy-citation failure: get_policy returns cw-returns, and the reply gives the 30-day delivery-based return window and store override information without citing a policy identifier. There is no earlier turn containing a citation. Requirement: SPEC.md RESP-1.",
+    "human_accepted": true,
+    "score_id": "8d191180-b38d-5a06-b258-09098c805644",
+    "updated_at": "2026-11-16T00:37:28.026463+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "5cdc6cb32cd71f054862c27f592b7733",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "e07254b6-7367-5c70-9d75-e60897622ece",
+    "updated_at": "2026-11-16T00:37:46.372656+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "2a91945bfd94541824a7b78ec59e3561",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "88b77982-09e0-5ae4-b4ca-a9e83cb2522f",
+    "updated_at": "2026-11-16T00:37:46.425237+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "f60528e0891fa00f8e520f591be9b753",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "fbf48115-a956-5e45-ae8e-49934edc200a",
+    "updated_at": "2026-11-16T00:37:46.464689+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b6355f9c6d858082ffec849e13327e16",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "43c09696-ddbc-597b-b2e9-fe6603056822",
+    "updated_at": "2026-11-16T00:37:46.511697+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "d318ec829780871df4f89faad0618b2f",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "bd541bd3-bb3b-5f4a-8dbf-638ed8fb5102",
+    "updated_at": "2026-11-16T00:37:54.157382+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e2295d79db96887bc5d3d32c685b3914",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "1b1375e4-2af3-5964-b40f-27aa2e6f909e",
+    "updated_at": "2026-11-16T00:37:54.217874+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "865a6025859a7582628d2cd3098b57d9",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "434a4f53-5a18-56df-86cd-60128e437876",
+    "updated_at": "2026-11-16T00:37:54.279917+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "a684f5142a81c33610974715c18938ae",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "4febbcfa-0e8d-5810-93f9-3e5a1cd80250",
+    "updated_at": "2026-11-16T00:37:54.336513+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6de1497dfca68ab76882d95cd0682312",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "5e07c623-fa1b-5501-8e51-f51e180a23d2",
+    "updated_at": "2026-11-16T00:37:54.374284+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6084ac6cd77628833add8671aa89cd86",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "b2126052-8cc7-5938-a556-7917599b6d10",
+    "updated_at": "2026-11-16T00:37:54.430151+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "70b2f15940079fa323826402a11f3029",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "702d07a5-4c22-5d5b-a851-620b3e06b93f",
+    "updated_at": "2026-11-16T00:37:54.499971+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b0c4a3ee81c65fb59ab9abc2abadda01",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "8635d0aa-afaf-51bc-8ac4-a47d75640323",
+    "updated_at": "2026-11-16T00:38:01.696791+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "544e5ac7eeea6181acda500005f664d5",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "359c2c0c-9e02-5b74-8492-5205b8da92e7",
+    "updated_at": "2026-11-16T00:38:01.746613+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3bfc7286a60193f37a20983588d87ad7",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "8921d246-8873-5fc6-b89a-860921dc60c0",
+    "updated_at": "2026-11-16T00:38:01.814324+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "be146059b0d2e50a4cdd4cb546937129",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "e172aecc-98a6-5fb1-81ca-32263e7cafa6",
+    "updated_at": "2026-11-16T00:38:01.869709+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "110c8024456751cb2b22d2380f0ce9df",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "d21bc1c1-9f6b-5b4a-acee-c96a948b12ff",
+    "updated_at": "2026-11-16T00:38:01.914416+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "5c8d1f684d183258aed8e3251ce6f559",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "158d5583-65ce-5f41-97d2-978b11d86ebd",
+    "updated_at": "2026-11-16T00:38:01.951364+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9c784c1237db07d229b385f8df7ce968",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "2d4b2cbe-dee4-5497-9990-15da03d62192",
+    "updated_at": "2026-11-16T00:38:02.063141+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6e4e8e75c65ecb82e7d8aedd86dc6d14",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "b1c96061-2ec5-58ac-81e0-54c13e809a02",
+    "updated_at": "2026-11-16T00:38:07.818300+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "606e79ad1442914725f5ae56a0a262ab",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "c3bfc498-56b6-5b20-8539-7cb103880d64",
+    "updated_at": "2026-11-16T00:38:07.876637+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "60bad9e9778cf75ad40074fae2393b1e",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "f03d56d5-cc13-50f7-8acd-980231f2d789",
+    "updated_at": "2026-11-16T00:38:07.921130+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "d5c19617b16838c11c4a6bafc12c5e40",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "74151518-dd91-5b34-bd2f-4b9885ddf306",
+    "updated_at": "2026-11-16T00:38:07.961691+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "32dd29c0b5d81b7b2f0116a428e89691",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "78333263-0c6c-53e9-b532-dc40eeb25fc6",
+    "updated_at": "2026-11-16T00:38:08.009751+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "ce43fa8240117ae6a4821471f40fdda4",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "023d16dd-b19b-54b1-9800-2bf29f79271f",
+    "updated_at": "2026-11-16T00:38:08.049563+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "bc2704054b5a4783ba5df3c48371c73b",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "feaeda0f-ef71-567b-bf9f-9798822a97ce",
+    "updated_at": "2026-11-16T00:38:08.076482+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6894c215b318994890a470fefb0acdaf",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "baf79637-3a38-5854-839d-d676bad6b01a",
+    "updated_at": "2026-11-16T00:38:15.347054+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b5ff2108193d1a79ef033cc5b5f210c3",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "e704bdb0-76ce-59fa-a7e4-d454e9af365a",
+    "updated_at": "2026-11-16T00:38:15.410683+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "73347cc3e563bd44a0e067702383ed98",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "dc146360-c797-5524-8dc2-8dcc4abcf857",
+    "updated_at": "2026-11-16T00:38:15.524041+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e6aa796e6923f4a9ecb243fa0b5fc5a2",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "86c12850-20fa-51bc-9cbb-078324130f47",
+    "updated_at": "2026-11-16T00:38:15.582704+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "4c11afce998ca848ae403c5d37050001",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "d9e785e8-3112-5d0e-be50-b99eaee881bf",
+    "updated_at": "2026-11-16T00:38:15.704139+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e4237a25a9a282b538339f205cabc906",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "24f5dd7a-cf32-5e21-bd22-9b8b05681bad",
+    "updated_at": "2026-11-16T00:38:21.140648+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "ffe3ef751653a7009b480a82f2723d2f",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "ec3f6d14-d8bd-578a-8861-fb418b4917a0",
+    "updated_at": "2026-11-16T00:38:21.193251+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "0716becd01e26fa4f763cb9e288852a7",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "005f3292-2d0a-5f32-86ff-feff867498f7",
+    "updated_at": "2026-11-16T00:38:21.252626+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6486df562823705183530a3fdc58b3a8",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "d9072e01-ea6e-5078-9999-4e0ff7d60932",
+    "updated_at": "2026-11-16T00:38:21.329121+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "79863c283a91eaa3695d35fb1fa1e49a",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "22d84cb9-3d7c-5bdc-a7ae-2e4492820b86",
+    "updated_at": "2026-11-16T00:38:27.130450+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "7c89f76dc61aca99fddd24acce9a23e3",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "aa1d7a05-8765-5df1-8226-dda350072614",
+    "updated_at": "2026-11-16T00:38:27.171509+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b668eec4a0dd085ecf8a684787c8733d",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "955240d6-2baa-5237-b369-7789349b3f37",
+    "updated_at": "2026-11-16T00:38:27.213073+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "0eefb3fb13a4ed3b1218ba8550098876",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "33a2f687-c94a-5e3f-8906-e5e7c07a7bf9",
+    "updated_at": "2026-11-16T00:38:33.250086+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9efd4a2989939ff8a448eba7e7e099a2",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "e8943de4-d299-529d-baad-a1f0630d7cd4",
+    "updated_at": "2026-11-16T00:38:33.286741+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e4e3ec5eff62a608264d0b6602bf2037",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "378e2c35-967f-5c60-8bb9-8cd43440448e",
+    "updated_at": "2026-11-16T00:38:33.327930+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "5e765ccd8ccceb425bcefbcc6fce1d25",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "1143dc17-3e80-5fab-836e-a3a89ae3339d",
+    "updated_at": "2026-11-16T00:38:33.368856+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "efe2551f56c9ab4370dc4100090a5fd6",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "8d344a14-9791-590f-a5d5-c9d150bbc61b",
+    "updated_at": "2026-11-16T00:38:33.411409+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "46f36b829113fdeb26563fd9e7a457c6",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "9e9d8375-1971-5f3f-ae06-a790dbbc213f",
+    "updated_at": "2026-11-16T00:38:33.446923+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "f3c00694c2e670cbffbbf88bd054d175",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "3e8c2be4-3807-5f5c-b482-652316b748d0",
+    "updated_at": "2026-11-16T00:38:33.489378+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "58219e348ceb5baedaa2031b4da42e9c",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "b4a59503-8a2e-52e4-8e7a-a1178a363ce9",
+    "updated_at": "2026-11-16T00:38:38.907086+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "f8315dce2608011d1e53f405a745f941",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "42179826-2f04-5e48-9ea4-d5535f6efb57",
+    "updated_at": "2026-11-16T00:38:38.960651+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "a680c40a6d06a1d91b358a69d135e08f",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "789172d7-68c6-509c-a333-b155fc125af5",
+    "updated_at": "2026-11-16T00:38:39.007869+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "f0763c1d41d64d566d3451d13b373e39",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "b3a2a6c0-b6c9-5dd9-ac0e-d735f9acde77",
+    "updated_at": "2026-11-16T00:38:39.054144+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "354cce3ffcee8cca7b7a1c71ca56db85",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "11de7e69-0527-5d96-a535-8c4ed8b1764a",
+    "updated_at": "2026-11-16T00:38:39.094951+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b411b8ccd524246d1532ca14e2f2b08f",
+    "mode": "missing_policy_citation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No policy-derived claim signal was found in the reply. The selected answer should still be checked for paraphrased policy advice.\nEvidence signals:\nRetrieved policy IDs: none\nIDs in selected reply: none",
+    "human_accepted": true,
+    "score_id": "e3797f76-41dc-593a-8f29-cd4bf85a7794",
+    "updated_at": "2026-11-16T00:38:39.136550+00:00",
+    "sync_status": "synced"
+  }
+]

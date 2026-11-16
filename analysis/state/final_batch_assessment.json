@@ -1,0 +1,42 @@
+{
+  "batch": "final_random",
+  "trace_ids": [
+    "13f7efa47d1bfc930176a56a5ed480e2",
+    "18ba8c99bba420d5dc1f955cce1396e3",
+    "287a451011d21e123ffc6a6bc0745cbe",
+    "3beb3bdfb0a71bc0a642a9a3213ab4df",
+    "3df4c3f51adbc8586c6c8a6585283b57",
+    "423448f3fbaf1a9636aacdd84aa004e6",
+    "525e2cc456c263b4cfe3c9a5ada03576",
+    "7041b8e41d503f3ff71a458209587d0e",
+    "846dce28883d384c78de025a0adb9ea0",
+    "a9f999591e609dbc255a920b2b8bdd25",
+    "b4fd2b9dfd100e4ab181daae47bd15f7",
+    "c451d5e6eb194b363141b36a93c824f9",
+    "e4c77e0f2087e3ae2fa1005a258081a4",
+    "e9aba23471507c9295e38e228c9afe34",
+    "f6973b41f32b13a4cc2d2475b4e9e7c4"
+  ],
+  "reviewed_distinct_traces": 15,
+  "new_consequential_modes_observed": 0,
+  "basis": "All 15 selected traces have human-saved No failure observed annotations. This reports observed discovery, not proof that no failures exist.",
+  "annotation_ids": [
+    "715400cd-da9c-454b-b1f8-fabcbb23f490",
+    "21c8e80e-c162-4c98-a665-27ea956d5754",
+    "7cfc21fc-3959-4b9b-b424-519ef8804eeb",
+    "38de507a-892d-41ab-a8ba-427a1e599c9a",
+    "8abdaff0-a4ba-41da-b8bc-942115ebf59b",
+    "bbd63192-3d75-4a2c-80ea-bcd2d6ede47e",
+    "8f735ebc-e88f-41b6-8413-d8f4c3f7bde3",
+    "09e0a471-b798-4007-a91a-5beba5f54507",
+    "a087cd86-2431-432b-a977-9fbfb29612e0",
+    "d4e0055d-af81-4042-bcf0-9e84c5281fef",
+    "f56db24b-96e1-429d-8b88-4d4a6b7d90c5",
+    "45ecbcaf-f39a-4e2c-b2f5-ec16cc786d7d",
+    "a8a4865d-3da2-4d8e-840a-0a37ef6cc1e3",
+    "663302e2-c8a4-4332-8f8e-bef8dd520b2b",
+    "32005ac0-b88d-47c4-863d-4b9cfa9efa1a"
+  ],
+  "assessed_at": "2026-11-15T16:24:36.922437+00:00",
+  "formal_mode_labels_pending": true
+}

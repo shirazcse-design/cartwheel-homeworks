@@ -1,0 +1,1492 @@
+[
+  {
+    "trace_id": "e5059036ad034eb3a53a91ec592c4fda",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "agent stops without an appropriate recovery step or required escalation",
+    "human_accepted": true,
+    "score_id": "4935fa7d-9128-5932-8a03-27d93e799b4f",
+    "updated_at": "2026-11-15T16:36:04.737270+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e4c77e0f2087e3ae2fa1005a258081a4",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "the agent stops without an appropriate recovery step or required escalation.",
+    "human_accepted": true,
+    "score_id": "84b38d56-fc88-590f-86f5-52d902e36561",
+    "updated_at": "2026-11-15T16:45:02.383426+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "423448f3fbaf1a9636aacdd84aa004e6",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "the agent stops without an appropriate recovery step or required escalation",
+    "human_accepted": true,
+    "score_id": "ae20d59d-2316-549a-bd6e-a487592d06bb",
+    "updated_at": "2026-11-15T16:46:24.465461+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "a9f999591e609dbc255a920b2b8bdd25",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "the agent stops without an appropriate recovery step or required escalation.",
+    "human_accepted": true,
+    "score_id": "1457eb12-65fc-53cb-88f4-22ef161db6e8",
+    "updated_at": "2026-11-15T16:47:54.529746+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "f6973b41f32b13a4cc2d2475b4e9e7c4",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "the agent stops without an appropriate recovery step or required escalation",
+    "human_accepted": true,
+    "score_id": "b7937c52-b91f-5bc6-b194-4a75c2102e38",
+    "updated_at": "2026-11-15T16:49:05.916261+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "c451d5e6eb194b363141b36a93c824f9",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "the agent stops without an appropriate recovery step or required escalation",
+    "human_accepted": true,
+    "score_id": "36e3c26c-f5c7-54d2-975e-1cc8651fbefe",
+    "updated_at": "2026-11-15T16:50:32.281804+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "287a451011d21e123ffc6a6bc0745cbe",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "the agent stops without an appropriate recovery step or required escalation",
+    "human_accepted": true,
+    "score_id": "48d7466a-5de2-514e-afdd-9c61f049a1c0",
+    "updated_at": "2026-11-15T16:51:59.664772+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "13f7efa47d1bfc930176a56a5ed480e2",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "the agent stops without an appropriate recovery step or required escalation",
+    "human_accepted": true,
+    "score_id": "cf54f7ae-a2c8-5203-90d3-cacd6b18e1f7",
+    "updated_at": "2026-11-15T16:53:10.568406+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "18ba8c99bba420d5dc1f955cce1396e3",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "the agent stops without an appropriate recovery step or required escalation",
+    "human_accepted": true,
+    "score_id": "f88988c8-c329-5f9f-8537-d995f0dbf41e",
+    "updated_at": "2026-11-15T16:54:22.900390+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b4fd2b9dfd100e4ab181daae47bd15f7",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "the agent stops without an appropriate recovery step or required escalation",
+    "human_accepted": true,
+    "score_id": "2ea58900-518b-58fb-a68b-af4e6944f92a",
+    "updated_at": "2026-11-15T16:55:42.733529+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "525e2cc456c263b4cfe3c9a5ada03576",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "the agent stops without an appropriate recovery step or required escalation.",
+    "human_accepted": true,
+    "score_id": "6c03ec5a-6d8a-5dde-9af6-6a0bef152083",
+    "updated_at": "2026-11-15T16:56:49.283082+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "7041b8e41d503f3ff71a458209587d0e",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "the agent stops without an appropriate recovery step or required escalation",
+    "human_accepted": true,
+    "score_id": "758c5c7a-7d40-5266-88c8-06ba1da8f34e",
+    "updated_at": "2026-11-15T16:58:01.001352+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e9aba23471507c9295e38e228c9afe34",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "he agent stops without an appropriate recovery step or required escalation",
+    "human_accepted": true,
+    "score_id": "ab35298a-e0e0-5e7f-be80-3a939b1d6e87",
+    "updated_at": "2026-11-15T16:59:13.100046+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3beb3bdfb0a71bc0a642a9a3213ab4df",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "the agent stops without an appropriate recovery step or required escalation",
+    "human_accepted": true,
+    "score_id": "9268c6e9-61d7-56b2-adbc-651d210519bf",
+    "updated_at": "2026-11-15T17:00:31.146916+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "846dce28883d384c78de025a0adb9ea0",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "the agent stops without an appropriate recovery step or required escalation.",
+    "human_accepted": true,
+    "score_id": "bec3ce11-56d2-5389-9597-e3becc345d15",
+    "updated_at": "2026-11-15T17:01:57.804784+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "274f27e838614139d4479f8b69a29d20",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "the agent stops without an appropriate recovery step or required escalation",
+    "human_accepted": true,
+    "score_id": "7f080910-7c8f-580c-92c5-d70ce738591b",
+    "updated_at": "2026-11-15T19:55:50.508556+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6868d89ad0d9e30d14713263a3b5b1a0",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "the agent stops without an appropriate recovery step or required escalation.",
+    "human_accepted": true,
+    "score_id": "1e599819-b43c-5395-b976-2d94f0458d6b",
+    "updated_at": "2026-11-15T19:57:16.825768+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "20fd2d751f3d322dc989be5e61d3cc82",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "the agent stops without an appropriate recovery step or required escalation.",
+    "human_accepted": true,
+    "score_id": "e9ceb1a2-3707-554c-95a4-ddcc0714aa6b",
+    "updated_at": "2026-11-15T19:58:54.924146+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "a5d7079f937b8ebf24f8c4a92b4b6f54",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "the agent stops without an appropriate recovery step or required escalation",
+    "human_accepted": true,
+    "score_id": "15518434-4eee-5f52-a840-28fd973eaf8d",
+    "updated_at": "2026-11-15T20:00:45.777529+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "964f6ab77bc15721a021f2822db30050",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "the agent stops without an appropriate recovery step or required escalation",
+    "human_accepted": true,
+    "score_id": "86ce9c4d-1f5e-5a51-bca6-32b50a5b1a54",
+    "updated_at": "2026-11-15T20:01:55.055372+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "57709819551fc0c1c0bf4ebb2836281b",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "the agent stops without an appropriate recovery step or required escalation",
+    "human_accepted": true,
+    "score_id": "7dc3b77d-bb6f-56b5-94ef-44bada1e5f05",
+    "updated_at": "2026-11-15T20:10:48.413705+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "0eea033de180a54b3dcaf93bf5da75f5",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "the agent stops without an appropriate recovery step or required escalation",
+    "human_accepted": true,
+    "score_id": "e1958934-28d3-51a1-803c-4ea042c24cb7",
+    "updated_at": "2026-11-15T20:12:10.996956+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "ed5f8c214afad300b3da971329955405",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "the agent stops without an appropriate recovery step or required escalation",
+    "human_accepted": true,
+    "score_id": "6299500f-38db-5567-87c9-d25cf18a7511",
+    "updated_at": "2026-11-15T20:13:32.079783+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "1f6aa4e4562255bb5f8b8e10abe5a27d",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "the agent stops without an appropriate recovery step or required escalation",
+    "human_accepted": true,
+    "score_id": "3ca493b8-709d-5810-9e74-0ba5947e5bab",
+    "updated_at": "2026-11-15T20:15:07.814446+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "4c8a117af1528bb8c76c01eb1e96512c",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "the agent stops without an appropriate recovery step or required escalation",
+    "human_accepted": true,
+    "score_id": "d2918e7b-c4da-5a62-a261-0433d39e0900",
+    "updated_at": "2026-11-15T20:16:30.323572+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3df4c3f51adbc8586c6c8a6585283b57",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "4cb0760f-e0b8-5697-8b32-d2c2df9e0b5c",
+    "updated_at": "2026-11-15T20:28:37.015587+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "0caff19f10a492a7d5240173dab4e601",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "fac98fde-dba7-5f08-8862-d24c80b1a379",
+    "updated_at": "2026-11-15T20:28:37.067201+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "beee44d5ddf121613665651555e5e862",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "e123d4a0-51ff-50b5-9d21-16aae68c297c",
+    "updated_at": "2026-11-15T20:28:37.086362+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "c7132c38667a2e6eae70f529d985aa3d",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "8fbbb574-6de6-5e3a-9742-d5612ccd564f",
+    "updated_at": "2026-11-15T20:28:37.103665+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "de3fdfd26ccf4b67eb5d49ea0f2a0bdf",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "41bfab0a-eadd-5223-9042-18171297896d",
+    "updated_at": "2026-11-15T20:28:37.119870+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "580dc097212477c308db87a0c198db9d",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "5d74fea7-e2fc-58b4-ba4b-03f395cce4cc",
+    "updated_at": "2026-11-15T20:28:37.134138+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6424692c39af77cf858f2dd9b167c0da",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "49ac7a60-74e8-5ca9-bdbe-28d1619fd50b",
+    "updated_at": "2026-11-15T20:28:37.159393+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9e85eee7358c6a28b164749ece702787",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "b5ae6f27-e572-5a8a-8c5b-fc7893033ab6",
+    "updated_at": "2026-11-15T20:28:37.173483+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "a3f46264fbea2f5ba4bd8d08be3ab1ad",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "209788b9-e7bb-5c54-9de0-3b6e0a424d48",
+    "updated_at": "2026-11-15T20:28:37.185284+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "34c55e27d092ea4f3b0bab6ac7e6e218",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "2c372dbc-da9c-5d57-ba5a-a1bba838b5c6",
+    "updated_at": "2026-11-15T20:28:37.207626+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "69460be6c280544c782ccf8eaadbe3b4",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "42941e74-0523-5fb7-8514-9df409f37d63",
+    "updated_at": "2026-11-15T20:28:37.232179+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b6186fe88cfb723b197ab0e1ffbba00c",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "0fc266f8-1880-503f-9b1f-0e584c667993",
+    "updated_at": "2026-11-15T20:28:37.258504+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "121e0b4e9c988d50183eade495e2de14",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "cc94952b-8603-5226-b330-2f2ba34309bb",
+    "updated_at": "2026-11-15T20:28:37.283681+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "0a9cb2002b18dca933c7f960116d26d3",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "786c685f-b955-503c-bdb1-98d38424e162",
+    "updated_at": "2026-11-15T22:48:24.450465+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "99335b972c22988662cde0458672f9cc",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "4914e19a-454a-5f22-932e-a61305a64b33",
+    "updated_at": "2026-11-15T22:51:04.583714+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "8e2b3cdabd7fa73f8df37d0351546229",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "035b321a-8415-5835-922a-33086bc7dfe1",
+    "updated_at": "2026-11-15T22:51:04.689780+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "de5bf55226fc084f82f69c2bd97a3258",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "f91290a4-f4d9-5a4e-a173-1bea4a7f8731",
+    "updated_at": "2026-11-15T22:51:04.765978+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "7ac072bebbc53e65d9f9b17d8c0d3f0d",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "dd745664-c11c-5bbb-8445-88eddbfdbac6",
+    "updated_at": "2026-11-15T22:51:04.813659+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "611f7b765ab94b001613574c14e31f05",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "d148232b-543f-5b2a-aa22-632785aee18c",
+    "updated_at": "2026-11-15T22:51:04.879628+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "62a2e31b81081d8c3fdb2847cb323fb2",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "e22167c9-650b-5e20-8b1c-d4731cb8f9c3",
+    "updated_at": "2026-11-15T22:57:39.105767+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "73c36de0d026dd9e05012b5f8e8e6454",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "745793c9-5e0f-5229-bb14-4dff2b2be0aa",
+    "updated_at": "2026-11-15T22:57:39.189128+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "bb81f9ff38e518dac44484fedb299246",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "550f2ef2-13bf-599e-91d5-0cb3d123849e",
+    "updated_at": "2026-11-15T22:57:39.275893+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6c4bc65770ecd39d71fd3d22853f183f",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "0c993202-65ea-5a89-be94-eba0c4e1cf78",
+    "updated_at": "2026-11-15T22:57:39.375128+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "c7d814c65743c91b1222e00e77ec1262",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "92bb9b2f-998f-59b3-a8ea-c7cde7d28c1b",
+    "updated_at": "2026-11-15T23:37:15.231010+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "c588af0ad155913eaec2deddb2b2a6b9",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "f47f91d4-245c-5bda-b9d3-b3ce63ea4661",
+    "updated_at": "2026-11-15T23:37:15.320486+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "2d84cbb617e4b1f8f71c8d7f0555ed12",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "6e69b620-d4d1-5d0d-92ca-2f8df60e4b98",
+    "updated_at": "2026-11-15T23:37:15.409291+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9c358b7323a7828da044c3a4a4e32ea1",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "1d378c5c-1e3b-5a78-9a95-5e23f827a33c",
+    "updated_at": "2026-11-15T23:37:15.479287+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "661a2ccda8fc95b2bc5fcfbf109be261",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "212f0539-92b6-5be7-9fe5-8e8d1438bb08",
+    "updated_at": "2026-11-15T23:39:09.130150+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "1ad8a13e16e578f87db3180d9b32a672",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "6299a9b0-0c17-538a-983f-4585a4414209",
+    "updated_at": "2026-11-15T23:39:09.232071+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e65275128fb5581373476496e9b9f50f",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "8677f1ca-6b9d-5f69-9b0e-a54814c4d0c7",
+    "updated_at": "2026-11-15T23:39:09.321894+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b034c71109228b0d99bca35e22562302",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. Confirmed example for unresolved_lookup_recovery. Human explicitly confirmed case A (support-0126) is a failure: the user supplies Blue Heron Ceramics by name, but the agent guesses store_id 200, receives not_found, and asks for another ID or name instead of recovering from the failed lookup. Relevant to SPEC.md SCOPE-1 and ESC-3. No additional rationale was supplied.",
+    "human_accepted": true,
+    "score_id": "406772fc-d34e-50f1-949e-195ab323baf1",
+    "updated_at": "2026-11-15T23:39:09.450129+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "56b081308257554342e8d191df2ec1a8",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. Confirmed example for unresolved_lookup_recovery. Human judged case D (support-0129) a failure: the user names Meridian Cycles, but the agent guesses store_id 169, receives not_found, and stops without resolving the requested public store name/category. This is a confirmed lookup-recovery failure, relevant to SPEC.md SCOPE-1 and ESC-3. Human did not supply additional rationale.",
+    "human_accepted": true,
+    "score_id": "ef281716-fa87-50e3-a444-54ed86573868",
+    "updated_at": "2026-11-15T23:41:12.384390+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "979cab3ac4adc40af9528d769138eef0",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "3f7221b0-2b2b-55b0-b636-ba2323bbad18",
+    "updated_at": "2026-11-15T23:41:12.468700+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "95bb3ea9b12f784985e855be0ecb9385",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "1964b070-ebc4-52df-95c7-afed0f6b6223",
+    "updated_at": "2026-11-15T23:41:12.555337+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3cb93012c516b633f83de9b984411733",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. Confirmed example for unresolved_lookup_recovery. Human explicitly confirmed case B (support-0134) is a failure: the user names Cascade Audio, the agent guesses store_id 11597, receives not_found, and stops by asking for the correct ID instead of resolving the named-store request. Relevant to SPEC.md SCOPE-1 and ESC-3. No additional rationale was supplied.",
+    "human_accepted": true,
+    "score_id": "2a9ce55d-90a5-5125-b627-b19a1893a50a",
+    "updated_at": "2026-11-15T23:43:17.124491+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "0ed0d8fd3131a98af87599eb1980ef21",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "ddea3647-e1f8-5e3f-9fef-62e47417a0f7",
+    "updated_at": "2026-11-15T23:43:17.311687+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "637fc31388d4a4f5f565f8b41e5c509c",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "c2f05594-73e1-5614-862e-3eddad4f60af",
+    "updated_at": "2026-11-15T23:43:17.392281+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "0818b2e5effd01eec3ae4ebba5295a08",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "6c2ecd43-7742-515d-bbed-36d3e67691f0",
+    "updated_at": "2026-11-15T23:45:16.413276+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b27ec0cec03fbb0efe9f99eef5624759",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "279358ee-a376-5d57-a5c8-f82237e33740",
+    "updated_at": "2026-11-15T23:45:16.479095+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3c29730b0744692035dcd39b7704c200",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "33469aa3-52c0-52ad-b8c0-a5792c2e15ff",
+    "updated_at": "2026-11-15T23:45:16.547240+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "eead9b24725d4936eb0127270d5fc594",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "bf25a14f-5ccf-5802-b885-5d2f2b109118",
+    "updated_at": "2026-11-15T23:45:16.621302+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "fc655cd523d0b5c9986237126a1f821b",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "2036d25e-1cf2-539a-bc65-2814edcc8083",
+    "updated_at": "2026-11-15T23:49:04.571064+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "08074f47bace805556dbfca4ec5f062e",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "9cbbfb9d-9c02-5910-abe8-85ea9bc97ef9",
+    "updated_at": "2026-11-15T23:49:04.684908+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b2eee584b9481c14a92a8c73d033faa0",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "efa83096-4adf-5718-a7c7-2f43a8d81222",
+    "updated_at": "2026-11-15T23:49:04.891818+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3dc080f62f53d25a77b31d8a58ba4869",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "4d69ce30-be26-5457-b0a7-9a2f2fed0fef",
+    "updated_at": "2026-11-15T23:49:05.161009+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "2e2e66b3965202b3ba172e5ae9a461af",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "59a2c2ff-21a6-5fda-90f6-ed7ccc92d5a1",
+    "updated_at": "2026-11-15T23:51:44.955076+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "c611367f80ba05a4c3eff8ac730ac0fd",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "498b3ddc-0729-5797-b775-4de4e5650943",
+    "updated_at": "2026-11-15T23:51:45.034548+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "85174c01feaea42431cf81d815c0c0e3",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "9ca87bd2-a84c-54d0-a23a-b63a205f3f76",
+    "updated_at": "2026-11-15T23:51:45.112259+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "68c5c8a47d91117bd757d3a8f066f1e9",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "b4b8fdc7-c06f-5d2c-9261-e7abf81ec05b",
+    "updated_at": "2026-11-15T23:51:45.171205+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3cc26a373ec7ef2ea22330a6bf515cb9",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "e412ae60-e9c3-5cb9-a8a8-1b3a784c7156",
+    "updated_at": "2026-11-16T00:03:10.906578+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3cef9dd6ee932d2f89f19157561f2a5a",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "f3b6e88a-39d3-5561-91e1-aaf2942399f8",
+    "updated_at": "2026-11-16T00:03:10.983035+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e50a8c3f6bd7b2d69f33981b48a098b2",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unresolved_lookup_recovery; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "e554e0f6-f0df-5271-8f2c-dc6d1cbd91a9",
+    "updated_at": "2026-11-16T00:03:11.060322+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "29925f83466c55d0e6daae2ab8838cc7",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "07c893b2-a149-54a1-bf60-7c67e5e4aa15",
+    "updated_at": "2026-11-16T00:03:11.137813+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "70b2f15940079fa323826402a11f3029",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. A failed or empty lookup occurs. A later successful tool result may recover the request; verify relevance.\nEvidence signals:\n{\"role\": \"tool_result\", \"name\": \"search_products\", \"content\": {\"ok\": false, \"error\": \"not_found\", \"reason\": \"no store named '16'\"}}",
+    "human_accepted": true,
+    "score_id": "36b62b9b-cd09-56c2-a409-360d6681ec8b",
+    "updated_at": "2026-11-16T00:35:20.211169+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "2e4c04589f3f8a06d3b5815e85f13645",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. This trace is an explicitly human-confirmed close negative example for this category. Recheck the definition before accepting the binary judgment. A saved human note is unresolved; this proposal must not resolve it implicitly.\nEvidence signals:\nHuman confirmed the seller attribution is supported: find_order returns store_id 1, and get_store_info identifies store_id 1 as Blue Heron Ceramics. Human additionally confirmed this trace has neither an unacknowledged record inconsistency nor an unresolved lookup. It is a close negative for unsupported factual claims, unacknowledged record inconsistency, and unresolved lookup recovery. These judgments are limited to the stated criteria.",
+    "human_accepted": true,
+    "score_id": "e34ce5a1-2827-575e-b606-877c82a70ddd",
+    "updated_at": "2026-11-16T00:35:20.347965+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9cc04a1c630eced44f758c798729b4fd",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn. A saved human note is unresolved; this proposal must not resolve it implicitly.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "70a8d9a1-fe59-5b54-bd0d-ab63be835fa4",
+    "updated_at": "2026-11-16T00:35:47.859537+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "ce43fa8240117ae6a4821471f40fdda4",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. A failed or empty lookup occurs. A later successful tool result may recover the request; verify relevance.\nEvidence signals:\n{\"role\": \"tool_result\", \"name\": \"search_products\", \"content\": {\"ok\": false, \"error\": \"not_found\", \"reason\": \"no store named '2'\"}}",
+    "human_accepted": true,
+    "score_id": "6178c464-34d2-574b-bc25-05b6bf97e3b1",
+    "updated_at": "2026-11-16T00:35:54.699609+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "bc2704054b5a4783ba5df3c48371c73b",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. A failed or empty lookup occurs. No later successful result occurs in this turn. Decide whether clarification was genuinely necessary or recovery/escalation was required.\nEvidence signals:\n{\"role\": \"tool_result\", \"name\": \"search_products\", \"content\": {\"ok\": true, \"products\": [], \"count\": 0}}",
+    "human_accepted": true,
+    "score_id": "55e24aff-8667-5614-ad2d-e0c0b804f373",
+    "updated_at": "2026-11-16T00:35:54.859423+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "0eefb3fb13a4ed3b1218ba8550098876",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. A failed or empty lookup occurs. No later successful result occurs in this turn. Decide whether clarification was genuinely necessary or recovery/escalation was required.\nEvidence signals:\n{\"role\": \"tool_result\", \"name\": \"search_products\", \"content\": {\"ok\": true, \"products\": [], \"count\": 0}}",
+    "human_accepted": true,
+    "score_id": "b483d13f-f167-543f-9129-48bc7407a784",
+    "updated_at": "2026-11-16T00:36:33.228943+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9182a3b19f36c45f85d936634ecf7dd5",
+    "mode": "unresolved_lookup_recovery",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. This trace is an explicitly human-confirmed positive example for this category. Recheck the definition before accepting the binary judgment.\nEvidence signals:\nHuman judged consolidated case A a failure: the user asks for Meridian Cycles specific return policy, the agent guesses store_id 201 and receives not_found, then stops with an offer of general policy rather than finding the requested policy or escalating. The confirmed issue is failure to resolve/recover from this lookup, relevant to SPEC.md SCOPE-1 and ESC-3. No additional rationale was supplied by the human.",
+    "human_accepted": true,
+    "score_id": "4c9c9fcc-7d16-5e25-9d82-444ce8d9ef5e",
+    "updated_at": "2026-11-16T00:37:27.971610+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "5cdc6cb32cd71f054862c27f592b7733",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "61a79dc3-be98-595f-aad2-b8791859f152",
+    "updated_at": "2026-11-16T00:37:46.391327+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "2a91945bfd94541824a7b78ec59e3561",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "fc82ad5a-42ea-5c8d-bea5-8ef8e7ec4232",
+    "updated_at": "2026-11-16T00:37:46.437449+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "f60528e0891fa00f8e520f591be9b753",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "9cbb4914-c9d7-5f5a-b3bb-37b09ea6a015",
+    "updated_at": "2026-11-16T00:37:46.476944+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b6355f9c6d858082ffec849e13327e16",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "96829e08-030d-5a14-8b22-8128c3b6a67d",
+    "updated_at": "2026-11-16T00:37:46.526928+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "a521520495df9b6960a6f4a5a59c6a16",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "b1b57c1d-b04e-5b21-a28d-6cb20e29a8ca",
+    "updated_at": "2026-11-16T00:37:46.568684+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "1ab46d6fa6b608fc58320a579eeba3b2",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "2e03d8cb-67c3-533e-a748-e85be0905bf4",
+    "updated_at": "2026-11-16T00:37:46.593677+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "5f3c89077e819d6778892323695eeb4d",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "fd544551-3288-5e73-94b3-37918d132993",
+    "updated_at": "2026-11-16T00:37:46.624598+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "78924ec998ac00603e50fb9c4d792cf9",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "8d88df7d-ab87-5ebf-bc93-5b06ccf12126",
+    "updated_at": "2026-11-16T00:37:46.663857+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "d318ec829780871df4f89faad0618b2f",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "330444cd-8110-591f-aeae-4376d0edf0ed",
+    "updated_at": "2026-11-16T00:37:54.188270+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e2295d79db96887bc5d3d32c685b3914",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "dc7ad169-0ee4-52c7-958b-4b3dba4ae656",
+    "updated_at": "2026-11-16T00:37:54.235054+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "865a6025859a7582628d2cd3098b57d9",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "26151772-57fe-5e81-8a0f-ddcc952422bd",
+    "updated_at": "2026-11-16T00:37:54.298754+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "a684f5142a81c33610974715c18938ae",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "1b5f08b8-13eb-534c-9682-ca11576aa24f",
+    "updated_at": "2026-11-16T00:37:54.348924+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6de1497dfca68ab76882d95cd0682312",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "a1483f41-232f-5822-abf3-b1320377d40a",
+    "updated_at": "2026-11-16T00:37:54.385097+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6084ac6cd77628833add8671aa89cd86",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "3bd550ca-a5c0-56ab-9424-4baa2c85bc51",
+    "updated_at": "2026-11-16T00:37:54.449186+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b0c4a3ee81c65fb59ab9abc2abadda01",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "9224a279-f875-5f2a-8562-029a3e11e1c8",
+    "updated_at": "2026-11-16T00:38:01.712331+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "544e5ac7eeea6181acda500005f664d5",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "1cb92a87-ae0f-5f22-b6d7-c46f341b510c",
+    "updated_at": "2026-11-16T00:38:01.761128+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3bfc7286a60193f37a20983588d87ad7",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "30b41036-3834-5abf-899c-72470630d2b7",
+    "updated_at": "2026-11-16T00:38:01.833740+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "be146059b0d2e50a4cdd4cb546937129",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "f31ea58c-30f3-5efb-9f2b-6b5562b4f985",
+    "updated_at": "2026-11-16T00:38:01.885418+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "110c8024456751cb2b22d2380f0ce9df",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "da986d1b-6b99-5206-9855-7f0282f9b691",
+    "updated_at": "2026-11-16T00:38:01.927738+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "5c8d1f684d183258aed8e3251ce6f559",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "4e0a127f-c5d6-5f2b-a4c6-13db402c3245",
+    "updated_at": "2026-11-16T00:38:01.966845+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9c784c1237db07d229b385f8df7ce968",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "bfa8e569-f528-55c2-b98a-58c13b1d0686",
+    "updated_at": "2026-11-16T00:38:07.737012+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6e4e8e75c65ecb82e7d8aedd86dc6d14",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "ebe89d86-e20c-5ec3-928b-5db647a34b38",
+    "updated_at": "2026-11-16T00:38:07.842258+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "606e79ad1442914725f5ae56a0a262ab",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "ec97a406-1b19-551e-812e-0012b5a039c9",
+    "updated_at": "2026-11-16T00:38:07.890271+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "60bad9e9778cf75ad40074fae2393b1e",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "6cfa7407-ff83-56f9-bdde-65263f468df7",
+    "updated_at": "2026-11-16T00:38:07.934835+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "d5c19617b16838c11c4a6bafc12c5e40",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "627b20f8-15d7-59dd-8a75-2d39e5468e0a",
+    "updated_at": "2026-11-16T00:38:07.974124+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "32dd29c0b5d81b7b2f0116a428e89691",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "2a612486-a34f-56e6-b42f-873c6520fcab",
+    "updated_at": "2026-11-16T00:38:08.025056+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6894c215b318994890a470fefb0acdaf",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "ef9a3ebc-b192-556d-91bb-3b49356895b5",
+    "updated_at": "2026-11-16T00:38:15.369074+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b5ff2108193d1a79ef033cc5b5f210c3",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "13240385-1fe3-5bf7-bce7-c937be7a34ab",
+    "updated_at": "2026-11-16T00:38:15.429230+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9cd5fff357311bea4395da43e39ba85d",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "db5e5cd7-a1a4-5097-9051-e79c4e2b174a",
+    "updated_at": "2026-11-16T00:38:15.466264+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "73347cc3e563bd44a0e067702383ed98",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "2f17a831-1a72-5be2-85cb-6023f779ad03",
+    "updated_at": "2026-11-16T00:38:15.545071+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e6aa796e6923f4a9ecb243fa0b5fc5a2",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "48c2ce90-b5fb-548b-b42e-f7d3fda375b0",
+    "updated_at": "2026-11-16T00:38:15.598697+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9eece751d1317a95d670c5554b26cce4",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "54eacd99-57bf-572a-a2fe-861506a11ad7",
+    "updated_at": "2026-11-16T00:38:15.642419+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "10943affcafa42431485c77769407f67",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "c340faef-a096-56b1-88ed-6b87da50fe76",
+    "updated_at": "2026-11-16T00:38:15.674377+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "4c11afce998ca848ae403c5d37050001",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "b7ce1dd1-aa82-5acd-81a1-cbde85c3f951",
+    "updated_at": "2026-11-16T00:38:21.098451+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e4237a25a9a282b538339f205cabc906",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "762f5288-8788-5a3a-93e9-800aea22dc61",
+    "updated_at": "2026-11-16T00:38:21.157345+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "ffe3ef751653a7009b480a82f2723d2f",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "7294b36e-ba82-52c3-bddb-80e061942270",
+    "updated_at": "2026-11-16T00:38:21.209225+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "0716becd01e26fa4f763cb9e288852a7",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "45b7951a-f98c-5d7b-8277-83ced186aa66",
+    "updated_at": "2026-11-16T00:38:21.278032+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6486df562823705183530a3fdc58b3a8",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "cc74847b-5d05-5bef-b912-8bac31422585",
+    "updated_at": "2026-11-16T00:38:21.355504+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "231f75aad3e4ebbc731203ffe47e5713",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "d5c5c177-a341-50f7-a9c4-4a1216f4538d",
+    "updated_at": "2026-11-16T00:38:21.393864+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "ad98525bd3c3a3fa09f120d44fce1362",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "70d0699a-ddef-5a6f-a40d-b72734f3f600",
+    "updated_at": "2026-11-16T00:38:21.421445+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "c254aed9eafbc5b503c5cee13d09f90a",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "f9f585e5-56a7-5d42-a60b-214957eb0599",
+    "updated_at": "2026-11-16T00:38:21.471653+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3c040c29a30d22383ea59712f96595b8",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "7195af13-25a4-584b-a389-6defed52ca2a",
+    "updated_at": "2026-11-16T00:38:26.936598+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b5986cae74b0768015c1ca1ee21529b0",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "21129acb-da21-59c5-b2aa-8ea69e2ba33c",
+    "updated_at": "2026-11-16T00:38:26.965120+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "90af1ce407902ef6bb24e599665f5721",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "8a81c38a-4ce9-59ce-8895-1ba2c2300970",
+    "updated_at": "2026-11-16T00:38:26.991619+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "cd956419a87cf2326fc16f77edec360c",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "4456e9c5-dfc4-59b3-8e13-500823632b0a",
+    "updated_at": "2026-11-16T00:38:27.038231+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "5fcaace99d144da8a07c69c666646866",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "6020486f-3946-5de2-ada4-61877a8b3dec",
+    "updated_at": "2026-11-16T00:38:27.071709+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "72e042943ee0970f80ecc89ef386a9c2",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "7afe6a29-9a3c-5a4f-87ed-b77a60854a94",
+    "updated_at": "2026-11-16T00:38:27.098096+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "79863c283a91eaa3695d35fb1fa1e49a",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "c38b43db-9aa5-5a3c-bafc-895b53b3baeb",
+    "updated_at": "2026-11-16T00:38:27.142969+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "7c89f76dc61aca99fddd24acce9a23e3",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "833551d3-f42a-5253-8806-fae54e043efb",
+    "updated_at": "2026-11-16T00:38:27.186314+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b668eec4a0dd085ecf8a684787c8733d",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "803f8fd5-73da-5132-80ce-ad906a68a833",
+    "updated_at": "2026-11-16T00:38:33.150978+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9efd4a2989939ff8a448eba7e7e099a2",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "97918dde-401f-5a20-b7e0-2531667a9895",
+    "updated_at": "2026-11-16T00:38:33.300765+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e4e3ec5eff62a608264d0b6602bf2037",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "d2db13d7-f493-5b5c-8a33-fce1ade107f8",
+    "updated_at": "2026-11-16T00:38:33.343170+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "5e765ccd8ccceb425bcefbcc6fce1d25",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "014047fa-71d6-513e-b1e7-97a8b3270026",
+    "updated_at": "2026-11-16T00:38:33.383516+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "efe2551f56c9ab4370dc4100090a5fd6",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "16258b7d-e4dd-54de-8261-5276a5479cb8",
+    "updated_at": "2026-11-16T00:38:33.422885+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "46f36b829113fdeb26563fd9e7a457c6",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "fa72cceb-8539-5d4f-af39-1896f91360b5",
+    "updated_at": "2026-11-16T00:38:33.460800+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "f3c00694c2e670cbffbbf88bd054d175",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "459de6d7-8bb2-51f2-8366-09724719f33e",
+    "updated_at": "2026-11-16T00:38:38.832520+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "58219e348ceb5baedaa2031b4da42e9c",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "d8035f7a-3051-565c-9002-9c9cf68cfd1a",
+    "updated_at": "2026-11-16T00:38:38.923831+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "f8315dce2608011d1e53f405a745f941",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "c90970ab-a02a-5829-b1b9-604f354da441",
+    "updated_at": "2026-11-16T00:38:38.976557+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "a680c40a6d06a1d91b358a69d135e08f",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "1bba8b5d-fc53-5269-9a8b-9582de926ab0",
+    "updated_at": "2026-11-16T00:38:39.023051+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "f0763c1d41d64d566d3451d13b373e39",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "c12109f2-2661-55dd-aa6b-81c01bf189b5",
+    "updated_at": "2026-11-16T00:38:39.068687+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "354cce3ffcee8cca7b7a1c71ca56db85",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "f25106bb-1e71-57bc-a44b-c6c7b5f9c8ce",
+    "updated_at": "2026-11-16T00:38:39.106805+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b411b8ccd524246d1532ca14e2f2b08f",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. The selected turn has no explicit failed or empty lookup result. Check for a previously unresolved lookup carried into this turn.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "b13ddd40-9053-57b3-850b-43d5de69999f",
+    "updated_at": "2026-11-16T00:38:39.147571+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "498691ce49aeb35b3f5f388fc9ad54e5",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human explicitly approved correcting this judgment to Absent (0), matching the previously confirmed close-negative example. Human reviewed and approved in batch. Confirmed example for unresolved_lookup_recovery. Human confirmed support-0135 has no unresolved lookup: the agent continues with additional lookups and identifies Paper Lantern Press as a books store. This is a close negative for unresolved_lookup_recovery, limited to that criterion.",
+    "human_accepted": true,
+    "score_id": "b88a2f63-0d05-5d27-9eed-bb3a7325baa9",
+    "updated_at": "2026-11-16T00:59:36.354155+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e0bf34b2d3e4c1e401329e407bd6bfdf",
+    "mode": "unresolved_lookup_recovery",
+    "label": 0,
+    "reason": "Human explicitly approved correcting this judgment to Absent (0), matching the previously confirmed close-negative example. Human reviewed and approved in batch. Confirmed example for unresolved_lookup_recovery. Human confirmed support-0128 demonstrates successful lookup recovery rather than an unresolved lookup: the agent makes additional store lookups and identifies Northwind Books as a books store. This is a close negative for unresolved_lookup_recovery, limited to that criterion.",
+    "human_accepted": true,
+    "score_id": "05369bcf-f5e3-5a67-bed9-4ef57c17e07f",
+    "updated_at": "2026-11-16T00:59:36.680813+00:00",
+    "sync_status": "synced"
+  }
+]

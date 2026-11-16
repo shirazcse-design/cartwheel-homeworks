@@ -1,0 +1,56 @@
+[
+  {
+    "action": "human_correction",
+    "at": "2026-11-15T15:39:06.723217+00:00",
+    "previous": {
+      "id": "escalation-hypothesis-c611367f80ba05a4c3eff8ac730ac0fd",
+      "trace_id": "c611367f80ba05a4c3eff8ac730ac0fd",
+      "mode": "Missed dispute escalation (hypothesis)",
+      "reason": "Human judged the proposed case acceptable in the consolidated review; no explanatory reason was supplied. Boundary explanation still needed for the assignment.",
+      "retrieval_reason": "Dispute request with no escalate_to_human call; inspect ESC-3 and whether clarification before escalation is acceptable.",
+      "decision": "reject",
+      "decided_by": "human",
+      "decided_at": "2026-11-15T15:37:25.608211+00:00",
+      "decision_source": "Human explicitly selected acceptable when asked to judge this missed-escalation hypothesis.",
+      "rationale_status": "pending human explanation",
+      "annotation_id": "55b2fa5a-2261-4856-9f38-7ab09f36be50"
+    },
+    "reason": "Human explicitly corrected A–C to failure."
+  },
+  {
+    "action": "human_correction",
+    "at": "2026-11-15T15:39:06.723642+00:00",
+    "previous": {
+      "id": "escalation-hypothesis-85174c01feaea42431cf81d815c0c0e3",
+      "trace_id": "85174c01feaea42431cf81d815c0c0e3",
+      "mode": "Missed dispute escalation (hypothesis)",
+      "reason": "Human judged the proposed case acceptable in the consolidated review; no explanatory reason was supplied. Boundary explanation still needed for the assignment.",
+      "retrieval_reason": "Dispute request with no escalate_to_human call; inspect ESC-3 and whether clarification before escalation is acceptable.",
+      "decision": "reject",
+      "decided_by": "human",
+      "decided_at": "2026-11-15T15:37:25.608441+00:00",
+      "decision_source": "Human explicitly selected acceptable when asked to judge this missed-escalation hypothesis.",
+      "rationale_status": "pending human explanation",
+      "annotation_id": "92ecd2cc-f29c-4b30-b4f5-66d4a82d7054"
+    },
+    "reason": "Human explicitly corrected A–C to failure."
+  },
+  {
+    "action": "human_correction",
+    "at": "2026-11-15T15:39:06.723645+00:00",
+    "previous": {
+      "id": "escalation-hypothesis-68c5c8a47d91117bd757d3a8f066f1e9",
+      "trace_id": "68c5c8a47d91117bd757d3a8f066f1e9",
+      "mode": "Missed dispute escalation (hypothesis)",
+      "reason": "Human judged the proposed case acceptable in the consolidated review; no explanatory reason was supplied. Boundary explanation still needed for the assignment.",
+      "retrieval_reason": "Dispute request with no escalate_to_human call; inspect ESC-3 and whether clarification before escalation is acceptable.",
+      "decision": "reject",
+      "decided_by": "human",
+      "decided_at": "2026-11-15T15:37:25.608443+00:00",
+      "decision_source": "Human explicitly selected acceptable when asked to judge this missed-escalation hypothesis.",
+      "rationale_status": "pending human explanation",
+      "annotation_id": "0c3f5fae-896e-4c38-b448-4dae75096a4c"
+    },
+    "reason": "Human explicitly corrected A–C to failure."
+  }
+]

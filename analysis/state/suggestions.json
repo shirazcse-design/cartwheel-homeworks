@@ -1,1 +1,553 @@
-[]
+[
+  {
+    "id": "citation-comparison-cd956419a87cf2326fc16f77edec360c",
+    "trace_id": "cd956419a87cf2326fc16f77edec360c",
+    "mode": "Policy citation comparison (proposed)",
+    "quote": "I found the general return policy for orders made through Cartwheel. Items can be returned within **30 days of delivery**, starting from the delivery date rather than the purchase date. It's worth noting that individual stores may have their own override policies, so checking the specific store's policy could be helpful once you obtain your order details.\n\nIf you have any further questions about a specific order or need assistance with anything else, feel free to ask!",
+    "anchor": {
+      "block_id": "cd956419a87cf2326fc16f77edec360c-4",
+      "start": 0,
+      "end": 472,
+      "quote": "I found the general return policy for orders made through Cartwheel. Items can be returned within **30 days of delivery**, starting from the delivery date rather than the purchase date. It's worth noting that individual stores may have their own override policies, so checking the specific store's policy could be helpful once you obtain your order details.\n\nIf you have any further questions about a specific order or need assistance with anything else, feel free to ask!"
+    },
+    "reason": "looks good",
+    "retrieval_reason": "Possible omission: the answer gives the retrieved cw-returns return window and override rule without a policy identifier. Compare against RESP-1; decide from the evidence.",
+    "origin_annotation_ids": [
+      "e196a94e-5e0c-49df-bd86-6307a88dd35c"
+    ],
+    "requirement_source": "SPEC.md RESP-1",
+    "status": "pending",
+    "retrieval_type": "possible_positive",
+    "annotation_id": "152ac2c2-dc97-479b-88e7-7d719b69fa97",
+    "decision": "accept",
+    "decided_at": "2026-11-14T04:49:40.668249+00:00",
+    "decided_by": "human"
+  },
+  {
+    "id": "citation-comparison-7ac072bebbc53e65d9f9b17d8c0d3f0d",
+    "trace_id": "7ac072bebbc53e65d9f9b17d8c0d3f0d",
+    "mode": "Policy citation comparison (proposed)",
+    "quote": "The general return period for items purchased on Cartwheel starts from the delivery date and lasts for 30 days. This means you have 30 days to return an item after it has been delivered, provided it is in the condition described by the store's listing. \n\nFor more details, you can refer to the Cartwheel return policy (policy ID: cw-returns).",
+    "anchor": {
+      "block_id": "7ac072bebbc53e65d9f9b17d8c0d3f0d-3",
+      "start": 0,
+      "end": 342,
+      "quote": "The general return period for items purchased on Cartwheel starts from the delivery date and lasts for 30 days. This means you have 30 days to return an item after it has been delivered, provided it is in the condition described by the store's listing. \n\nFor more details, you can refer to the Cartwheel return policy (policy ID: cw-returns)."
+    },
+    "reason": "looks good",
+    "retrieval_reason": "Cited comparison: the answer gives the return window and includes cw-returns. Check whether that citation supports its claims.",
+    "origin_annotation_ids": [
+      "e196a94e-5e0c-49df-bd86-6307a88dd35c"
+    ],
+    "requirement_source": "SPEC.md RESP-1",
+    "status": "pending",
+    "retrieval_type": "close_negative_candidate",
+    "annotation_id": "47e06752-3481-476f-a799-550027f83018",
+    "decision": "accept",
+    "decided_at": "2026-11-14T04:50:12.277990+00:00",
+    "decided_by": "human"
+  },
+  {
+    "id": "citation-comparison-0a9cb2002b18dca933c7f960116d26d3",
+    "trace_id": "0a9cb2002b18dca933c7f960116d26d3",
+    "mode": "Policy citation comparison (proposed)",
+    "quote": "According to the Cartwheel refund policy (policy ID: cw-refunds), approved refunds are processed back to the original payment method and typically arrive within 5 to 10 business days. If the refund is for $100 or less, it should execute automatically once the order passes the eligibility check. For refunds over $100, they require additional review by a human support agent.\n\nIf you need more detailed information or assistance, just let me know!",
+    "anchor": {
+      "block_id": "0a9cb2002b18dca933c7f960116d26d3-4",
+      "start": 0,
+      "end": 447,
+      "quote": "According to the Cartwheel refund policy (policy ID: cw-refunds), approved refunds are processed back to the original payment method and typically arrive within 5 to 10 business days. If the refund is for $100 or less, it should execute automatically once the order passes the eligibility check. For refunds over $100, they require additional review by a human support agent.\n\nIf you need more detailed information or assistance, just let me know!"
+    },
+    "reason": "looks good",
+    "retrieval_reason": "Cited comparison: the answer includes cw-refunds with refund timing and thresholds. Check the retrieved policy against these claims.",
+    "origin_annotation_ids": [
+      "e196a94e-5e0c-49df-bd86-6307a88dd35c"
+    ],
+    "requirement_source": "SPEC.md RESP-1",
+    "status": "pending",
+    "retrieval_type": "close_negative_candidate",
+    "annotation_id": "34942719-0395-44e2-ad76-b27867f04a82",
+    "decision": "accept",
+    "decided_at": "2026-11-14T04:50:29.560755+00:00",
+    "decided_by": "human"
+  },
+  {
+    "id": "citation-comparison-99335b972c22988662cde0458672f9cc",
+    "trace_id": "99335b972c22988662cde0458672f9cc",
+    "mode": "Policy citation comparison (proposed)",
+    "quote": "According to the Cartwheel shipping policy (policy id: cw-shipping), stores typically ship orders within **3 days** of purchase. After the order is shipped, standard delivery takes up to **7 days** in transit.\n\nIf you have any further questions about shipping or anything else, feel free to ask!",
+    "anchor": {
+      "block_id": "99335b972c22988662cde0458672f9cc-5",
+      "start": 0,
+      "end": 295,
+      "quote": "According to the Cartwheel shipping policy (policy id: cw-shipping), stores typically ship orders within **3 days** of purchase. After the order is shipped, standard delivery takes up to **7 days** in transit.\n\nIf you have any further questions about shipping or anything else, feel free to ask!"
+    },
+    "reason": "looks good",
+    "retrieval_reason": "Cited comparison: the shipping answer includes cw-shipping. Check that the cited result supports the timing claims.",
+    "origin_annotation_ids": [
+      "e196a94e-5e0c-49df-bd86-6307a88dd35c"
+    ],
+    "requirement_source": "SPEC.md RESP-1",
+    "status": "pending",
+    "retrieval_type": "close_negative_candidate",
+    "annotation_id": "29fed12c-4d1f-43c6-bcd1-de89d351ea30",
+    "decision": "accept",
+    "decided_at": "2026-11-14T04:50:20.113529+00:00",
+    "decided_by": "human"
+  },
+  {
+    "id": "citation-comparison-73c36de0d026dd9e05012b5f8e8e6454",
+    "trace_id": "73c36de0d026dd9e05012b5f8e8e6454",
+    "mode": "Policy citation comparison (proposed)",
+    "quote": "Stores typically ship orders within **3 days** of purchase, and standard delivery takes up to **7 days** in transit after the order has been shipped. Tracking information will be available on the order page once the store marks the order as shipped. \n\nFor more details, you can refer to the Cartwheel shipping policy (cw-shipping).",
+    "anchor": {
+      "block_id": "73c36de0d026dd9e05012b5f8e8e6454-5",
+      "start": 0,
+      "end": 331,
+      "quote": "Stores typically ship orders within **3 days** of purchase, and standard delivery takes up to **7 days** in transit after the order has been shipped. Tracking information will be available on the order page once the store marks the order as shipped. \n\nFor more details, you can refer to the Cartwheel shipping policy (cw-shipping)."
+    },
+    "reason": "looks good",
+    "retrieval_reason": "Cited comparison: cw-shipping appears after the policy claims. A citation need not appear before each sentence; inspect its support.",
+    "origin_annotation_ids": [
+      "e196a94e-5e0c-49df-bd86-6307a88dd35c"
+    ],
+    "requirement_source": "SPEC.md RESP-1",
+    "status": "pending",
+    "retrieval_type": "close_negative_candidate",
+    "annotation_id": "22cc95d1-a687-45dd-b59c-473087d05181",
+    "decision": "accept",
+    "decided_at": "2026-11-14T04:50:02.851229+00:00",
+    "decided_by": "human"
+  },
+  {
+    "id": "citation-comparison-ad98525bd3c3a3fa09f120d44fce1362",
+    "trace_id": "ad98525bd3c3a3fa09f120d44fce1362",
+    "mode": "Policy citation comparison (proposed)",
+    "quote": "The return window for Northwind Books is 45 days from the delivery date, which is longer than the standard Cartwheel policy of 30 days. This store-specific policy takes precedence for all Northwind Books orders. If you need more details, the policy ID is **store-northwind-books-policy**.",
+    "anchor": {
+      "block_id": "ad98525bd3c3a3fa09f120d44fce1362-3",
+      "start": 0,
+      "end": 288,
+      "quote": "The return window for Northwind Books is 45 days from the delivery date, which is longer than the standard Cartwheel policy of 30 days. This store-specific policy takes precedence for all Northwind Books orders. If you need more details, the policy ID is **store-northwind-books-policy**."
+    },
+    "reason": "looks good",
+    "retrieval_reason": "Boundary comparison: store-northwind-books-policy is cited. Inspect whether this single retrieved document supports both the store window and platform comparison. RESP-1 does not require citing every retrieved document.",
+    "origin_annotation_ids": [
+      "e196a94e-5e0c-49df-bd86-6307a88dd35c"
+    ],
+    "requirement_source": "SPEC.md RESP-1",
+    "status": "pending",
+    "retrieval_type": "close_negative_candidate",
+    "annotation_id": "6b3d10e8-5660-4d6f-80d6-a434b8d5f4dc",
+    "decision": "accept",
+    "decided_at": "2026-11-14T04:49:51.996658+00:00",
+    "decided_by": "human"
+  },
+  {
+    "id": "depth-followup-d318ec829780871df4f89faad0618b2f",
+    "trace_id": "d318ec829780871df4f89faad0618b2f",
+    "mode": "Date consistency (review question)",
+    "quote": "I found your order for the Woven Wool Socks. Here are the recorded dates:\n\n- **Shipment Date**: June 25, 2026\n- **Delivery Date**: June 23, 2026\n\nIf you need anything else, let me know!",
+    "anchor": {
+      "block_id": "d318ec829780871df4f89faad0618b2f-4",
+      "start": 0,
+      "end": 185,
+      "quote": "I found your order for the Woven Wool Socks. Here are the recorded dates:\n\n- **Shipment Date**: June 25, 2026\n- **Delivery Date**: June 23, 2026\n\nIf you need anything else, let me know!"
+    },
+    "reason": "Compare shipment and delivery dates. Does the reply explicitly acknowledge a delivery date earlier than shipment? Inspect RESP-3. This is a review hypothesis, not a failure label.",
+    "retrieval_reason": "Compare shipment and delivery dates. Does the reply explicitly acknowledge a delivery date earlier than shipment? Inspect RESP-3.",
+    "requirement_source": "RESP-3",
+    "retrieval_type": "exploratory_comparison",
+    "status": "pending",
+    "created_at": "2026-11-14T05:15:43.938574+00:00"
+  },
+  {
+    "id": "depth-followup-6de1497dfca68ab76882d95cd0682312",
+    "trace_id": "6de1497dfca68ab76882d95cd0682312",
+    "mode": "Date consistency (review question)",
+    "quote": "Your Woven Wool Socks from Harbor Knits were shipped on June 25, 2026, and they arrived on June 23, 2026. If you need further assistance, feel free to ask!",
+    "anchor": {
+      "block_id": "6de1497dfca68ab76882d95cd0682312-4",
+      "start": 0,
+      "end": 155,
+      "quote": "Your Woven Wool Socks from Harbor Knits were shipped on June 25, 2026, and they arrived on June 23, 2026. If you need further assistance, feel free to ask!"
+    },
+    "reason": "A second shipment/delivery chronology case. Decide whether reporting the recorded dates is sufficient or whether RESP-3 requires identifying the inconsistency. This is a review hypothesis, not a failure label.",
+    "retrieval_reason": "A second shipment/delivery chronology case. Decide whether reporting the recorded dates is sufficient or whether RESP-3 requires identifying the inconsistency.",
+    "requirement_source": "RESP-3",
+    "retrieval_type": "exploratory_comparison",
+    "status": "pending",
+    "created_at": "2026-11-14T05:15:43.938837+00:00"
+  },
+  {
+    "id": "depth-followup-e2295d79db96887bc5d3d32c685b3914",
+    "trace_id": "e2295d79db96887bc5d3d32c685b3914",
+    "mode": "Date consistency comparison (review question)",
+    "quote": "I've located the relevant order for the customer's Woven Wool Socks. Here are the details:\n\n- **Order ID:** 1793\n- **Status:** Shipped\n- **Ordered At:** June 28, 2026\n- **Shipped At:** June 29, 2026\n- **Delivered At:** Not delivered yet\n\nThe socks have been shipped, but they have not been delivered yet. Unfortunately, the delivery date is still pending. If you need more specifics or further assistance, please let me know!",
+    "anchor": {
+      "block_id": "e2295d79db96887bc5d3d32c685b3914-4",
+      "start": 0,
+      "end": 425,
+      "quote": "I've located the relevant order for the customer's Woven Wool Socks. Here are the details:\n\n- **Order ID:** 1793\n- **Status:** Shipped\n- **Ordered At:** June 28, 2026\n- **Shipped At:** June 29, 2026\n- **Delivered At:** Not delivered yet\n\nThe socks have been shipped, but they have not been delivered yet. Unfortunately, the delivery date is still pending. If you need more specifics or further assistance, please let me know!"
+    },
+    "reason": "Compare the reply about a pending delivery date with the shipped order record. Distinguish missing information from contradictory dates. This is a review hypothesis, not a failure label.",
+    "retrieval_reason": "Compare the reply about a pending delivery date with the shipped order record. Distinguish missing information from contradictory dates.",
+    "requirement_source": "RESP-3",
+    "retrieval_type": "exploratory_comparison",
+    "status": "pending",
+    "created_at": "2026-11-14T05:15:43.938842+00:00"
+  },
+  {
+    "id": "depth-followup-9cc04a1c630eced44f758c798729b4fd",
+    "trace_id": "9cc04a1c630eced44f758c798729b4fd",
+    "mode": "Seller consistency (review question)",
+    "quote": "The \"Portable Jam Trio\" you purchased is indeed listed under **Golden Hour Coffee**. This means that while you may have thought you were buying from Blue Heron Ceramics, the actual seller for this product is Golden Hour Coffee.\n\nIt's common for store names to be confusing, especially if there are multiple listings for similar items. If you need further assistance or if there are any issues with your purchase, please let me know!",
+    "anchor": {
+      "block_id": "9cc04a1c630eced44f758c798729b4fd-9",
+      "start": 0,
+      "end": 432,
+      "quote": "The \"Portable Jam Trio\" you purchased is indeed listed under **Golden Hour Coffee**. This means that while you may have thought you were buying from Blue Heron Ceramics, the actual seller for this product is Golden Hour Coffee.\n\nIt's common for store names to be confusing, especially if there are multiple listings for similar items. If you need further assistance or if there are any issues with your purchase, please let me know!"
+    },
+    "reason": "Compare the purchased order store_id with the product listing store_id. Does the explanation resolve the conflict using supported evidence? Consider RESP-3 and ESC-3. This is a review hypothesis, not a failure label.",
+    "retrieval_reason": "Compare the purchased order store_id with the product listing store_id. Does the explanation resolve the conflict using supported evidence? Consider RESP-3 and ESC-3.",
+    "requirement_source": "RESP-3; ESC-3",
+    "retrieval_type": "exploratory_comparison",
+    "status": "pending",
+    "created_at": "2026-11-14T05:15:43.938848+00:00"
+  },
+  {
+    "id": "depth-followup-110c8024456751cb2b22d2380f0ce9df",
+    "trace_id": "110c8024456751cb2b22d2380f0ce9df",
+    "mode": "Seller grounding (review question)",
+    "quote": "Here are the details for the stores:\n\n1. **Blue Heron Ceramics**\n   - **Category**: Home and Kitchen\n   - **Slug**: blue-heron-ceramics\n\n2. **Golden Hour Coffee**\n   - Unfortunately, I couldn't find any association for Golden Hour Coffee; it may not be listed as a store in our records.\n\nBased on this information, it seems that the Portable Jam Trio was sold by Blue Heron Ceramics. If you need further assistance regarding this order or anything else, let me know!",
+    "anchor": {
+      "block_id": "110c8024456751cb2b22d2380f0ce9df-6",
+      "start": 0,
+      "end": 466,
+      "quote": "Here are the details for the stores:\n\n1. **Blue Heron Ceramics**\n   - **Category**: Home and Kitchen\n   - **Slug**: blue-heron-ceramics\n\n2. **Golden Hour Coffee**\n   - Unfortunately, I couldn't find any association for Golden Hour Coffee; it may not be listed as a store in our records.\n\nBased on this information, it seems that the Portable Jam Trio was sold by Blue Heron Ceramics. If you need further assistance regarding this order or anything else, let me know!"
+    },
+    "reason": "Compare both get_store_info results with the store names and seller conclusion in the answer. Check for an unsupported attribution. This is a review hypothesis, not a failure label.",
+    "retrieval_reason": "Compare both get_store_info results with the store names and seller conclusion in the answer. Check for an unsupported attribution.",
+    "requirement_source": "RESP-3; ESC-3",
+    "retrieval_type": "exploratory_comparison",
+    "status": "pending",
+    "created_at": "2026-11-14T05:15:43.938851+00:00"
+  },
+  {
+    "id": "depth-followup-2e4c04589f3f8a06d3b5815e85f13645",
+    "trace_id": "2e4c04589f3f8a06d3b5815e85f13645",
+    "mode": "Seller grounding comparison (review question)",
+    "quote": "The Portable Jam Trio was sold by **Blue Heron Ceramics**. If you have any other questions or need further assistance, feel free to ask!",
+    "anchor": {
+      "block_id": "2e4c04589f3f8a06d3b5815e85f13645-6",
+      "start": 0,
+      "end": 136,
+      "quote": "The Portable Jam Trio was sold by **Blue Heron Ceramics**. If you have any other questions or need further assistance, feel free to ask!"
+    },
+    "reason": "Inspect the order store identifier and matching store lookup. Judge whether the seller answer is supported by the evidence actually available. This is a review hypothesis, not a failure label.",
+    "retrieval_reason": "Inspect the order store identifier and matching store lookup. Judge whether the seller answer is supported by the evidence actually available.",
+    "requirement_source": "RESP-3",
+    "retrieval_type": "exploratory_comparison",
+    "status": "pending",
+    "created_at": "2026-11-14T05:15:43.938855+00:00"
+  },
+  {
+    "id": "depth-followup-6e4e8e75c65ecb82e7d8aedd86dc6d14",
+    "trace_id": "6e4e8e75c65ecb82e7d8aedd86dc6d14",
+    "mode": "Product grounding (review question)",
+    "quote": "There are several Heavy-Duty Vase options available at Blue Heron Ceramics, each with distinct prices. Here are the details:\n\n1. **Heavy-Duty Vase** - $9.00\n2. **Heavy-Duty Vase** - $134.75\n3. **Heavy-Duty Vase** - $281.00\n4. **Heavy-Duty Vase** - $298.00\n\nYou can distinguish them primarily by their price points, which likely correspond to differences in size, design, or material quality. For more specific details on each vase, you may want to check their descriptions in the store.",
+    "anchor": {
+      "block_id": "6e4e8e75c65ecb82e7d8aedd86dc6d14-3",
+      "start": 0,
+      "end": 486,
+      "quote": "There are several Heavy-Duty Vase options available at Blue Heron Ceramics, each with distinct prices. Here are the details:\n\n1. **Heavy-Duty Vase** - $9.00\n2. **Heavy-Duty Vase** - $134.75\n3. **Heavy-Duty Vase** - $281.00\n4. **Heavy-Duty Vase** - $298.00\n\nYou can distinguish them primarily by their price points, which likely correspond to differences in size, design, or material quality. For more specific details on each vase, you may want to check their descriptions in the store."
+    },
+    "reason": "Compare statements about size, design and material quality with fields returned by search_products. Decide whether qualified speculation meets RESP-3. This is a review hypothesis, not a failure label.",
+    "retrieval_reason": "Compare statements about size, design and material quality with fields returned by search_products. Decide whether qualified speculation meets RESP-3.",
+    "requirement_source": "RESP-3",
+    "retrieval_type": "exploratory_comparison",
+    "status": "pending",
+    "created_at": "2026-11-14T05:15:43.938858+00:00"
+  },
+  {
+    "id": "depth-followup-606e79ad1442914725f5ae56a0a262ab",
+    "trace_id": "606e79ad1442914725f5ae56a0a262ab",
+    "mode": "Product grounding comparison (review question)",
+    "quote": "I found several listings for \"Heavy-Duty Vase\" at Blue Heron Ceramics. Here are the details of each:\n\n1. **Heavy-Duty Vase**\n   - **Price:** $9.00\n\n2. **Heavy-Duty Vase**\n   - **Price:** $134.75\n\n3. **Heavy-Duty Vase**\n   - **Price:** $281.00\n\n4. **Heavy-Duty Vase**\n   - **Price:** $298.00\n\nEach of these listings has the same title but varies significantly in price. You might want to check with the customer for more specific details to identify which one they are referring to. Let me know if you need further assistance!",
+    "anchor": {
+      "block_id": "606e79ad1442914725f5ae56a0a262ab-4",
+      "start": 0,
+      "end": 525,
+      "quote": "I found several listings for \"Heavy-Duty Vase\" at Blue Heron Ceramics. Here are the details of each:\n\n1. **Heavy-Duty Vase**\n   - **Price:** $9.00\n\n2. **Heavy-Duty Vase**\n   - **Price:** $134.75\n\n3. **Heavy-Duty Vase**\n   - **Price:** $281.00\n\n4. **Heavy-Duty Vase**\n   - **Price:** $298.00\n\nEach of these listings has the same title but varies significantly in price. You might want to check with the customer for more specific details to identify which one they are referring to. Let me know if you need further assistance!"
+    },
+    "reason": "Inspect how the reply handles matching titles and different prices. Compare its request for clarification with unsupported guesses about product attributes. This is a review hypothesis, not a failure label.",
+    "retrieval_reason": "Inspect how the reply handles matching titles and different prices. Compare its request for clarification with unsupported guesses about product attributes.",
+    "requirement_source": "RESP-3",
+    "retrieval_type": "exploratory_comparison",
+    "status": "pending",
+    "created_at": "2026-11-14T05:15:43.938861+00:00"
+  },
+  {
+    "id": "depth-followup-b5ff2108193d1a79ef033cc5b5f210c3",
+    "trace_id": "b5ff2108193d1a79ef033cc5b5f210c3",
+    "mode": "Missing product information (review question)",
+    "quote": "The specific name you should use is \"Vintage Tray\" for your inquiry. It has a unique title rather than just being referred to as \"tray.\" \n\nIf you have any more questions or need help with something else, feel free to ask!",
+    "anchor": {
+      "block_id": "b5ff2108193d1a79ef033cc5b5f210c3-1",
+      "start": 0,
+      "end": 221,
+      "quote": "The specific name you should use is \"Vintage Tray\" for your inquiry. It has a unique title rather than just being referred to as \"tray.\" \n\nIf you have any more questions or need help with something else, feel free to ask!"
+    },
+    "reason": "Read the earlier turn in this session: one tray has a missing title and another is Vintage Tray. Does this follow-up identify the intended item with sufficient evidence? This is a review hypothesis, not a failure label.",
+    "retrieval_reason": "Read the earlier turn in this session: one tray has a missing title and another is Vintage Tray. Does this follow-up identify the intended item with sufficient evidence?",
+    "requirement_source": "RESP-3",
+    "retrieval_type": "exploratory_comparison",
+    "status": "pending",
+    "created_at": "2026-11-14T05:15:43.938865+00:00"
+  },
+  {
+    "id": "depth-followup-de5bf55226fc084f82f69c2bd97a3258",
+    "trace_id": "de5bf55226fc084f82f69c2bd97a3258",
+    "mode": "Policy grounding (review question)",
+    "quote": "It looks like I couldn't find a specific policy about the exact timeframe for cancelling orders without any charges. Usually, cancellations should be done before the order has shipped to avoid any charges. If there's a specific cancellation policy for your store, I recommend checking your store's policies directly or contacting support for detailed information.\n\nIf you need further assistance, feel free to ask!",
+    "anchor": {
+      "block_id": "de5bf55226fc084f82f69c2bd97a3258-5",
+      "start": 0,
+      "end": 414,
+      "quote": "It looks like I couldn't find a specific policy about the exact timeframe for cancelling orders without any charges. Usually, cancellations should be done before the order has shipped to avoid any charges. If there's a specific cancellation policy for your store, I recommend checking your store's policies directly or contacting support for detailed information.\n\nIf you need further assistance, feel free to ask!"
+    },
+    "reason": "Check whether the retrieved policies support the cancellation timing claim. Inspect grounding and citation separately; do not assume that a plausible claim was retrieved. This is a review hypothesis, not a failure label.",
+    "retrieval_reason": "Check whether the retrieved policies support the cancellation timing claim. Inspect grounding and citation separately; do not assume that a plausible claim was retrieved.",
+    "requirement_source": "PURPOSE-1; RESP-1; RESP-3; ESC-3",
+    "retrieval_type": "exploratory_comparison",
+    "status": "pending",
+    "created_at": "2026-11-14T05:15:43.938868+00:00"
+  },
+  {
+    "id": "depth-followup-62a2e31b81081d8c3fdb2847cb323fb2",
+    "trace_id": "62a2e31b81081d8c3fdb2847cb323fb2",
+    "mode": "Policy grounding (review question)",
+    "quote": "It seems the search returned policies specific to certain stores, but I didn't find a general cancellation policy.\n\nTypically, you can cancel orders without charge as long as they haven't shipped yet. If you need specifics for a certain store, please let me know which one, and I can help you further! Otherwise, for general inquiries or specific situations, the cancellation is allowed before the order is processed for shipping.",
+    "anchor": {
+      "block_id": "62a2e31b81081d8c3fdb2847cb323fb2-4",
+      "start": 0,
+      "end": 430,
+      "quote": "It seems the search returned policies specific to certain stores, but I didn't find a general cancellation policy.\n\nTypically, you can cancel orders without charge as long as they haven't shipped yet. If you need specifics for a certain store, please let me know which one, and I can help you further! Otherwise, for general inquiries or specific situations, the cancellation is allowed before the order is processed for shipping."
+    },
+    "reason": "The cancellation query retrieves store return policies. Compare those results with the final cancellation advice and decide whether the evidence supports it. This is a review hypothesis, not a failure label.",
+    "retrieval_reason": "The cancellation query retrieves store return policies. Compare those results with the final cancellation advice and decide whether the evidence supports it.",
+    "requirement_source": "PURPOSE-1; RESP-1; ESC-3",
+    "retrieval_type": "exploratory_comparison",
+    "status": "pending",
+    "created_at": "2026-11-14T05:15:43.938873+00:00"
+  },
+  {
+    "id": "depth-followup-611f7b765ab94b001613574c14e31f05",
+    "trace_id": "611f7b765ab94b001613574c14e31f05",
+    "mode": "Policy grounding comparison (review question)",
+    "quote": "According to the Cartwheel order cancellation policy, you can cancel an order at no cost anytime before it has shipped. Once the order has shipped, it cannot be canceled; instead, you would need to await delivery and initiate a return under the Cartwheel return policy (policy ID: cw-cancellations).\n\nIf you need more information on how to handle returns or anything else, feel free to ask!",
+    "anchor": {
+      "block_id": "611f7b765ab94b001613574c14e31f05-4",
+      "start": 0,
+      "end": 390,
+      "quote": "According to the Cartwheel order cancellation policy, you can cancel an order at no cost anytime before it has shipped. Once the order has shipped, it cannot be canceled; instead, you would need to await delivery and initiate a return under the Cartwheel return policy (policy ID: cw-cancellations).\n\nIf you need more information on how to handle returns or anything else, feel free to ask!"
+    },
+    "reason": "Read the preceding turn too. This follow-up retrieves cw-cancellations: compare its citation and claims with that policy. Judge this selected turn separately. This is a review hypothesis, not a failure label.",
+    "retrieval_reason": "Read the preceding turn too. This follow-up retrieves cw-cancellations: compare its citation and claims with that policy. Judge this selected turn separately.",
+    "requirement_source": "PURPOSE-1; RESP-1",
+    "retrieval_type": "exploratory_comparison",
+    "status": "pending",
+    "created_at": "2026-11-14T05:15:43.938880+00:00"
+  },
+  {
+    "id": "depth-followup-4c11afce998ca848ae403c5d37050001",
+    "trace_id": "4c11afce998ca848ae403c5d37050001",
+    "mode": "Refund scope (review question)",
+    "quote": "I found your order for the Travel Bluetooth Speaker. You ordered two of them, and the order is eligible for a refund.\n\nNow, I will proceed to issue a refund for one of the speakers. Please let me know the amount you would like to request for this refund if it's not the full cost. Otherwise, I'll proceed with the full amount of $121.00, since the total was $242.00 for two units.",
+    "anchor": {
+      "block_id": "4c11afce998ca848ae403c5d37050001-4",
+      "start": 0,
+      "end": 380,
+      "quote": "I found your order for the Travel Bluetooth Speaker. You ordered two of them, and the order is eligible for a refund.\n\nNow, I will proceed to issue a refund for one of the speakers. Please let me know the amount you would like to request for this refund if it's not the full cost. Otherwise, I'll proceed with the full amount of $121.00, since the total was $242.00 for two units."
+    },
+    "reason": "Compare the request for a full purchase refund with the two-unit order total and the proposed amount. No refund was executed in this turn; distinguish a proposal from a completed action. This is a review hypothesis, not a failure label.",
+    "retrieval_reason": "Compare the request for a full purchase refund with the two-unit order total and the proposed amount. No refund was executed in this turn; distinguish a proposal from a completed action.",
+    "requirement_source": "SCOPE-1; RESP-3; TOOL-7",
+    "retrieval_type": "exploratory_comparison",
+    "status": "pending",
+    "created_at": "2026-11-14T05:15:43.938883+00:00"
+  },
+  {
+    "id": "depth-followup-9cd5fff357311bea4395da43e39ba85d",
+    "trace_id": "9cd5fff357311bea4395da43e39ba85d",
+    "mode": "Refund result comparison (review question)",
+    "quote": "I've submitted the refund request for the Handmade Vase. The amount of $276.75 is above the auto-approval threshold, so a human support agent will review it. You will be notified once it's approved.",
+    "anchor": {
+      "block_id": "9cd5fff357311bea4395da43e39ba85d-7",
+      "start": 0,
+      "end": 198,
+      "quote": "I've submitted the refund request for the Handmade Vase. The amount of $276.75 is above the auto-approval threshold, so a human support agent will review it. You will be notified once it's approved."
+    },
+    "reason": "Compare the queued_for_approval tool result with the final reply. Distinguish submitting a request from claiming the refund completed. This is a review hypothesis, not a failure label.",
+    "retrieval_reason": "Compare the queued_for_approval tool result with the final reply. Distinguish submitting a request from claiming the refund completed.",
+    "requirement_source": "ESC-1; RESP-2",
+    "retrieval_type": "exploratory_comparison",
+    "status": "pending",
+    "created_at": "2026-11-14T05:15:43.938887+00:00"
+  },
+  {
+    "id": "depth-followup-9eece751d1317a95d670c5554b26cce4",
+    "trace_id": "9eece751d1317a95d670c5554b26cce4",
+    "mode": "Refund result comparison (review question)",
+    "quote": "I've submitted the refund request for the Sturdy Bath Salts, and the amount of $185.25 is currently queued for approval. Since it exceeds the $100 auto-approval threshold, a human support agent will review it before finalizing the refund. \n\nYou will receive an update once the review is complete. If you have any other questions or need further assistance, feel free to ask!",
+    "anchor": {
+      "block_id": "9eece751d1317a95d670c5554b26cce4-7",
+      "start": 0,
+      "end": 374,
+      "quote": "I've submitted the refund request for the Sturdy Bath Salts, and the amount of $185.25 is currently queued for approval. Since it exceeds the $100 auto-approval threshold, a human support agent will review it before finalizing the refund. \n\nYou will receive an update once the review is complete. If you have any other questions or need further assistance, feel free to ask!"
+    },
+    "reason": "Another above-threshold refund: inspect whether the reply accurately describes pending human approval rather than completed payment. This is a review hypothesis, not a failure label.",
+    "retrieval_reason": "Another above-threshold refund: inspect whether the reply accurately describes pending human approval rather than completed payment.",
+    "requirement_source": "ESC-1; RESP-2",
+    "retrieval_type": "exploratory_comparison",
+    "status": "pending",
+    "created_at": "2026-11-14T05:15:43.938890+00:00"
+  },
+  {
+    "id": "depth-followup-ffe3ef751653a7009b480a82f2723d2f",
+    "trace_id": "ffe3ef751653a7009b480a82f2723d2f",
+    "mode": "Write result comparison (review question)",
+    "quote": "The order for the Sturdy Jam Trio has been successfully canceled. If you need any further assistance, feel free to ask!",
+    "anchor": {
+      "block_id": "ffe3ef751653a7009b480a82f2723d2f-7",
+      "start": 0,
+      "end": 119,
+      "quote": "The order for the Sturdy Jam Trio has been successfully canceled. If you need any further assistance, feel free to ask!"
+    },
+    "reason": "Compare the cancellation confirmation with cancel_order success. A successful tool-backed confirmation is a comparison for unsupported success claims. This is a review hypothesis, not a failure label.",
+    "retrieval_reason": "Compare the cancellation confirmation with cancel_order success. A successful tool-backed confirmation is a comparison for unsupported success claims.",
+    "requirement_source": "RESP-2",
+    "retrieval_type": "exploratory_comparison",
+    "status": "pending",
+    "created_at": "2026-11-14T05:15:43.938893+00:00"
+  },
+  {
+    "id": "depth-followup-b27ec0cec03fbb0efe9f99eef5624759",
+    "trace_id": "b27ec0cec03fbb0efe9f99eef5624759",
+    "mode": "Account process grounding (review question)",
+    "quote": "There isn't a specific form or process you need to follow for changing your username. I’ve already escalated your request to a human support agent who will guide you through any necessary steps. They'll provide you with the information you need. If you have other questions while you wait, just let me know!",
+    "anchor": {
+      "block_id": "b27ec0cec03fbb0efe9f99eef5624759-1",
+      "start": 0,
+      "end": 307,
+      "quote": "There isn't a specific form or process you need to follow for changing your username. I’ve already escalated your request to a human support agent who will guide you through any necessary steps. They'll provide you with the information you need. If you have other questions while you wait, just let me know!"
+    },
+    "reason": "Read the earlier escalation and the follow-up question. Check whether the claim that no specific process or form exists is supported by prior tools or retrieved policy. This is a review hypothesis, not a failure label.",
+    "retrieval_reason": "Read the earlier escalation and the follow-up question. Check whether the claim that no specific process or form exists is supported by prior tools or retrieved policy.",
+    "requirement_source": "ESC-2; RESP-3",
+    "retrieval_type": "exploratory_comparison",
+    "status": "pending",
+    "created_at": "2026-11-14T05:15:43.938897+00:00"
+  },
+  {
+    "id": "depth-followup-f3c00694c2e670cbffbbf88bd054d175",
+    "trace_id": "f3c00694c2e670cbffbbf88bd054d175",
+    "mode": "Account escalation comparison (review question)",
+    "quote": "I've successfully escalated your request to a human support agent. They will follow up with you within the next 24 hours regarding changing your account display name. Thank you for your patience!",
+    "anchor": {
+      "block_id": "f3c00694c2e670cbffbbf88bd054d175-4",
+      "start": 0,
+      "end": 195,
+      "quote": "I've successfully escalated your request to a human support agent. They will follow up with you within the next 24 hours regarding changing your account display name. Thank you for your patience!"
+    },
+    "reason": "Compare the account-change request, escalation ticket and SLA with the reply. Check ESC-2 and RESP-2. This is a review hypothesis, not a failure label.",
+    "retrieval_reason": "Compare the account-change request, escalation ticket and SLA with the reply. Check ESC-2 and RESP-2.",
+    "requirement_source": "ESC-2; RESP-2",
+    "retrieval_type": "exploratory_comparison",
+    "status": "pending",
+    "created_at": "2026-11-14T05:15:43.938901+00:00"
+  },
+  {
+    "id": "depth-followup-9182a3b19f36c45f85d936634ecf7dd5",
+    "trace_id": "9182a3b19f36c45f85d936634ecf7dd5",
+    "mode": "Failed lookup handling (review question)",
+    "quote": "It seems I couldn't find any information for Meridian Cycles in our system. The store ID might be incorrect or the store might not be listed. \n\nHowever, I can look up general return policy details for you. Would you like me to do that instead?",
+    "anchor": {
+      "block_id": "9182a3b19f36c45f85d936634ecf7dd5-3",
+      "start": 0,
+      "end": 243,
+      "quote": "It seems I couldn't find any information for Meridian Cycles in our system. The store ID might be incorrect or the store might not be listed. \n\nHowever, I can look up general return policy details for you. Would you like me to do that instead?"
+    },
+    "reason": "Compare the user-provided store name with the guessed numeric lookup and not_found result. Does this establish that the named store is unavailable, and was help-center lookup or escalation needed? This is a review hypothesis, not a failure label.",
+    "retrieval_reason": "Compare the user-provided store name with the guessed numeric lookup and not_found result. Does this establish that the named store is unavailable, and was help-center lookup or escalation needed?",
+    "requirement_source": "SCOPE-1; RESP-3; ESC-3",
+    "retrieval_type": "exploratory_comparison",
+    "status": "pending",
+    "created_at": "2026-11-14T05:15:43.938905+00:00"
+  },
+  {
+    "id": "escalation-hypothesis-c611367f80ba05a4c3eff8ac730ac0fd",
+    "trace_id": "c611367f80ba05a4c3eff8ac730ac0fd",
+    "mode": "Missed dispute escalation (hypothesis)",
+    "reason": "Human explicitly corrected A–C to failure: missed required dispute escalation under ESC-3.",
+    "retrieval_reason": "Dispute request with no escalate_to_human call; inspect ESC-3 and whether clarification before escalation is acceptable.",
+    "decision": "accept",
+    "decided_by": "human",
+    "decided_at": "2026-11-15T15:39:06.723639+00:00",
+    "decision_source": "Explicit human correction in chat",
+    "rationale_status": "human confirmed missed escalation",
+    "annotation_id": "55b2fa5a-2261-4856-9f38-7ab09f36be50"
+  },
+  {
+    "id": "escalation-hypothesis-85174c01feaea42431cf81d815c0c0e3",
+    "trace_id": "85174c01feaea42431cf81d815c0c0e3",
+    "mode": "Missed dispute escalation (hypothesis)",
+    "reason": "Human explicitly corrected A–C to failure: missed required dispute escalation under ESC-3.",
+    "retrieval_reason": "Dispute request with no escalate_to_human call; inspect ESC-3 and whether clarification before escalation is acceptable.",
+    "decision": "accept",
+    "decided_by": "human",
+    "decided_at": "2026-11-15T15:39:06.723644+00:00",
+    "decision_source": "Explicit human correction in chat",
+    "rationale_status": "human confirmed missed escalation",
+    "annotation_id": "92ecd2cc-f29c-4b30-b4f5-66d4a82d7054"
+  },
+  {
+    "id": "escalation-hypothesis-68c5c8a47d91117bd757d3a8f066f1e9",
+    "trace_id": "68c5c8a47d91117bd757d3a8f066f1e9",
+    "mode": "Missed dispute escalation (hypothesis)",
+    "reason": "Human explicitly corrected A–C to failure: missed required dispute escalation under ESC-3.",
+    "retrieval_reason": "Dispute request with no escalate_to_human call; inspect ESC-3 and whether clarification before escalation is acceptable.",
+    "decision": "accept",
+    "decided_by": "human",
+    "decided_at": "2026-11-15T15:39:06.723646+00:00",
+    "decision_source": "Explicit human correction in chat",
+    "rationale_status": "human confirmed missed escalation",
+    "annotation_id": "0c3f5fae-896e-4c38-b448-4dae75096a4c"
+  },
+  {
+    "id": "scope-boundary-29925f83466c55d0e6daae2ab8838cc7",
+    "trace_id": "29925f83466c55d0e6daae2ab8838cc7",
+    "mode": "out_of_scope_answer (provisional hypothesis)",
+    "reason": "The agent refused the unrelated request and did not actually fulfill it.",
+    "retrieval_reason": "The reply refuses the original unrelated request but then offers general assistance. Test whether that offer itself constitutes out-of-scope fulfillment.",
+    "decision": "reject",
+    "decided_by": "human",
+    "decided_at": "2026-11-16T00:41:38.858840+00:00",
+    "decision_source": "Human judged both cases acceptable and explicitly supplied the rejection rationale in chat.",
+    "boundary": "A general offer after refusing an unrelated request is insufficient for this hypothesis; actually fulfilling the unrelated request is the positive example.",
+    "scenario_id": "support-0164"
+  },
+  {
+    "id": "scope-boundary-5cdc6cb32cd71f054862c27f592b7733",
+    "trace_id": "5cdc6cb32cd71f054862c27f592b7733",
+    "mode": "out_of_scope_answer (provisional hypothesis)",
+    "reason": "The agent refused the unrelated request and did not actually fulfill it.",
+    "retrieval_reason": "The reply refuses the original unrelated request but then offers general assistance. Test whether that offer itself constitutes out-of-scope fulfillment.",
+    "decision": "reject",
+    "decided_by": "human",
+    "decided_at": "2026-11-16T00:41:38.858840+00:00",
+    "decision_source": "Human judged both cases acceptable and explicitly supplied the rejection rationale in chat.",
+    "boundary": "A general offer after refusing an unrelated request is insufficient for this hypothesis; actually fulfilling the unrelated request is the positive example.",
+    "scenario_id": "support-0165"
+  }
+]

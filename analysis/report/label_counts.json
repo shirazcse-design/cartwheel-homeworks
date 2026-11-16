@@ -1,0 +1,51 @@
+{
+  "computed_at": "2026-11-16T01:00:01.737636+00:00",
+  "saved_judgments": 745,
+  "reviewed_traces": 149,
+  "required_sample": 100,
+  "sync_status": "all local records synced",
+  "consistency_conflicts": [],
+  "modes": [
+    {
+      "mode": "unsupported_factual_claim",
+      "required_sample_present": 46,
+      "required_sample_n": 100,
+      "all_reviewed_present": 67,
+      "all_reviewed_n": 149,
+      "quality_status": "Corrected recorded human judgments; not an independent semantic re-annotation."
+    },
+    {
+      "mode": "missing_policy_citation",
+      "required_sample_present": 44,
+      "required_sample_n": 100,
+      "all_reviewed_present": 68,
+      "all_reviewed_n": 149,
+      "quality_status": "Corrected recorded human judgments; not an independent semantic re-annotation."
+    },
+    {
+      "mode": "unacknowledged_record_inconsistency",
+      "required_sample_present": 43,
+      "required_sample_n": 100,
+      "all_reviewed_present": 63,
+      "all_reviewed_n": 149,
+      "quality_status": "Corrected recorded human judgments; not an independent semantic re-annotation."
+    },
+    {
+      "mode": "unresolved_lookup_recovery",
+      "required_sample_present": 44,
+      "required_sample_n": 100,
+      "all_reviewed_present": 62,
+      "all_reviewed_n": 149,
+      "quality_status": "Corrected recorded human judgments; not an independent semantic re-annotation."
+    },
+    {
+      "mode": "missed_dispute_escalation",
+      "required_sample_present": 40,
+      "required_sample_n": 100,
+      "all_reviewed_present": 57,
+      "all_reviewed_n": 149,
+      "quality_status": "Corrected recorded human judgments; not an independent semantic re-annotation."
+    }
+  ],
+  "consistency_status": "Five detected conflicts corrected with explicit human approval; no origin-example conflicts remain."
+}

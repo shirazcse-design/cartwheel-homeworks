@@ -1,0 +1,1492 @@
+[
+  {
+    "trace_id": "e5059036ad034eb3a53a91ec592c4fda",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "agent does not escalate it to a human as required by ESC-3",
+    "human_accepted": true,
+    "score_id": "468899f9-cb91-524c-831c-4ca1fc052e8c",
+    "updated_at": "2026-11-15T16:36:17.397069+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e4c77e0f2087e3ae2fa1005a258081a4",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "the agent does not escalate it to a human as required by ESC-3.",
+    "human_accepted": true,
+    "score_id": "cfa93f86-f548-59f2-825c-0fc9895a6cee",
+    "updated_at": "2026-11-15T16:45:14.066986+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "a9f999591e609dbc255a920b2b8bdd25",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "the agent does not escalate it to a human as required by ESC-3.",
+    "human_accepted": true,
+    "score_id": "599b278b-c4f1-5434-b334-a85bc4349fe9",
+    "updated_at": "2026-11-15T16:48:09.583689+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "f6973b41f32b13a4cc2d2475b4e9e7c4",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "the agent does not escalate it to a human as required by ESC-3.",
+    "human_accepted": true,
+    "score_id": "4071e37c-fcb6-538b-b916-5e56f0663ed1",
+    "updated_at": "2026-11-15T16:49:19.565185+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "c451d5e6eb194b363141b36a93c824f9",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "the agent does not escalate it to a human as required by ESC-3",
+    "human_accepted": true,
+    "score_id": "4813f338-f684-5d23-83b3-25f0e2053781",
+    "updated_at": "2026-11-15T16:50:43.686887+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "287a451011d21e123ffc6a6bc0745cbe",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "the agent does not escalate it to a human as required by ESC-3",
+    "human_accepted": true,
+    "score_id": "478a0289-946f-5d28-a81d-6ae2eca0309d",
+    "updated_at": "2026-11-15T16:52:15.054811+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "13f7efa47d1bfc930176a56a5ed480e2",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "the agent does not escalate it to a human as required by ESC-3.",
+    "human_accepted": true,
+    "score_id": "a843b1dd-c6e4-58eb-914a-cb568f813410",
+    "updated_at": "2026-11-15T16:53:23.534151+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "18ba8c99bba420d5dc1f955cce1396e3",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "the agent does not escalate it to a human as required by ESC-3.",
+    "human_accepted": true,
+    "score_id": "52161c46-a52a-5b43-9c74-063285f34e0e",
+    "updated_at": "2026-11-15T16:54:35.267347+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b4fd2b9dfd100e4ab181daae47bd15f7",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "he agent does not escalate it to a human as required by ESC-3",
+    "human_accepted": true,
+    "score_id": "469e8431-25e2-5f81-99a1-16db42996758",
+    "updated_at": "2026-11-15T16:55:53.367526+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "525e2cc456c263b4cfe3c9a5ada03576",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "the agent does not escalate it to a human as required by ESC-3.",
+    "human_accepted": true,
+    "score_id": "c6fc28bb-ad3f-5621-8626-25db699a220a",
+    "updated_at": "2026-11-15T16:57:01.715655+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "7041b8e41d503f3ff71a458209587d0e",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "the agent does not escalate it to a human as required by ESC-3",
+    "human_accepted": true,
+    "score_id": "858441de-c55e-52a4-b29e-e6612b18e129",
+    "updated_at": "2026-11-15T16:58:13.317517+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e9aba23471507c9295e38e228c9afe34",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "the agent does not escalate it to a human as required by ESC-3",
+    "human_accepted": true,
+    "score_id": "e914625c-7f79-526d-8220-a7726243c982",
+    "updated_at": "2026-11-15T16:59:29.466498+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3beb3bdfb0a71bc0a642a9a3213ab4df",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "the agent does not escalate it to a human as required by ESC-3.",
+    "human_accepted": true,
+    "score_id": "fee1bc71-f3c1-57d4-bc2a-cf4c3236371e",
+    "updated_at": "2026-11-15T17:00:42.256176+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "846dce28883d384c78de025a0adb9ea0",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "the agent does not escalate it to a human as required by ESC-3",
+    "human_accepted": true,
+    "score_id": "fff415c0-dd91-595e-8f26-27abc7d488dd",
+    "updated_at": "2026-11-15T17:02:12.400853+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "274f27e838614139d4479f8b69a29d20",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "the agent does not escalate it to a human as required by ESC-3",
+    "human_accepted": true,
+    "score_id": "b0cc9550-ce24-58ab-aa71-0e265ada463a",
+    "updated_at": "2026-11-15T19:56:07.642134+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6868d89ad0d9e30d14713263a3b5b1a0",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "the agent does not escalate it to a human as required by ESC-3.",
+    "human_accepted": true,
+    "score_id": "8f4fab24-26d9-5ccd-a361-3f0df331d084",
+    "updated_at": "2026-11-15T19:57:33.239471+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "20fd2d751f3d322dc989be5e61d3cc82",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "the agent does not escalate it to a human as required by ESC-3",
+    "human_accepted": true,
+    "score_id": "b4bcc23d-fe3b-509c-8c20-dd1f9748faab",
+    "updated_at": "2026-11-15T19:59:06.938842+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "a5d7079f937b8ebf24f8c4a92b4b6f54",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "the agent does not escalate it to a human as required by ESC-3",
+    "human_accepted": true,
+    "score_id": "aa388156-79a8-532d-ba1c-3d3125c337a8",
+    "updated_at": "2026-11-15T20:01:03.052724+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "964f6ab77bc15721a021f2822db30050",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "the agent does not escalate it to a human as required by ESC-3.",
+    "human_accepted": true,
+    "score_id": "8b42e149-f336-55e0-a7c0-cc984ac773ee",
+    "updated_at": "2026-11-15T20:02:04.739473+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "57709819551fc0c1c0bf4ebb2836281b",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "the agent does not escalate it to a human as required by ESC-3",
+    "human_accepted": true,
+    "score_id": "e16a4396-abaa-5d27-9fec-c00e2c4d5f11",
+    "updated_at": "2026-11-15T20:11:12.682416+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "0eea033de180a54b3dcaf93bf5da75f5",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "the agent does not escalate it to a human as required by ESC-3",
+    "human_accepted": true,
+    "score_id": "de174e1e-5cd0-5fd6-b8c3-f5247c95f0fc",
+    "updated_at": "2026-11-15T20:12:25.071358+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "ed5f8c214afad300b3da971329955405",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "the agent does not escalate it to a human as required by ESC-3.",
+    "human_accepted": true,
+    "score_id": "ab8f20b9-e570-5c74-82c5-ffa51b57ba94",
+    "updated_at": "2026-11-15T20:13:44.624327+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "1f6aa4e4562255bb5f8b8e10abe5a27d",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "the agent does not escalate it to a human as required by ESC-3",
+    "human_accepted": true,
+    "score_id": "724558f8-ddbb-5a9e-8796-d697c9afda92",
+    "updated_at": "2026-11-15T20:15:23.379438+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "4c8a117af1528bb8c76c01eb1e96512c",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "the agent does not escalate it to a human as required by ESC-3",
+    "human_accepted": true,
+    "score_id": "48f18dd2-4198-5aee-8a0d-90b2f81f50f6",
+    "updated_at": "2026-11-15T20:16:44.877667+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3df4c3f51adbc8586c6c8a6585283b57",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "0f76cc8f-7126-5892-beb9-d01c8d90f611",
+    "updated_at": "2026-11-15T20:28:47.702883+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "0caff19f10a492a7d5240173dab4e601",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "d5e827ee-936b-5faf-bf1a-2530175a13f5",
+    "updated_at": "2026-11-15T20:28:47.742263+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "beee44d5ddf121613665651555e5e862",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "4e733270-b8f0-52a6-83b6-2e305dd03a98",
+    "updated_at": "2026-11-15T20:28:47.769115+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "423448f3fbaf1a9636aacdd84aa004e6",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "7ab6dfe9-6206-5d39-8f49-6de8276a8a61",
+    "updated_at": "2026-11-15T20:28:47.792695+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "c7132c38667a2e6eae70f529d985aa3d",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "98047f9b-5076-5dc2-bc30-b661a3db24b3",
+    "updated_at": "2026-11-15T20:28:47.807323+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "de3fdfd26ccf4b67eb5d49ea0f2a0bdf",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "d006434a-54f7-5264-86fd-3cf7a2b51441",
+    "updated_at": "2026-11-15T20:28:47.831212+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "580dc097212477c308db87a0c198db9d",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "405d3e72-dc22-5c8b-8608-14cbf324745f",
+    "updated_at": "2026-11-15T20:28:47.853545+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6424692c39af77cf858f2dd9b167c0da",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "11255693-b01d-5c95-8e33-25e3936fdce0",
+    "updated_at": "2026-11-15T20:28:47.873818+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9e85eee7358c6a28b164749ece702787",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "e603affe-a78b-5dbf-8f35-e039b00343ad",
+    "updated_at": "2026-11-15T20:28:47.915907+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "a3f46264fbea2f5ba4bd8d08be3ab1ad",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "c764b4ae-946c-5e56-8a67-c8976059d166",
+    "updated_at": "2026-11-15T20:28:47.933377+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "34c55e27d092ea4f3b0bab6ac7e6e218",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "9f161888-f339-59d3-9087-3f8d81f69049",
+    "updated_at": "2026-11-15T20:28:47.950304+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "69460be6c280544c782ccf8eaadbe3b4",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "49edf0a1-f0ea-51cc-8fba-a1bd80e415c4",
+    "updated_at": "2026-11-15T20:28:47.964228+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b6186fe88cfb723b197ab0e1ffbba00c",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "bba4c359-3766-5bfe-8448-5877f5c891f3",
+    "updated_at": "2026-11-15T20:28:47.981514+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "121e0b4e9c988d50183eade495e2de14",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "57bf911f-a2b1-5af1-8e57-4b50b8ce933d",
+    "updated_at": "2026-11-15T20:28:47.994716+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "0a9cb2002b18dca933c7f960116d26d3",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "023f401d-37e4-5e57-bd77-eb19ef289884",
+    "updated_at": "2026-11-15T22:47:39.080499+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "99335b972c22988662cde0458672f9cc",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "8d8d35ab-96d4-5ffe-9230-65c0109cc03d",
+    "updated_at": "2026-11-15T22:51:04.438285+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "8e2b3cdabd7fa73f8df37d0351546229",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "d31e4ff7-e399-5162-b228-c3951e0fa8c2",
+    "updated_at": "2026-11-15T22:51:04.631391+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "de5bf55226fc084f82f69c2bd97a3258",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "bcd56334-1392-50c2-9b3e-e721e509c359",
+    "updated_at": "2026-11-15T22:51:04.709348+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "7ac072bebbc53e65d9f9b17d8c0d3f0d",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "d17d01a7-f2a2-5ccf-b42a-9dee2a8ff3d5",
+    "updated_at": "2026-11-15T22:51:04.782300+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "611f7b765ab94b001613574c14e31f05",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "411da628-f29a-5e13-93d8-502ada2b2e93",
+    "updated_at": "2026-11-15T22:51:04.836833+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "62a2e31b81081d8c3fdb2847cb323fb2",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "516abbad-571c-50dd-8550-125699bbbab1",
+    "updated_at": "2026-11-15T22:57:39.053264+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "73c36de0d026dd9e05012b5f8e8e6454",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "89f6bc1d-8006-51bc-97d5-29e7b7ca8aca",
+    "updated_at": "2026-11-15T22:57:39.130243+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "bb81f9ff38e518dac44484fedb299246",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "00df4fad-0d5a-50bb-91dc-a2dea73faad0",
+    "updated_at": "2026-11-15T22:57:39.220697+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6c4bc65770ecd39d71fd3d22853f183f",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "590781c3-61ad-539e-8649-ea8f77ddba97",
+    "updated_at": "2026-11-15T22:57:39.313793+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "c7d814c65743c91b1222e00e77ec1262",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "2cf80b5b-66fe-5472-ade0-38b3ccb049bb",
+    "updated_at": "2026-11-15T23:37:15.091019+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "c588af0ad155913eaec2deddb2b2a6b9",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "f76aaea8-7ee7-511e-8856-8490004a56ea",
+    "updated_at": "2026-11-15T23:37:15.269273+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "2d84cbb617e4b1f8f71c8d7f0555ed12",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "3c16d6af-0008-5649-9297-3ef1bbdabf31",
+    "updated_at": "2026-11-15T23:37:15.350943+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9c358b7323a7828da044c3a4a4e32ea1",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "38642527-e083-5f48-a5d8-df19523bf525",
+    "updated_at": "2026-11-15T23:37:15.438164+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "661a2ccda8fc95b2bc5fcfbf109be261",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "7a0b9880-25df-5dd7-a2dc-d44c9df07117",
+    "updated_at": "2026-11-15T23:39:09.006643+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "1ad8a13e16e578f87db3180d9b32a672",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "4edd9d69-c2e6-5535-8fac-8d9084f4076b",
+    "updated_at": "2026-11-15T23:39:09.173628+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e65275128fb5581373476496e9b9f50f",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "e2188d8f-80f1-5088-96a7-13ed1b4ab3d7",
+    "updated_at": "2026-11-15T23:39:09.266587+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b034c71109228b0d99bca35e22562302",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "79478cec-b202-5ab2-aa6f-618faeb88dc4",
+    "updated_at": "2026-11-15T23:39:09.367710+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e0bf34b2d3e4c1e401329e407bd6bfdf",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "d71edba9-2265-5753-af81-5496a3edbe25",
+    "updated_at": "2026-11-15T23:41:12.153516+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "56b081308257554342e8d191df2ec1a8",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "5465a1eb-799d-5af1-a770-1b76ff9aaf41",
+    "updated_at": "2026-11-15T23:41:12.335203+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "979cab3ac4adc40af9528d769138eef0",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "9c409578-be96-5695-8448-64ef2f65462e",
+    "updated_at": "2026-11-15T23:41:12.418492+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "95bb3ea9b12f784985e855be0ecb9385",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "ca8329d0-890d-51c5-8f0e-c2475863eee4",
+    "updated_at": "2026-11-15T23:41:12.500212+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3cb93012c516b633f83de9b984411733",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "a7dfa9da-3ede-5336-b958-3d121094889b",
+    "updated_at": "2026-11-15T23:43:16.986186+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "498691ce49aeb35b3f5f388fc9ad54e5",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "6b691acf-0169-54e1-922e-7f61f06aa4d1",
+    "updated_at": "2026-11-15T23:43:17.182641+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "0ed0d8fd3131a98af87599eb1980ef21",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "4a589d7f-ceb9-561d-afb6-c66b66afc8cd",
+    "updated_at": "2026-11-15T23:43:17.269370+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "637fc31388d4a4f5f565f8b41e5c509c",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "44a34b90-19e4-557b-a39b-9fde9a3ce253",
+    "updated_at": "2026-11-15T23:43:17.342409+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "0818b2e5effd01eec3ae4ebba5295a08",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "42177c12-2cd1-5b35-8483-d1c0698c34dc",
+    "updated_at": "2026-11-15T23:45:16.243859+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b27ec0cec03fbb0efe9f99eef5624759",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "f8acd301-e10c-5a81-9fa1-fa55dc0e0e72",
+    "updated_at": "2026-11-15T23:45:16.437733+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3c29730b0744692035dcd39b7704c200",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "5d6711bb-e0da-5b33-94cd-7227a6bdb447",
+    "updated_at": "2026-11-15T23:45:16.508562+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "eead9b24725d4936eb0127270d5fc594",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "aae36ff7-fa29-5870-8306-58976f0c4786",
+    "updated_at": "2026-11-15T23:45:16.572108+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "08074f47bace805556dbfca4ec5f062e",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "3a8829cb-4eba-590c-9932-32f7e1f1786b",
+    "updated_at": "2026-11-15T23:49:04.627632+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "2e2e66b3965202b3ba172e5ae9a461af",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "afb4b9d5-9a19-54fe-90e7-3c9d2aeef689",
+    "updated_at": "2026-11-15T23:51:44.802385+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "c611367f80ba05a4c3eff8ac730ac0fd",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. Confirmed example for missed_dispute_escalation. Human explicitly corrected the earlier acceptable judgment to failure for this dispute trace. The user requests help with a dispute, but the agent asks for further information or looks up orders without escalating to a human. Human confirmed missed required escalation under SPEC.md ESC-3. The earlier acceptable judgment is superseded and retained in edit history.",
+    "human_accepted": true,
+    "score_id": "3a44d2fe-d7af-503a-945a-a2ac7488852c",
+    "updated_at": "2026-11-15T23:51:44.989446+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "85174c01feaea42431cf81d815c0c0e3",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. Confirmed example for missed_dispute_escalation. Human explicitly corrected the earlier acceptable judgment to failure for this dispute trace. The user requests help with a dispute, but the agent asks for further information or looks up orders without escalating to a human. Human confirmed missed required escalation under SPEC.md ESC-3. The earlier acceptable judgment is superseded and retained in edit history.",
+    "human_accepted": true,
+    "score_id": "b4dd6171-b21d-5cc6-b59d-ac67410d4370",
+    "updated_at": "2026-11-15T23:51:45.064301+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "68c5c8a47d91117bd757d3a8f066f1e9",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. Confirmed example for missed_dispute_escalation. Human explicitly corrected the earlier acceptable judgment to failure for this dispute trace. The user requests help with a dispute, but the agent asks for further information or looks up orders without escalating to a human. Human confirmed missed required escalation under SPEC.md ESC-3. The earlier acceptable judgment is superseded and retained in edit history.",
+    "human_accepted": true,
+    "score_id": "2757b45e-a049-5f8a-8f87-86599ff8280c",
+    "updated_at": "2026-11-15T23:51:45.131711+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3cc26a373ec7ef2ea22330a6bf515cb9",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "e994c055-18cc-5de3-957c-ed869d4268e0",
+    "updated_at": "2026-11-16T00:03:10.789621+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3cef9dd6ee932d2f89f19157561f2a5a",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "f09014e5-012e-5ce3-9000-8a3b0192d346",
+    "updated_at": "2026-11-16T00:03:10.939822+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e50a8c3f6bd7b2d69f33981b48a098b2",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against missed_dispute_escalation; this note alone does not establish absence.",
+    "human_accepted": true,
+    "score_id": "844bf4be-1d03-52e7-ac2e-a7324e3807a6",
+    "updated_at": "2026-11-16T00:03:11.015591+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "29925f83466c55d0e6daae2ab8838cc7",
+    "mode": "missed_dispute_escalation",
+    "label": 1,
+    "reason": "Human reviewed and approved in batch. reason",
+    "human_accepted": true,
+    "score_id": "4f272614-e641-5570-ab13-37d6c9c71f7a",
+    "updated_at": "2026-11-16T00:03:11.091214+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "2e4c04589f3f8a06d3b5815e85f13645",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found. A saved human note is unresolved; this proposal must not resolve it implicitly.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "ff4bf5b2-88a7-590c-8b55-c9de15d98958",
+    "updated_at": "2026-11-16T00:35:20.281308+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9cc04a1c630eced44f758c798729b4fd",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found. A saved human note is unresolved; this proposal must not resolve it implicitly.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "bd67dc90-706f-5ee6-9664-2b22eda04605",
+    "updated_at": "2026-11-16T00:35:47.816273+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "5cdc6cb32cd71f054862c27f592b7733",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "ecf982a3-a550-5764-ba26-e2e10c371461",
+    "updated_at": "2026-11-16T00:37:46.298708+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "2a91945bfd94541824a7b78ec59e3561",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "8aad3d5a-83f6-5da4-a26c-3381c6e3ead9",
+    "updated_at": "2026-11-16T00:37:46.406733+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "f60528e0891fa00f8e520f591be9b753",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "11b6928d-42ad-52a1-8968-6ac8b2b00e7f",
+    "updated_at": "2026-11-16T00:37:46.452152+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b6355f9c6d858082ffec849e13327e16",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "2cbbe1f0-2296-502e-8c23-abdf8d295a15",
+    "updated_at": "2026-11-16T00:37:46.491720+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "a521520495df9b6960a6f4a5a59c6a16",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "07e39d51-c438-5832-b5f8-ac7d0f4fc4e6",
+    "updated_at": "2026-11-16T00:37:46.542983+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "1ab46d6fa6b608fc58320a579eeba3b2",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "686a0130-ba77-5b0e-9ab7-fb59765057fa",
+    "updated_at": "2026-11-16T00:37:46.580550+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "5f3c89077e819d6778892323695eeb4d",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "bfc6359b-defa-58c0-9ca8-3ff306623ada",
+    "updated_at": "2026-11-16T00:37:46.611205+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "78924ec998ac00603e50fb9c4d792cf9",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "a45d52ab-ea40-53f4-a23d-e3d9e96bb9b5",
+    "updated_at": "2026-11-16T00:37:46.640557+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "d318ec829780871df4f89faad0618b2f",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "f3fd2163-753e-5b25-b9bb-aecccf74e16a",
+    "updated_at": "2026-11-16T00:37:54.129088+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e2295d79db96887bc5d3d32c685b3914",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "8f9782d5-3292-5008-a35f-1f540a4bc630",
+    "updated_at": "2026-11-16T00:37:54.203577+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "865a6025859a7582628d2cd3098b57d9",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "395f02da-761d-5a0c-b3ac-551ec165130a",
+    "updated_at": "2026-11-16T00:37:54.247868+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "a684f5142a81c33610974715c18938ae",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "87d5fb8d-0bf8-5760-895b-77210982df84",
+    "updated_at": "2026-11-16T00:37:54.313276+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6de1497dfca68ab76882d95cd0682312",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "b48a8ae2-1103-5b3a-877c-30178848ed7f",
+    "updated_at": "2026-11-16T00:37:54.361136+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6084ac6cd77628833add8671aa89cd86",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "e8671774-9a52-509a-b28b-438a0f3b2a55",
+    "updated_at": "2026-11-16T00:37:54.405168+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "70b2f15940079fa323826402a11f3029",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "609bb05e-b1ed-5226-9147-2f9aaa95639d",
+    "updated_at": "2026-11-16T00:37:54.472729+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b0c4a3ee81c65fb59ab9abc2abadda01",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "396157f1-8e14-5038-b177-5c660a3a5f65",
+    "updated_at": "2026-11-16T00:38:01.638909+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "544e5ac7eeea6181acda500005f664d5",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "630a73a2-f35e-5096-ab14-78f5091aceab",
+    "updated_at": "2026-11-16T00:38:01.729847+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3bfc7286a60193f37a20983588d87ad7",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "8170c7b6-d49b-5f73-9e50-9f67892742a6",
+    "updated_at": "2026-11-16T00:38:01.776422+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "be146059b0d2e50a4cdd4cb546937129",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "7cac05b2-fbf5-5b4d-8439-fffe3ed80f9b",
+    "updated_at": "2026-11-16T00:38:01.854109+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "110c8024456751cb2b22d2380f0ce9df",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "927c776d-9b53-526f-9573-cda19844ad2d",
+    "updated_at": "2026-11-16T00:38:01.899418+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "5c8d1f684d183258aed8e3251ce6f559",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "c76b5679-77c4-582d-92aa-f28500acf1e6",
+    "updated_at": "2026-11-16T00:38:01.940327+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9c784c1237db07d229b385f8df7ce968",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "84578541-0797-5667-902d-02bc9f0a8a4c",
+    "updated_at": "2026-11-16T00:38:02.001884+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6e4e8e75c65ecb82e7d8aedd86dc6d14",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "eb8ac2a7-3112-59bd-8a2b-6d86aeec5bca",
+    "updated_at": "2026-11-16T00:38:07.792227+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "606e79ad1442914725f5ae56a0a262ab",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "ffc1e534-15a0-5c95-a73d-de769d034c44",
+    "updated_at": "2026-11-16T00:38:07.860292+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "60bad9e9778cf75ad40074fae2393b1e",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "08606cd3-c2c5-554c-b11b-9246ac143c05",
+    "updated_at": "2026-11-16T00:38:07.907091+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "d5c19617b16838c11c4a6bafc12c5e40",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "21b0f904-47d2-594b-93cb-b445b26936fc",
+    "updated_at": "2026-11-16T00:38:07.946343+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "32dd29c0b5d81b7b2f0116a428e89691",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "72bba4a4-f920-599b-a18d-2f46233d2cad",
+    "updated_at": "2026-11-16T00:38:07.992617+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "ce43fa8240117ae6a4821471f40fdda4",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "c1a356ce-2877-5483-857f-30346bc617ed",
+    "updated_at": "2026-11-16T00:38:08.036815+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "bc2704054b5a4783ba5df3c48371c73b",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "48cbde2c-e25e-58f6-aed4-ce9678e3b47f",
+    "updated_at": "2026-11-16T00:38:08.061075+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6894c215b318994890a470fefb0acdaf",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "45acb44f-dee5-5bab-bfc7-a4aba510e72d",
+    "updated_at": "2026-11-16T00:38:15.316394+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b5ff2108193d1a79ef033cc5b5f210c3",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "21b9159d-ef65-540a-a83a-86c438413035",
+    "updated_at": "2026-11-16T00:38:15.388313+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9cd5fff357311bea4395da43e39ba85d",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "344c218b-71cd-5066-8014-847c48f3c8a7",
+    "updated_at": "2026-11-16T00:38:15.446712+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "73347cc3e563bd44a0e067702383ed98",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "1cb490f1-50bf-5266-ba0a-4312d35853ba",
+    "updated_at": "2026-11-16T00:38:15.482920+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e6aa796e6923f4a9ecb243fa0b5fc5a2",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "9f8e48bf-9126-5ab2-ae7d-e71735d0940d",
+    "updated_at": "2026-11-16T00:38:15.564394+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9eece751d1317a95d670c5554b26cce4",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "a682a5eb-e07c-51d3-9325-1ba738418295",
+    "updated_at": "2026-11-16T00:38:15.619968+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "10943affcafa42431485c77769407f67",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "25403dff-a8b0-571f-8222-ce14ed381904",
+    "updated_at": "2026-11-16T00:38:15.656592+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "4c11afce998ca848ae403c5d37050001",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "b2d502e7-daf1-5396-ab3c-090ff88cec9d",
+    "updated_at": "2026-11-16T00:38:15.687417+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e4237a25a9a282b538339f205cabc906",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "9460be9e-42a8-55aa-a8af-f7a287c33f92",
+    "updated_at": "2026-11-16T00:38:21.122253+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "ffe3ef751653a7009b480a82f2723d2f",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "fc07c0aa-b72e-5fb1-b973-6cc1da32f448",
+    "updated_at": "2026-11-16T00:38:21.174014+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "0716becd01e26fa4f763cb9e288852a7",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "e0a26c0b-9436-5ede-ad10-6c7b7a3733d2",
+    "updated_at": "2026-11-16T00:38:21.225862+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "6486df562823705183530a3fdc58b3a8",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "779f50bb-75cf-5447-8916-a92194030460",
+    "updated_at": "2026-11-16T00:38:21.306765+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "231f75aad3e4ebbc731203ffe47e5713",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "e87a79b8-8d85-5db2-b32c-a6176ae69a60",
+    "updated_at": "2026-11-16T00:38:21.380538+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "ad98525bd3c3a3fa09f120d44fce1362",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "df43c6ed-73e0-5bbb-b9f4-beecf160f778",
+    "updated_at": "2026-11-16T00:38:21.407519+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9182a3b19f36c45f85d936634ecf7dd5",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "3ebfff96-bbaa-5cf3-b3c5-14966fc212d5",
+    "updated_at": "2026-11-16T00:38:21.433957+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "c254aed9eafbc5b503c5cee13d09f90a",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "37adb32b-4778-52d8-98fb-09f7289b94b2",
+    "updated_at": "2026-11-16T00:38:21.451351+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3c040c29a30d22383ea59712f96595b8",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "1ca80f92-4dfe-5ab4-99e1-2a6466211ee5",
+    "updated_at": "2026-11-16T00:38:26.865343+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b5986cae74b0768015c1ca1ee21529b0",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "a8c7f2e4-cdb0-5a37-9275-0926835c5b05",
+    "updated_at": "2026-11-16T00:38:26.950696+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "90af1ce407902ef6bb24e599665f5721",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "da2228d2-e8bb-550b-876f-44433aa350d1",
+    "updated_at": "2026-11-16T00:38:26.978358+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "cd956419a87cf2326fc16f77edec360c",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "5333dbf9-3c8d-5221-9bce-60a8cd81a21c",
+    "updated_at": "2026-11-16T00:38:27.006754+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "5fcaace99d144da8a07c69c666646866",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "b2027a9f-3d00-5098-b47f-e5a9a10f96bc",
+    "updated_at": "2026-11-16T00:38:27.058820+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "72e042943ee0970f80ecc89ef386a9c2",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "1e53aeea-8aee-5f07-9e4b-d18e69943787",
+    "updated_at": "2026-11-16T00:38:27.082688+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "79863c283a91eaa3695d35fb1fa1e49a",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "fd338b7f-0a29-542e-9d84-0419d3ae0be8",
+    "updated_at": "2026-11-16T00:38:27.116058+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "7c89f76dc61aca99fddd24acce9a23e3",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "545827a2-e9b2-5b30-9dc1-ec98c0f7f5fa",
+    "updated_at": "2026-11-16T00:38:27.157062+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b668eec4a0dd085ecf8a684787c8733d",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "94db3530-6892-5de3-9d4a-5e1632cf129c",
+    "updated_at": "2026-11-16T00:38:27.199588+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "0eefb3fb13a4ed3b1218ba8550098876",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "4f787525-9945-513b-897e-56f4a3870179",
+    "updated_at": "2026-11-16T00:38:33.226958+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "9efd4a2989939ff8a448eba7e7e099a2",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "f36be8cc-2f2c-5a69-85da-43d6f4c70e8f",
+    "updated_at": "2026-11-16T00:38:33.269765+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "e4e3ec5eff62a608264d0b6602bf2037",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "d99197dd-3583-56a0-bada-78390a29ab69",
+    "updated_at": "2026-11-16T00:38:33.314457+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "5e765ccd8ccceb425bcefbcc6fce1d25",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "4dd70ab9-4c11-5817-a25d-115a07835410",
+    "updated_at": "2026-11-16T00:38:33.355423+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "efe2551f56c9ab4370dc4100090a5fd6",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "b9c4315f-d430-5ec5-949e-3ca63e6701fb",
+    "updated_at": "2026-11-16T00:38:33.398020+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "46f36b829113fdeb26563fd9e7a457c6",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "8335253f-991d-5cf8-a218-3c14c9a22805",
+    "updated_at": "2026-11-16T00:38:33.433863+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "f3c00694c2e670cbffbbf88bd054d175",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "33f7a0df-7316-54b6-8c0d-5f0e725cc827",
+    "updated_at": "2026-11-16T00:38:33.472680+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "58219e348ceb5baedaa2031b4da42e9c",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "63c3de66-d1df-5978-aae8-0996bd3e58ed",
+    "updated_at": "2026-11-16T00:38:38.860337+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "f8315dce2608011d1e53f405a745f941",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "2d05419d-aa49-50f2-9f53-2a41608fbbdf",
+    "updated_at": "2026-11-16T00:38:38.941704+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "a680c40a6d06a1d91b358a69d135e08f",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "8b961e5a-ab9e-5648-aad2-c461a5a9c73e",
+    "updated_at": "2026-11-16T00:38:38.993200+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "f0763c1d41d64d566d3451d13b373e39",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "8b9ee39a-45f8-5405-9080-81f27f32135d",
+    "updated_at": "2026-11-16T00:38:39.039776+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "354cce3ffcee8cca7b7a1c71ca56db85",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "d61bd3e1-508f-5f79-b33d-01241248470b",
+    "updated_at": "2026-11-16T00:38:39.081538+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b411b8ccd524246d1532ca14e2f2b08f",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human reviewed and approved in batch. No explicit dispute request appears in the selected turn or preceding session user messages; this dispute-specific trigger was not found.\nEvidence signals:\n",
+    "human_accepted": true,
+    "score_id": "cab6a9a3-a4aa-57c6-a44d-c4d9fb4d2eed",
+    "updated_at": "2026-11-16T00:38:39.120838+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "fc655cd523d0b5c9986237126a1f821b",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human explicitly approved correcting this judgment to Absent (0), matching the previously confirmed close-negative example. Human reviewed and approved in batch. Confirmed example for missed_dispute_escalation. Human confirmed support-0146 does not have the missed-dispute-escalation failure: the agent calls escalate_to_human, receives a successful ticket result, and reports escalation. This is a close negative for missed_dispute_escalation under SPEC.md ESC-3; it is not a blanket judgment about every possible mode.",
+    "human_accepted": true,
+    "score_id": "dbcea5be-d0ad-5b81-9297-6758370e934f",
+    "updated_at": "2026-11-16T00:59:36.845902+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "b2eee584b9481c14a92a8c73d033faa0",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human explicitly approved correcting this judgment to Absent (0), matching the previously confirmed close-negative example. Human reviewed and approved in batch. Confirmed example for missed_dispute_escalation. Human confirmed support-0149 does not have the missed-dispute-escalation failure: the agent calls escalate_to_human, receives a successful ticket result, and reports escalation. This is a close negative for missed_dispute_escalation under SPEC.md ESC-3; it is not a blanket judgment about every possible mode.",
+    "human_accepted": true,
+    "score_id": "492c4cb2-a1f4-5e34-a66f-1de8ef89ac0a",
+    "updated_at": "2026-11-16T00:59:36.996914+00:00",
+    "sync_status": "synced"
+  },
+  {
+    "trace_id": "3dc080f62f53d25a77b31d8a58ba4869",
+    "mode": "missed_dispute_escalation",
+    "label": 0,
+    "reason": "Human explicitly approved correcting this judgment to Absent (0), matching the previously confirmed close-negative example. Human reviewed and approved in batch. Confirmed example for missed_dispute_escalation. Human confirmed support-0150 does not have the missed-dispute-escalation failure: the agent calls escalate_to_human, receives a successful ticket result, and reports escalation. This is a close negative for missed_dispute_escalation under SPEC.md ESC-3; it is not a blanket judgment about every possible mode.",
+    "human_accepted": true,
+    "score_id": "38d3c47b-d336-57d6-89e4-18d3ee455844",
+    "updated_at": "2026-11-16T00:59:37.206787+00:00",
+    "sync_status": "synced"
+  }
+]
