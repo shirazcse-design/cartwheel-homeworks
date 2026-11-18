@@ -1,0 +1,1484 @@
+{
+  "mode": "unsupported_factual_claim",
+  "audited_at": "2026-11-18T04:28:55.011002+00:00",
+  "status": "Conservative semantic grouping; pre-split review artifact, not dataset splits",
+  "selection_rule": "Earliest timestamp, then trace ID among human-approved eligible cases; never select by label. Original human judgments remain unchanged.",
+  "raw_approved_counts": {
+    "Fail": 35,
+    "Pass": 79
+  },
+  "conservative_representative_counts": {
+    "Fail": 30,
+    "Pass": 69
+  },
+  "minimum_met": true,
+  "limitations": [
+    "Rules merge public-policy paraphrases across user IDs and roles because the requested policy facts do not depend on caller identity.",
+    "Public store-name/category queries merge by requested store; public product queries merge by product/store/budget.",
+    "Private order cases retain customer/authorization and order context. Distinct order records remain separate even when the failure mechanism repeats.",
+    "This is a conservative rule-based close-variant audit, not a proof of statistical independence."
+  ],
+  "groups": [
+    {
+      "group_id": "c902904eac142d6b",
+      "group_key": "fixture:dq-order-missing-delivery-date",
+      "representative_trace_id": "a521520495df9b6960a6f4a5a59c6a16",
+      "representative_scenario_id": "support-0176",
+      "verdict": "Fail",
+      "members": [
+        {
+          "trace_id": "a521520495df9b6960a6f4a5a59c6a16",
+          "scenario_id": "support-0176",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "2d717dba45c9bc74",
+      "group_key": "fixture:dq-order-reversed-dates",
+      "representative_trace_id": "d318ec829780871df4f89faad0618b2f",
+      "representative_scenario_id": "support-0181",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "d318ec829780871df4f89faad0618b2f",
+          "scenario_id": "support-0181",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "1b72719d6181cb57",
+      "group_key": "fixture:dq-order-store-mismatch",
+      "representative_trace_id": "2e4c04589f3f8a06d3b5815e85f13645",
+      "representative_scenario_id": "support-0186",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "2e4c04589f3f8a06d3b5815e85f13645",
+          "scenario_id": "support-0186",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "d3e6b1181b20152d",
+      "group_key": "fixture:dq-product-duplicate-title",
+      "representative_trace_id": "6e4e8e75c65ecb82e7d8aedd86dc6d14",
+      "representative_scenario_id": "support-0192",
+      "verdict": "Fail",
+      "members": [
+        {
+          "trace_id": "6e4e8e75c65ecb82e7d8aedd86dc6d14",
+          "scenario_id": "support-0192",
+          "verdict": "Fail"
+        },
+        {
+          "trace_id": "606e79ad1442914725f5ae56a0a262ab",
+          "scenario_id": "support-0193",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "41ea1d4ab30601ff",
+      "group_key": "fixture:dq-product-invalid-price",
+      "representative_trace_id": "32dd29c0b5d81b7b2f0116a428e89691",
+      "representative_scenario_id": "support-0196",
+      "verdict": "Fail",
+      "members": [
+        {
+          "trace_id": "32dd29c0b5d81b7b2f0116a428e89691",
+          "scenario_id": "support-0196",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "817be988ae9bd2e6",
+      "group_key": "fixture:dq-product-missing-title",
+      "representative_trace_id": "ce43fa8240117ae6a4821471f40fdda4",
+      "representative_scenario_id": "support-0202",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "ce43fa8240117ae6a4821471f40fdda4",
+          "scenario_id": "support-0202",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "52ce4ce57b7f4e03",
+      "group_key": "private-situation:{\"applicable_policy\": \"cw-cancellations\", \"intent\": \"cancellation\", \"order_id\": 1058, \"record_state\": \"shipped\", \"role\": \"merchant\", \"store_id\": 5, \"user_id\": 9005}",
+      "representative_trace_id": "6486df562823705183530a3fdc58b3a8",
+      "representative_scenario_id": "support-0225",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "6486df562823705183530a3fdc58b3a8",
+          "scenario_id": "support-0225",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "94de2592648b4028",
+      "group_key": "private-situation:{\"applicable_policy\": \"cw-cancellations\", \"intent\": \"cancellation\", \"order_id\": 1663, \"record_state\": \"placed\", \"role\": \"shopper\", \"user_id\": 125}",
+      "representative_trace_id": "6181c7a83069fc7a61baaf6a8060ac97",
+      "representative_scenario_id": "support-0049",
+      "verdict": "Fail",
+      "members": [
+        {
+          "trace_id": "6181c7a83069fc7a61baaf6a8060ac97",
+          "scenario_id": "support-0049",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "15dea5750341da14",
+      "group_key": "private-situation:{\"applicable_policy\": \"cw-cancellations\", \"intent\": \"cancellation\", \"order_id\": 1894, \"record_state\": \"placed\", \"role\": \"merchant\", \"store_id\": 8, \"user_id\": 9008}",
+      "representative_trace_id": "6424692c39af77cf858f2dd9b167c0da",
+      "representative_scenario_id": "support-0050",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "6424692c39af77cf858f2dd9b167c0da",
+          "scenario_id": "support-0050",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "13053fc05b1ddc1d",
+      "group_key": "private-situation:{\"applicable_policy\": \"cw-cancellations\", \"intent\": \"cancellation\", \"order_id\": 1935, \"record_state\": \"placed\", \"role\": \"support\", \"user_id\": 9501}",
+      "representative_trace_id": "a3f46264fbea2f5ba4bd8d08be3ab1ad",
+      "representative_scenario_id": "support-0051",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "a3f46264fbea2f5ba4bd8d08be3ab1ad",
+          "scenario_id": "support-0051",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "36334c5b01e57680",
+      "group_key": "private-situation:{\"applicable_policy\": \"cw-cancellations\", \"intent\": \"cancellation\", \"order_id\": 2926, \"record_state\": \"placed\", \"role\": \"shopper\", \"user_id\": 493}",
+      "representative_trace_id": "f6973b41f32b13a4cc2d2475b4e9e7c4",
+      "representative_scenario_id": "support-0055",
+      "verdict": "Fail",
+      "members": [
+        {
+          "trace_id": "f6973b41f32b13a4cc2d2475b4e9e7c4",
+          "scenario_id": "support-0055",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "4155d7a28cf6883f",
+      "group_key": "private-situation:{\"applicable_policy\": \"cw-cancellations\", \"intent\": \"cancellation\", \"order_id\": 546, \"record_state\": \"shipped\", \"role\": \"merchant\", \"store_id\": 14, \"user_id\": 9014}",
+      "representative_trace_id": "ffe3ef751653a7009b480a82f2723d2f",
+      "representative_scenario_id": "support-0222",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "ffe3ef751653a7009b480a82f2723d2f",
+          "scenario_id": "support-0222",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "6b5d2f269c5ea0c8",
+      "group_key": "private-situation:{\"applicable_policy\": \"cw-cancellations\", \"intent\": \"cancellation\", \"order_id\": 830, \"record_state\": \"shipped\", \"role\": \"support\", \"user_id\": 9503}",
+      "representative_trace_id": "0716becd01e26fa4f763cb9e288852a7",
+      "representative_scenario_id": "support-0223",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "0716becd01e26fa4f763cb9e288852a7",
+          "scenario_id": "support-0223",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "f85fda2ed93fa684",
+      "group_key": "private-situation:{\"applicable_policy\": \"cw-refunds\", \"intent\": \"refund\", \"order_id\": 129, \"record_state\": \"delivered_in_window\", \"role\": \"support\", \"user_id\": 9503}",
+      "representative_trace_id": "0eea033de180a54b3dcaf93bf5da75f5",
+      "representative_scenario_id": "support-0028",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "0eea033de180a54b3dcaf93bf5da75f5",
+          "scenario_id": "support-0028",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "0eb5c09f138a7f3f",
+      "group_key": "private-situation:{\"applicable_policy\": \"cw-refunds\", \"intent\": \"refund\", \"order_id\": 186, \"record_state\": \"delivered_in_window\", \"role\": \"support\", \"user_id\": 9502}",
+      "representative_trace_id": "4c8a117af1528bb8c76c01eb1e96512c",
+      "representative_scenario_id": "support-0037",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "4c8a117af1528bb8c76c01eb1e96512c",
+          "scenario_id": "support-0037",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "b766ee6b31dfbe98",
+      "group_key": "private-situation:{\"applicable_policy\": \"cw-refunds\", \"intent\": \"refund\", \"order_id\": 196, \"record_state\": \"delivered_in_window\", \"role\": \"merchant\", \"store_id\": 15, \"user_id\": 9015}",
+      "representative_trace_id": "a9f999591e609dbc255a920b2b8bdd25",
+      "representative_scenario_id": "support-0039",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "a9f999591e609dbc255a920b2b8bdd25",
+          "scenario_id": "support-0039",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "2593bb13a5550204",
+      "group_key": "private-situation:{\"applicable_policy\": \"cw-refunds\", \"intent\": \"refund\", \"order_id\": 200, \"record_state\": \"delivered_in_window\", \"role\": \"shopper\", \"user_id\": 389}",
+      "representative_trace_id": "bd40b3485cc006cfe1ac4e46ac43ca0b",
+      "representative_scenario_id": "support-0041",
+      "verdict": "Fail",
+      "members": [
+        {
+          "trace_id": "bd40b3485cc006cfe1ac4e46ac43ca0b",
+          "scenario_id": "support-0041",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "0cebfab896bcf496",
+      "group_key": "private-situation:{\"applicable_policy\": \"cw-refunds\", \"intent\": \"refund\", \"order_id\": 2041, \"record_state\": \"honor_inclusive_return_window\", \"role\": \"shopper\", \"user_id\": 408}",
+      "representative_trace_id": "4c11afce998ca848ae403c5d37050001",
+      "representative_scenario_id": "support-0218",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "4c11afce998ca848ae403c5d37050001",
+          "scenario_id": "support-0218",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "d9f442e1b2534e77",
+      "group_key": "private-situation:{\"applicable_policy\": \"cw-refunds\", \"intent\": \"refund\", \"order_id\": 219, \"record_state\": \"delivered_in_window\", \"role\": \"support\", \"user_id\": 9503}",
+      "representative_trace_id": "580dc097212477c308db87a0c198db9d",
+      "representative_scenario_id": "support-0043",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "580dc097212477c308db87a0c198db9d",
+          "scenario_id": "support-0043",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "6a3fbe458ca50dec",
+      "group_key": "private-situation:{\"applicable_policy\": \"cw-refunds\", \"intent\": \"refund\", \"order_id\": 223, \"record_state\": \"delivered_in_window\", \"role\": \"shopper\", \"user_id\": 298}",
+      "representative_trace_id": "7f4b346caaaedbe4c3f44b98a838dfb0",
+      "representative_scenario_id": "support-0032",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "7f4b346caaaedbe4c3f44b98a838dfb0",
+          "scenario_id": "support-0032",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "7f819fe787b2cabd",
+      "group_key": "private-situation:{\"applicable_policy\": \"cw-refunds\", \"intent\": \"refund\", \"order_id\": 245, \"record_state\": \"delivered_in_window\", \"role\": \"merchant\", \"store_id\": 3, \"user_id\": 9003}",
+      "representative_trace_id": "97a64064324918428735bf3974e5b100",
+      "representative_scenario_id": "support-0045",
+      "verdict": "Fail",
+      "members": [
+        {
+          "trace_id": "97a64064324918428735bf3974e5b100",
+          "scenario_id": "support-0045",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "c83d4652afb4f0c4",
+      "group_key": "private-situation:{\"applicable_policy\": \"cw-refunds\", \"intent\": \"refund\", \"order_id\": 287, \"record_state\": \"queue_above_threshold_refund\", \"role\": \"support\", \"user_id\": 9501}",
+      "representative_trace_id": "9eece751d1317a95d670c5554b26cce4",
+      "representative_scenario_id": "support-0211",
+      "verdict": "Fail",
+      "members": [
+        {
+          "trace_id": "9eece751d1317a95d670c5554b26cce4",
+          "scenario_id": "support-0211",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "5a1dceea0b099ca7",
+      "group_key": "private-situation:{\"applicable_policy\": \"cw-refunds\", \"intent\": \"refund\", \"order_id\": 342, \"record_state\": \"queue_above_threshold_refund\", \"role\": \"shopper\", \"user_id\": 408}",
+      "representative_trace_id": "8f5cb2ffcd4220107565833c4728a1c8",
+      "representative_scenario_id": "support-0215",
+      "verdict": "Fail",
+      "members": [
+        {
+          "trace_id": "8f5cb2ffcd4220107565833c4728a1c8",
+          "scenario_id": "support-0215",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "e98a64f9784c51b2",
+      "group_key": "private-situation:{\"applicable_policy\": \"cw-refunds\", \"intent\": \"refund\", \"order_id\": 496, \"record_state\": \"honor_inclusive_return_window\", \"role\": \"merchant\", \"store_id\": 5, \"user_id\": 9005}",
+      "representative_trace_id": "10943affcafa42431485c77769407f67",
+      "representative_scenario_id": "support-0216",
+      "verdict": "Fail",
+      "members": [
+        {
+          "trace_id": "10943affcafa42431485c77769407f67",
+          "scenario_id": "support-0216",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "4ed480f880ffc925",
+      "group_key": "private-situation:{\"applicable_policy\": \"cw-refunds\", \"intent\": \"refund\", \"order_id\": 517, \"record_state\": \"delivered_in_window\", \"role\": \"merchant\", \"store_id\": 12, \"user_id\": 9012}",
+      "representative_trace_id": "1f6aa4e4562255bb5f8b8e10abe5a27d",
+      "representative_scenario_id": "support-0036",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "1f6aa4e4562255bb5f8b8e10abe5a27d",
+          "scenario_id": "support-0036",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "d8432e4096d4bd73",
+      "group_key": "private-situation:{\"applicable_policy\": \"cw-refunds\", \"intent\": \"refund\", \"order_id\": 64, \"record_state\": \"delivered_in_window\", \"role\": \"merchant\", \"store_id\": 19, \"user_id\": 9019}",
+      "representative_trace_id": "57709819551fc0c1c0bf4ebb2836281b",
+      "representative_scenario_id": "support-0027",
+      "verdict": "Fail",
+      "members": [
+        {
+          "trace_id": "57709819551fc0c1c0bf4ebb2836281b",
+          "scenario_id": "support-0027",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "e931ca2b3c1e0c2c",
+      "group_key": "private-situation:{\"applicable_policy\": \"cw-refunds\", \"intent\": \"refund\", \"order_id\": 744, \"record_state\": \"delivered_in_window\", \"role\": \"support\", \"user_id\": 9505}",
+      "representative_trace_id": "c7132c38667a2e6eae70f529d985aa3d",
+      "representative_scenario_id": "support-0040",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "c7132c38667a2e6eae70f529d985aa3d",
+          "scenario_id": "support-0040",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "997b7d227e117aae",
+      "group_key": "private-situation:{\"applicable_policy\": \"cw-refunds\", \"intent\": \"refund\", \"order_id\": 89, \"record_state\": \"delivered_in_window\", \"role\": \"shopper\", \"user_id\": 425}",
+      "representative_trace_id": "423448f3fbaf1a9636aacdd84aa004e6",
+      "representative_scenario_id": "support-0029",
+      "verdict": "Fail",
+      "members": [
+        {
+          "trace_id": "423448f3fbaf1a9636aacdd84aa004e6",
+          "scenario_id": "support-0029",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "ed7bc2a268804582",
+      "group_key": "private-situation:{\"applicable_policy\": \"cw-refunds\", \"intent\": \"refund\", \"order_id\": 961, \"record_state\": \"delivered_in_window\", \"role\": \"shopper\", \"user_id\": 338}",
+      "representative_trace_id": "04a89a1f12c5e1f9cf175eac66b96ac5",
+      "representative_scenario_id": "support-0044",
+      "verdict": "Fail",
+      "members": [
+        {
+          "trace_id": "04a89a1f12c5e1f9cf175eac66b96ac5",
+          "scenario_id": "support-0044",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "1882781831790275",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"account_change\", \"record_state\": \"account_correction\", \"role\": \"merchant\", \"store_id\": 5, \"user_id\": 9005}",
+      "representative_trace_id": "354cce3ffcee8cca7b7a1c71ca56db85",
+      "representative_scenario_id": "support-0250",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "354cce3ffcee8cca7b7a1c71ca56db85",
+          "scenario_id": "support-0250",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "f648855bbde24333",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"account_change\", \"record_state\": \"account_correction\", \"role\": \"shopper\", \"user_id\": 200}",
+      "representative_trace_id": "f3c00694c2e670cbffbbf88bd054d175",
+      "representative_scenario_id": "support-0246",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "f3c00694c2e670cbffbbf88bd054d175",
+          "scenario_id": "support-0246",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "898dfe0e1a01329a",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"account_change\", \"record_state\": \"account_correction\", \"role\": \"shopper\", \"user_id\": 203}",
+      "representative_trace_id": "a680c40a6d06a1d91b358a69d135e08f",
+      "representative_scenario_id": "support-0249",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "a680c40a6d06a1d91b358a69d135e08f",
+          "scenario_id": "support-0249",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "18b0a8c5f64dc371",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"account_change\", \"record_state\": \"account_correction\", \"role\": \"support\", \"user_id\": 9503}",
+      "representative_trace_id": "58219e348ceb5baedaa2031b4da42e9c",
+      "representative_scenario_id": "support-0248",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "58219e348ceb5baedaa2031b4da42e9c",
+          "scenario_id": "support-0248",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "39e341692eb4a641",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"account_change\", \"record_state\": \"account_request\", \"role\": \"merchant\", \"store_id\": 5, \"user_id\": 9005}",
+      "representative_trace_id": "0818b2e5effd01eec3ae4ebba5295a08",
+      "representative_scenario_id": "support-0140",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "0818b2e5effd01eec3ae4ebba5295a08",
+          "scenario_id": "support-0140",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "0822dbcfccdb44b6",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"account_change\", \"record_state\": \"account_request\", \"role\": \"shopper\", \"user_id\": 200}",
+      "representative_trace_id": "0ed0d8fd3131a98af87599eb1980ef21",
+      "representative_scenario_id": "support-0136",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "0ed0d8fd3131a98af87599eb1980ef21",
+          "scenario_id": "support-0136",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "e46a42fea271e46e",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"account_change\", \"record_state\": \"account_request\", \"role\": \"support\", \"user_id\": 9504}",
+      "representative_trace_id": "eead9b24725d4936eb0127270d5fc594",
+      "representative_scenario_id": "support-0144",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "eead9b24725d4936eb0127270d5fc594",
+          "scenario_id": "support-0144",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "2bdf4f89633a584d",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"dispute\", \"record_state\": \"unresolved_dispute\", \"role\": \"merchant\", \"store_id\": 5, \"user_id\": 9005}",
+      "representative_trace_id": "3dc080f62f53d25a77b31d8a58ba4869",
+      "representative_scenario_id": "support-0150",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "3dc080f62f53d25a77b31d8a58ba4869",
+          "scenario_id": "support-0150",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "e4aeee5c12351982",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"dispute\", \"record_state\": \"unresolved_dispute\", \"role\": \"merchant\", \"store_id\": 8, \"user_id\": 9008}",
+      "representative_trace_id": "c611367f80ba05a4c3eff8ac730ac0fd",
+      "representative_scenario_id": "support-0153",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "c611367f80ba05a4c3eff8ac730ac0fd",
+          "scenario_id": "support-0153",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "762357f89679e832",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"dispute\", \"record_state\": \"unresolved_dispute\", \"role\": \"shopper\", \"user_id\": 200}",
+      "representative_trace_id": "fc655cd523d0b5c9986237126a1f821b",
+      "representative_scenario_id": "support-0146",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "fc655cd523d0b5c9986237126a1f821b",
+          "scenario_id": "support-0146",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "f72704370e4c2b6c",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"dispute\", \"record_state\": \"unresolved_dispute\", \"role\": \"shopper\", \"user_id\": 203}",
+      "representative_trace_id": "b2eee584b9481c14a92a8c73d033faa0",
+      "representative_scenario_id": "support-0149",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "b2eee584b9481c14a92a8c73d033faa0",
+          "scenario_id": "support-0149",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "c41533343f630abb",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"dispute\", \"record_state\": \"unresolved_dispute\", \"role\": \"shopper\", \"user_id\": 206}",
+      "representative_trace_id": "2e2e66b3965202b3ba172e5ae9a461af",
+      "representative_scenario_id": "support-0152",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "2e2e66b3965202b3ba172e5ae9a461af",
+          "scenario_id": "support-0152",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "c13a1fce7ed9ed03",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"dispute\", \"record_state\": \"unresolved_dispute\", \"role\": \"shopper\", \"user_id\": 209}",
+      "representative_trace_id": "68c5c8a47d91117bd757d3a8f066f1e9",
+      "representative_scenario_id": "support-0155",
+      "verdict": "Fail",
+      "members": [
+        {
+          "trace_id": "68c5c8a47d91117bd757d3a8f066f1e9",
+          "scenario_id": "support-0155",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "49c5e4b09583ecb5",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"dispute\", \"record_state\": \"unresolved_dispute\", \"role\": \"support\", \"user_id\": 9503}",
+      "representative_trace_id": "08074f47bace805556dbfca4ec5f062e",
+      "representative_scenario_id": "support-0148",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "08074f47bace805556dbfca4ec5f062e",
+          "scenario_id": "support-0148",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "bc0739bb71421ffe",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"dispute\", \"record_state\": \"unresolved_dispute\", \"role\": \"support\", \"user_id\": 9504}",
+      "representative_trace_id": "85174c01feaea42431cf81d815c0c0e3",
+      "representative_scenario_id": "support-0154",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "85174c01feaea42431cf81d815c0c0e3",
+          "scenario_id": "support-0154",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "27a9c9d3404bd520",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"find_order\", \"order_id\": 32, \"record_state\": \"delivered\", \"role\": \"shopper\", \"user_id\": 157}",
+      "representative_trace_id": "f60528e0891fa00f8e520f591be9b753",
+      "representative_scenario_id": "support-0169",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "f60528e0891fa00f8e520f591be9b753",
+          "scenario_id": "support-0169",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "9d1f643dd37432d8",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"find_order\", \"order_id\": 33, \"record_state\": \"delivered\", \"role\": \"merchant\", \"store_id\": 9, \"user_id\": 9009}",
+      "representative_trace_id": "b6355f9c6d858082ffec849e13327e16",
+      "representative_scenario_id": "support-0170",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "b6355f9c6d858082ffec849e13327e16",
+          "scenario_id": "support-0170",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "e255be2b75a3f993",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"find_order\", \"order_id\": 44, \"record_state\": \"delivered\", \"role\": \"shopper\", \"user_id\": 102}",
+      "representative_trace_id": "e4e3ec5eff62a608264d0b6602bf2037",
+      "representative_scenario_id": "support-0239",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "e4e3ec5eff62a608264d0b6602bf2037",
+          "scenario_id": "support-0239",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "5e2ff7e919909a16",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"find_order\", \"order_id\": 45, \"record_state\": \"delivered\", \"role\": \"merchant\", \"store_id\": 6, \"user_id\": 9006}",
+      "representative_trace_id": "846dce28883d384c78de025a0adb9ea0",
+      "representative_scenario_id": "support-0240",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "846dce28883d384c78de025a0adb9ea0",
+          "scenario_id": "support-0240",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "9035d2f218ed2824",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"list_orders\", \"record_state\": \"recent_orders\", \"role\": \"shopper\", \"user_id\": 230}",
+      "representative_trace_id": "34c55e27d092ea4f3b0bab6ac7e6e218",
+      "representative_scenario_id": "support-0061",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "34c55e27d092ea4f3b0bab6ac7e6e218",
+          "scenario_id": "support-0061",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "8e2c35457f87f5d9",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"list_orders\", \"record_state\": \"recent_orders\", \"role\": \"shopper\", \"user_id\": 236}",
+      "representative_trace_id": "c451d5e6eb194b363141b36a93c824f9",
+      "representative_scenario_id": "support-0067",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "c451d5e6eb194b363141b36a93c824f9",
+          "scenario_id": "support-0067",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "1e4cda8b94823941",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"list_orders\", \"record_state\": \"recent_orders\", \"role\": \"shopper\", \"user_id\": 238}",
+      "representative_trace_id": "69460be6c280544c782ccf8eaadbe3b4",
+      "representative_scenario_id": "support-0069",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "69460be6c280544c782ccf8eaadbe3b4",
+          "scenario_id": "support-0069",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "63409f169d89f6d2",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"list_orders\", \"record_state\": \"recent_orders\", \"role\": \"shopper\", \"user_id\": 240}",
+      "representative_trace_id": "287a451011d21e123ffc6a6bc0745cbe",
+      "representative_scenario_id": "support-0071",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "287a451011d21e123ffc6a6bc0745cbe",
+          "scenario_id": "support-0071",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "88a2c571685132e7",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"order_status\", \"order_id\": 11, \"record_state\": \"delivered\", \"role\": \"support\", \"user_id\": 9504}",
+      "representative_trace_id": "6868d89ad0d9e30d14713263a3b5b1a0",
+      "representative_scenario_id": "support-0009",
+      "verdict": "Fail",
+      "members": [
+        {
+          "trace_id": "6868d89ad0d9e30d14713263a3b5b1a0",
+          "scenario_id": "support-0009",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "a4893289c7ec5ed0",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"order_status\", \"order_id\": 13, \"record_state\": \"delivered\", \"role\": \"merchant\", \"store_id\": 6, \"user_id\": 9006}",
+      "representative_trace_id": "20fd2d751f3d322dc989be5e61d3cc82",
+      "representative_scenario_id": "support-0011",
+      "verdict": "Fail",
+      "members": [
+        {
+          "trace_id": "20fd2d751f3d322dc989be5e61d3cc82",
+          "scenario_id": "support-0011",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "61666f16a9843c34",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"order_status\", \"order_id\": 16, \"record_state\": \"delivered\", \"role\": \"merchant\", \"store_id\": 10, \"user_id\": 9010}",
+      "representative_trace_id": "a5d7079f937b8ebf24f8c4a92b4b6f54",
+      "representative_scenario_id": "support-0014",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "a5d7079f937b8ebf24f8c4a92b4b6f54",
+          "scenario_id": "support-0014",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "36f9108fce1133fd",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"order_status\", \"order_id\": 17, \"record_state\": \"delivered\", \"role\": \"support\", \"user_id\": 9505}",
+      "representative_trace_id": "fee7c87e365f0332fcd4339364c7d372",
+      "representative_scenario_id": "support-0015",
+      "verdict": "Fail",
+      "members": [
+        {
+          "trace_id": "fee7c87e365f0332fcd4339364c7d372",
+          "scenario_id": "support-0015",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "126c8391abdf31d8",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"order_status\", \"order_id\": 2, \"record_state\": \"delivered\", \"role\": \"shopper\", \"user_id\": 129}",
+      "representative_trace_id": "e5059036ad034eb3a53a91ec592c4fda",
+      "representative_scenario_id": "support-0001",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "e5059036ad034eb3a53a91ec592c4fda",
+          "scenario_id": "support-0001",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "8ecb256f0352ed19",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"order_status\", \"order_id\": 21, \"record_state\": \"delivered\", \"role\": \"shopper\", \"user_id\": 191}",
+      "representative_trace_id": "f331055c03b1ac4a1ee85145307774f8",
+      "representative_scenario_id": "support-0019",
+      "verdict": "Fail",
+      "members": [
+        {
+          "trace_id": "f331055c03b1ac4a1ee85145307774f8",
+          "scenario_id": "support-0019",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "0e43a15b7b4406d0",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"order_status\", \"order_id\": 25, \"record_state\": \"delivered\", \"role\": \"merchant\", \"store_id\": 16, \"user_id\": 9016}",
+      "representative_trace_id": "7914a140e2f4ca7e6f25a6118e82e551",
+      "representative_scenario_id": "support-0023",
+      "verdict": "Fail",
+      "members": [
+        {
+          "trace_id": "7914a140e2f4ca7e6f25a6118e82e551",
+          "scenario_id": "support-0023",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "b8273bf8801404c9",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"order_status\", \"order_id\": 27, \"record_state\": \"delivered\", \"role\": \"shopper\", \"user_id\": 29}",
+      "representative_trace_id": "964f6ab77bc15721a021f2822db30050",
+      "representative_scenario_id": "support-0025",
+      "verdict": "Fail",
+      "members": [
+        {
+          "trace_id": "964f6ab77bc15721a021f2822db30050",
+          "scenario_id": "support-0025",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "0179ab69d091b79a",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"order_status\", \"order_id\": 51, \"record_state\": \"outside_authorized_scope\", \"role\": \"shopper\", \"user_id\": 1}",
+      "representative_trace_id": "ca07522a1182d8c9c057ee757a16284c",
+      "representative_scenario_id": "support-0244",
+      "verdict": "Fail",
+      "members": [
+        {
+          "trace_id": "ca07522a1182d8c9c057ee757a16284c",
+          "scenario_id": "support-0244",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "036cc60bc1c0f802",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"order_status\", \"order_id\": 6, \"record_state\": \"delivered\", \"role\": \"shopper\", \"user_id\": 444}",
+      "representative_trace_id": "e4c77e0f2087e3ae2fa1005a258081a4",
+      "representative_scenario_id": "support-0004",
+      "verdict": "Fail",
+      "members": [
+        {
+          "trace_id": "e4c77e0f2087e3ae2fa1005a258081a4",
+          "scenario_id": "support-0004",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "c4cdffa872eb5280",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"order_status\", \"order_id\": 9, \"record_state\": \"delivered\", \"role\": \"shopper\", \"user_id\": 59}",
+      "representative_trace_id": "274f27e838614139d4479f8b69a29d20",
+      "representative_scenario_id": "support-0007",
+      "verdict": "Fail",
+      "members": [
+        {
+          "trace_id": "274f27e838614139d4479f8b69a29d20",
+          "scenario_id": "support-0007",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "ed8ee84cf6c1b8c3",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"out_of_scope\", \"record_state\": \"none\", \"role\": \"shopper\", \"user_id\": 209}",
+      "representative_trace_id": "5cdc6cb32cd71f054862c27f592b7733",
+      "representative_scenario_id": "support-0165",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "5cdc6cb32cd71f054862c27f592b7733",
+          "scenario_id": "support-0165",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "4ed19df97db17ebf",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"out_of_scope\", \"record_state\": \"none\", \"role\": \"support\", \"user_id\": 9501}",
+      "representative_trace_id": "e50a8c3f6bd7b2d69f33981b48a098b2",
+      "representative_scenario_id": "support-0161",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "e50a8c3f6bd7b2d69f33981b48a098b2",
+          "scenario_id": "support-0161",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "822c5271475c201f",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"out_of_scope\", \"record_state\": \"none\", \"role\": \"support\", \"user_id\": 9503}",
+      "representative_trace_id": "3cc26a373ec7ef2ea22330a6bf515cb9",
+      "representative_scenario_id": "support-0158",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "3cc26a373ec7ef2ea22330a6bf515cb9",
+          "scenario_id": "support-0158",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "e3825935b418e337",
+      "group_key": "private-situation:{\"applicable_policy\": \"none\", \"intent\": \"out_of_scope\", \"record_state\": \"none\", \"role\": \"support\", \"user_id\": 9504}",
+      "representative_trace_id": "29925f83466c55d0e6daae2ab8838cc7",
+      "representative_scenario_id": "support-0164",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "29925f83466c55d0e6daae2ab8838cc7",
+          "scenario_id": "support-0164",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "4a584c7c9eff72eb",
+      "group_key": "private-situation:{\"applicable_policy\": \"store_override\", \"intent\": \"refund\", \"order_id\": 3255, \"record_state\": \"deny_refund_under_store_override\", \"role\": \"merchant\", \"store_id\": 2, \"user_id\": 9002}",
+      "representative_trace_id": "3beb3bdfb0a71bc0a642a9a3213ab4df",
+      "representative_scenario_id": "support-0207",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "3beb3bdfb0a71bc0a642a9a3213ab4df",
+          "scenario_id": "support-0207",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "108c7fe3de0d981f",
+      "group_key": "private-situation:{\"applicable_policy\": \"store_override\", \"intent\": \"refund\", \"order_id\": 4100, \"record_state\": \"deny_refund_under_store_override\", \"role\": \"support\", \"user_id\": 9503}",
+      "representative_trace_id": "9cd5fff357311bea4395da43e39ba85d",
+      "representative_scenario_id": "support-0208",
+      "verdict": "Fail",
+      "members": [
+        {
+          "trace_id": "9cd5fff357311bea4395da43e39ba85d",
+          "scenario_id": "support-0208",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "aed4417727098c94",
+      "group_key": "private-situation:{\"applicable_policy\": \"store_override\", \"intent\": \"refund\", \"order_id\": 7839, \"record_state\": \"deny_refund_under_store_override\", \"role\": \"merchant\", \"store_id\": 2, \"user_id\": 9002}",
+      "representative_trace_id": "e6aa796e6923f4a9ecb243fa0b5fc5a2",
+      "representative_scenario_id": "support-0210",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "e6aa796e6923f4a9ecb243fa0b5fc5a2",
+          "scenario_id": "support-0210",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "179dd2454f2628b7",
+      "group_key": "public-policy:cw-cancellations:general",
+      "representative_trace_id": "de5bf55226fc084f82f69c2bd97a3258",
+      "representative_scenario_id": "support-0080",
+      "verdict": "Fail",
+      "members": [
+        {
+          "trace_id": "de5bf55226fc084f82f69c2bd97a3258",
+          "scenario_id": "support-0080",
+          "verdict": "Fail"
+        },
+        {
+          "trace_id": "9d1cce0ec4a3e34722db9722d984271c",
+          "scenario_id": "support-0085",
+          "verdict": "Fail"
+        },
+        {
+          "trace_id": "62a2e31b81081d8c3fdb2847cb323fb2",
+          "scenario_id": "support-0090",
+          "verdict": "Fail"
+        },
+        {
+          "trace_id": "18ba8c99bba420d5dc1f955cce1396e3",
+          "scenario_id": "support-0095",
+          "verdict": "Pass"
+        },
+        {
+          "trace_id": "bb81f9ff38e518dac44484fedb299246",
+          "scenario_id": "support-0100",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "de1e179fd6e202cd",
+      "group_key": "public-policy:cw-refunds:approval",
+      "representative_trace_id": "13f7efa47d1bfc930176a56a5ed480e2",
+      "representative_scenario_id": "support-0094",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "13f7efa47d1bfc930176a56a5ed480e2",
+          "scenario_id": "support-0094",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "e6e6bb1eadcb8078",
+      "group_key": "public-policy:cw-refunds:arrival",
+      "representative_trace_id": "0a9cb2002b18dca933c7f960116d26d3",
+      "representative_scenario_id": "support-0077",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "0a9cb2002b18dca933c7f960116d26d3",
+          "scenario_id": "support-0077",
+          "verdict": "Pass"
+        },
+        {
+          "trace_id": "3f9c4da3fbca00a4f276e1c39f965767",
+          "scenario_id": "support-0082",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "45cacf232741a42e",
+      "group_key": "public-policy:cw-returns:general",
+      "representative_trace_id": "7ac072bebbc53e65d9f9b17d8c0d3f0d",
+      "representative_scenario_id": "support-0081",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "7ac072bebbc53e65d9f9b17d8c0d3f0d",
+          "scenario_id": "support-0081",
+          "verdict": "Pass"
+        },
+        {
+          "trace_id": "121e0b4e9c988d50183eade495e2de14",
+          "scenario_id": "support-0086",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "39a05154917398fd",
+      "group_key": "public-policy:cw-returns:unspecified-order-deadline",
+      "representative_trace_id": "90af1ce407902ef6bb24e599665f5721",
+      "representative_scenario_id": "support-0232",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "90af1ce407902ef6bb24e599665f5721",
+          "scenario_id": "support-0232",
+          "verdict": "Pass"
+        },
+        {
+          "trace_id": "cd956419a87cf2326fc16f77edec360c",
+          "scenario_id": "support-0233",
+          "verdict": "Pass"
+        },
+        {
+          "trace_id": "72e042943ee0970f80ecc89ef386a9c2",
+          "scenario_id": "support-0235",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "c2b8145eb74bfbd8",
+      "group_key": "public-policy:cw-shipping:general",
+      "representative_trace_id": "99335b972c22988662cde0458672f9cc",
+      "representative_scenario_id": "support-0078",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "99335b972c22988662cde0458672f9cc",
+          "scenario_id": "support-0078",
+          "verdict": "Pass"
+        },
+        {
+          "trace_id": "b6186fe88cfb723b197ab0e1ffbba00c",
+          "scenario_id": "support-0083",
+          "verdict": "Pass"
+        },
+        {
+          "trace_id": "102814cbf9f231a8cc9ccbffc7db3dd8",
+          "scenario_id": "support-0088",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "cb506e4b4808ecff",
+      "group_key": "public-policy:store_override:general",
+      "representative_trace_id": "231f75aad3e4ebbc731203ffe47e5713",
+      "representative_scenario_id": "support-0226",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "231f75aad3e4ebbc731203ffe47e5713",
+          "scenario_id": "support-0226",
+          "verdict": "Pass"
+        },
+        {
+          "trace_id": "ad98525bd3c3a3fa09f120d44fce1362",
+          "scenario_id": "support-0227",
+          "verdict": "Pass"
+        },
+        {
+          "trace_id": "9182a3b19f36c45f85d936634ecf7dd5",
+          "scenario_id": "support-0228",
+          "verdict": "Pass"
+        },
+        {
+          "trace_id": "c254aed9eafbc5b503c5cee13d09f90a",
+          "scenario_id": "support-0229",
+          "verdict": "Pass"
+        },
+        {
+          "trace_id": "b5986cae74b0768015c1ca1ee21529b0",
+          "scenario_id": "support-0230",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "a5ee5221b66983ca",
+      "group_key": "public-product:{\"budgets\": [\"100\"], \"product_id\": 455, \"target_store_id\": 12}",
+      "representative_trace_id": "1ad8a13e16e578f87db3180d9b32a672",
+      "representative_scenario_id": "support-0119",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "1ad8a13e16e578f87db3180d9b32a672",
+          "scenario_id": "support-0119",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "265cbd78c17dd400",
+      "group_key": "public-product:{\"budgets\": [\"150\"], \"product_id\": 248, \"target_store_id\": 7}",
+      "representative_trace_id": "c588af0ad155913eaec2deddb2b2a6b9",
+      "representative_scenario_id": "support-0110",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "c588af0ad155913eaec2deddb2b2a6b9",
+          "scenario_id": "support-0110",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "be762a1beece17ec",
+      "group_key": "public-product:{\"budgets\": [\"150\"], \"product_id\": 363, \"target_store_id\": 10}",
+      "representative_trace_id": "7041b8e41d503f3ff71a458209587d0e",
+      "representative_scenario_id": "support-0115",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "7041b8e41d503f3ff71a458209587d0e",
+          "scenario_id": "support-0115",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "5cbcc6c0d341c188",
+      "group_key": "public-product:{\"budgets\": [\"25\"], \"product_id\": 156, \"target_store_id\": 4}",
+      "representative_trace_id": "525e2cc456c263b4cfe3c9a5ada03576",
+      "representative_scenario_id": "support-0106",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "525e2cc456c263b4cfe3c9a5ada03576",
+          "scenario_id": "support-0106",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "ea8dc4d68bc13ead",
+      "group_key": "public-product:{\"budgets\": [\"25\"], \"product_id\": 271, \"target_store_id\": 7}",
+      "representative_trace_id": "2d84cbb617e4b1f8f71c8d7f0555ed12",
+      "representative_scenario_id": "support-0111",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "2d84cbb617e4b1f8f71c8d7f0555ed12",
+          "scenario_id": "support-0111",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "3e576e7009419c28",
+      "group_key": "public-product:{\"budgets\": [\"25\"], \"product_id\": 41, \"target_store_id\": 2}",
+      "representative_trace_id": "b4fd2b9dfd100e4ab181daae47bd15f7",
+      "representative_scenario_id": "support-0101",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "b4fd2b9dfd100e4ab181daae47bd15f7",
+          "scenario_id": "support-0101",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "bda7f9e9a9e34f1b",
+      "group_key": "public-product:{\"budgets\": [\"25\"], \"product_id\": 501, \"target_store_id\": 13}",
+      "representative_trace_id": "e65275128fb5581373476496e9b9f50f",
+      "representative_scenario_id": "support-0121",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "e65275128fb5581373476496e9b9f50f",
+          "scenario_id": "support-0121",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "e0bc8c0d3924b9a1",
+      "group_key": "public-product:{\"budgets\": [\"50\"], \"product_id\": 294, \"target_store_id\": 8}",
+      "representative_trace_id": "9c358b7323a7828da044c3a4a4e32ea1",
+      "representative_scenario_id": "support-0112",
+      "verdict": "Fail",
+      "members": [
+        {
+          "trace_id": "9c358b7323a7828da044c3a4a4e32ea1",
+          "scenario_id": "support-0112",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "a7bac002af370fc7",
+      "group_key": "public-product:{\"budgets\": [\"50\"], \"product_id\": 409, \"target_store_id\": 11}",
+      "representative_trace_id": "661a2ccda8fc95b2bc5fcfbf109be261",
+      "representative_scenario_id": "support-0117",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "661a2ccda8fc95b2bc5fcfbf109be261",
+          "scenario_id": "support-0117",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "f1e4fd13bf6fab8c",
+      "group_key": "public-product:{\"budgets\": [\"50\"], \"product_id\": 524, \"target_store_id\": 14}",
+      "representative_trace_id": "e9aba23471507c9295e38e228c9afe34",
+      "representative_scenario_id": "support-0122",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "e9aba23471507c9295e38e228c9afe34",
+          "scenario_id": "support-0122",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "9ae76e22f4edf60b",
+      "group_key": "public-product:{\"budgets\": [\"50\"], \"product_id\": 64, \"target_store_id\": 2}",
+      "representative_trace_id": "6c4bc65770ecd39d71fd3d22853f183f",
+      "representative_scenario_id": "support-0102",
+      "verdict": "Fail",
+      "members": [
+        {
+          "trace_id": "6c4bc65770ecd39d71fd3d22853f183f",
+          "scenario_id": "support-0102",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "8593d3fc0d725546",
+      "group_key": "public-product:{\"budgets\": [\"75\"], \"product_id\": 202, \"target_store_id\": 6}",
+      "representative_trace_id": "c7d814c65743c91b1222e00e77ec1262",
+      "representative_scenario_id": "support-0108",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "c7d814c65743c91b1222e00e77ec1262",
+          "scenario_id": "support-0108",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "29ef769cc22bd4e4",
+      "group_key": "public-product:{\"budgets\": [\"75\"], \"product_id\": 432, \"target_store_id\": 11}",
+      "representative_trace_id": "1ac6ad5b30f247f7923361feb9879170",
+      "representative_scenario_id": "support-0118",
+      "verdict": "Fail",
+      "members": [
+        {
+          "trace_id": "1ac6ad5b30f247f7923361feb9879170",
+          "scenario_id": "support-0118",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "bf87a1561fab0055",
+      "group_key": "public-store:1",
+      "representative_trace_id": "b034c71109228b0d99bca35e22562302",
+      "representative_scenario_id": "support-0126",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "b034c71109228b0d99bca35e22562302",
+          "scenario_id": "support-0126",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "6881f145056ee7e4",
+      "group_key": "public-store:10",
+      "representative_trace_id": "56b081308257554342e8d191df2ec1a8",
+      "representative_scenario_id": "support-0129",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "56b081308257554342e8d191df2ec1a8",
+          "scenario_id": "support-0129",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "9e6cf28827d169ce",
+      "group_key": "public-store:16",
+      "representative_trace_id": "979cab3ac4adc40af9528d769138eef0",
+      "representative_scenario_id": "support-0131",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "979cab3ac4adc40af9528d769138eef0",
+          "scenario_id": "support-0131",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "2b5dcb3122995877",
+      "group_key": "public-store:19",
+      "representative_trace_id": "adee71dfb4fe5c73a44dd03ee2045fe5",
+      "representative_scenario_id": "support-0132",
+      "verdict": "Fail",
+      "members": [
+        {
+          "trace_id": "adee71dfb4fe5c73a44dd03ee2045fe5",
+          "scenario_id": "support-0132",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "9e450ce6cd297a57",
+      "group_key": "public-store:2",
+      "representative_trace_id": "95bb3ea9b12f784985e855be0ecb9385",
+      "representative_scenario_id": "support-0133",
+      "verdict": "Fail",
+      "members": [
+        {
+          "trace_id": "95bb3ea9b12f784985e855be0ecb9385",
+          "scenario_id": "support-0133",
+          "verdict": "Fail"
+        }
+      ]
+    },
+    {
+      "group_id": "70966f5edadcdc8f",
+      "group_key": "public-store:4",
+      "representative_trace_id": "94609dd82d55edd012f13d4f3b9eb80c",
+      "representative_scenario_id": "support-0127",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "94609dd82d55edd012f13d4f3b9eb80c",
+          "scenario_id": "support-0127",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "abf6677c935e72b1",
+      "group_key": "public-store:5",
+      "representative_trace_id": "3cb93012c516b633f83de9b984411733",
+      "representative_scenario_id": "support-0134",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "3cb93012c516b633f83de9b984411733",
+          "scenario_id": "support-0134",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "f24fcf89bd6b4383",
+      "group_key": "public-store:7",
+      "representative_trace_id": "e0bf34b2d3e4c1e401329e407bd6bfdf",
+      "representative_scenario_id": "support-0128",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "e0bf34b2d3e4c1e401329e407bd6bfdf",
+          "scenario_id": "support-0128",
+          "verdict": "Pass"
+        }
+      ]
+    },
+    {
+      "group_id": "2136d47ecd40e79d",
+      "group_key": "public-store:8",
+      "representative_trace_id": "498691ce49aeb35b3f5f388fc9ad54e5",
+      "representative_scenario_id": "support-0135",
+      "verdict": "Pass",
+      "members": [
+        {
+          "trace_id": "498691ce49aeb35b3f5f388fc9ad54e5",
+          "scenario_id": "support-0135",
+          "verdict": "Pass"
+        }
+      ]
+    }
+  ]
+}

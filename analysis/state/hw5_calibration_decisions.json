@@ -1,0 +1,53 @@
+{
+  "mode": "unsupported_factual_claim",
+  "purpose": "Human label calibration before dataset export and splits; not judge few-shot selection.",
+  "label_convention": {
+    "1": "Pass",
+    "0": "Fail"
+  },
+  "approval_text": "approve all five",
+  "approved_at": "2026-11-18T03:50:36.446702+00:00",
+  "decisions": [
+    {
+      "case": "A",
+      "trace_id": "6e4e8e75c65ecb82e7d8aedd86dc6d14",
+      "label": 0,
+      "verdict": "Fail",
+      "reason": "The reply speculates about size, design, or material quality absent from the product results.",
+      "human_accepted": true
+    },
+    {
+      "case": "B",
+      "trace_id": "606e79ad1442914725f5ae56a0a262ab",
+      "label": 1,
+      "verdict": "Pass",
+      "reason": "The reply reports returned prices and requests clarification without inventing product attributes.",
+      "human_accepted": true
+    },
+    {
+      "case": "C",
+      "trace_id": "e5059036ad034eb3a53a91ec592c4fda",
+      "label": 1,
+      "verdict": "Pass",
+      "reason": "The delivery date stated in the reply matches delivered_at in the tool result.",
+      "human_accepted": true
+    },
+    {
+      "case": "D",
+      "trace_id": "fc655cd523d0b5c9986237126a1f821b",
+      "label": 1,
+      "verdict": "Pass",
+      "reason": "Successful escalation and the 24-hour SLA are supported by the tool result.",
+      "human_accepted": true
+    },
+    {
+      "case": "E",
+      "trace_id": "85174c01feaea42431cf81d815c0c0e3",
+      "label": 1,
+      "verdict": "Pass",
+      "reason": "The reply requests clarification and makes no unsupported factual claim; escalation compliance is a separate category.",
+      "human_accepted": true
+    }
+  ],
+  "original_hw4_labels_modified": false
+}

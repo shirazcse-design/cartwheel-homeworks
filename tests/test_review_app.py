@@ -50,6 +50,26 @@ def test_browsing_does_not_create_annotations_or_samples(store):
     assert not list(store.state.glob('*.json'))
 
 
+def test_judge_review_exposes_development_only_without_changing_labels(store):
+    tid = 'a' * 32
+    write_json(store.state / 'splits.json', {'example': {'dev': [tid], 'test': ['held-out']}})
+    doc = {'mode': 'example', 'split': 'dev', 'rows': [
+        {'trace_id': tid, 'human_verdict': 'Fail', 'judge_verdict': 'Pass'}]}
+    write_json(store.state / 'hw5_development_review.json', doc)
+    assert store.judge_review() == doc
+    assert store.labels() == []
+    doc['rows'].append({'trace_id': 'held-out'})
+    write_json(store.state / 'hw5_development_review.json', doc)
+    with pytest.raises(ValueError, match='non-development'):
+        store.judge_review()
+
+
+def test_judge_review_rejects_test_snapshot(store):
+    write_json(store.state / 'hw5_development_review.json', {'split': 'test'})
+    with pytest.raises(ValueError, match='Only development'):
+        store.judge_review()
+
+
 def test_suggestion_rejection_does_not_create_human_note(store):
     write_json(store.state/'suggestions.json', [{'id': 's', 'trace_id': 'a'*32, 'quote': 'Help'}])
     decision = store.suggestion_decision({'id': 's', 'decision': 'reject', 'reason': 'No evidence of this failure'})

@@ -1,0 +1,8 @@
+{
+  "judge_id": "unsupported_factual_claim-v1",
+  "decision": "Do not use this judge for unattended failure detection.",
+  "reason": "On the held-out test it detected only 3 of 12 human failures (TNR 25%; 95% Wilson CI 8.89\u201353.23%).",
+  "approved_by": "human",
+  "approval_text": "yes i agree",
+  "approved_at": "2026-11-18T05:10:15.777004+00:00"
+}

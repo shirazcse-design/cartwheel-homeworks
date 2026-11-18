@@ -1,0 +1,2777 @@
+{
+  "mode": "unsupported_factual_claim",
+  "audited_at": "2026-11-18T03:44:01.008175+00:00",
+  "raw_labels": {
+    "Pass": 82,
+    "Fail": 67,
+    "total": 149
+  },
+  "conservative_group_representatives": {
+    "Pass": 41,
+    "Fail": 59,
+    "total": 100
+  },
+  "meets_numeric_minimum_after_grouping": true,
+  "quality_review_flags": 138,
+  "missing_trace_ids": [],
+  "grouping_status": "Proposed metadata-based independence audit; human review of close variants still required. Not a final eligibility decision.",
+  "label_convention": "Original HW4 label1=Fail; label0=Pass. HW5 conversion would be1-label; originals preserved.",
+  "representative_selection": "Earliest timestamp then trace_id in each situation group, fixed without outcome-based selection.",
+  "groups": [
+    {
+      "group_id": "0f01894242600895",
+      "group_key": "quality-case:dq-order-missing-delivery-date",
+      "representative_trace_id": "a521520495df9b6960a6f4a5a59c6a16",
+      "members": [
+        "a521520495df9b6960a6f4a5a59c6a16",
+        "1ab46d6fa6b608fc58320a579eeba3b2",
+        "5f3c89077e819d6778892323695eeb4d",
+        "78924ec998ac00603e50fb9c4d792cf9"
+      ],
+      "member_hw4_labels": {
+        "0": 4
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "1878c484bad8e6a1",
+      "group_key": "quality-case:dq-order-reversed-dates",
+      "representative_trace_id": "d318ec829780871df4f89faad0618b2f",
+      "members": [
+        "d318ec829780871df4f89faad0618b2f",
+        "e2295d79db96887bc5d3d32c685b3914",
+        "a684f5142a81c33610974715c18938ae",
+        "865a6025859a7582628d2cd3098b57d9",
+        "6de1497dfca68ab76882d95cd0682312",
+        "70b2f15940079fa323826402a11f3029",
+        "b0c4a3ee81c65fb59ab9abc2abadda01",
+        "6084ac6cd77628833add8671aa89cd86"
+      ],
+      "member_hw4_labels": {
+        "0": 8
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "408531854a1598a8",
+      "group_key": "quality-case:dq-order-store-mismatch",
+      "representative_trace_id": "2e4c04589f3f8a06d3b5815e85f13645",
+      "members": [
+        "2e4c04589f3f8a06d3b5815e85f13645",
+        "544e5ac7eeea6181acda500005f664d5",
+        "3bfc7286a60193f37a20983588d87ad7",
+        "be146059b0d2e50a4cdd4cb546937129",
+        "9cc04a1c630eced44f758c798729b4fd",
+        "110c8024456751cb2b22d2380f0ce9df",
+        "5c8d1f684d183258aed8e3251ce6f559",
+        "9c784c1237db07d229b385f8df7ce968"
+      ],
+      "member_hw4_labels": {
+        "0": 7,
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "00e7d9d52ba983c2",
+      "group_key": "quality-case:dq-product-duplicate-title",
+      "representative_trace_id": "6e4e8e75c65ecb82e7d8aedd86dc6d14",
+      "members": [
+        "6e4e8e75c65ecb82e7d8aedd86dc6d14",
+        "606e79ad1442914725f5ae56a0a262ab",
+        "60bad9e9778cf75ad40074fae2393b1e",
+        "d5c19617b16838c11c4a6bafc12c5e40"
+      ],
+      "member_hw4_labels": {
+        "1": 1,
+        "0": 3
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "706b7d9af67c5d9e",
+      "group_key": "quality-case:dq-product-invalid-price",
+      "representative_trace_id": "32dd29c0b5d81b7b2f0116a428e89691",
+      "members": [
+        "32dd29c0b5d81b7b2f0116a428e89691"
+      ],
+      "member_hw4_labels": {
+        "0": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "00a77f91e85a9b08",
+      "group_key": "quality-case:dq-product-missing-title",
+      "representative_trace_id": "ce43fa8240117ae6a4821471f40fdda4",
+      "members": [
+        "ce43fa8240117ae6a4821471f40fdda4",
+        "bc2704054b5a4783ba5df3c48371c73b",
+        "6894c215b318994890a470fefb0acdaf",
+        "b5ff2108193d1a79ef033cc5b5f210c3"
+      ],
+      "member_hw4_labels": {
+        "0": 3,
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "61e5f6039c53d7d8",
+      "group_key": "situation:{\"applicable_policy\": \"cw-cancellations\", \"intent\": \"cancellation\", \"order_id\": 1058, \"record_state\": \"shipped\", \"role\": \"merchant\", \"store_id\": 5, \"tools_needed\": \"several_calls\", \"user_id\": 9005}",
+      "representative_trace_id": "6486df562823705183530a3fdc58b3a8",
+      "members": [
+        "6486df562823705183530a3fdc58b3a8"
+      ],
+      "member_hw4_labels": {
+        "0": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "3a84425de7c5a7f2",
+      "group_key": "situation:{\"applicable_policy\": \"cw-cancellations\", \"intent\": \"cancellation\", \"order_id\": 1894, \"record_state\": \"placed\", \"role\": \"merchant\", \"store_id\": 8, \"tools_needed\": \"several_calls\", \"user_id\": 9008}",
+      "representative_trace_id": "6424692c39af77cf858f2dd9b167c0da",
+      "members": [
+        "6424692c39af77cf858f2dd9b167c0da"
+      ],
+      "member_hw4_labels": {
+        "0": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "e79a8aae9762582e",
+      "group_key": "situation:{\"applicable_policy\": \"cw-cancellations\", \"intent\": \"cancellation\", \"order_id\": 1935, \"record_state\": \"placed\", \"role\": \"support\", \"tools_needed\": \"several_calls\", \"user_id\": 9501}",
+      "representative_trace_id": "a3f46264fbea2f5ba4bd8d08be3ab1ad",
+      "members": [
+        "a3f46264fbea2f5ba4bd8d08be3ab1ad",
+        "9e85eee7358c6a28b164749ece702787"
+      ],
+      "member_hw4_labels": {
+        "0": 2
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "c2fa1bf5a603b2d7",
+      "group_key": "situation:{\"applicable_policy\": \"cw-cancellations\", \"intent\": \"cancellation\", \"order_id\": 2926, \"record_state\": \"placed\", \"role\": \"shopper\", \"tools_needed\": \"several_calls\", \"user_id\": 493}",
+      "representative_trace_id": "f6973b41f32b13a4cc2d2475b4e9e7c4",
+      "members": [
+        "f6973b41f32b13a4cc2d2475b4e9e7c4"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "b19cdbde23aedfa8",
+      "group_key": "situation:{\"applicable_policy\": \"cw-cancellations\", \"intent\": \"cancellation\", \"order_id\": 546, \"record_state\": \"shipped\", \"role\": \"merchant\", \"store_id\": 14, \"tools_needed\": \"several_calls\", \"user_id\": 9014}",
+      "representative_trace_id": "ffe3ef751653a7009b480a82f2723d2f",
+      "members": [
+        "ffe3ef751653a7009b480a82f2723d2f"
+      ],
+      "member_hw4_labels": {
+        "0": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "3320f92504530884",
+      "group_key": "situation:{\"applicable_policy\": \"cw-cancellations\", \"intent\": \"cancellation\", \"order_id\": 830, \"record_state\": \"shipped\", \"role\": \"support\", \"tools_needed\": \"several_calls\", \"user_id\": 9503}",
+      "representative_trace_id": "0716becd01e26fa4f763cb9e288852a7",
+      "members": [
+        "0716becd01e26fa4f763cb9e288852a7"
+      ],
+      "member_hw4_labels": {
+        "0": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "b5716396aac25e57",
+      "group_key": "situation:{\"applicable_policy\": \"cw-cancellations\", \"intent\": \"policy_question\", \"record_state\": \"policy_page\", \"role\": \"merchant\", \"store_id\": 20, \"tools_needed\": \"one_lookup\", \"user_id\": 9020}",
+      "representative_trace_id": "18ba8c99bba420d5dc1f955cce1396e3",
+      "members": [
+        "18ba8c99bba420d5dc1f955cce1396e3"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "f2abc7750aa4bb3f",
+      "group_key": "situation:{\"applicable_policy\": \"cw-cancellations\", \"intent\": \"policy_question\", \"record_state\": \"policy_page\", \"role\": \"merchant\", \"store_id\": 5, \"tools_needed\": \"one_lookup\", \"user_id\": 9005}",
+      "representative_trace_id": "de5bf55226fc084f82f69c2bd97a3258",
+      "members": [
+        "de5bf55226fc084f82f69c2bd97a3258",
+        "8e2b3cdabd7fa73f8df37d0351546229"
+      ],
+      "member_hw4_labels": {
+        "1": 2
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "b92a9eedd96b4be8",
+      "group_key": "situation:{\"applicable_policy\": \"cw-cancellations\", \"intent\": \"policy_question\", \"record_state\": \"policy_page\", \"role\": \"shopper\", \"tools_needed\": \"one_lookup\", \"user_id\": 224}",
+      "representative_trace_id": "bb81f9ff38e518dac44484fedb299246",
+      "members": [
+        "bb81f9ff38e518dac44484fedb299246"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "63f6142c4741e08d",
+      "group_key": "situation:{\"applicable_policy\": \"cw-cancellations\", \"intent\": \"policy_question\", \"record_state\": \"policy_page\", \"role\": \"support\", \"tools_needed\": \"one_lookup\", \"user_id\": 9505}",
+      "representative_trace_id": "62a2e31b81081d8c3fdb2847cb323fb2",
+      "members": [
+        "62a2e31b81081d8c3fdb2847cb323fb2",
+        "611f7b765ab94b001613574c14e31f05"
+      ],
+      "member_hw4_labels": {
+        "1": 2
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "e80481d7739dace5",
+      "group_key": "situation:{\"applicable_policy\": \"cw-refunds\", \"intent\": \"policy_question\", \"record_state\": \"policy_page\", \"role\": \"merchant\", \"store_id\": 2, \"tools_needed\": \"one_lookup\", \"user_id\": 9002}",
+      "representative_trace_id": "0a9cb2002b18dca933c7f960116d26d3",
+      "members": [
+        "0a9cb2002b18dca933c7f960116d26d3"
+      ],
+      "member_hw4_labels": {
+        "0": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "b96b288c88df588c",
+      "group_key": "situation:{\"applicable_policy\": \"cw-refunds\", \"intent\": \"policy_question\", \"record_state\": \"policy_page\", \"role\": \"shopper\", \"tools_needed\": \"one_lookup\", \"user_id\": 218}",
+      "representative_trace_id": "13f7efa47d1bfc930176a56a5ed480e2",
+      "members": [
+        "13f7efa47d1bfc930176a56a5ed480e2"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "61dfbad0ec7506db",
+      "group_key": "situation:{\"applicable_policy\": \"cw-refunds\", \"intent\": \"refund\", \"order_id\": 129, \"record_state\": \"delivered_in_window\", \"role\": \"support\", \"tools_needed\": \"several_calls\", \"user_id\": 9503}",
+      "representative_trace_id": "0eea033de180a54b3dcaf93bf5da75f5",
+      "members": [
+        "0eea033de180a54b3dcaf93bf5da75f5"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "98d1f1907b718c6c",
+      "group_key": "situation:{\"applicable_policy\": \"cw-refunds\", \"intent\": \"refund\", \"order_id\": 186, \"record_state\": \"delivered_in_window\", \"role\": \"support\", \"tools_needed\": \"several_calls\", \"user_id\": 9502}",
+      "representative_trace_id": "4c8a117af1528bb8c76c01eb1e96512c",
+      "members": [
+        "4c8a117af1528bb8c76c01eb1e96512c"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "fc83f9aa333b1322",
+      "group_key": "situation:{\"applicable_policy\": \"cw-refunds\", \"intent\": \"refund\", \"order_id\": 196, \"record_state\": \"delivered_in_window\", \"role\": \"merchant\", \"store_id\": 15, \"tools_needed\": \"several_calls\", \"user_id\": 9015}",
+      "representative_trace_id": "a9f999591e609dbc255a920b2b8bdd25",
+      "members": [
+        "a9f999591e609dbc255a920b2b8bdd25"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "1fd40b51973f9dd1",
+      "group_key": "situation:{\"applicable_policy\": \"cw-refunds\", \"intent\": \"refund\", \"order_id\": 2041, \"record_state\": \"honor_inclusive_return_window\", \"role\": \"shopper\", \"tools_needed\": \"several_calls\", \"user_id\": 408}",
+      "representative_trace_id": "4c11afce998ca848ae403c5d37050001",
+      "members": [
+        "4c11afce998ca848ae403c5d37050001",
+        "e4237a25a9a282b538339f205cabc906"
+      ],
+      "member_hw4_labels": {
+        "0": 2
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "da0eaeee4f309a18",
+      "group_key": "situation:{\"applicable_policy\": \"cw-refunds\", \"intent\": \"refund\", \"order_id\": 219, \"record_state\": \"delivered_in_window\", \"role\": \"support\", \"tools_needed\": \"several_calls\", \"user_id\": 9503}",
+      "representative_trace_id": "580dc097212477c308db87a0c198db9d",
+      "members": [
+        "580dc097212477c308db87a0c198db9d"
+      ],
+      "member_hw4_labels": {
+        "0": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "8646da01b498d349",
+      "group_key": "situation:{\"applicable_policy\": \"cw-refunds\", \"intent\": \"refund\", \"order_id\": 287, \"record_state\": \"queue_above_threshold_refund\", \"role\": \"support\", \"tools_needed\": \"several_calls\", \"user_id\": 9501}",
+      "representative_trace_id": "9eece751d1317a95d670c5554b26cce4",
+      "members": [
+        "9eece751d1317a95d670c5554b26cce4"
+      ],
+      "member_hw4_labels": {
+        "0": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "0272daa8a99672d6",
+      "group_key": "situation:{\"applicable_policy\": \"cw-refunds\", \"intent\": \"refund\", \"order_id\": 496, \"record_state\": \"honor_inclusive_return_window\", \"role\": \"merchant\", \"store_id\": 5, \"tools_needed\": \"several_calls\", \"user_id\": 9005}",
+      "representative_trace_id": "10943affcafa42431485c77769407f67",
+      "members": [
+        "10943affcafa42431485c77769407f67"
+      ],
+      "member_hw4_labels": {
+        "0": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "ac207df91f962f87",
+      "group_key": "situation:{\"applicable_policy\": \"cw-refunds\", \"intent\": \"refund\", \"order_id\": 517, \"record_state\": \"delivered_in_window\", \"role\": \"merchant\", \"store_id\": 12, \"tools_needed\": \"several_calls\", \"user_id\": 9012}",
+      "representative_trace_id": "1f6aa4e4562255bb5f8b8e10abe5a27d",
+      "members": [
+        "1f6aa4e4562255bb5f8b8e10abe5a27d"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "e735a1eefae62a72",
+      "group_key": "situation:{\"applicable_policy\": \"cw-refunds\", \"intent\": \"refund\", \"order_id\": 64, \"record_state\": \"delivered_in_window\", \"role\": \"merchant\", \"store_id\": 19, \"tools_needed\": \"several_calls\", \"user_id\": 9019}",
+      "representative_trace_id": "57709819551fc0c1c0bf4ebb2836281b",
+      "members": [
+        "57709819551fc0c1c0bf4ebb2836281b"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "ccc6666e864ae0c7",
+      "group_key": "situation:{\"applicable_policy\": \"cw-refunds\", \"intent\": \"refund\", \"order_id\": 744, \"record_state\": \"delivered_in_window\", \"role\": \"support\", \"tools_needed\": \"several_calls\", \"user_id\": 9505}",
+      "representative_trace_id": "c7132c38667a2e6eae70f529d985aa3d",
+      "members": [
+        "c7132c38667a2e6eae70f529d985aa3d",
+        "de3fdfd26ccf4b67eb5d49ea0f2a0bdf"
+      ],
+      "member_hw4_labels": {
+        "0": 2
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "3178c25a2f73a711",
+      "group_key": "situation:{\"applicable_policy\": \"cw-refunds\", \"intent\": \"refund\", \"order_id\": 89, \"record_state\": \"delivered_in_window\", \"role\": \"shopper\", \"tools_needed\": \"several_calls\", \"user_id\": 425}",
+      "representative_trace_id": "423448f3fbaf1a9636aacdd84aa004e6",
+      "members": [
+        "423448f3fbaf1a9636aacdd84aa004e6"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "58a177f41135121c",
+      "group_key": "situation:{\"applicable_policy\": \"cw-refunds\", \"intent\": \"refund\", \"order_id\": 96, \"record_state\": \"delivered_in_window\", \"role\": \"support\", \"tools_needed\": \"several_calls\", \"user_id\": 9501}",
+      "representative_trace_id": "ed5f8c214afad300b3da971329955405",
+      "members": [
+        "ed5f8c214afad300b3da971329955405"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "b2f464ee309c1912",
+      "group_key": "situation:{\"applicable_policy\": \"cw-returns\", \"intent\": \"policy_question\", \"record_state\": \"policy_page\", \"role\": \"merchant\", \"store_id\": 11, \"tools_needed\": \"one_lookup\", \"user_id\": 9011}",
+      "representative_trace_id": "121e0b4e9c988d50183eade495e2de14",
+      "members": [
+        "121e0b4e9c988d50183eade495e2de14"
+      ],
+      "member_hw4_labels": {
+        "0": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "32b085978e60dd92",
+      "group_key": "situation:{\"applicable_policy\": \"cw-returns\", \"intent\": \"policy_question\", \"record_state\": \"policy_page\", \"role\": \"support\", \"tools_needed\": \"one_lookup\", \"user_id\": 9501}",
+      "representative_trace_id": "7ac072bebbc53e65d9f9b17d8c0d3f0d",
+      "members": [
+        "7ac072bebbc53e65d9f9b17d8c0d3f0d"
+      ],
+      "member_hw4_labels": {
+        "0": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "525ce934664f25a9",
+      "group_key": "situation:{\"applicable_policy\": \"cw-returns\", \"intent\": \"return_deadline\", \"record_state\": \"unspecified_order\", \"role\": \"merchant\", \"store_id\": 2, \"tools_needed\": \"several_calls\", \"user_id\": 9002}",
+      "representative_trace_id": "90af1ce407902ef6bb24e599665f5721",
+      "members": [
+        "90af1ce407902ef6bb24e599665f5721"
+      ],
+      "member_hw4_labels": {
+        "0": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "e48accc340b47890",
+      "group_key": "situation:{\"applicable_policy\": \"cw-returns\", \"intent\": \"return_deadline\", \"record_state\": \"unspecified_order\", \"role\": \"merchant\", \"store_id\": 5, \"tools_needed\": \"several_calls\", \"user_id\": 9005}",
+      "representative_trace_id": "72e042943ee0970f80ecc89ef386a9c2",
+      "members": [
+        "72e042943ee0970f80ecc89ef386a9c2",
+        "5fcaace99d144da8a07c69c666646866"
+      ],
+      "member_hw4_labels": {
+        "0": 2
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "0b292527c3193555",
+      "group_key": "situation:{\"applicable_policy\": \"cw-returns\", \"intent\": \"return_deadline\", \"record_state\": \"unspecified_order\", \"role\": \"support\", \"tools_needed\": \"several_calls\", \"user_id\": 9503}",
+      "representative_trace_id": "cd956419a87cf2326fc16f77edec360c",
+      "members": [
+        "cd956419a87cf2326fc16f77edec360c"
+      ],
+      "member_hw4_labels": {
+        "0": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "83de42b296ee5ee5",
+      "group_key": "situation:{\"applicable_policy\": \"cw-shipping\", \"intent\": \"policy_question\", \"record_state\": \"policy_page\", \"role\": \"merchant\", \"store_id\": 8, \"tools_needed\": \"one_lookup\", \"user_id\": 9008}",
+      "representative_trace_id": "b6186fe88cfb723b197ab0e1ffbba00c",
+      "members": [
+        "b6186fe88cfb723b197ab0e1ffbba00c"
+      ],
+      "member_hw4_labels": {
+        "0": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "bc30c31f361664ee",
+      "group_key": "situation:{\"applicable_policy\": \"cw-shipping\", \"intent\": \"policy_question\", \"record_state\": \"policy_page\", \"role\": \"support\", \"tools_needed\": \"one_lookup\", \"user_id\": 9503}",
+      "representative_trace_id": "99335b972c22988662cde0458672f9cc",
+      "members": [
+        "99335b972c22988662cde0458672f9cc",
+        "73c36de0d026dd9e05012b5f8e8e6454"
+      ],
+      "member_hw4_labels": {
+        "0": 1,
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "fb08fad11448fcb1",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"account_change\", \"record_state\": \"account_correction\", \"role\": \"merchant\", \"store_id\": 5, \"tools_needed\": \"several_calls\", \"user_id\": 9005}",
+      "representative_trace_id": "354cce3ffcee8cca7b7a1c71ca56db85",
+      "members": [
+        "354cce3ffcee8cca7b7a1c71ca56db85",
+        "b411b8ccd524246d1532ca14e2f2b08f"
+      ],
+      "member_hw4_labels": {
+        "0": 2
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "1ef1913fa45df305",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"account_change\", \"record_state\": \"account_correction\", \"role\": \"shopper\", \"tools_needed\": \"several_calls\", \"user_id\": 200}",
+      "representative_trace_id": "f3c00694c2e670cbffbbf88bd054d175",
+      "members": [
+        "f3c00694c2e670cbffbbf88bd054d175",
+        "46f36b829113fdeb26563fd9e7a457c6"
+      ],
+      "member_hw4_labels": {
+        "0": 2
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "53ccc8909f056449",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"account_change\", \"record_state\": \"account_correction\", \"role\": \"shopper\", \"tools_needed\": \"several_calls\", \"user_id\": 203}",
+      "representative_trace_id": "a680c40a6d06a1d91b358a69d135e08f",
+      "members": [
+        "a680c40a6d06a1d91b358a69d135e08f",
+        "f0763c1d41d64d566d3451d13b373e39"
+      ],
+      "member_hw4_labels": {
+        "0": 2
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "d05f90c099b6caff",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"account_change\", \"record_state\": \"account_correction\", \"role\": \"support\", \"tools_needed\": \"several_calls\", \"user_id\": 9503}",
+      "representative_trace_id": "58219e348ceb5baedaa2031b4da42e9c",
+      "members": [
+        "58219e348ceb5baedaa2031b4da42e9c",
+        "f8315dce2608011d1e53f405a745f941"
+      ],
+      "member_hw4_labels": {
+        "0": 2
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "b7cb991db4e554ca",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"account_change\", \"record_state\": \"account_request\", \"role\": \"merchant\", \"store_id\": 5, \"tools_needed\": \"one_lookup\", \"user_id\": 9005}",
+      "representative_trace_id": "0818b2e5effd01eec3ae4ebba5295a08",
+      "members": [
+        "0818b2e5effd01eec3ae4ebba5295a08",
+        "b27ec0cec03fbb0efe9f99eef5624759"
+      ],
+      "member_hw4_labels": {
+        "1": 2
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "7857bf805318a7ec",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"account_change\", \"record_state\": \"account_request\", \"role\": \"shopper\", \"tools_needed\": \"one_lookup\", \"user_id\": 200}",
+      "representative_trace_id": "0ed0d8fd3131a98af87599eb1980ef21",
+      "members": [
+        "0ed0d8fd3131a98af87599eb1980ef21",
+        "637fc31388d4a4f5f565f8b41e5c509c"
+      ],
+      "member_hw4_labels": {
+        "1": 2
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "7dc25eac72fa540a",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"account_change\", \"record_state\": \"account_request\", \"role\": \"support\", \"tools_needed\": \"one_lookup\", \"user_id\": 9504}",
+      "representative_trace_id": "eead9b24725d4936eb0127270d5fc594",
+      "members": [
+        "eead9b24725d4936eb0127270d5fc594",
+        "3c29730b0744692035dcd39b7704c200"
+      ],
+      "member_hw4_labels": {
+        "1": 2
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "e2c333d5e26c9439",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"dispute\", \"record_state\": \"unresolved_dispute\", \"role\": \"merchant\", \"store_id\": 5, \"tools_needed\": \"one_lookup\", \"user_id\": 9005}",
+      "representative_trace_id": "3dc080f62f53d25a77b31d8a58ba4869",
+      "members": [
+        "3dc080f62f53d25a77b31d8a58ba4869"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "cdb0de7fa3d3215a",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"dispute\", \"record_state\": \"unresolved_dispute\", \"role\": \"merchant\", \"store_id\": 8, \"tools_needed\": \"one_lookup\", \"user_id\": 9008}",
+      "representative_trace_id": "c611367f80ba05a4c3eff8ac730ac0fd",
+      "members": [
+        "c611367f80ba05a4c3eff8ac730ac0fd"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "60ef714f2092f2db",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"dispute\", \"record_state\": \"unresolved_dispute\", \"role\": \"shopper\", \"tools_needed\": \"one_lookup\", \"user_id\": 200}",
+      "representative_trace_id": "fc655cd523d0b5c9986237126a1f821b",
+      "members": [
+        "fc655cd523d0b5c9986237126a1f821b"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "3b53a2450869d875",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"dispute\", \"record_state\": \"unresolved_dispute\", \"role\": \"shopper\", \"tools_needed\": \"one_lookup\", \"user_id\": 203}",
+      "representative_trace_id": "b2eee584b9481c14a92a8c73d033faa0",
+      "members": [
+        "b2eee584b9481c14a92a8c73d033faa0"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "4d69173324c3ac77",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"dispute\", \"record_state\": \"unresolved_dispute\", \"role\": \"shopper\", \"tools_needed\": \"one_lookup\", \"user_id\": 206}",
+      "representative_trace_id": "2e2e66b3965202b3ba172e5ae9a461af",
+      "members": [
+        "2e2e66b3965202b3ba172e5ae9a461af"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "d7745e4f3c5a1402",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"dispute\", \"record_state\": \"unresolved_dispute\", \"role\": \"shopper\", \"tools_needed\": \"one_lookup\", \"user_id\": 209}",
+      "representative_trace_id": "68c5c8a47d91117bd757d3a8f066f1e9",
+      "members": [
+        "68c5c8a47d91117bd757d3a8f066f1e9"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "afd256b0e6c28187",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"dispute\", \"record_state\": \"unresolved_dispute\", \"role\": \"support\", \"tools_needed\": \"one_lookup\", \"user_id\": 9503}",
+      "representative_trace_id": "08074f47bace805556dbfca4ec5f062e",
+      "members": [
+        "08074f47bace805556dbfca4ec5f062e"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "960db545538336f4",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"dispute\", \"record_state\": \"unresolved_dispute\", \"role\": \"support\", \"tools_needed\": \"one_lookup\", \"user_id\": 9504}",
+      "representative_trace_id": "85174c01feaea42431cf81d815c0c0e3",
+      "members": [
+        "85174c01feaea42431cf81d815c0c0e3"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "3bbf7d80fb6a95a4",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"find_order\", \"order_id\": 32, \"record_state\": \"delivered\", \"role\": \"shopper\", \"tools_needed\": \"several_calls\", \"user_id\": 157}",
+      "representative_trace_id": "f60528e0891fa00f8e520f591be9b753",
+      "members": [
+        "f60528e0891fa00f8e520f591be9b753",
+        "2a91945bfd94541824a7b78ec59e3561"
+      ],
+      "member_hw4_labels": {
+        "0": 2
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "0c7e8af62573705f",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"find_order\", \"order_id\": 33, \"record_state\": \"delivered\", \"role\": \"merchant\", \"store_id\": 9, \"tools_needed\": \"several_calls\", \"user_id\": 9009}",
+      "representative_trace_id": "b6355f9c6d858082ffec849e13327e16",
+      "members": [
+        "b6355f9c6d858082ffec849e13327e16"
+      ],
+      "member_hw4_labels": {
+        "0": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "d78652113c2d30be",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"find_order\", \"order_id\": 43, \"record_state\": \"delivered\", \"role\": \"support\", \"tools_needed\": \"several_calls\", \"user_id\": 9503}",
+      "representative_trace_id": "79863c283a91eaa3695d35fb1fa1e49a",
+      "members": [
+        "79863c283a91eaa3695d35fb1fa1e49a",
+        "7c89f76dc61aca99fddd24acce9a23e3",
+        "b668eec4a0dd085ecf8a684787c8733d"
+      ],
+      "member_hw4_labels": {
+        "0": 3
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "1babce5b76813998",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"find_order\", \"order_id\": 44, \"record_state\": \"delivered\", \"role\": \"shopper\", \"tools_needed\": \"several_calls\", \"user_id\": 102}",
+      "representative_trace_id": "e4e3ec5eff62a608264d0b6602bf2037",
+      "members": [
+        "e4e3ec5eff62a608264d0b6602bf2037",
+        "0eefb3fb13a4ed3b1218ba8550098876",
+        "9efd4a2989939ff8a448eba7e7e099a2"
+      ],
+      "member_hw4_labels": {
+        "0": 3
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "3a3316fd5f3b89d2",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"find_order\", \"order_id\": 45, \"record_state\": \"delivered\", \"role\": \"merchant\", \"store_id\": 6, \"tools_needed\": \"several_calls\", \"user_id\": 9006}",
+      "representative_trace_id": "846dce28883d384c78de025a0adb9ea0",
+      "members": [
+        "846dce28883d384c78de025a0adb9ea0",
+        "5e765ccd8ccceb425bcefbcc6fce1d25",
+        "efe2551f56c9ab4370dc4100090a5fd6"
+      ],
+      "member_hw4_labels": {
+        "1": 1,
+        "0": 2
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "9f12ff666b9724c6",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"list_orders\", \"record_state\": \"recent_orders\", \"role\": \"shopper\", \"tools_needed\": \"one_lookup\", \"user_id\": 230}",
+      "representative_trace_id": "34c55e27d092ea4f3b0bab6ac7e6e218",
+      "members": [
+        "34c55e27d092ea4f3b0bab6ac7e6e218"
+      ],
+      "member_hw4_labels": {
+        "0": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "ac2de6bb376baa61",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"list_orders\", \"record_state\": \"recent_orders\", \"role\": \"shopper\", \"tools_needed\": \"one_lookup\", \"user_id\": 236}",
+      "representative_trace_id": "c451d5e6eb194b363141b36a93c824f9",
+      "members": [
+        "c451d5e6eb194b363141b36a93c824f9"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "6c8c5eb84c4a5031",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"list_orders\", \"record_state\": \"recent_orders\", \"role\": \"shopper\", \"tools_needed\": \"one_lookup\", \"user_id\": 238}",
+      "representative_trace_id": "69460be6c280544c782ccf8eaadbe3b4",
+      "members": [
+        "69460be6c280544c782ccf8eaadbe3b4"
+      ],
+      "member_hw4_labels": {
+        "0": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "38711cfcb4d96010",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"list_orders\", \"record_state\": \"recent_orders\", \"role\": \"shopper\", \"tools_needed\": \"one_lookup\", \"user_id\": 240}",
+      "representative_trace_id": "287a451011d21e123ffc6a6bc0745cbe",
+      "members": [
+        "287a451011d21e123ffc6a6bc0745cbe"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "0ab29b1bcf346595",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"order_status\", \"order_id\": 11, \"record_state\": \"delivered\", \"role\": \"support\", \"tools_needed\": \"several_calls\", \"user_id\": 9504}",
+      "representative_trace_id": "6868d89ad0d9e30d14713263a3b5b1a0",
+      "members": [
+        "6868d89ad0d9e30d14713263a3b5b1a0"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "f21b1d830e5b87f4",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"order_status\", \"order_id\": 13, \"record_state\": \"delivered\", \"role\": \"merchant\", \"store_id\": 6, \"tools_needed\": \"several_calls\", \"user_id\": 9006}",
+      "representative_trace_id": "20fd2d751f3d322dc989be5e61d3cc82",
+      "members": [
+        "20fd2d751f3d322dc989be5e61d3cc82"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "32799f1ea265c733",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"order_status\", \"order_id\": 16, \"record_state\": \"delivered\", \"role\": \"merchant\", \"store_id\": 10, \"tools_needed\": \"several_calls\", \"user_id\": 9010}",
+      "representative_trace_id": "a5d7079f937b8ebf24f8c4a92b4b6f54",
+      "members": [
+        "a5d7079f937b8ebf24f8c4a92b4b6f54"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "b9987cc03a55d864",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"order_status\", \"order_id\": 2, \"record_state\": \"delivered\", \"role\": \"shopper\", \"tools_needed\": \"several_calls\", \"user_id\": 129}",
+      "representative_trace_id": "e5059036ad034eb3a53a91ec592c4fda",
+      "members": [
+        "e5059036ad034eb3a53a91ec592c4fda",
+        "3df4c3f51adbc8586c6c8a6585283b57"
+      ],
+      "member_hw4_labels": {
+        "1": 1,
+        "0": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "0f61405ceb7a2bf3",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"order_status\", \"order_id\": 27, \"record_state\": \"delivered\", \"role\": \"shopper\", \"tools_needed\": \"several_calls\", \"user_id\": 29}",
+      "representative_trace_id": "964f6ab77bc15721a021f2822db30050",
+      "members": [
+        "964f6ab77bc15721a021f2822db30050",
+        "beee44d5ddf121613665651555e5e862"
+      ],
+      "member_hw4_labels": {
+        "1": 1,
+        "0": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "03f8663047721509",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"order_status\", \"order_id\": 6, \"record_state\": \"delivered\", \"role\": \"shopper\", \"tools_needed\": \"several_calls\", \"user_id\": 444}",
+      "representative_trace_id": "e4c77e0f2087e3ae2fa1005a258081a4",
+      "members": [
+        "e4c77e0f2087e3ae2fa1005a258081a4"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "17e1fae3cd4adc40",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"order_status\", \"order_id\": 9, \"record_state\": \"delivered\", \"role\": \"shopper\", \"tools_needed\": \"several_calls\", \"user_id\": 59}",
+      "representative_trace_id": "274f27e838614139d4479f8b69a29d20",
+      "members": [
+        "274f27e838614139d4479f8b69a29d20",
+        "0caff19f10a492a7d5240173dab4e601"
+      ],
+      "member_hw4_labels": {
+        "1": 1,
+        "0": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "1f71e167b17335cd",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"out_of_scope\", \"record_state\": \"none\", \"role\": \"shopper\", \"tools_needed\": \"none\", \"user_id\": 203}",
+      "representative_trace_id": "3cef9dd6ee932d2f89f19157561f2a5a",
+      "members": [
+        "3cef9dd6ee932d2f89f19157561f2a5a"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "9561928defe81686",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"out_of_scope\", \"record_state\": \"none\", \"role\": \"shopper\", \"tools_needed\": \"none\", \"user_id\": 209}",
+      "representative_trace_id": "5cdc6cb32cd71f054862c27f592b7733",
+      "members": [
+        "5cdc6cb32cd71f054862c27f592b7733"
+      ],
+      "member_hw4_labels": {
+        "0": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "126b965515c3efe7",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"out_of_scope\", \"record_state\": \"none\", \"role\": \"support\", \"tools_needed\": \"none\", \"user_id\": 9501}",
+      "representative_trace_id": "e50a8c3f6bd7b2d69f33981b48a098b2",
+      "members": [
+        "e50a8c3f6bd7b2d69f33981b48a098b2"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "9e5415d64c30d06e",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"out_of_scope\", \"record_state\": \"none\", \"role\": \"support\", \"tools_needed\": \"none\", \"user_id\": 9503}",
+      "representative_trace_id": "3cc26a373ec7ef2ea22330a6bf515cb9",
+      "members": [
+        "3cc26a373ec7ef2ea22330a6bf515cb9"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "764ad43f1b57d4e2",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"out_of_scope\", \"record_state\": \"none\", \"role\": \"support\", \"tools_needed\": \"none\", \"user_id\": 9504}",
+      "representative_trace_id": "29925f83466c55d0e6daae2ab8838cc7",
+      "members": [
+        "29925f83466c55d0e6daae2ab8838cc7"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "c71259cf1681b294",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"product_search\", \"product_id\": 156, \"record_state\": \"product_catalog\", \"role\": \"support\", \"target_store_id\": 4, \"tools_needed\": \"one_lookup\", \"user_id\": 9501}",
+      "representative_trace_id": "525e2cc456c263b4cfe3c9a5ada03576",
+      "members": [
+        "525e2cc456c263b4cfe3c9a5ada03576"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "dd6907b95f5fa47f",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"product_search\", \"product_id\": 202, \"record_state\": \"product_catalog\", \"role\": \"merchant\", \"store_id\": 8, \"target_store_id\": 6, \"tools_needed\": \"one_lookup\", \"user_id\": 9008}",
+      "representative_trace_id": "c7d814c65743c91b1222e00e77ec1262",
+      "members": [
+        "c7d814c65743c91b1222e00e77ec1262"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "6645771fac5fd656",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"product_search\", \"product_id\": 248, \"record_state\": \"product_catalog\", \"role\": \"shopper\", \"target_store_id\": 7, \"tools_needed\": \"one_lookup\", \"user_id\": 209}",
+      "representative_trace_id": "c588af0ad155913eaec2deddb2b2a6b9",
+      "members": [
+        "c588af0ad155913eaec2deddb2b2a6b9"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "4cf648d26cfc4055",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"product_search\", \"product_id\": 271, \"record_state\": \"product_catalog\", \"role\": \"merchant\", \"store_id\": 11, \"target_store_id\": 7, \"tools_needed\": \"one_lookup\", \"user_id\": 9011}",
+      "representative_trace_id": "2d84cbb617e4b1f8f71c8d7f0555ed12",
+      "members": [
+        "2d84cbb617e4b1f8f71c8d7f0555ed12"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "adfc0199f186a496",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"product_search\", \"product_id\": 294, \"record_state\": \"product_catalog\", \"role\": \"support\", \"target_store_id\": 8, \"tools_needed\": \"one_lookup\", \"user_id\": 9502}",
+      "representative_trace_id": "9c358b7323a7828da044c3a4a4e32ea1",
+      "members": [
+        "9c358b7323a7828da044c3a4a4e32ea1"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "f2d0133f62fa4a78",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"product_search\", \"product_id\": 363, \"record_state\": \"product_catalog\", \"role\": \"support\", \"target_store_id\": 10, \"tools_needed\": \"one_lookup\", \"user_id\": 9505}",
+      "representative_trace_id": "7041b8e41d503f3ff71a458209587d0e",
+      "members": [
+        "7041b8e41d503f3ff71a458209587d0e"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "a850613c12b8899a",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"product_search\", \"product_id\": 409, \"record_state\": \"product_catalog\", \"role\": \"merchant\", \"store_id\": 17, \"target_store_id\": 11, \"tools_needed\": \"one_lookup\", \"user_id\": 9017}",
+      "representative_trace_id": "661a2ccda8fc95b2bc5fcfbf109be261",
+      "members": [
+        "661a2ccda8fc95b2bc5fcfbf109be261"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "f0cf162a807669a0",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"product_search\", \"product_id\": 41, \"record_state\": \"product_catalog\", \"role\": \"shopper\", \"target_store_id\": 2, \"tools_needed\": \"one_lookup\", \"user_id\": 200}",
+      "representative_trace_id": "b4fd2b9dfd100e4ab181daae47bd15f7",
+      "members": [
+        "b4fd2b9dfd100e4ab181daae47bd15f7"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "e1cf0f31e77af0a9",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"product_search\", \"product_id\": 455, \"record_state\": \"product_catalog\", \"role\": \"shopper\", \"target_store_id\": 12, \"tools_needed\": \"one_lookup\", \"user_id\": 218}",
+      "representative_trace_id": "1ad8a13e16e578f87db3180d9b32a672",
+      "members": [
+        "1ad8a13e16e578f87db3180d9b32a672"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "7587694e66dd7c83",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"product_search\", \"product_id\": 501, \"record_state\": \"product_catalog\", \"role\": \"support\", \"target_store_id\": 13, \"tools_needed\": \"one_lookup\", \"user_id\": 9501}",
+      "representative_trace_id": "e65275128fb5581373476496e9b9f50f",
+      "members": [
+        "e65275128fb5581373476496e9b9f50f"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "57545671d6e43156",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"product_search\", \"product_id\": 524, \"record_state\": \"product_catalog\", \"role\": \"shopper\", \"target_store_id\": 14, \"tools_needed\": \"one_lookup\", \"user_id\": 221}",
+      "representative_trace_id": "e9aba23471507c9295e38e228c9afe34",
+      "members": [
+        "e9aba23471507c9295e38e228c9afe34"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "e4d12abe07be617d",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"product_search\", \"product_id\": 64, \"record_state\": \"product_catalog\", \"role\": \"merchant\", \"store_id\": 2, \"target_store_id\": 2, \"tools_needed\": \"one_lookup\", \"user_id\": 9002}",
+      "representative_trace_id": "6c4bc65770ecd39d71fd3d22853f183f",
+      "members": [
+        "6c4bc65770ecd39d71fd3d22853f183f"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "78d11c4a6fcc6a38",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"store_information\", \"record_state\": \"store\", \"role\": \"merchant\", \"store_id\": 8, \"target_store_id\": 2, \"tools_needed\": \"several_calls\", \"user_id\": 9008}",
+      "representative_trace_id": "95bb3ea9b12f784985e855be0ecb9385",
+      "members": [
+        "95bb3ea9b12f784985e855be0ecb9385"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "a3615344ee1752b2",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"store_information\", \"record_state\": \"store\", \"role\": \"shopper\", \"target_store_id\": 1, \"tools_needed\": \"several_calls\", \"user_id\": 200}",
+      "representative_trace_id": "b034c71109228b0d99bca35e22562302",
+      "members": [
+        "b034c71109228b0d99bca35e22562302"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "74613d7e75916790",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"store_information\", \"record_state\": \"store\", \"role\": \"shopper\", \"target_store_id\": 10, \"tools_needed\": \"several_calls\", \"user_id\": 203}",
+      "representative_trace_id": "56b081308257554342e8d191df2ec1a8",
+      "members": [
+        "56b081308257554342e8d191df2ec1a8"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "186aef1956c30ff3",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"store_information\", \"record_state\": \"store\", \"role\": \"shopper\", \"target_store_id\": 8, \"tools_needed\": \"several_calls\", \"user_id\": 209}",
+      "representative_trace_id": "498691ce49aeb35b3f5f388fc9ad54e5",
+      "members": [
+        "498691ce49aeb35b3f5f388fc9ad54e5"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "8df323b74b3bae86",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"store_information\", \"record_state\": \"store\", \"role\": \"support\", \"target_store_id\": 16, \"tools_needed\": \"several_calls\", \"user_id\": 9501}",
+      "representative_trace_id": "979cab3ac4adc40af9528d769138eef0",
+      "members": [
+        "979cab3ac4adc40af9528d769138eef0"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "53a389f2c6254771",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"store_information\", \"record_state\": \"store\", \"role\": \"support\", \"target_store_id\": 5, \"tools_needed\": \"several_calls\", \"user_id\": 9504}",
+      "representative_trace_id": "3cb93012c516b633f83de9b984411733",
+      "members": [
+        "3cb93012c516b633f83de9b984411733"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "3254e55bf28856d0",
+      "group_key": "situation:{\"applicable_policy\": \"none\", \"intent\": \"store_information\", \"record_state\": \"store\", \"role\": \"support\", \"target_store_id\": 7, \"tools_needed\": \"several_calls\", \"user_id\": 9503}",
+      "representative_trace_id": "e0bf34b2d3e4c1e401329e407bd6bfdf",
+      "members": [
+        "e0bf34b2d3e4c1e401329e407bd6bfdf"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "7779a8c38e5c1108",
+      "group_key": "situation:{\"applicable_policy\": \"store_override\", \"intent\": \"policy_question\", \"record_state\": \"store_policy_page\", \"role\": \"merchant\", \"store_id\": 2, \"target_store_id\": 7, \"tools_needed\": \"several_calls\", \"user_id\": 9002}",
+      "representative_trace_id": "ad98525bd3c3a3fa09f120d44fce1362",
+      "members": [
+        "ad98525bd3c3a3fa09f120d44fce1362"
+      ],
+      "member_hw4_labels": {
+        "0": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "8de7e4a6177b240c",
+      "group_key": "situation:{\"applicable_policy\": \"store_override\", \"intent\": \"policy_question\", \"record_state\": \"store_policy_page\", \"role\": \"merchant\", \"store_id\": 5, \"target_store_id\": 2, \"tools_needed\": \"several_calls\", \"user_id\": 9005}",
+      "representative_trace_id": "b5986cae74b0768015c1ca1ee21529b0",
+      "members": [
+        "b5986cae74b0768015c1ca1ee21529b0",
+        "3c040c29a30d22383ea59712f96595b8"
+      ],
+      "member_hw4_labels": {
+        "0": 2
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "07079b2acdfd2d1f",
+      "group_key": "situation:{\"applicable_policy\": \"store_override\", \"intent\": \"policy_question\", \"record_state\": \"store_policy_page\", \"role\": \"shopper\", \"target_store_id\": 13, \"tools_needed\": \"several_calls\", \"user_id\": 203}",
+      "representative_trace_id": "c254aed9eafbc5b503c5cee13d09f90a",
+      "members": [
+        "c254aed9eafbc5b503c5cee13d09f90a"
+      ],
+      "member_hw4_labels": {
+        "0": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "3dbfe988216dc3a5",
+      "group_key": "situation:{\"applicable_policy\": \"store_override\", \"intent\": \"policy_question\", \"record_state\": \"store_policy_page\", \"role\": \"shopper\", \"target_store_id\": 2, \"tools_needed\": \"several_calls\", \"user_id\": 200}",
+      "representative_trace_id": "231f75aad3e4ebbc731203ffe47e5713",
+      "members": [
+        "231f75aad3e4ebbc731203ffe47e5713"
+      ],
+      "member_hw4_labels": {
+        "0": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "babf75f2dc842a53",
+      "group_key": "situation:{\"applicable_policy\": \"store_override\", \"intent\": \"policy_question\", \"record_state\": \"store_policy_page\", \"role\": \"support\", \"target_store_id\": 10, \"tools_needed\": \"several_calls\", \"user_id\": 9503}",
+      "representative_trace_id": "9182a3b19f36c45f85d936634ecf7dd5",
+      "members": [
+        "9182a3b19f36c45f85d936634ecf7dd5"
+      ],
+      "member_hw4_labels": {
+        "0": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "79c9892f1194fb3c",
+      "group_key": "situation:{\"applicable_policy\": \"store_override\", \"intent\": \"refund\", \"order_id\": 3255, \"record_state\": \"deny_refund_under_store_override\", \"role\": \"merchant\", \"store_id\": 2, \"tools_needed\": \"several_calls\", \"user_id\": 9002}",
+      "representative_trace_id": "3beb3bdfb0a71bc0a642a9a3213ab4df",
+      "members": [
+        "3beb3bdfb0a71bc0a642a9a3213ab4df"
+      ],
+      "member_hw4_labels": {
+        "1": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "87eb0b4ff9720b35",
+      "group_key": "situation:{\"applicable_policy\": \"store_override\", \"intent\": \"refund\", \"order_id\": 4100, \"record_state\": \"deny_refund_under_store_override\", \"role\": \"support\", \"tools_needed\": \"several_calls\", \"user_id\": 9503}",
+      "representative_trace_id": "9cd5fff357311bea4395da43e39ba85d",
+      "members": [
+        "9cd5fff357311bea4395da43e39ba85d"
+      ],
+      "member_hw4_labels": {
+        "0": 1
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    },
+    {
+      "group_id": "47669e414613e488",
+      "group_key": "situation:{\"applicable_policy\": \"store_override\", \"intent\": \"refund\", \"order_id\": 7839, \"record_state\": \"deny_refund_under_store_override\", \"role\": \"merchant\", \"store_id\": 2, \"tools_needed\": \"several_calls\", \"user_id\": 9002}",
+      "representative_trace_id": "e6aa796e6923f4a9ecb243fa0b5fc5a2",
+      "members": [
+        "e6aa796e6923f4a9ecb243fa0b5fc5a2",
+        "73347cc3e563bd44a0e067702383ed98"
+      ],
+      "member_hw4_labels": {
+        "0": 2
+      },
+      "selection_rule": "Earliest timestamp, then trace_id; no outcome-based selection."
+    }
+  ],
+  "review_flags": [
+    {
+      "trace_id": "e5059036ad034eb3a53a91ec592c4fda",
+      "scenario_id": "support-0001",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "a factual claim that the available conversation and tool results do not establish",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Reason repeats the rubric without identifying the unsupported claim or missing evidence."
+      ]
+    },
+    {
+      "trace_id": "e4c77e0f2087e3ae2fa1005a258081a4",
+      "scenario_id": "support-0004",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "a factual claim that the available conversation and tool results do not establish",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Reason repeats the rubric without identifying the unsupported claim or missing evidence."
+      ]
+    },
+    {
+      "trace_id": "423448f3fbaf1a9636aacdd84aa004e6",
+      "scenario_id": "support-0029",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "a factual claim that the available conversation and tool results do not establish. ",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Reason repeats the rubric without identifying the unsupported claim or missing evidence."
+      ]
+    },
+    {
+      "trace_id": "a9f999591e609dbc255a920b2b8bdd25",
+      "scenario_id": "support-0039",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "a factual claim that the available conversation and tool results do not establish.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Reason repeats the rubric without identifying the unsupported claim or missing evidence."
+      ]
+    },
+    {
+      "trace_id": "f6973b41f32b13a4cc2d2475b4e9e7c4",
+      "scenario_id": "support-0055",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "a factual claim that the available conversation and tool results do not establish.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Reason repeats the rubric without identifying the unsupported claim or missing evidence."
+      ]
+    },
+    {
+      "trace_id": "c451d5e6eb194b363141b36a93c824f9",
+      "scenario_id": "support-0067",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "a factual claim that the available conversation and tool results do not establish.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Reason repeats the rubric without identifying the unsupported claim or missing evidence."
+      ]
+    },
+    {
+      "trace_id": "287a451011d21e123ffc6a6bc0745cbe",
+      "scenario_id": "support-0071",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "a factual claim that the available conversation and tool results do not establish.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Reason repeats the rubric without identifying the unsupported claim or missing evidence."
+      ]
+    },
+    {
+      "trace_id": "13f7efa47d1bfc930176a56a5ed480e2",
+      "scenario_id": "support-0094",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "a factual claim that the available conversation and tool results do not establish.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Reason repeats the rubric without identifying the unsupported claim or missing evidence."
+      ]
+    },
+    {
+      "trace_id": "18ba8c99bba420d5dc1f955cce1396e3",
+      "scenario_id": "support-0095",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "a factual claim that the available conversation and tool results do not establish. ",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Reason repeats the rubric without identifying the unsupported claim or missing evidence."
+      ]
+    },
+    {
+      "trace_id": "b4fd2b9dfd100e4ab181daae47bd15f7",
+      "scenario_id": "support-0101",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "a factual claim that the available conversation and tool results do not establish",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Reason repeats the rubric without identifying the unsupported claim or missing evidence."
+      ]
+    },
+    {
+      "trace_id": "525e2cc456c263b4cfe3c9a5ada03576",
+      "scenario_id": "support-0106",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "a factual claim that the available conversation and tool results do not establish.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Reason repeats the rubric without identifying the unsupported claim or missing evidence."
+      ]
+    },
+    {
+      "trace_id": "7041b8e41d503f3ff71a458209587d0e",
+      "scenario_id": "support-0115",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "a factual claim that the available conversation and tool results do not establish.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Reason repeats the rubric without identifying the unsupported claim or missing evidence."
+      ]
+    },
+    {
+      "trace_id": "e9aba23471507c9295e38e228c9afe34",
+      "scenario_id": "support-0122",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "a factual claim that the available conversation and tool results do not establish",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Reason repeats the rubric without identifying the unsupported claim or missing evidence."
+      ]
+    },
+    {
+      "trace_id": "3beb3bdfb0a71bc0a642a9a3213ab4df",
+      "scenario_id": "support-0207",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "a factual claim that the available conversation and tool results do not establish",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Reason repeats the rubric without identifying the unsupported claim or missing evidence."
+      ]
+    },
+    {
+      "trace_id": "846dce28883d384c78de025a0adb9ea0",
+      "scenario_id": "support-0240",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "a factual claim that the available conversation and tool results do not establish.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Reason repeats the rubric without identifying the unsupported claim or missing evidence."
+      ]
+    },
+    {
+      "trace_id": "274f27e838614139d4479f8b69a29d20",
+      "scenario_id": "support-0007",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "a factual claim that the available conversation and tool results do not establish",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Reason repeats the rubric without identifying the unsupported claim or missing evidence."
+      ]
+    },
+    {
+      "trace_id": "20fd2d751f3d322dc989be5e61d3cc82",
+      "scenario_id": "support-0011",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "a factual claim that the available conversation and tool results do not establish",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Reason repeats the rubric without identifying the unsupported claim or missing evidence."
+      ]
+    },
+    {
+      "trace_id": "a5d7079f937b8ebf24f8c4a92b4b6f54",
+      "scenario_id": "support-0014",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "a factual claim that the available conversation and tool results do not establish",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Reason repeats the rubric without identifying the unsupported claim or missing evidence."
+      ]
+    },
+    {
+      "trace_id": "964f6ab77bc15721a021f2822db30050",
+      "scenario_id": "support-0025",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "a factual claim that the available conversation and tool results do not establish",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Reason repeats the rubric without identifying the unsupported claim or missing evidence."
+      ]
+    },
+    {
+      "trace_id": "57709819551fc0c1c0bf4ebb2836281b",
+      "scenario_id": "support-0027",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "a factual claim that the available conversation and tool results do not establish",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Reason repeats the rubric without identifying the unsupported claim or missing evidence."
+      ]
+    },
+    {
+      "trace_id": "0eea033de180a54b3dcaf93bf5da75f5",
+      "scenario_id": "support-0028",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "a factual claim that the available conversation and tool results do not establish.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Reason repeats the rubric without identifying the unsupported claim or missing evidence."
+      ]
+    },
+    {
+      "trace_id": "ed5f8c214afad300b3da971329955405",
+      "scenario_id": "support-0031",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "a factual claim that the available conversation and tool results do not establish.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Reason repeats the rubric without identifying the unsupported claim or missing evidence."
+      ]
+    },
+    {
+      "trace_id": "1f6aa4e4562255bb5f8b8e10abe5a27d",
+      "scenario_id": "support-0036",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "a factual claim that the available conversation and tool results do not establish.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Reason repeats the rubric without identifying the unsupported claim or missing evidence."
+      ]
+    },
+    {
+      "trace_id": "4c8a117af1528bb8c76c01eb1e96512c",
+      "scenario_id": "support-0037",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "a factual claim that the available conversation and tool results do not establish.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Reason repeats the rubric without identifying the unsupported claim or missing evidence."
+      ]
+    },
+    {
+      "trace_id": "3df4c3f51adbc8586c6c8a6585283b57",
+      "scenario_id": "support-0001",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "0caff19f10a492a7d5240173dab4e601",
+      "scenario_id": "support-0007",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "beee44d5ddf121613665651555e5e862",
+      "scenario_id": "support-0025",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "c7132c38667a2e6eae70f529d985aa3d",
+      "scenario_id": "support-0040",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "de3fdfd26ccf4b67eb5d49ea0f2a0bdf",
+      "scenario_id": "support-0040",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "580dc097212477c308db87a0c198db9d",
+      "scenario_id": "support-0043",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "6424692c39af77cf858f2dd9b167c0da",
+      "scenario_id": "support-0050",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "9e85eee7358c6a28b164749ece702787",
+      "scenario_id": "support-0051",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "a3f46264fbea2f5ba4bd8d08be3ab1ad",
+      "scenario_id": "support-0051",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "34c55e27d092ea4f3b0bab6ac7e6e218",
+      "scenario_id": "support-0061",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "69460be6c280544c782ccf8eaadbe3b4",
+      "scenario_id": "support-0069",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "b6186fe88cfb723b197ab0e1ffbba00c",
+      "scenario_id": "support-0083",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "121e0b4e9c988d50183eade495e2de14",
+      "scenario_id": "support-0086",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "0a9cb2002b18dca933c7f960116d26d3",
+      "scenario_id": "support-0077",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. reason",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence."
+      ]
+    },
+    {
+      "trace_id": "99335b972c22988662cde0458672f9cc",
+      "scenario_id": "support-0078",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. reason",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence."
+      ]
+    },
+    {
+      "trace_id": "7ac072bebbc53e65d9f9b17d8c0d3f0d",
+      "scenario_id": "support-0081",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. reason",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence."
+      ]
+    },
+    {
+      "trace_id": "611f7b765ab94b001613574c14e31f05",
+      "scenario_id": "support-0090",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. reason",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence."
+      ]
+    },
+    {
+      "trace_id": "73c36de0d026dd9e05012b5f8e8e6454",
+      "scenario_id": "support-0093",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. reason",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence."
+      ]
+    },
+    {
+      "trace_id": "bb81f9ff38e518dac44484fedb299246",
+      "scenario_id": "support-0100",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "6c4bc65770ecd39d71fd3d22853f183f",
+      "scenario_id": "support-0102",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "c7d814c65743c91b1222e00e77ec1262",
+      "scenario_id": "support-0108",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "c588af0ad155913eaec2deddb2b2a6b9",
+      "scenario_id": "support-0110",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "2d84cbb617e4b1f8f71c8d7f0555ed12",
+      "scenario_id": "support-0111",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "9c358b7323a7828da044c3a4a4e32ea1",
+      "scenario_id": "support-0112",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "661a2ccda8fc95b2bc5fcfbf109be261",
+      "scenario_id": "support-0117",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "1ad8a13e16e578f87db3180d9b32a672",
+      "scenario_id": "support-0119",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "e65275128fb5581373476496e9b9f50f",
+      "scenario_id": "support-0121",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "b034c71109228b0d99bca35e22562302",
+      "scenario_id": "support-0126",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. reason",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence."
+      ]
+    },
+    {
+      "trace_id": "e0bf34b2d3e4c1e401329e407bd6bfdf",
+      "scenario_id": "support-0128",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. reason",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence."
+      ]
+    },
+    {
+      "trace_id": "56b081308257554342e8d191df2ec1a8",
+      "scenario_id": "support-0129",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. reason",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence."
+      ]
+    },
+    {
+      "trace_id": "979cab3ac4adc40af9528d769138eef0",
+      "scenario_id": "support-0131",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. reason",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Human exploratory note remains unresolved; clarify whether later binary label intentionally resolved it."
+      ]
+    },
+    {
+      "trace_id": "95bb3ea9b12f784985e855be0ecb9385",
+      "scenario_id": "support-0133",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. reason",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence."
+      ]
+    },
+    {
+      "trace_id": "3cb93012c516b633f83de9b984411733",
+      "scenario_id": "support-0134",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. reason",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence."
+      ]
+    },
+    {
+      "trace_id": "498691ce49aeb35b3f5f388fc9ad54e5",
+      "scenario_id": "support-0135",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. reason",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence."
+      ]
+    },
+    {
+      "trace_id": "0ed0d8fd3131a98af87599eb1980ef21",
+      "scenario_id": "support-0136",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "637fc31388d4a4f5f565f8b41e5c509c",
+      "scenario_id": "support-0136",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "0818b2e5effd01eec3ae4ebba5295a08",
+      "scenario_id": "support-0140",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "3c29730b0744692035dcd39b7704c200",
+      "scenario_id": "support-0144",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "eead9b24725d4936eb0127270d5fc594",
+      "scenario_id": "support-0144",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "fc655cd523d0b5c9986237126a1f821b",
+      "scenario_id": "support-0146",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. reason",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence."
+      ]
+    },
+    {
+      "trace_id": "08074f47bace805556dbfca4ec5f062e",
+      "scenario_id": "support-0148",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "b2eee584b9481c14a92a8c73d033faa0",
+      "scenario_id": "support-0149",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. reason",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence."
+      ]
+    },
+    {
+      "trace_id": "3dc080f62f53d25a77b31d8a58ba4869",
+      "scenario_id": "support-0150",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. reason",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence."
+      ]
+    },
+    {
+      "trace_id": "2e2e66b3965202b3ba172e5ae9a461af",
+      "scenario_id": "support-0152",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "c611367f80ba05a4c3eff8ac730ac0fd",
+      "scenario_id": "support-0153",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. reason",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence."
+      ]
+    },
+    {
+      "trace_id": "85174c01feaea42431cf81d815c0c0e3",
+      "scenario_id": "support-0154",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. reason",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence."
+      ]
+    },
+    {
+      "trace_id": "68c5c8a47d91117bd757d3a8f066f1e9",
+      "scenario_id": "support-0155",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. reason",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence."
+      ]
+    },
+    {
+      "trace_id": "3cc26a373ec7ef2ea22330a6bf515cb9",
+      "scenario_id": "support-0158",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "3cef9dd6ee932d2f89f19157561f2a5a",
+      "scenario_id": "support-0159",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. reason",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence."
+      ]
+    },
+    {
+      "trace_id": "e50a8c3f6bd7b2d69f33981b48a098b2",
+      "scenario_id": "support-0161",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. PROPOSAL ONLY: the initial review recorded no failure. Recheck the full trace against unsupported_factual_claim; this note alone does not establish absence.",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "29925f83466c55d0e6daae2ab8838cc7",
+      "scenario_id": "support-0164",
+      "hw4_label": 1,
+      "proposed_hw5_value": 0,
+      "reason": "Human reviewed and approved in batch. reason",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence."
+      ]
+    },
+    {
+      "trace_id": "5cdc6cb32cd71f054862c27f592b7733",
+      "scenario_id": "support-0165",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. No explicit unsupported-claim signal was found by the phrase rules. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 0\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "2a91945bfd94541824a7b78ec59e3561",
+      "scenario_id": "support-0169",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "f60528e0891fa00f8e520f591be9b753",
+      "scenario_id": "support-0169",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. No explicit unsupported-claim signal was found by the phrase rules. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 0\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "b6355f9c6d858082ffec849e13327e16",
+      "scenario_id": "support-0170",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "a521520495df9b6960a6f4a5a59c6a16",
+      "scenario_id": "support-0176",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "1ab46d6fa6b608fc58320a579eeba3b2",
+      "scenario_id": "support-0180",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 2\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "5f3c89077e819d6778892323695eeb4d",
+      "scenario_id": "support-0180",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 3\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "78924ec998ac00603e50fb9c4d792cf9",
+      "scenario_id": "support-0180",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 3\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "d318ec829780871df4f89faad0618b2f",
+      "scenario_id": "support-0181",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "e2295d79db96887bc5d3d32c685b3914",
+      "scenario_id": "support-0182",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "865a6025859a7582628d2cd3098b57d9",
+      "scenario_id": "support-0183",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "a684f5142a81c33610974715c18938ae",
+      "scenario_id": "support-0183",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "6de1497dfca68ab76882d95cd0682312",
+      "scenario_id": "support-0184",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "6084ac6cd77628833add8671aa89cd86",
+      "scenario_id": "support-0185",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 4\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "70b2f15940079fa323826402a11f3029",
+      "scenario_id": "support-0185",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 4\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "b0c4a3ee81c65fb59ab9abc2abadda01",
+      "scenario_id": "support-0185",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 4\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "544e5ac7eeea6181acda500005f664d5",
+      "scenario_id": "support-0187",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 3\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "3bfc7286a60193f37a20983588d87ad7",
+      "scenario_id": "support-0188",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "be146059b0d2e50a4cdd4cb546937129",
+      "scenario_id": "support-0188",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "9cc04a1c630eced44f758c798729b4fd",
+      "scenario_id": "support-0189",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Potential speculation or generalized process language appears. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass. A saved human note is unresolved; this proposal must not resolve it implicitly.\nEvidence signals:\nTool results available through selected turn: 3\nPotential speculation/generalization signal: True",
+      "issues": [
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication.",
+        "Human exploratory note remains unresolved; clarify whether later binary label intentionally resolved it."
+      ]
+    },
+    {
+      "trace_id": "5c8d1f684d183258aed8e3251ce6f559",
+      "scenario_id": "support-0190",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 3\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "9c784c1237db07d229b385f8df7ce968",
+      "scenario_id": "support-0190",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 3\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "60bad9e9778cf75ad40074fae2393b1e",
+      "scenario_id": "support-0194",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "d5c19617b16838c11c4a6bafc12c5e40",
+      "scenario_id": "support-0194",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "32dd29c0b5d81b7b2f0116a428e89691",
+      "scenario_id": "support-0196",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Potential speculation or generalized process language appears. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: True",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "ce43fa8240117ae6a4821471f40fdda4",
+      "scenario_id": "support-0202",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 2\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "bc2704054b5a4783ba5df3c48371c73b",
+      "scenario_id": "support-0203",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "6894c215b318994890a470fefb0acdaf",
+      "scenario_id": "support-0204",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "9cd5fff357311bea4395da43e39ba85d",
+      "scenario_id": "support-0208",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 2\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "73347cc3e563bd44a0e067702383ed98",
+      "scenario_id": "support-0210",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 6\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "e6aa796e6923f4a9ecb243fa0b5fc5a2",
+      "scenario_id": "support-0210",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "9eece751d1317a95d670c5554b26cce4",
+      "scenario_id": "support-0211",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 2\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "10943affcafa42431485c77769407f67",
+      "scenario_id": "support-0216",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 2\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "4c11afce998ca848ae403c5d37050001",
+      "scenario_id": "support-0218",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "e4237a25a9a282b538339f205cabc906",
+      "scenario_id": "support-0218",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 2\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "ffe3ef751653a7009b480a82f2723d2f",
+      "scenario_id": "support-0222",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 2\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "0716becd01e26fa4f763cb9e288852a7",
+      "scenario_id": "support-0223",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "6486df562823705183530a3fdc58b3a8",
+      "scenario_id": "support-0225",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "231f75aad3e4ebbc731203ffe47e5713",
+      "scenario_id": "support-0226",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "ad98525bd3c3a3fa09f120d44fce1362",
+      "scenario_id": "support-0227",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "9182a3b19f36c45f85d936634ecf7dd5",
+      "scenario_id": "support-0228",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Potential speculation or generalized process language appears. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: True",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "c254aed9eafbc5b503c5cee13d09f90a",
+      "scenario_id": "support-0229",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "3c040c29a30d22383ea59712f96595b8",
+      "scenario_id": "support-0230",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 2\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "b5986cae74b0768015c1ca1ee21529b0",
+      "scenario_id": "support-0230",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "90af1ce407902ef6bb24e599665f5721",
+      "scenario_id": "support-0232",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "cd956419a87cf2326fc16f77edec360c",
+      "scenario_id": "support-0233",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Potential speculation or generalized process language appears. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: True",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "5fcaace99d144da8a07c69c666646866",
+      "scenario_id": "support-0235",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "72e042943ee0970f80ecc89ef386a9c2",
+      "scenario_id": "support-0235",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Potential speculation or generalized process language appears. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: True",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "79863c283a91eaa3695d35fb1fa1e49a",
+      "scenario_id": "support-0238",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "7c89f76dc61aca99fddd24acce9a23e3",
+      "scenario_id": "support-0238",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 2\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "b668eec4a0dd085ecf8a684787c8733d",
+      "scenario_id": "support-0238",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 3\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "0eefb3fb13a4ed3b1218ba8550098876",
+      "scenario_id": "support-0239",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 7\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "9efd4a2989939ff8a448eba7e7e099a2",
+      "scenario_id": "support-0239",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 7\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "e4e3ec5eff62a608264d0b6602bf2037",
+      "scenario_id": "support-0239",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "5e765ccd8ccceb425bcefbcc6fce1d25",
+      "scenario_id": "support-0240",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 2\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "efe2551f56c9ab4370dc4100090a5fd6",
+      "scenario_id": "support-0240",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 3\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "46f36b829113fdeb26563fd9e7a457c6",
+      "scenario_id": "support-0246",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 2\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "58219e348ceb5baedaa2031b4da42e9c",
+      "scenario_id": "support-0248",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Potential speculation or generalized process language appears. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: True",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "f8315dce2608011d1e53f405a745f941",
+      "scenario_id": "support-0248",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 2\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "a680c40a6d06a1d91b358a69d135e08f",
+      "scenario_id": "support-0249",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "f0763c1d41d64d566d3451d13b373e39",
+      "scenario_id": "support-0249",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 2\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "354cce3ffcee8cca7b7a1c71ca56db85",
+      "scenario_id": "support-0250",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 1\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    },
+    {
+      "trace_id": "b411b8ccd524246d1532ca14e2f2b08f",
+      "scenario_id": "support-0250",
+      "hw4_label": 0,
+      "proposed_hw5_value": 1,
+      "reason": "Human reviewed and approved in batch. Tool evidence is available; claim support requires semantic comparison. Check each factual claim against the displayed conversation and results. Proposed absent is conservative triage, not a verified pass.\nEvidence signals:\nTool results available through selected turn: 2\nPotential speculation/generalization signal: False",
+      "issues": [
+        "Identical reason reused on at least three traces; may lack trace-specific evidence.",
+        "Saved reason retains proposal/review instructions rather than a concrete adjudication."
+      ]
+    }
+  ],
+  "paid_calls": 0,
+  "labels_modified": false
+}

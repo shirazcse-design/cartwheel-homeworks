@@ -1,0 +1,107 @@
+{
+  "mode": "unsupported_factual_claim",
+  "split": "dev",
+  "versions": [
+    {
+      "judge_id": "unsupported_factual_claim-v0",
+      "split": "dev",
+      "tpr": 1.0,
+      "tnr": 0.0833,
+      "tpr_interval": [
+        0.8794,
+        1.0
+      ],
+      "tnr_interval": [
+        0.0149,
+        0.3539
+      ],
+      "agreement": 0.725,
+      "tp": 28,
+      "fn": 0,
+      "tn": 1,
+      "fp": 11,
+      "n": 40,
+      "disagreements": [
+        "04a89a1f12c5e1f9cf175eac66b96ac5",
+        "423448f3fbaf1a9636aacdd84aa004e6",
+        "6868d89ad0d9e30d14713263a3b5b1a0",
+        "7914a140e2f4ca7e6f25a6118e82e551",
+        "8f5cb2ffcd4220107565833c4728a1c8",
+        "9cd5fff357311bea4395da43e39ba85d",
+        "adee71dfb4fe5c73a44dd03ee2045fe5",
+        "bd40b3485cc006cfe1ac4e46ac43ca0b",
+        "ca07522a1182d8c9c057ee757a16284c",
+        "e4c77e0f2087e3ae2fa1005a258081a4",
+        "f331055c03b1ac4a1ee85145307774f8"
+      ]
+    },
+    {
+      "judge_id": "unsupported_factual_claim-v1",
+      "split": "dev",
+      "tpr": 1.0,
+      "tnr": 0.5833,
+      "tpr_interval": [
+        0.8794,
+        1.0
+      ],
+      "tnr_interval": [
+        0.3195,
+        0.8067
+      ],
+      "agreement": 0.875,
+      "tp": 28,
+      "fn": 0,
+      "tn": 7,
+      "fp": 5,
+      "n": 40,
+      "disagreements": [
+        "6868d89ad0d9e30d14713263a3b5b1a0",
+        "9cd5fff357311bea4395da43e39ba85d",
+        "bd40b3485cc006cfe1ac4e46ac43ca0b",
+        "ca07522a1182d8c9c057ee757a16284c",
+        "f331055c03b1ac4a1ee85145307774f8"
+      ]
+    },
+    {
+      "judge_id": "unsupported_factual_claim-v2",
+      "split": "dev",
+      "tpr": 0.9643,
+      "tnr": 0.3333,
+      "tpr_interval": [
+        0.8229,
+        0.9937
+      ],
+      "tnr_interval": [
+        0.1381,
+        0.6094
+      ],
+      "agreement": 0.775,
+      "tp": 27,
+      "fn": 1,
+      "tn": 4,
+      "fp": 8,
+      "n": 40,
+      "disagreements": [
+        "3cb93012c516b633f83de9b984411733",
+        "423448f3fbaf1a9636aacdd84aa004e6",
+        "6868d89ad0d9e30d14713263a3b5b1a0",
+        "8f5cb2ffcd4220107565833c4728a1c8",
+        "9cd5fff357311bea4395da43e39ba85d",
+        "bd40b3485cc006cfe1ac4e46ac43ca0b",
+        "ca07522a1182d8c9c057ee757a16284c",
+        "e4c77e0f2087e3ae2fa1005a258081a4",
+        "f331055c03b1ac4a1ee85145307774f8"
+      ]
+    }
+  ],
+  "v2_resolved_v1_disagreements": [],
+  "v2_new_disagreements": [
+    "3cb93012c516b633f83de9b984411733",
+    "423448f3fbaf1a9636aacdd84aa004e6",
+    "8f5cb2ffcd4220107565833c4728a1c8",
+    "e4c77e0f2087e3ae2fa1005a258081a4"
+  ],
+  "test_predictions": 0,
+  "revision_budget_used": 2,
+  "no_further_prompt_revisions": true
+}

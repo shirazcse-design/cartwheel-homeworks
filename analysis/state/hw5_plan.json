@@ -1,0 +1,119 @@
+{
+  "mode": "unsupported_factual_claim",
+  "selection_approved_by": "human",
+  "selection_approved_at": "2026-11-17T16:07:25.879528+00:00",
+  "question": "Does the assistant make a factual claim that the available conversation and tool results do not establish?",
+  "pass_rule": "The factual claims are supported, or the assistant acknowledges missing information instead of inventing an answer.",
+  "fail_rule": "At least one factual claim is unsupported, even if qualified with likely.",
+  "boundaries": [
+    "Missing policy citation alone is a separate category.",
+    "Repeating contradictory records without acknowledging them is a separate category.",
+    "A plausible claim can still be unsupported by the available evidence."
+  ],
+  "requirement_source": "SPEC.md RESP-3",
+  "hw4_label_convention": {
+    "1": "failure present",
+    "0": "failure absent"
+  },
+  "hw5_label_convention": {
+    "1": "Pass / failure absent",
+    "0": "Fail / failure present"
+  },
+  "label_audit_status": "Additional approvals saved; conservative grouping leaves 69 Pass and 30 Fail. Class minimum met.",
+  "paid_batches_approved": false,
+  "audit_report": "analysis/report/hw5-label-audit.json",
+  "calibration_decisions": "analysis/state/hw5_calibration_decisions.json",
+  "review_decisions": "analysis/state/hw5_review_decisions.json",
+  "review_import": "analysis/state/hw5_human_review_import.json",
+  "approved_representative_counts": {
+    "Fail": 21,
+    "Pass": 76,
+    "Unsure": 3
+  },
+  "ready_to_split": true,
+  "raw_human_approved_counts": {
+    "Fail": 35,
+    "Pass": 79
+  },
+  "independence_review": "analysis/report/hw5-independence-review.json",
+  "conservative_independent_counts": {
+    "Fail": 30,
+    "Pass": 69
+  },
+  "part_b_status": "complete",
+  "judge_input_export": "analysis/state/hw5_trace_inputs.json",
+  "hw5_labels": "analysis/state/hw5_labels/unsupported_factual_claim.jsonl",
+  "split_manifest": "analysis/state/hw5_split_manifest.json",
+  "split_counts": {
+    "train": {
+      "Pass": 14,
+      "Fail": 6
+    },
+    "dev": {
+      "Fail": 12,
+      "Pass": 28
+    },
+    "test": {
+      "Pass": 27,
+      "Fail": 12
+    }
+  },
+  "split_created_once": true,
+  "prompt_examples_selected": true,
+  "prompt_manifest": "analysis/state/hw5_prompt_manifest.json",
+  "draft_prompt": "analysis/prompts/unsupported_factual_claim-v2.txt",
+  "part_c_status": "complete: all development disagreements reviewed; v1 selected by human",
+  "development_judge_id": "unsupported_factual_claim-v2",
+  "development_metrics": "analysis/report/dev-unsupported_factual_claim-v2.json",
+  "development_review": "analysis/state/hw5_development_review.json",
+  "last_approved_batch": {
+    "judge_id": "unsupported_factual_claim-v2",
+    "model": "gpt-4o-mini",
+    "trace_count": 40,
+    "status": "complete"
+  },
+  "prompt_revision_count": 2,
+  "development_comparison": "analysis/report/hw5-development-comparison.json",
+  "part_d_status": "complete: frozen v1 tested once on all 39 held-out conversations",
+  "final_judge_id": "unsupported_factual_claim-v1",
+  "final_selection": "analysis/state/hw5_final_selection.json",
+  "final_judge_frozen": true,
+  "test_metrics": "analysis/report/test-unsupported_factual_claim-v1.json",
+  "test_results": {
+    "judge_id": "unsupported_factual_claim-v1",
+    "split": "test",
+    "tpr": 0.9259,
+    "tnr": 0.25,
+    "tpr_interval": [
+      0.7663,
+      0.9794
+    ],
+    "tnr_interval": [
+      0.0889,
+      0.5323
+    ],
+    "agreement": 0.7179,
+    "tp": 25,
+    "fn": 2,
+    "tn": 3,
+    "fp": 9,
+    "n": 39,
+    "disagreements": [
+      "10943affcafa42431485c77769407f67",
+      "1ac6ad5b30f247f7923361feb9879170",
+      "4c8a117af1528bb8c76c01eb1e96512c",
+      "68c5c8a47d91117bd757d3a8f066f1e9",
+      "6c4bc65770ecd39d71fd3d22853f183f",
+      "6e4e8e75c65ecb82e7d8aedd86dc6d14",
+      "964f6ab77bc15721a021f2822db30050",
+      "9c358b7323a7828da044c3a4a4e32ea1",
+      "9eece751d1317a95d670c5554b26cce4",
+      "d318ec829780871df4f89faad0618b2f",
+      "de5bf55226fc084f82f69c2bd97a3258"
+    ]
+  },
+  "part_e_status": "Report and human use decision complete; commit/push and video remain pending",
+  "recommended_use_decision": "Do not use unattended: the judge detected only 3 of 12 human failures. Human confirmation of this recommendation remains pending.",
+  "human_use_decision": "Do not use for unattended failure detection",
+  "human_use_decision_record": "analysis/state/hw5_use_decision.json"
+}

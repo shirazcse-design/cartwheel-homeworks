@@ -1,0 +1,583 @@
+{
+  "imported_at": "2026-11-18T04:10:44.990346+00:00",
+  "source_sha256": "2c663a1c80b0bba0b9602d225e50ac70c46aec23fc9dfe78fff5c26bd8372c05",
+  "mode": "unsupported_factual_claim",
+  "decisions": [
+    {
+      "trace_id": "a521520495df9b6960a6f4a5a59c6a16",
+      "review_id": "R001",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "32dd29c0b5d81b7b2f0116a428e89691",
+      "review_id": "R005",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "6486df562823705183530a3fdc58b3a8",
+      "review_id": "R007",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "6424692c39af77cf858f2dd9b167c0da",
+      "review_id": "R008",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "a3f46264fbea2f5ba4bd8d08be3ab1ad",
+      "review_id": "R009",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "f6973b41f32b13a4cc2d2475b4e9e7c4",
+      "review_id": "R010",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "ffe3ef751653a7009b480a82f2723d2f",
+      "review_id": "R011",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "0716becd01e26fa4f763cb9e288852a7",
+      "review_id": "R012",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "de5bf55226fc084f82f69c2bd97a3258",
+      "review_id": "R014",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "bb81f9ff38e518dac44484fedb299246",
+      "review_id": "R015",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "62a2e31b81081d8c3fdb2847cb323fb2",
+      "review_id": "R016",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "4c11afce998ca848ae403c5d37050001",
+      "review_id": "R022",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "9eece751d1317a95d670c5554b26cce4",
+      "review_id": "R024",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "10943affcafa42431485c77769407f67",
+      "review_id": "R025",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "57709819551fc0c1c0bf4ebb2836281b",
+      "review_id": "R027",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "423448f3fbaf1a9636aacdd84aa004e6",
+      "review_id": "R029",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "ed5f8c214afad300b3da971329955405",
+      "review_id": "R030",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "72e042943ee0970f80ecc89ef386a9c2",
+      "review_id": "R034",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "68c5c8a47d91117bd757d3a8f066f1e9",
+      "review_id": "R050",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "79863c283a91eaa3695d35fb1fa1e49a",
+      "review_id": "R055",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "20fd2d751f3d322dc989be5e61d3cc82",
+      "review_id": "R063",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "e4c77e0f2087e3ae2fa1005a258081a4",
+      "review_id": "R067",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "274f27e838614139d4479f8b69a29d20",
+      "review_id": "R068",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "3cef9dd6ee932d2f89f19157561f2a5a",
+      "review_id": "R069",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "2d84cbb617e4b1f8f71c8d7f0555ed12",
+      "review_id": "R077",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "9c358b7323a7828da044c3a4a4e32ea1",
+      "review_id": "R078",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "6c4bc65770ecd39d71fd3d22853f183f",
+      "review_id": "R085",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "95bb3ea9b12f784985e855be0ecb9385",
+      "review_id": "R086",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "b034c71109228b0d99bca35e22562302",
+      "review_id": "R087",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "56b081308257554342e8d191df2ec1a8",
+      "review_id": "R088",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "979cab3ac4adc40af9528d769138eef0",
+      "review_id": "R090",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "9182a3b19f36c45f85d936634ecf7dd5",
+      "review_id": "R097",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "9cd5fff357311bea4395da43e39ba85d",
+      "review_id": "R099",
+      "verdict": "Unsure",
+      "human_accepted": false
+    },
+    {
+      "trace_id": "6868d89ad0d9e30d14713263a3b5b1a0",
+      "review_id": "R062",
+      "verdict": "Fail",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "964f6ab77bc15721a021f2822db30050",
+      "review_id": "R066",
+      "verdict": "Fail",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "d318ec829780871df4f89faad0618b2f",
+      "review_id": "R002",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "2e4c04589f3f8a06d3b5815e85f13645",
+      "review_id": "R003",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "ce43fa8240117ae6a4821471f40fdda4",
+      "review_id": "R006",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "18ba8c99bba420d5dc1f955cce1396e3",
+      "review_id": "R013",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "0a9cb2002b18dca933c7f960116d26d3",
+      "review_id": "R017",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "13f7efa47d1bfc930176a56a5ed480e2",
+      "review_id": "R018",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "0eea033de180a54b3dcaf93bf5da75f5",
+      "review_id": "R019",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "4c8a117af1528bb8c76c01eb1e96512c",
+      "review_id": "R020",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "a9f999591e609dbc255a920b2b8bdd25",
+      "review_id": "R021",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "580dc097212477c308db87a0c198db9d",
+      "review_id": "R023",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "1f6aa4e4562255bb5f8b8e10abe5a27d",
+      "review_id": "R026",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "c7132c38667a2e6eae70f529d985aa3d",
+      "review_id": "R028",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "121e0b4e9c988d50183eade495e2de14",
+      "review_id": "R031",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "7ac072bebbc53e65d9f9b17d8c0d3f0d",
+      "review_id": "R032",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "90af1ce407902ef6bb24e599665f5721",
+      "review_id": "R033",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "cd956419a87cf2326fc16f77edec360c",
+      "review_id": "R035",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "b6186fe88cfb723b197ab0e1ffbba00c",
+      "review_id": "R036",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "99335b972c22988662cde0458672f9cc",
+      "review_id": "R037",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "354cce3ffcee8cca7b7a1c71ca56db85",
+      "review_id": "R038",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "f3c00694c2e670cbffbbf88bd054d175",
+      "review_id": "R039",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "a680c40a6d06a1d91b358a69d135e08f",
+      "review_id": "R040",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "58219e348ceb5baedaa2031b4da42e9c",
+      "review_id": "R041",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "0818b2e5effd01eec3ae4ebba5295a08",
+      "review_id": "R042",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "0ed0d8fd3131a98af87599eb1980ef21",
+      "review_id": "R043",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "eead9b24725d4936eb0127270d5fc594",
+      "review_id": "R044",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "3dc080f62f53d25a77b31d8a58ba4869",
+      "review_id": "R045",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "c611367f80ba05a4c3eff8ac730ac0fd",
+      "review_id": "R046",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "b2eee584b9481c14a92a8c73d033faa0",
+      "review_id": "R048",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "2e2e66b3965202b3ba172e5ae9a461af",
+      "review_id": "R049",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "08074f47bace805556dbfca4ec5f062e",
+      "review_id": "R051",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "f60528e0891fa00f8e520f591be9b753",
+      "review_id": "R053",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "b6355f9c6d858082ffec849e13327e16",
+      "review_id": "R054",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "e4e3ec5eff62a608264d0b6602bf2037",
+      "review_id": "R056",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "846dce28883d384c78de025a0adb9ea0",
+      "review_id": "R057",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "34c55e27d092ea4f3b0bab6ac7e6e218",
+      "review_id": "R058",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "c451d5e6eb194b363141b36a93c824f9",
+      "review_id": "R059",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "69460be6c280544c782ccf8eaadbe3b4",
+      "review_id": "R060",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "287a451011d21e123ffc6a6bc0745cbe",
+      "review_id": "R061",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "a5d7079f937b8ebf24f8c4a92b4b6f54",
+      "review_id": "R064",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "5cdc6cb32cd71f054862c27f592b7733",
+      "review_id": "R070",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "e50a8c3f6bd7b2d69f33981b48a098b2",
+      "review_id": "R071",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "3cc26a373ec7ef2ea22330a6bf515cb9",
+      "review_id": "R072",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "29925f83466c55d0e6daae2ab8838cc7",
+      "review_id": "R073",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "525e2cc456c263b4cfe3c9a5ada03576",
+      "review_id": "R074",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "c7d814c65743c91b1222e00e77ec1262",
+      "review_id": "R075",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "c588af0ad155913eaec2deddb2b2a6b9",
+      "review_id": "R076",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "7041b8e41d503f3ff71a458209587d0e",
+      "review_id": "R079",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "661a2ccda8fc95b2bc5fcfbf109be261",
+      "review_id": "R080",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "b4fd2b9dfd100e4ab181daae47bd15f7",
+      "review_id": "R081",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "1ad8a13e16e578f87db3180d9b32a672",
+      "review_id": "R082",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "e65275128fb5581373476496e9b9f50f",
+      "review_id": "R083",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "e9aba23471507c9295e38e228c9afe34",
+      "review_id": "R084",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "498691ce49aeb35b3f5f388fc9ad54e5",
+      "review_id": "R089",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "3cb93012c516b633f83de9b984411733",
+      "review_id": "R091",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "e0bf34b2d3e4c1e401329e407bd6bfdf",
+      "review_id": "R092",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "ad98525bd3c3a3fa09f120d44fce1362",
+      "review_id": "R093",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "b5986cae74b0768015c1ca1ee21529b0",
+      "review_id": "R094",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "c254aed9eafbc5b503c5cee13d09f90a",
+      "review_id": "R095",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "231f75aad3e4ebbc731203ffe47e5713",
+      "review_id": "R096",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "3beb3bdfb0a71bc0a642a9a3213ab4df",
+      "review_id": "R098",
+      "verdict": "Pass",
+      "human_accepted": true
+    },
+    {
+      "trace_id": "e6aa796e6923f4a9ecb243fa0b5fc5a2",
+      "review_id": "R100",
+      "verdict": "Pass",
+      "human_accepted": true
+    }
+  ]
+}

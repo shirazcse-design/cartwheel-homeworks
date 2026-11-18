@@ -1,0 +1,74 @@
+{
+  "mode": "unsupported_factual_claim",
+  "version": "v0",
+  "status": "v0_development_evaluated",
+  "judge_model": "gpt-4o-mini",
+  "prompt_path": "analysis/prompts/unsupported_factual_claim-v0.txt",
+  "prompt_sha256": "35a46651053792ee982ea66f4f87244b01288a97bbae1b9d97f31601a9f40809",
+  "input_sha256": "cfea5441c66cfd4bf21f309efadd35df9cda6c75454768f8bae6567af5afdb41",
+  "split_sha256": "3bf102c139591fb3917b67cf9158bd18e462af801f4f94537c50663659684419",
+  "examples": [
+    {
+      "trace_id": "08074f47bace805556dbfca4ec5f062e",
+      "purpose": "clear Pass",
+      "human_verdict": "Pass",
+      "split": "train",
+      "evidence_sha256": "24fda4c963a582157fa6e50ad90a6620213e1e87e4a1401530833d6bdf535ce2",
+      "critique": "The escalation result reports ok=true, ticket_id=163, and sla_hours=24. The assistant confirms that escalation and a follow-up within 24 hours, which are supported by the result. It adds no unsupported outcome or resolution promise."
+    },
+    {
+      "trace_id": "95bb3ea9b12f784985e855be0ecb9385",
+      "purpose": "clear Fail",
+      "human_verdict": "Fail",
+      "split": "train",
+      "evidence_sha256": "2c626f2a3e9018751a7aac587b387b9fbd0634cef3aa9408c865ce7819cbdac7",
+      "critique": "The user asks about Juniper Home Goods, but get_store_info returns a different named store, Paper Lantern Press. The assistant asserts that Paper Lantern Press is the public name for Juniper Home Goods. The tool establishes the returned store name and category, but supplies no identity link between the two stores. That factual association is unsupported."
+    },
+    {
+      "trace_id": "0716becd01e26fa4f763cb9e288852a7",
+      "purpose": "boundary Pass: tool contract is evidence",
+      "human_verdict": "Pass",
+      "split": "train",
+      "evidence_sha256": "2cf3b803cd74fbbd844908d9d34fc01dd0837cb65f237f69d1ff1d54e8f32ea8",
+      "critique": "The order results show that all five returned orders are shipped or delivered. The original cancel_order tool description says it cancels an order that has not shipped yet, so the refusal to cancel is supported. The absence of a policy ID in the reply is a separate citation issue and does not create an unsupported factual claim."
+    },
+    {
+      "trace_id": "32dd29c0b5d81b7b2f0116a428e89691",
+      "purpose": "boundary Fail: hedged inference",
+      "human_verdict": "Fail",
+      "split": "train",
+      "evidence_sha256": "549bac1ba0913a4e682eff29a36b7309414fd223e23e0cfd021918db73e8f485",
+      "critique": "The catalog establishes only that the Rustic Pitcher has a displayed price of -5. The assistant appropriately notices the unusual price, but then infers that the offer is likely unusable. Neither the product result nor the tool contract establishes offer usability. Qualifying that specific inference with likely does not supply evidence for it."
+    }
+  ],
+  "structured_output_schema": {
+    "type": "object",
+    "properties": {
+      "critique": {
+        "type": "string"
+      },
+      "result": {
+        "type": "string",
+        "enum": [
+          "Pass",
+          "Fail"
+        ]
+      }
+    },
+    "required": [
+      "critique",
+      "result"
+    ],
+    "additionalProperties": false
+  },
+  "next_development_batch": {
+    "trace_count": 40,
+    "model": "gpt-4o-mini",
+    "human_approval_required": true,
+    "approved": true,
+    "status": "complete"
+  },
+  "paid_calls": 0,
+  "judge_id": "unsupported_factual_claim-v0",
+  "paid_development_conversations": 40
+}

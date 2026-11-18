@@ -1,0 +1,518 @@
+{
+  "status": "Search leads only, not labeled failures; semantic independence review pending",
+  "paid_calls": 0,
+  "candidates": [
+    {
+      "trace_id": "7f4b346caaaedbe4c3f44b98a838dfb0",
+      "scenario_id": "support-0032",
+      "group_id": "b92bed1c2e38ea30",
+      "retrieval_signals": [
+        "Refund completion/timing claim"
+      ],
+      "verdict": null,
+      "human_accepted": false,
+      "trace": [
+        {
+          "role": "user",
+          "text": "I need a full refund for my Compact Desk Lamp from Cascade Audio. Please keep the answer brief and plain."
+        },
+        {
+          "role": "assistant",
+          "text": "I need to check your order details to see if a refund is eligible. I'll look that up now."
+        },
+        {
+          "role": "tool_call",
+          "name": "find_order",
+          "arguments": {
+            "query": "Compact Desk Lamp"
+          }
+        },
+        {
+          "role": "tool_result",
+          "name": "find_order",
+          "content": {
+            "ok": true,
+            "orders": [
+              {
+                "order_id": 223,
+                "store_id": 5,
+                "product_id": 183,
+                "quantity": 1,
+                "total_usd": 86.25,
+                "status": "delivered",
+                "ordered_at": "2026-06-07",
+                "shipped_at": "2026-06-10",
+                "delivered_at": "2026-06-12",
+                "refund_eligible": true
+              }
+            ]
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Your order for the Compact Desk Lamp is eligible for a refund. I'll proceed to issue the full refund of $86.25 now."
+        },
+        {
+          "role": "tool_call",
+          "name": "issue_refund",
+          "arguments": {
+            "order_id": 223,
+            "amount_usd": 86.25,
+            "reason": "Request for full refund."
+          }
+        },
+        {
+          "role": "tool_result",
+          "name": "issue_refund",
+          "content": {
+            "ok": true,
+            "status": "auto_approved",
+            "refund_id": 578,
+            "order_id": 223,
+            "amount_usd": 86.25,
+            "note": "refund goes back to the original payment method in 5 to 10 business days"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "The full refund of $86.25 for your Compact Desk Lamp has been successfully issued. It will be processed back to your original payment method within 5 to 10 business days."
+        }
+      ]
+    },
+    {
+      "trace_id": "bd40b3485cc006cfe1ac4e46ac43ca0b",
+      "scenario_id": "support-0041",
+      "group_id": "70b27b3043f1b62c",
+      "retrieval_signals": [
+        "Notification/update promise"
+      ],
+      "verdict": null,
+      "human_accepted": false,
+      "trace": [
+        {
+          "role": "user",
+          "text": "I need to request a full refund for a Rustic Water Bottle I bought from Meridian Cycles."
+        },
+        {
+          "role": "assistant",
+          "text": "To assist you with a refund request for the Rustic Water Bottle you purchased, I first need to check the order details and its refund eligibility. I'll look up your recent orders to find this specific order."
+        },
+        {
+          "role": "tool_call",
+          "name": "find_order",
+          "arguments": {
+            "query": "Rustic Water Bottle"
+          }
+        },
+        {
+          "role": "tool_result",
+          "name": "find_order",
+          "content": {
+            "ok": true,
+            "orders": [
+              {
+                "order_id": 200,
+                "store_id": 10,
+                "product_id": 384,
+                "quantity": 1,
+                "total_usd": 267.75,
+                "status": "delivered",
+                "ordered_at": "2026-06-05",
+                "shipped_at": "2026-06-07",
+                "delivered_at": "2026-06-11",
+                "refund_eligible": true
+              }
+            ]
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "I found your order for the Rustic Water Bottle from Meridian Cycles. The order is eligible for a refund as it has been delivered. \n\nNow, I will proceed to request a full refund for you. Please hold on a moment."
+        },
+        {
+          "role": "tool_call",
+          "name": "issue_refund",
+          "arguments": {
+            "order_id": 200,
+            "amount_usd": 267.75,
+            "reason": "Requesting a full refund for the Rustic Water Bottle."
+          }
+        },
+        {
+          "role": "tool_result",
+          "name": "issue_refund",
+          "content": {
+            "ok": true,
+            "status": "queued_for_approval",
+            "refund_id": 580,
+            "order_id": 200,
+            "amount_usd": 267.75,
+            "note": "amount is above the $100 auto-approval threshold; a human support agent will review it"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "I've requested a full refund of $267.75 for your Rustic Water Bottle. Since the amount is above the $100 auto-approval threshold, it has been queued for approval by a human support agent. \n\nThey will review your request, and you should receive an update soon. If you have any other questions, feel free to ask!"
+        }
+      ]
+    },
+    {
+      "trace_id": "97a64064324918428735bf3974e5b100",
+      "scenario_id": "support-0045",
+      "group_id": "a7fd988676bf41b8",
+      "retrieval_signals": [
+        "Notification/update promise"
+      ],
+      "verdict": null,
+      "human_accepted": false,
+      "trace": [
+        {
+          "role": "user",
+          "text": "I need a full refund for the Woven Trowel Set the customer bought from Petal & Stem. Please get to the point."
+        },
+        {
+          "role": "assistant",
+          "text": "Before issuing a refund, I need to check the order details for the Woven Trowel Set to confirm its refund eligibility. Let me look that up now."
+        },
+        {
+          "role": "tool_call",
+          "name": "find_order",
+          "arguments": {
+            "query": "Woven Trowel Set"
+          }
+        },
+        {
+          "role": "tool_result",
+          "name": "find_order",
+          "content": {
+            "ok": true,
+            "orders": [
+              {
+                "order_id": 2439,
+                "store_id": 3,
+                "product_id": 99,
+                "quantity": 1,
+                "total_usd": 212.5,
+                "status": "delivered",
+                "ordered_at": "2026-06-17",
+                "shipped_at": "2026-06-20",
+                "delivered_at": "2026-06-26",
+                "refund_eligible": true
+              },
+              {
+                "order_id": 6721,
+                "store_id": 3,
+                "product_id": 105,
+                "quantity": 1,
+                "total_usd": 291,
+                "status": "delivered",
+                "ordered_at": "2026-06-12",
+                "shipped_at": "2026-06-13",
+                "delivered_at": "2026-06-17",
+                "refund_eligible": true
+              },
+              {
+                "order_id": 245,
+                "store_id": 3,
+                "product_id": 99,
+                "quantity": 1,
+                "total_usd": 212.5,
+                "status": "delivered",
+                "ordered_at": "2026-05-23",
+                "shipped_at": "2026-05-26",
+                "delivered_at": "2026-06-01",
+                "refund_eligible": true
+              },
+              {
+                "order_id": 1050,
+                "store_id": 3,
+                "product_id": 105,
+                "quantity": 1,
+                "total_usd": 291,
+                "status": "delivered",
+                "ordered_at": "2026-05-20",
+                "shipped_at": "2026-05-21",
+                "delivered_at": "2026-05-25",
+                "refund_eligible": false
+              },
+              {
+                "order_id": 9745,
+                "store_id": 3,
+                "product_id": 99,
+                "quantity": 2,
+                "total_usd": 425,
+                "status": "delivered",
+                "ordered_at": "2026-05-05",
+                "shipped_at": "2026-05-07",
+                "delivered_at": "2026-05-12",
+                "refund_eligible": false
+              }
+            ]
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "I found the order for the Woven Trowel Set, which has an order ID of 2439. This order is eligible for a refund. \n\nNow, I'll proceed to issue a full refund of $212.50."
+        },
+        {
+          "role": "tool_call",
+          "name": "issue_refund",
+          "arguments": {
+            "order_id": 2439,
+            "amount_usd": 212.5,
+            "reason": "Customer requested a refund."
+          }
+        },
+        {
+          "role": "tool_result",
+          "name": "issue_refund",
+          "content": {
+            "ok": true,
+            "status": "queued_for_approval",
+            "refund_id": 582,
+            "order_id": 2439,
+            "amount_usd": 212.5,
+            "note": "amount is above the $100 auto-approval threshold; a human support agent will review it"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "I've initiated a full refund of $212.50 for the Woven Trowel Set. Since the amount exceeds the auto-approval threshold, it's queued for human approval. A support agent will review it, and you will receive a notification once the refund is processed. \n\nIf you need further assistance, feel free to ask!"
+        }
+      ]
+    },
+    {
+      "trace_id": "1ac6ad5b30f247f7923361feb9879170",
+      "scenario_id": "support-0118",
+      "group_id": "e89e3c21c9cfa8b0",
+      "retrieval_signals": [
+        "Store identity/category assertion"
+      ],
+      "verdict": null,
+      "human_accepted": false,
+      "trace": [
+        {
+          "role": "user",
+          "text": "I'm looking for the Woven Plush Fox from Little Fox Toys. Can you find it for me? I want to stick to a budget of $75. Please also suggest alternatives within that budget. I really do need those listing details; please focus on that."
+        },
+        {
+          "role": "assistant",
+          "text": "I'll search for the Woven Plush Fox from Little Fox Toys and see if it falls within your budget of $75. If I can't find that specific item, I'll also look for alternatives within the same budget. \n\nLet me gather that information for you right now."
+        },
+        {
+          "role": "tool_call",
+          "name": "search_products",
+          "arguments": {
+            "query": "Woven Plush Fox",
+            "store": null,
+            "max_price_usd": 75,
+            "limit": 5
+          }
+        },
+        {
+          "role": "tool_result",
+          "name": "search_products",
+          "content": {
+            "ok": true,
+            "products": [
+              {
+                "product_id": 432,
+                "store_id": 11,
+                "title": "Woven Plush Fox",
+                "price_usd": 37.5
+              }
+            ],
+            "count": 1
+          }
+        },
+        {
+          "role": "tool_call",
+          "name": "search_products",
+          "arguments": {
+            "query": "plush toy",
+            "store": null,
+            "max_price_usd": 75,
+            "limit": 5
+          }
+        },
+        {
+          "role": "tool_result",
+          "name": "search_products",
+          "content": {
+            "ok": true,
+            "products": [
+              {
+                "product_id": 432,
+                "store_id": 11,
+                "title": "Woven Plush Fox",
+                "price_usd": 37.5
+              }
+            ],
+            "count": 1
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "I found the **Woven Plush Fox** from Little Fox Toys available for **$37.50**. Since this is the only match for your search, I can also suggest a few alternative plush toys for you. Here are the listings:\n\n1. **Woven Plush Fox**\n   - **Price:** $37.50\n   - **Store:** Little Fox Toys\n\nSince there doesn't seem to be other distinct alternatives listed within the same category right now, I recommend this option if you're looking specifically for a plush toy. If you'd like me to look for a different type of item or have any other preferences, please let me know!"
+        }
+      ]
+    },
+    {
+      "trace_id": "94609dd82d55edd012f13d4f3b9eb80c",
+      "scenario_id": "support-0127",
+      "group_id": "d9253274091b8f29",
+      "retrieval_signals": [
+        "Store identity/category assertion"
+      ],
+      "verdict": null,
+      "human_accepted": false,
+      "trace": [
+        {
+          "role": "user",
+          "text": "Need public store name and category for Copperline Tools."
+        },
+        {
+          "role": "tool_call",
+          "name": "get_store_info",
+          "arguments": {
+            "store_id": 2
+          }
+        },
+        {
+          "role": "tool_result",
+          "name": "get_store_info",
+          "content": {
+            "ok": true,
+            "store": {
+              "store_id": 2,
+              "name": "Juniper Home Goods",
+              "slug": "juniper-home-goods",
+              "category": "home_and_kitchen"
+            }
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "The public store name for your store is \"Juniper Home Goods,\" and it falls under the category of \"Home and Kitchen.\" If you need any further information, feel free to ask!"
+        }
+      ]
+    },
+    {
+      "trace_id": "ad48d5721479314a3da42ad41a91c780",
+      "scenario_id": "support-0130",
+      "group_id": "3dffa4ec1285c814",
+      "retrieval_signals": [
+        "Store identity/category assertion"
+      ],
+      "verdict": null,
+      "human_accepted": false,
+      "trace": [
+        {
+          "role": "user",
+          "text": "What category does Saltbox Pantry fall under?"
+        },
+        {
+          "role": "tool_call",
+          "name": "get_store_info",
+          "arguments": {
+            "store_id": 5
+          }
+        },
+        {
+          "role": "tool_result",
+          "name": "get_store_info",
+          "content": {
+            "ok": true,
+            "store": {
+              "store_id": 5,
+              "name": "Cascade Audio",
+              "slug": "cascade-audio",
+              "category": "electronics"
+            }
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "It seems that the store ID you provided is for \"Cascade Audio,\" which falls under the \"electronics\" category. If you need information specifically about \"Saltbox Pantry,\" please provide the correct store ID or any other details you might have."
+        }
+      ]
+    },
+    {
+      "trace_id": "8f5cb2ffcd4220107565833c4728a1c8",
+      "scenario_id": "support-0215",
+      "group_id": "3e944297d3c42c16",
+      "retrieval_signals": [
+        "Notification/update promise"
+      ],
+      "verdict": null,
+      "human_accepted": false,
+      "trace": [
+        {
+          "role": "user",
+          "text": "Check purchase details for Woven Watering Can from Petal & Stem. Request full refund."
+        },
+        {
+          "role": "assistant",
+          "text": "I\u2019ll first check the details of your order for the Woven Watering Can from Petal & Stem, including its refund eligibility. After that, I can assist you in requesting the refund if it's eligible. \n\nLet me find your order now."
+        },
+        {
+          "role": "tool_call",
+          "name": "find_order",
+          "arguments": {
+            "query": "Woven Watering Can"
+          }
+        },
+        {
+          "role": "tool_result",
+          "name": "find_order",
+          "content": {
+            "ok": true,
+            "orders": [
+              {
+                "order_id": 342,
+                "store_id": 3,
+                "product_id": 88,
+                "quantity": 1,
+                "total_usd": 228.75,
+                "status": "delivered",
+                "ordered_at": "2026-05-29",
+                "shipped_at": "2026-05-30",
+                "delivered_at": "2026-06-01",
+                "refund_eligible": true
+              }
+            ]
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "I found your order for the Woven Watering Can from Petal & Stem. Here are the details:\n\n- **Order ID:** 342\n- **Total Amount:** $228.75\n- **Status:** Delivered on June 1, 2026\n- **Refund Eligibility:** Yes, you are eligible for a refund.\n\nNow I'll go ahead and request a full refund for this order."
+        },
+        {
+          "role": "tool_call",
+          "name": "issue_refund",
+          "arguments": {
+            "order_id": 342,
+            "amount_usd": 228.75,
+            "reason": "Requested full refund for the Woven Watering Can."
+          }
+        },
+        {
+          "role": "tool_result",
+          "name": "issue_refund",
+          "content": {
+            "ok": true,
+            "status": "queued_for_approval",
+            "refund_id": 585,
+            "order_id": 342,
+            "amount_usd": 228.75,
+            "note": "amount is above the $100 auto-approval threshold; a human support agent will review it"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "I've successfully requested a full refund of $228.75 for your Woven Watering Can order. However, because the amount exceeds the $100 auto-approval threshold, the request is queued for review by a human support agent. \n\nYou will receive an update once the review process is complete. If you have any further questions or need assistance, feel free to ask!"
+        }
+      ]
+    }
+  ]
+}

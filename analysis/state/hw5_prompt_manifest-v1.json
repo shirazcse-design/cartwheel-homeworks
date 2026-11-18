@@ -1,0 +1,85 @@
+{
+  "mode": "unsupported_factual_claim",
+  "version": "v1",
+  "status": "frozen_test_evaluated",
+  "judge_model": "gpt-4o-mini",
+  "prompt_path": "analysis/prompts/unsupported_factual_claim-v1.txt",
+  "prompt_sha256": "6ef33bec37e2820740ea0f0ca16520696e2a6b70ec33d25a94b2ed4b006d3138",
+  "input_sha256": "cfea5441c66cfd4bf21f309efadd35df9cda6c75454768f8bae6567af5afdb41",
+  "split_sha256": "3bf102c139591fb3917b67cf9158bd18e462af801f4f94537c50663659684419",
+  "examples": [
+    {
+      "trace_id": "08074f47bace805556dbfca4ec5f062e",
+      "purpose": "clear Pass",
+      "human_verdict": "Pass",
+      "split": "train",
+      "evidence_sha256": "24fda4c963a582157fa6e50ad90a6620213e1e87e4a1401530833d6bdf535ce2",
+      "critique": "The escalation result reports ok=true, ticket_id=163, and sla_hours=24. The assistant confirms that escalation and a follow-up within 24 hours, which are supported by the result. It adds no unsupported outcome or resolution promise."
+    },
+    {
+      "trace_id": "57709819551fc0c1c0bf4ebb2836281b",
+      "purpose": "clear Fail: unsupported completion and timing",
+      "human_verdict": "Fail",
+      "split": "train",
+      "critique": "The refund result explicitly says queued_for_approval and states only that a human support agent will review the request. The assistant says the refund has been issued and that the agent will process it shortly. Those completion/timing assurances are not established by queued review; accurate order details and the acknowledgment of approval pending do not eliminate the unsupported assurances. The result is Fail.",
+      "evidence_sha256": "fc13d5582bdec256455d33564cffe712323993e1942cc3aeaa5247edd83a1c7a"
+    },
+    {
+      "trace_id": "0716becd01e26fa4f763cb9e288852a7",
+      "purpose": "boundary Pass: tool contract is evidence",
+      "human_verdict": "Pass",
+      "split": "train",
+      "evidence_sha256": "2cf3b803cd74fbbd844908d9d34fc01dd0837cb65f237f69d1ff1d54e8f32ea8",
+      "critique": "The order results show that all five returned orders are shipped or delivered. The original cancel_order tool description says it cancels an order that has not shipped yet, so the refusal to cancel is supported. The absence of a policy ID in the reply is a separate citation issue and does not create an unsupported factual claim."
+    },
+    {
+      "trace_id": "32dd29c0b5d81b7b2f0116a428e89691",
+      "purpose": "boundary Fail: hedged inference",
+      "human_verdict": "Fail",
+      "split": "train",
+      "evidence_sha256": "549bac1ba0913a4e682eff29a36b7309414fd223e23e0cfd021918db73e8f485",
+      "critique": "The catalog establishes only that the Rustic Pitcher has a displayed price of -5. The assistant appropriately notices the unusual price, but then infers that the offer is likely unusable. Neither the product result nor the tool contract establishes offer usability. Qualifying that specific inference with likely does not supply evidence for it."
+    }
+  ],
+  "structured_output_schema": {
+    "type": "object",
+    "properties": {
+      "critique": {
+        "type": "string"
+      },
+      "result": {
+        "type": "string",
+        "enum": [
+          "Pass",
+          "Fail"
+        ]
+      }
+    },
+    "required": [
+      "critique",
+      "result"
+    ],
+    "additionalProperties": false
+  },
+  "next_development_batch": {
+    "trace_count": 40,
+    "model": "gpt-4o-mini",
+    "human_approval_required": true,
+    "approved": true,
+    "status": "complete"
+  },
+  "paid_calls": 0,
+  "revision_number": 1,
+  "based_on_judge": "unsupported_factual_claim-v0",
+  "human_adjudication": "All 11 development disagreements retained as human Fail; judge wrong",
+  "revision_rationale": [
+    "Require every claim and final clause to be checked against evidence, rather than validating only the main action.",
+    "Treat notification/update promises as separate claims, distinguish queued review from payment completion.",
+    "Require identity mappings and exhaustive evidence for absence/universal summaries.",
+    "Explicitly check named date fields, hedged specific guesses, and exceptions in permission statements.",
+    "Replace the store-name Fail few-shot with an already-labeled training refund-status/timing Fail."
+  ],
+  "judge_id": "unsupported_factual_claim-v1",
+  "paid_development_conversations": 40,
+  "held_out_test_conversations": 39
+}

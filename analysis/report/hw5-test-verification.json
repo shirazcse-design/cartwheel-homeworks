@@ -1,0 +1,25 @@
+{
+  "judge_id": "unsupported_factual_claim-v1",
+  "verified_at": "2026-11-18T05:08:17.503053+00:00",
+  "test_count": 39,
+  "confusion_counts": {
+    "tp": 25,
+    "fn": 2,
+    "tn": 3,
+    "fp": 9
+  },
+  "independent_wilson_intervals": {
+    "tpr": [
+      0.7663,
+      0.9794
+    ],
+    "tnr": [
+      0.0889,
+      0.5323
+    ]
+  },
+  "test_predictions_and_critiques_complete": true,
+  "prompt_still_frozen": true,
+  "immutable_exports_preserved": true,
+  "cached_metric_recalculation_verified": true
+}

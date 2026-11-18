@@ -1,0 +1,33 @@
+{
+  "judge_id": "unsupported_factual_claim-v1",
+  "split": "test",
+  "tpr": 0.9259,
+  "tnr": 0.25,
+  "tpr_interval": [
+    0.7663,
+    0.9794
+  ],
+  "tnr_interval": [
+    0.0889,
+    0.5323
+  ],
+  "agreement": 0.7179,
+  "tp": 25,
+  "fn": 2,
+  "tn": 3,
+  "fp": 9,
+  "n": 39,
+  "disagreements": [
+    "10943affcafa42431485c77769407f67",
+    "1ac6ad5b30f247f7923361feb9879170",
+    "4c8a117af1528bb8c76c01eb1e96512c",
+    "68c5c8a47d91117bd757d3a8f066f1e9",
+    "6c4bc65770ecd39d71fd3d22853f183f",
+    "6e4e8e75c65ecb82e7d8aedd86dc6d14",
+    "964f6ab77bc15721a021f2822db30050",
+    "9c358b7323a7828da044c3a4a4e32ea1",
+    "9eece751d1317a95d670c5554b26cce4",
+    "d318ec829780871df4f89faad0618b2f",
+    "de5bf55226fc084f82f69c2bd97a3258"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "versions": [
+    {
+      "judge_id": "unsupported_factual_claim-v0",
+      "prompt_hash": "cd685d9c4369"
+    },
+    {
+      "judge_id": "unsupported_factual_claim-v1",
+      "prompt_hash": "526eb69e27f7"
+    },
+    {
+      "judge_id": "unsupported_factual_claim-v2",
+      "prompt_hash": "950f8021c041"
+    }
+  ]
+}

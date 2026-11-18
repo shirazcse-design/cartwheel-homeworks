@@ -1,0 +1,39 @@
+{
+  "mode": "unsupported_factual_claim",
+  "judge_id": "unsupported_factual_claim-v1",
+  "version": "v1",
+  "model": "gpt-4o-mini",
+  "prompt_path": "analysis/prompts/unsupported_factual_claim-v1.txt",
+  "prompt_sha256": "6ef33bec37e2820740ea0f0ca16520696e2a6b70ec33d25a94b2ed4b006d3138",
+  "helper_prompt_hash": "526eb69e27f7",
+  "input_sha256": "cfea5441c66cfd4bf21f309efadd35df9cda6c75454768f8bae6567af5afdb41",
+  "split_sha256": "3bf102c139591fb3917b67cf9158bd18e462af801f4f94537c50663659684419",
+  "selected_by": "human",
+  "approval_text": "keep all nine labels and select v1",
+  "selected_at": "2026-11-18T05:04:26.634597+00:00",
+  "status": "frozen",
+  "frozen_at": "2026-11-18T05:04:26.642973+00:00",
+  "reason": "V1 has the strongest observed development TPR and TNR of v0/v1/v2; both allowed revisions have been used. No required metric threshold was applied.",
+  "known_development_limitation": "V1 missed 5 of 12 human Fail cases; dev TNR 58.33% with 95% Wilson interval 31.95\u201380.67%.",
+  "test_batch": {
+    "model": "gpt-4o-mini",
+    "trace_count": 39,
+    "class_counts": {
+      "Pass": 27,
+      "Fail": 12
+    },
+    "approved": true,
+    "predictions_started": true,
+    "status": "complete",
+    "completed_at": "2026-11-18T05:06:26.631974+00:00",
+    "metrics_path": "analysis/report/test-unsupported_factual_claim-v1.json"
+  },
+  "human_use_decision": {
+    "judge_id": "unsupported_factual_claim-v1",
+    "decision": "Do not use this judge for unattended failure detection.",
+    "reason": "On the held-out test it detected only 3 of 12 human failures (TNR 25%; 95% Wilson CI 8.89\u201353.23%).",
+    "approved_by": "human",
+    "approval_text": "yes i agree",
+    "approved_at": "2026-11-18T05:10:15.777004+00:00"
+  }
+}

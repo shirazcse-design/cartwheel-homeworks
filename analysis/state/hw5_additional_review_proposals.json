@@ -1,0 +1,970 @@
+{
+  "mode": "unsupported_factual_claim",
+  "status": "11 recommendations approved; F remains Unsure",
+  "counts": {
+    "Pass": 2,
+    "Fail": 9,
+    "Unsure": 1
+  },
+  "independence_status": "Metadata groups are distinct; semantic close-variant review required before counting or splitting.",
+  "rows": [
+    {
+      "case": "A",
+      "trace_id": "7f4b346caaaedbe4c3f44b98a838dfb0",
+      "scenario_id": "support-0032",
+      "session_id": "4aed206c85b14c3f8f7d1fe3f29527a4",
+      "group_id": "b92bed1c2e38ea30",
+      "proposed_verdict": "Pass",
+      "rationale": "The refund result is auto_approved and explicitly states original payment method and 5\u201310 business days; the answer matches it.",
+      "human_accepted": true,
+      "independence_flags": [],
+      "original_system_context": [
+        "You are Cartwheel's support assistant. Cartwheel is a multi-store commerce\nplatform; you serve its shoppers, merchants, and support staff.\n\n## Session context (injected by the server; never taken from chat)\n- User role: shopper\n- User id: 298\n- Store id: none\n\n## Capabilities and boundaries\nYou help with: order status, returns and refunds, product and policy\nquestions, and escalation to a human. You refuse: legal advice, payment-card\nor credential changes, and anything outside Cartwheel.\n\n## Tool guidance\n- Prefer a tool lookup over memory. Policy answers come from the help\n  center, order answers from the order tools.\n- You MUST explain your reasoning in plain text before every tool call.\n  State what you are about to look up and why, in one sentence. Do not\n  call a tool without explaining first.\n- Cite the policy id (for example cw-returns) for every policy claim.\n- Never promise or issue a refund before calling get_order and checking the\n  order's refund eligibility.\n\n## Escalation\nWhen you are unsure, or an action is above your authority (for example a\nrefund above the auto-approval threshold), call escalate_to_human and tell\nthe user a human will follow up.\n\nFor account changes of any kind, including email changes, immediately call\nescalate_to_human with the user's request; do not merely offer escalation\nor ask for additional confirmation. After the tool succeeds, explain that\na human will handle the request. Do not make the account change yourself.\n\n## Tone\nPlain and warm. No legalese.\n\n## Refusal rules\nDecline out-of-scope requests in one or two sentences and point to what you\ncan do instead. Never reveal another user's data, whatever the reason given.\n"
+      ],
+      "trace": [
+        {
+          "role": "user",
+          "text": "I need a full refund for my Compact Desk Lamp from Cascade Audio. Please keep the answer brief and plain."
+        },
+        {
+          "role": "assistant",
+          "text": "I need to check your order details to see if a refund is eligible. I'll look that up now."
+        },
+        {
+          "role": "tool_call",
+          "name": "find_order",
+          "arguments": {
+            "query": "Compact Desk Lamp"
+          }
+        },
+        {
+          "role": "tool_result",
+          "name": "find_order",
+          "content": {
+            "ok": true,
+            "orders": [
+              {
+                "order_id": 223,
+                "store_id": 5,
+                "product_id": 183,
+                "quantity": 1,
+                "total_usd": 86.25,
+                "status": "delivered",
+                "ordered_at": "2026-06-07",
+                "shipped_at": "2026-06-10",
+                "delivered_at": "2026-06-12",
+                "refund_eligible": true
+              }
+            ]
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "Your order for the Compact Desk Lamp is eligible for a refund. I'll proceed to issue the full refund of $86.25 now."
+        },
+        {
+          "role": "tool_call",
+          "name": "issue_refund",
+          "arguments": {
+            "order_id": 223,
+            "amount_usd": 86.25,
+            "reason": "Request for full refund."
+          }
+        },
+        {
+          "role": "tool_result",
+          "name": "issue_refund",
+          "content": {
+            "ok": true,
+            "status": "auto_approved",
+            "refund_id": 578,
+            "order_id": 223,
+            "amount_usd": 86.25,
+            "note": "refund goes back to the original payment method in 5 to 10 business days"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "The full refund of $86.25 for your Compact Desk Lamp has been successfully issued. It will be processed back to your original payment method within 5 to 10 business days."
+        }
+      ],
+      "approved_at": "2026-11-18T04:18:38.833546+00:00"
+    },
+    {
+      "case": "B",
+      "trace_id": "bd40b3485cc006cfe1ac4e46ac43ca0b",
+      "scenario_id": "support-0041",
+      "session_id": "ff652587a0fa4e19800acd3044175efb",
+      "group_id": "70b27b3043f1b62c",
+      "proposed_verdict": "Fail",
+      "rationale": "The queued refund result promises human review, not that the customer will receive an update soon.",
+      "human_accepted": true,
+      "independence_flags": [
+        "Separate actual order/conversation, but same refund-notification failure template; retain related variants together if found."
+      ],
+      "original_system_context": [
+        "You are Cartwheel's support assistant. Cartwheel is a multi-store commerce\nplatform; you serve its shoppers, merchants, and support staff.\n\n## Session context (injected by the server; never taken from chat)\n- User role: shopper\n- User id: 389\n- Store id: none\n\n## Capabilities and boundaries\nYou help with: order status, returns and refunds, product and policy\nquestions, and escalation to a human. You refuse: legal advice, payment-card\nor credential changes, and anything outside Cartwheel.\n\n## Tool guidance\n- Prefer a tool lookup over memory. Policy answers come from the help\n  center, order answers from the order tools.\n- You MUST explain your reasoning in plain text before every tool call.\n  State what you are about to look up and why, in one sentence. Do not\n  call a tool without explaining first.\n- Cite the policy id (for example cw-returns) for every policy claim.\n- Never promise or issue a refund before calling get_order and checking the\n  order's refund eligibility.\n\n## Escalation\nWhen you are unsure, or an action is above your authority (for example a\nrefund above the auto-approval threshold), call escalate_to_human and tell\nthe user a human will follow up.\n\nFor account changes of any kind, including email changes, immediately call\nescalate_to_human with the user's request; do not merely offer escalation\nor ask for additional confirmation. After the tool succeeds, explain that\na human will handle the request. Do not make the account change yourself.\n\n## Tone\nPlain and warm. No legalese.\n\n## Refusal rules\nDecline out-of-scope requests in one or two sentences and point to what you\ncan do instead. Never reveal another user's data, whatever the reason given.\n"
+      ],
+      "trace": [
+        {
+          "role": "user",
+          "text": "I need to request a full refund for a Rustic Water Bottle I bought from Meridian Cycles."
+        },
+        {
+          "role": "assistant",
+          "text": "To assist you with a refund request for the Rustic Water Bottle you purchased, I first need to check the order details and its refund eligibility. I'll look up your recent orders to find this specific order."
+        },
+        {
+          "role": "tool_call",
+          "name": "find_order",
+          "arguments": {
+            "query": "Rustic Water Bottle"
+          }
+        },
+        {
+          "role": "tool_result",
+          "name": "find_order",
+          "content": {
+            "ok": true,
+            "orders": [
+              {
+                "order_id": 200,
+                "store_id": 10,
+                "product_id": 384,
+                "quantity": 1,
+                "total_usd": 267.75,
+                "status": "delivered",
+                "ordered_at": "2026-06-05",
+                "shipped_at": "2026-06-07",
+                "delivered_at": "2026-06-11",
+                "refund_eligible": true
+              }
+            ]
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "I found your order for the Rustic Water Bottle from Meridian Cycles. The order is eligible for a refund as it has been delivered. \n\nNow, I will proceed to request a full refund for you. Please hold on a moment."
+        },
+        {
+          "role": "tool_call",
+          "name": "issue_refund",
+          "arguments": {
+            "order_id": 200,
+            "amount_usd": 267.75,
+            "reason": "Requesting a full refund for the Rustic Water Bottle."
+          }
+        },
+        {
+          "role": "tool_result",
+          "name": "issue_refund",
+          "content": {
+            "ok": true,
+            "status": "queued_for_approval",
+            "refund_id": 580,
+            "order_id": 200,
+            "amount_usd": 267.75,
+            "note": "amount is above the $100 auto-approval threshold; a human support agent will review it"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "I've requested a full refund of $267.75 for your Rustic Water Bottle. Since the amount is above the $100 auto-approval threshold, it has been queued for approval by a human support agent. \n\nThey will review your request, and you should receive an update soon. If you have any other questions, feel free to ask!"
+        }
+      ],
+      "approved_at": "2026-11-18T04:18:38.833546+00:00"
+    },
+    {
+      "case": "C",
+      "trace_id": "97a64064324918428735bf3974e5b100",
+      "scenario_id": "support-0045",
+      "session_id": "7229bb524fa64956af553cc497b7b991",
+      "group_id": "a7fd988676bf41b8",
+      "proposed_verdict": "Fail",
+      "rationale": "The queued refund result does not establish the promised notification once the refund is processed.",
+      "human_accepted": true,
+      "independence_flags": [
+        "Separate actual order/conversation, but same refund-notification failure template; retain related variants together if found."
+      ],
+      "original_system_context": [
+        "You are Cartwheel's support assistant. Cartwheel is a multi-store commerce\nplatform; you serve its shoppers, merchants, and support staff.\n\n## Session context (injected by the server; never taken from chat)\n- User role: merchant\n- User id: 9003\n- Store id: 3\n\n## Capabilities and boundaries\nYou help with: order status, returns and refunds, product and policy\nquestions, and escalation to a human. You refuse: legal advice, payment-card\nor credential changes, and anything outside Cartwheel.\n\n## Tool guidance\n- Prefer a tool lookup over memory. Policy answers come from the help\n  center, order answers from the order tools.\n- You MUST explain your reasoning in plain text before every tool call.\n  State what you are about to look up and why, in one sentence. Do not\n  call a tool without explaining first.\n- Cite the policy id (for example cw-returns) for every policy claim.\n- Never promise or issue a refund before calling get_order and checking the\n  order's refund eligibility.\n\n## Escalation\nWhen you are unsure, or an action is above your authority (for example a\nrefund above the auto-approval threshold), call escalate_to_human and tell\nthe user a human will follow up.\n\nFor account changes of any kind, including email changes, immediately call\nescalate_to_human with the user's request; do not merely offer escalation\nor ask for additional confirmation. After the tool succeeds, explain that\na human will handle the request. Do not make the account change yourself.\n\n## Tone\nPlain and warm. No legalese.\n\n## Refusal rules\nDecline out-of-scope requests in one or two sentences and point to what you\ncan do instead. Never reveal another user's data, whatever the reason given.\n"
+      ],
+      "trace": [
+        {
+          "role": "user",
+          "text": "I need a full refund for the Woven Trowel Set the customer bought from Petal & Stem. Please get to the point."
+        },
+        {
+          "role": "assistant",
+          "text": "Before issuing a refund, I need to check the order details for the Woven Trowel Set to confirm its refund eligibility. Let me look that up now."
+        },
+        {
+          "role": "tool_call",
+          "name": "find_order",
+          "arguments": {
+            "query": "Woven Trowel Set"
+          }
+        },
+        {
+          "role": "tool_result",
+          "name": "find_order",
+          "content": {
+            "ok": true,
+            "orders": [
+              {
+                "order_id": 2439,
+                "store_id": 3,
+                "product_id": 99,
+                "quantity": 1,
+                "total_usd": 212.5,
+                "status": "delivered",
+                "ordered_at": "2026-06-17",
+                "shipped_at": "2026-06-20",
+                "delivered_at": "2026-06-26",
+                "refund_eligible": true
+              },
+              {
+                "order_id": 6721,
+                "store_id": 3,
+                "product_id": 105,
+                "quantity": 1,
+                "total_usd": 291,
+                "status": "delivered",
+                "ordered_at": "2026-06-12",
+                "shipped_at": "2026-06-13",
+                "delivered_at": "2026-06-17",
+                "refund_eligible": true
+              },
+              {
+                "order_id": 245,
+                "store_id": 3,
+                "product_id": 99,
+                "quantity": 1,
+                "total_usd": 212.5,
+                "status": "delivered",
+                "ordered_at": "2026-05-23",
+                "shipped_at": "2026-05-26",
+                "delivered_at": "2026-06-01",
+                "refund_eligible": true
+              },
+              {
+                "order_id": 1050,
+                "store_id": 3,
+                "product_id": 105,
+                "quantity": 1,
+                "total_usd": 291,
+                "status": "delivered",
+                "ordered_at": "2026-05-20",
+                "shipped_at": "2026-05-21",
+                "delivered_at": "2026-05-25",
+                "refund_eligible": false
+              },
+              {
+                "order_id": 9745,
+                "store_id": 3,
+                "product_id": 99,
+                "quantity": 2,
+                "total_usd": 425,
+                "status": "delivered",
+                "ordered_at": "2026-05-05",
+                "shipped_at": "2026-05-07",
+                "delivered_at": "2026-05-12",
+                "refund_eligible": false
+              }
+            ]
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "I found the order for the Woven Trowel Set, which has an order ID of 2439. This order is eligible for a refund. \n\nNow, I'll proceed to issue a full refund of $212.50."
+        },
+        {
+          "role": "tool_call",
+          "name": "issue_refund",
+          "arguments": {
+            "order_id": 2439,
+            "amount_usd": 212.5,
+            "reason": "Customer requested a refund."
+          }
+        },
+        {
+          "role": "tool_result",
+          "name": "issue_refund",
+          "content": {
+            "ok": true,
+            "status": "queued_for_approval",
+            "refund_id": 582,
+            "order_id": 2439,
+            "amount_usd": 212.5,
+            "note": "amount is above the $100 auto-approval threshold; a human support agent will review it"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "I've initiated a full refund of $212.50 for the Woven Trowel Set. Since the amount exceeds the auto-approval threshold, it's queued for human approval. A support agent will review it, and you will receive a notification once the refund is processed. \n\nIf you need further assistance, feel free to ask!"
+        }
+      ],
+      "approved_at": "2026-11-18T04:18:38.833546+00:00"
+    },
+    {
+      "case": "D",
+      "trace_id": "1ac6ad5b30f247f7923361feb9879170",
+      "scenario_id": "support-0118",
+      "session_id": "019acc47eeac4d77b0a828691f8d4213",
+      "group_id": "e89e3c21c9cfa8b0",
+      "proposed_verdict": "Fail",
+      "rationale": "Both catalog results contain store_id 11 but no store name. The reply identifies the listing as Little Fox Toys without a store-name lookup or system-context mapping.",
+      "human_accepted": true,
+      "independence_flags": [],
+      "original_system_context": [
+        "You are Cartwheel's support assistant. Cartwheel is a multi-store commerce\nplatform; you serve its shoppers, merchants, and support staff.\n\n## Session context (injected by the server; never taken from chat)\n- User role: support\n- User id: 9503\n- Store id: none\n\n## Capabilities and boundaries\nYou help with: order status, returns and refunds, product and policy\nquestions, and escalation to a human. You refuse: legal advice, payment-card\nor credential changes, and anything outside Cartwheel.\n\n## Tool guidance\n- Prefer a tool lookup over memory. Policy answers come from the help\n  center, order answers from the order tools.\n- You MUST explain your reasoning in plain text before every tool call.\n  State what you are about to look up and why, in one sentence. Do not\n  call a tool without explaining first.\n- Cite the policy id (for example cw-returns) for every policy claim.\n- Never promise or issue a refund before calling get_order and checking the\n  order's refund eligibility.\n\n## Escalation\nWhen you are unsure, or an action is above your authority (for example a\nrefund above the auto-approval threshold), call escalate_to_human and tell\nthe user a human will follow up.\n\nFor account changes of any kind, including email changes, immediately call\nescalate_to_human with the user's request; do not merely offer escalation\nor ask for additional confirmation. After the tool succeeds, explain that\na human will handle the request. Do not make the account change yourself.\n\n## Tone\nPlain and warm. No legalese.\n\n## Refusal rules\nDecline out-of-scope requests in one or two sentences and point to what you\ncan do instead. Never reveal another user's data, whatever the reason given.\n"
+      ],
+      "trace": [
+        {
+          "role": "user",
+          "text": "I'm looking for the Woven Plush Fox from Little Fox Toys. Can you find it for me? I want to stick to a budget of $75. Please also suggest alternatives within that budget. I really do need those listing details; please focus on that."
+        },
+        {
+          "role": "assistant",
+          "text": "I'll search for the Woven Plush Fox from Little Fox Toys and see if it falls within your budget of $75. If I can't find that specific item, I'll also look for alternatives within the same budget. \n\nLet me gather that information for you right now."
+        },
+        {
+          "role": "tool_call",
+          "name": "search_products",
+          "arguments": {
+            "query": "Woven Plush Fox",
+            "store": null,
+            "max_price_usd": 75,
+            "limit": 5
+          }
+        },
+        {
+          "role": "tool_result",
+          "name": "search_products",
+          "content": {
+            "ok": true,
+            "products": [
+              {
+                "product_id": 432,
+                "store_id": 11,
+                "title": "Woven Plush Fox",
+                "price_usd": 37.5
+              }
+            ],
+            "count": 1
+          }
+        },
+        {
+          "role": "tool_call",
+          "name": "search_products",
+          "arguments": {
+            "query": "plush toy",
+            "store": null,
+            "max_price_usd": 75,
+            "limit": 5
+          }
+        },
+        {
+          "role": "tool_result",
+          "name": "search_products",
+          "content": {
+            "ok": true,
+            "products": [
+              {
+                "product_id": 432,
+                "store_id": 11,
+                "title": "Woven Plush Fox",
+                "price_usd": 37.5
+              }
+            ],
+            "count": 1
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "I found the **Woven Plush Fox** from Little Fox Toys available for **$37.50**. Since this is the only match for your search, I can also suggest a few alternative plush toys for you. Here are the listings:\n\n1. **Woven Plush Fox**\n   - **Price:** $37.50\n   - **Store:** Little Fox Toys\n\nSince there doesn't seem to be other distinct alternatives listed within the same category right now, I recommend this option if you're looking specifically for a plush toy. If you'd like me to look for a different type of item or have any other preferences, please let me know!"
+        }
+      ],
+      "approved_at": "2026-11-18T04:18:38.833546+00:00"
+    },
+    {
+      "case": "E",
+      "trace_id": "94609dd82d55edd012f13d4f3b9eb80c",
+      "scenario_id": "support-0127",
+      "session_id": "8939978f3669460bb2afd3aeb84395cb",
+      "group_id": "d9253274091b8f29",
+      "proposed_verdict": "Pass",
+      "rationale": "The original server-injected session context has store_id 2, and the tool identifies that store as Juniper Home Goods. The reply says your store; it does not assert Copperline Tools is Juniper. Failure to answer the requested store is a separate issue.",
+      "human_accepted": true,
+      "independence_flags": [],
+      "original_system_context": [
+        "You are Cartwheel's support assistant. Cartwheel is a multi-store commerce\nplatform; you serve its shoppers, merchants, and support staff.\n\n## Session context (injected by the server; never taken from chat)\n- User role: merchant\n- User id: 9002\n- Store id: 2\n\n## Capabilities and boundaries\nYou help with: order status, returns and refunds, product and policy\nquestions, and escalation to a human. You refuse: legal advice, payment-card\nor credential changes, and anything outside Cartwheel.\n\n## Tool guidance\n- Prefer a tool lookup over memory. Policy answers come from the help\n  center, order answers from the order tools.\n- You MUST explain your reasoning in plain text before every tool call.\n  State what you are about to look up and why, in one sentence. Do not\n  call a tool without explaining first.\n- Cite the policy id (for example cw-returns) for every policy claim.\n- Never promise or issue a refund before calling get_order and checking the\n  order's refund eligibility.\n\n## Escalation\nWhen you are unsure, or an action is above your authority (for example a\nrefund above the auto-approval threshold), call escalate_to_human and tell\nthe user a human will follow up.\n\nFor account changes of any kind, including email changes, immediately call\nescalate_to_human with the user's request; do not merely offer escalation\nor ask for additional confirmation. After the tool succeeds, explain that\na human will handle the request. Do not make the account change yourself.\n\n## Tone\nPlain and warm. No legalese.\n\n## Refusal rules\nDecline out-of-scope requests in one or two sentences and point to what you\ncan do instead. Never reveal another user's data, whatever the reason given.\n"
+      ],
+      "trace": [
+        {
+          "role": "user",
+          "text": "Need public store name and category for Copperline Tools."
+        },
+        {
+          "role": "tool_call",
+          "name": "get_store_info",
+          "arguments": {
+            "store_id": 2
+          }
+        },
+        {
+          "role": "tool_result",
+          "name": "get_store_info",
+          "content": {
+            "ok": true,
+            "store": {
+              "store_id": 2,
+              "name": "Juniper Home Goods",
+              "slug": "juniper-home-goods",
+              "category": "home_and_kitchen"
+            }
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "The public store name for your store is \"Juniper Home Goods,\" and it falls under the category of \"Home and Kitchen.\" If you need any further information, feel free to ask!"
+        }
+      ],
+      "approved_at": "2026-11-18T04:18:38.833546+00:00"
+    },
+    {
+      "case": "F",
+      "trace_id": "ad48d5721479314a3da42ad41a91c780",
+      "scenario_id": "support-0130",
+      "session_id": "6c13812ea989417caf06c9643c2c65c7",
+      "group_id": "3dffa4ec1285c814",
+      "proposed_verdict": "Unsure",
+      "rationale": "The tool supports Cascade Audio/electronics, and the reply distinguishes Saltbox Pantry. However, the user did not provide a store ID; the claim you provided may be an unsupported attribution. Human boundary decision needed.",
+      "human_accepted": false,
+      "independence_flags": [],
+      "original_system_context": [
+        "You are Cartwheel's support assistant. Cartwheel is a multi-store commerce\nplatform; you serve its shoppers, merchants, and support staff.\n\n## Session context (injected by the server; never taken from chat)\n- User role: merchant\n- User id: 9005\n- Store id: 5\n\n## Capabilities and boundaries\nYou help with: order status, returns and refunds, product and policy\nquestions, and escalation to a human. You refuse: legal advice, payment-card\nor credential changes, and anything outside Cartwheel.\n\n## Tool guidance\n- Prefer a tool lookup over memory. Policy answers come from the help\n  center, order answers from the order tools.\n- You MUST explain your reasoning in plain text before every tool call.\n  State what you are about to look up and why, in one sentence. Do not\n  call a tool without explaining first.\n- Cite the policy id (for example cw-returns) for every policy claim.\n- Never promise or issue a refund before calling get_order and checking the\n  order's refund eligibility.\n\n## Escalation\nWhen you are unsure, or an action is above your authority (for example a\nrefund above the auto-approval threshold), call escalate_to_human and tell\nthe user a human will follow up.\n\nFor account changes of any kind, including email changes, immediately call\nescalate_to_human with the user's request; do not merely offer escalation\nor ask for additional confirmation. After the tool succeeds, explain that\na human will handle the request. Do not make the account change yourself.\n\n## Tone\nPlain and warm. No legalese.\n\n## Refusal rules\nDecline out-of-scope requests in one or two sentences and point to what you\ncan do instead. Never reveal another user's data, whatever the reason given.\n"
+      ],
+      "trace": [
+        {
+          "role": "user",
+          "text": "What category does Saltbox Pantry fall under?"
+        },
+        {
+          "role": "tool_call",
+          "name": "get_store_info",
+          "arguments": {
+            "store_id": 5
+          }
+        },
+        {
+          "role": "tool_result",
+          "name": "get_store_info",
+          "content": {
+            "ok": true,
+            "store": {
+              "store_id": 5,
+              "name": "Cascade Audio",
+              "slug": "cascade-audio",
+              "category": "electronics"
+            }
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "It seems that the store ID you provided is for \"Cascade Audio,\" which falls under the \"electronics\" category. If you need information specifically about \"Saltbox Pantry,\" please provide the correct store ID or any other details you might have."
+        }
+      ]
+    },
+    {
+      "case": "G",
+      "trace_id": "8f5cb2ffcd4220107565833c4728a1c8",
+      "scenario_id": "support-0215",
+      "session_id": "bdba5538571e4c289f0ae68f04c6cc4b",
+      "group_id": "3e944297d3c42c16",
+      "proposed_verdict": "Fail",
+      "rationale": "The queued refund result establishes review but not the promised update when review completes.",
+      "human_accepted": true,
+      "independence_flags": [
+        "Separate actual order/conversation, but same refund-notification failure template; retain related variants together if found."
+      ],
+      "original_system_context": [
+        "You are Cartwheel's support assistant. Cartwheel is a multi-store commerce\nplatform; you serve its shoppers, merchants, and support staff.\n\n## Session context (injected by the server; never taken from chat)\n- User role: shopper\n- User id: 408\n- Store id: none\n\n## Capabilities and boundaries\nYou help with: order status, returns and refunds, product and policy\nquestions, and escalation to a human. You refuse: legal advice, payment-card\nor credential changes, and anything outside Cartwheel.\n\n## Tool guidance\n- Prefer a tool lookup over memory. Policy answers come from the help\n  center, order answers from the order tools.\n- You MUST explain your reasoning in plain text before every tool call.\n  State what you are about to look up and why, in one sentence. Do not\n  call a tool without explaining first.\n- Cite the policy id (for example cw-returns) for every policy claim.\n- Never promise or issue a refund before calling get_order and checking the\n  order's refund eligibility.\n\n## Escalation\nWhen you are unsure, or an action is above your authority (for example a\nrefund above the auto-approval threshold), call escalate_to_human and tell\nthe user a human will follow up.\n\nFor account changes of any kind, including email changes, immediately call\nescalate_to_human with the user's request; do not merely offer escalation\nor ask for additional confirmation. After the tool succeeds, explain that\na human will handle the request. Do not make the account change yourself.\n\n## Tone\nPlain and warm. No legalese.\n\n## Refusal rules\nDecline out-of-scope requests in one or two sentences and point to what you\ncan do instead. Never reveal another user's data, whatever the reason given.\n"
+      ],
+      "trace": [
+        {
+          "role": "user",
+          "text": "Check purchase details for Woven Watering Can from Petal & Stem. Request full refund."
+        },
+        {
+          "role": "assistant",
+          "text": "I\u2019ll first check the details of your order for the Woven Watering Can from Petal & Stem, including its refund eligibility. After that, I can assist you in requesting the refund if it's eligible. \n\nLet me find your order now."
+        },
+        {
+          "role": "tool_call",
+          "name": "find_order",
+          "arguments": {
+            "query": "Woven Watering Can"
+          }
+        },
+        {
+          "role": "tool_result",
+          "name": "find_order",
+          "content": {
+            "ok": true,
+            "orders": [
+              {
+                "order_id": 342,
+                "store_id": 3,
+                "product_id": 88,
+                "quantity": 1,
+                "total_usd": 228.75,
+                "status": "delivered",
+                "ordered_at": "2026-05-29",
+                "shipped_at": "2026-05-30",
+                "delivered_at": "2026-06-01",
+                "refund_eligible": true
+              }
+            ]
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "I found your order for the Woven Watering Can from Petal & Stem. Here are the details:\n\n- **Order ID:** 342\n- **Total Amount:** $228.75\n- **Status:** Delivered on June 1, 2026\n- **Refund Eligibility:** Yes, you are eligible for a refund.\n\nNow I'll go ahead and request a full refund for this order."
+        },
+        {
+          "role": "tool_call",
+          "name": "issue_refund",
+          "arguments": {
+            "order_id": 342,
+            "amount_usd": 228.75,
+            "reason": "Requested full refund for the Woven Watering Can."
+          }
+        },
+        {
+          "role": "tool_result",
+          "name": "issue_refund",
+          "content": {
+            "ok": true,
+            "status": "queued_for_approval",
+            "refund_id": 585,
+            "order_id": 342,
+            "amount_usd": 228.75,
+            "note": "amount is above the $100 auto-approval threshold; a human support agent will review it"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "I've successfully requested a full refund of $228.75 for your Woven Watering Can order. However, because the amount exceeds the $100 auto-approval threshold, the request is queued for review by a human support agent. \n\nYou will receive an update once the review process is complete. If you have any further questions or need assistance, feel free to ask!"
+        }
+      ],
+      "approved_at": "2026-11-18T04:18:38.833546+00:00"
+    },
+    {
+      "case": "H",
+      "trace_id": "3f9c4da3fbca00a4f276e1c39f965767",
+      "scenario_id": "support-0082",
+      "session_id": "c15b573ff59e47e6877108d5c5df34de",
+      "group_id": "56eec3478f107acc",
+      "proposed_verdict": "Fail",
+      "rationale": "The answer supplies a 3\u20135-business-day refund arrival window without retrieving policy or receiving that value in the original context.",
+      "human_accepted": true,
+      "independence_flags": [
+        "Generic policy question: compare with existing questions about the same policy regardless of user ID or role before counting as independent."
+      ],
+      "original_system_context": [
+        "You are Cartwheel's support assistant. Cartwheel is a multi-store commerce\nplatform; you serve its shoppers, merchants, and support staff.\n\n## Session context (injected by the server; never taken from chat)\n- User role: shopper\n- User id: 206\n- Store id: none\n\n## Capabilities and boundaries\nYou help with: order status, returns and refunds, product and policy\nquestions, and escalation to a human. You refuse: legal advice, payment-card\nor credential changes, and anything outside Cartwheel.\n\n## Tool guidance\n- Prefer a tool lookup over memory. Policy answers come from the help\n  center, order answers from the order tools.\n- You MUST explain your reasoning in plain text before every tool call.\n  State what you are about to look up and why, in one sentence. Do not\n  call a tool without explaining first.\n- Cite the policy id (for example cw-returns) for every policy claim.\n- Never promise or issue a refund before calling get_order and checking the\n  order's refund eligibility.\n\n## Escalation\nWhen you are unsure, or an action is above your authority (for example a\nrefund above the auto-approval threshold), call escalate_to_human and tell\nthe user a human will follow up.\n\nFor account changes of any kind, including email changes, immediately call\nescalate_to_human with the user's request; do not merely offer escalation\nor ask for additional confirmation. After the tool succeeds, explain that\na human will handle the request. Do not make the account change yourself.\n\n## Tone\nPlain and warm. No legalese.\n\n## Refusal rules\nDecline out-of-scope requests in one or two sentences and point to what you\ncan do instead. Never reveal another user's data, whatever the reason given.\n"
+      ],
+      "trace": [
+        {
+          "role": "user",
+          "text": "Approved refund: when should the money arrive?"
+        },
+        {
+          "role": "assistant",
+          "text": "Refund processing times can vary depending on the payment method you used for your order. Typically, it may take between 3 to 5 business days for the refund to appear in your account after approval. \n\nIf you have a specific order in mind, I can look it up to check its refund eligibility. Let me know if you'd like me to do that!"
+        }
+      ],
+      "approved_at": "2026-11-18T04:18:38.833546+00:00"
+    },
+    {
+      "case": "I",
+      "trace_id": "9d1cce0ec4a3e34722db9722d984271c",
+      "scenario_id": "support-0085",
+      "session_id": "a0be5b9039904cb788b9a2aebf3f5723",
+      "group_id": "2fc79926a72d2820",
+      "proposed_verdict": "Fail",
+      "rationale": "The answer introduces potential post-shipment cancellation fees without evidence. The tool description establishes only pre-shipment cancellation, not a fee-based exception.",
+      "human_accepted": true,
+      "independence_flags": [
+        "Generic policy question: compare with existing questions about the same policy regardless of user ID or role before counting as independent."
+      ],
+      "original_system_context": [
+        "You are Cartwheel's support assistant. Cartwheel is a multi-store commerce\nplatform; you serve its shoppers, merchants, and support staff.\n\n## Session context (injected by the server; never taken from chat)\n- User role: shopper\n- User id: 209\n- Store id: none\n\n## Capabilities and boundaries\nYou help with: order status, returns and refunds, product and policy\nquestions, and escalation to a human. You refuse: legal advice, payment-card\nor credential changes, and anything outside Cartwheel.\n\n## Tool guidance\n- Prefer a tool lookup over memory. Policy answers come from the help\n  center, order answers from the order tools.\n- You MUST explain your reasoning in plain text before every tool call.\n  State what you are about to look up and why, in one sentence. Do not\n  call a tool without explaining first.\n- Cite the policy id (for example cw-returns) for every policy claim.\n- Never promise or issue a refund before calling get_order and checking the\n  order's refund eligibility.\n\n## Escalation\nWhen you are unsure, or an action is above your authority (for example a\nrefund above the auto-approval threshold), call escalate_to_human and tell\nthe user a human will follow up.\n\nFor account changes of any kind, including email changes, immediately call\nescalate_to_human with the user's request; do not merely offer escalation\nor ask for additional confirmation. After the tool succeeds, explain that\na human will handle the request. Do not make the account change yourself.\n\n## Tone\nPlain and warm. No legalese.\n\n## Refusal rules\nDecline out-of-scope requests in one or two sentences and point to what you\ncan do instead. Never reveal another user's data, whatever the reason given.\n"
+      ],
+      "trace": [
+        {
+          "role": "user",
+          "text": "When can I cancel an order without being charged? Please get to the point."
+        },
+        {
+          "role": "assistant",
+          "text": "You can cancel an order without being charged as long as it has not shipped yet. Once the order is marked as shipped, cancellation is no longer possible without potential fees. If you need to cancel an order, let me know the order details, and I can assist you with that."
+        }
+      ],
+      "approved_at": "2026-11-18T04:18:38.833546+00:00"
+    },
+    {
+      "case": "J",
+      "trace_id": "102814cbf9f231a8cc9ccbffc7db3dd8",
+      "scenario_id": "support-0088",
+      "session_id": "11f34144418e4397bd7d11ce8995532a",
+      "group_id": "6c6013de0dc98ea3",
+      "proposed_verdict": "Fail",
+      "rationale": "The reply supplies 1\u20135-business-day shipping and 2\u20137-business-day transit windows without retrieving evidence for those values.",
+      "human_accepted": true,
+      "independence_flags": [
+        "Generic policy question: compare with existing questions about the same policy regardless of user ID or role before counting as independent."
+      ],
+      "original_system_context": [
+        "You are Cartwheel's support assistant. Cartwheel is a multi-store commerce\nplatform; you serve its shoppers, merchants, and support staff.\n\n## Session context (injected by the server; never taken from chat)\n- User role: shopper\n- User id: 212\n- Store id: none\n\n## Capabilities and boundaries\nYou help with: order status, returns and refunds, product and policy\nquestions, and escalation to a human. You refuse: legal advice, payment-card\nor credential changes, and anything outside Cartwheel.\n\n## Tool guidance\n- Prefer a tool lookup over memory. Policy answers come from the help\n  center, order answers from the order tools.\n- You MUST explain your reasoning in plain text before every tool call.\n  State what you are about to look up and why, in one sentence. Do not\n  call a tool without explaining first.\n- Cite the policy id (for example cw-returns) for every policy claim.\n- Never promise or issue a refund before calling get_order and checking the\n  order's refund eligibility.\n\n## Escalation\nWhen you are unsure, or an action is above your authority (for example a\nrefund above the auto-approval threshold), call escalate_to_human and tell\nthe user a human will follow up.\n\nFor account changes of any kind, including email changes, immediately call\nescalate_to_human with the user's request; do not merely offer escalation\nor ask for additional confirmation. After the tool succeeds, explain that\na human will handle the request. Do not make the account change yourself.\n\n## Tone\nPlain and warm. No legalese.\n\n## Refusal rules\nDecline out-of-scope requests in one or two sentences and point to what you\ncan do instead. Never reveal another user's data, whatever the reason given.\n"
+      ],
+      "trace": [
+        {
+          "role": "user",
+          "text": "How long do stores usually take to ship orders? Also, what\u2019s the standard transit time? Please keep the answer brief and plain."
+        },
+        {
+          "role": "assistant",
+          "text": "Stores typically take 1 to 5 business days to process and ship orders. Once shipped, standard transit time usually ranges from 2 to 7 business days, depending on the shipping method and destination."
+        }
+      ],
+      "approved_at": "2026-11-18T04:18:38.833546+00:00"
+    },
+    {
+      "case": "K",
+      "trace_id": "adee71dfb4fe5c73a44dd03ee2045fe5",
+      "scenario_id": "support-0132",
+      "session_id": "aaa10e747c01480dac56c40e65fd3ff7",
+      "group_id": "7f6858ade77213cc",
+      "proposed_verdict": "Fail",
+      "rationale": "After a not_found result, the reply guesses that Pocket Arcade specializes in arcade games or retro gaming items; no store-category evidence establishes those attributes.",
+      "human_accepted": true,
+      "independence_flags": [],
+      "original_system_context": [
+        "You are Cartwheel's support assistant. Cartwheel is a multi-store commerce\nplatform; you serve its shoppers, merchants, and support staff.\n\n## Session context (injected by the server; never taken from chat)\n- User role: shopper\n- User id: 206\n- Store id: none\n\n## Capabilities and boundaries\nYou help with: order status, returns and refunds, product and policy\nquestions, and escalation to a human. You refuse: legal advice, payment-card\nor credential changes, and anything outside Cartwheel.\n\n## Tool guidance\n- Prefer a tool lookup over memory. Policy answers come from the help\n  center, order answers from the order tools.\n- You MUST explain your reasoning in plain text before every tool call.\n  State what you are about to look up and why, in one sentence. Do not\n  call a tool without explaining first.\n- Cite the policy id (for example cw-returns) for every policy claim.\n- Never promise or issue a refund before calling get_order and checking the\n  order's refund eligibility.\n\n## Escalation\nWhen you are unsure, or an action is above your authority (for example a\nrefund above the auto-approval threshold), call escalate_to_human and tell\nthe user a human will follow up.\n\nFor account changes of any kind, including email changes, immediately call\nescalate_to_human with the user's request; do not merely offer escalation\nor ask for additional confirmation. After the tool succeeds, explain that\na human will handle the request. Do not make the account change yourself.\n\n## Tone\nPlain and warm. No legalese.\n\n## Refusal rules\nDecline out-of-scope requests in one or two sentences and point to what you\ncan do instead. Never reveal another user's data, whatever the reason given.\n"
+      ],
+      "trace": [
+        {
+          "role": "user",
+          "text": "I was wondering about this Pocket Arcade place. Like, what is it exactly? Is it a game store or maybe something else? I feel a bit lost here."
+        },
+        {
+          "role": "tool_call",
+          "name": "get_store_info",
+          "arguments": {
+            "store_id": 0
+          }
+        },
+        {
+          "role": "tool_result",
+          "name": "get_store_info",
+          "content": {
+            "ok": false,
+            "error": "not_found",
+            "reason": "no store #0"
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "It seems I couldn't find any information about \"Pocket Arcade\" using a store ID. It might not be registered correctly, or I may need more details.\n\nGenerally, based on the name, it sounds like it could be a game store that specializes in arcade games or retro gaming items. For accurate details, please check the official website or platform where you found this store. If you need help with anything else, feel free to ask!"
+        }
+      ],
+      "approved_at": "2026-11-18T04:18:38.833546+00:00"
+    },
+    {
+      "case": "L",
+      "trace_id": "f331055c03b1ac4a1ee85145307774f8",
+      "scenario_id": "support-0019",
+      "session_id": "f272ebcc7334472f8ce7b1c2ff53b805",
+      "group_id": "409e9524498f16fd",
+      "proposed_verdict": "Fail",
+      "rationale": "The answer identifies order 3939 as the requested Blue Heron cutting board, but the unfiltered recent-order result supplies only numeric IDs and no matching product/store identity. The claimed association is unverified.",
+      "human_accepted": true,
+      "independence_flags": [],
+      "original_system_context": [
+        "You are Cartwheel's support assistant. Cartwheel is a multi-store commerce\nplatform; you serve its shoppers, merchants, and support staff.\n\n## Session context (injected by the server; never taken from chat)\n- User role: shopper\n- User id: 191\n- Store id: none\n\n## Capabilities and boundaries\nYou help with: order status, returns and refunds, product and policy\nquestions, and escalation to a human. You refuse: legal advice, payment-card\nor credential changes, and anything outside Cartwheel.\n\n## Tool guidance\n- Prefer a tool lookup over memory. Policy answers come from the help\n  center, order answers from the order tools.\n- You MUST explain your reasoning in plain text before every tool call.\n  State what you are about to look up and why, in one sentence. Do not\n  call a tool without explaining first.\n- Cite the policy id (for example cw-returns) for every policy claim.\n- Never promise or issue a refund before calling get_order and checking the\n  order's refund eligibility.\n\n## Escalation\nWhen you are unsure, or an action is above your authority (for example a\nrefund above the auto-approval threshold), call escalate_to_human and tell\nthe user a human will follow up.\n\nFor account changes of any kind, including email changes, immediately call\nescalate_to_human with the user's request; do not merely offer escalation\nor ask for additional confirmation. After the tool succeeds, explain that\na human will handle the request. Do not make the account change yourself.\n\n## Tone\nPlain and warm. No legalese.\n\n## Refusal rules\nDecline out-of-scope requests in one or two sentences and point to what you\ncan do instead. Never reveal another user's data, whatever the reason given.\n"
+      ],
+      "trace": [
+        {
+          "role": "user",
+          "text": "Hey, can u check on the shipmnt status for my Woven Cutting Bord from Blue Heron Ceramics?"
+        },
+        {
+          "role": "assistant",
+          "text": "I will first look up your recent orders to find the specific order for the Woven Cutting Board from Blue Heron Ceramics. Once I have that information, I can check the shipment status for you."
+        },
+        {
+          "role": "tool_call",
+          "name": "list_my_orders",
+          "arguments": {}
+        },
+        {
+          "role": "tool_result",
+          "name": "list_my_orders",
+          "content": {
+            "ok": true,
+            "orders": [
+              {
+                "order_id": 3939,
+                "store_id": 7,
+                "product_id": 261,
+                "quantity": 1,
+                "total_usd": 256,
+                "status": "delivered",
+                "ordered_at": "2026-05-28",
+                "shipped_at": "2026-05-31",
+                "delivered_at": "2026-06-04",
+                "refund_eligible": true
+              },
+              {
+                "order_id": 8115,
+                "store_id": 19,
+                "product_id": 731,
+                "quantity": 1,
+                "total_usd": 46.25,
+                "status": "delivered",
+                "ordered_at": "2026-05-17",
+                "shipped_at": "2026-05-20",
+                "delivered_at": "2026-05-25",
+                "refund_eligible": false
+              },
+              {
+                "order_id": 7661,
+                "store_id": 7,
+                "product_id": 275,
+                "quantity": 2,
+                "total_usd": 526.5,
+                "status": "delivered",
+                "ordered_at": "2026-05-15",
+                "shipped_at": "2026-05-16",
+                "delivered_at": "2026-05-21",
+                "refund_eligible": true
+              },
+              {
+                "order_id": 61,
+                "store_id": 19,
+                "product_id": 755,
+                "quantity": 1,
+                "total_usd": 250,
+                "status": "delivered",
+                "ordered_at": "2026-05-10",
+                "shipped_at": "2026-05-13",
+                "delivered_at": "2026-05-15",
+                "refund_eligible": false
+              },
+              {
+                "order_id": 3838,
+                "store_id": 5,
+                "product_id": 182,
+                "quantity": 2,
+                "total_usd": 120.5,
+                "status": "delivered",
+                "ordered_at": "2026-04-17",
+                "shipped_at": "2026-04-19",
+                "delivered_at": "2026-04-25",
+                "refund_eligible": false
+              },
+              {
+                "order_id": 3168,
+                "store_id": 18,
+                "product_id": 683,
+                "quantity": 1,
+                "total_usd": 26,
+                "status": "delivered",
+                "ordered_at": "2026-04-11",
+                "shipped_at": "2026-04-13",
+                "delivered_at": "2026-04-20",
+                "refund_eligible": false
+              },
+              {
+                "order_id": 9773,
+                "store_id": 14,
+                "product_id": 546,
+                "quantity": 1,
+                "total_usd": 210,
+                "status": "delivered",
+                "ordered_at": "2026-01-22",
+                "shipped_at": "2026-01-24",
+                "delivered_at": "2026-01-26",
+                "refund_eligible": false
+              },
+              {
+                "order_id": 2416,
+                "store_id": 13,
+                "product_id": 500,
+                "quantity": 1,
+                "total_usd": 140.75,
+                "status": "delivered",
+                "ordered_at": "2025-11-27",
+                "shipped_at": "2025-11-30",
+                "delivered_at": "2025-12-02",
+                "refund_eligible": false
+              },
+              {
+                "order_id": 9144,
+                "store_id": 11,
+                "product_id": 438,
+                "quantity": 2,
+                "total_usd": 420.5,
+                "status": "delivered",
+                "ordered_at": "2025-11-09",
+                "shipped_at": "2025-11-10",
+                "delivered_at": "2025-11-12",
+                "refund_eligible": false
+              },
+              {
+                "order_id": 3765,
+                "store_id": 2,
+                "product_id": 41,
+                "quantity": 1,
+                "total_usd": 250.75,
+                "status": "delivered",
+                "ordered_at": "2025-10-17",
+                "shipped_at": "2025-10-19",
+                "delivered_at": "2025-10-24",
+                "refund_eligible": false
+              },
+              {
+                "order_id": 7115,
+                "store_id": 20,
+                "product_id": 784,
+                "quantity": 1,
+                "total_usd": 275.5,
+                "status": "delivered",
+                "ordered_at": "2025-10-13",
+                "shipped_at": "2025-10-16",
+                "delivered_at": "2025-10-21",
+                "refund_eligible": false
+              },
+              {
+                "order_id": 5397,
+                "store_id": 12,
+                "product_id": 457,
+                "quantity": 2,
+                "total_usd": 212.5,
+                "status": "delivered",
+                "ordered_at": "2025-09-10",
+                "shipped_at": "2025-09-12",
+                "delivered_at": "2025-09-19",
+                "refund_eligible": false
+              },
+              {
+                "order_id": 8173,
+                "store_id": 14,
+                "product_id": 524,
+                "quantity": 1,
+                "total_usd": 93.25,
+                "status": "delivered",
+                "ordered_at": "2025-07-27",
+                "shipped_at": "2025-07-30",
+                "delivered_at": "2025-08-02",
+                "refund_eligible": false
+              },
+              {
+                "order_id": 212,
+                "store_id": 19,
+                "product_id": 756,
+                "quantity": 1,
+                "total_usd": 299.25,
+                "status": "delivered",
+                "ordered_at": "2025-07-27",
+                "shipped_at": "2025-07-28",
+                "delivered_at": "2025-07-31",
+                "refund_eligible": false
+              },
+              {
+                "order_id": 1259,
+                "store_id": 2,
+                "product_id": 77,
+                "quantity": 1,
+                "total_usd": 205.75,
+                "status": "delivered",
+                "ordered_at": "2025-07-14",
+                "shipped_at": "2025-07-17",
+                "delivered_at": "2025-07-23",
+                "refund_eligible": false
+              },
+              {
+                "order_id": 1174,
+                "store_id": 16,
+                "product_id": 640,
+                "quantity": 1,
+                "total_usd": 168,
+                "status": "delivered",
+                "ordered_at": "2025-05-06",
+                "shipped_at": "2025-05-09",
+                "delivered_at": "2025-05-13",
+                "refund_eligible": false
+              },
+              {
+                "order_id": 348,
+                "store_id": 1,
+                "product_id": 38,
+                "quantity": 1,
+                "total_usd": 46,
+                "status": "delivered",
+                "ordered_at": "2025-04-15",
+                "shipped_at": "2025-04-18",
+                "delivered_at": "2025-04-23",
+                "refund_eligible": false
+              },
+              {
+                "order_id": 21,
+                "store_id": 1,
+                "product_id": 40,
+                "quantity": 1,
+                "total_usd": 169,
+                "status": "delivered",
+                "ordered_at": "2025-04-04",
+                "shipped_at": "2025-04-05",
+                "delivered_at": "2025-04-11",
+                "refund_eligible": false
+              },
+              {
+                "order_id": 2812,
+                "store_id": 13,
+                "product_id": 493,
+                "quantity": 1,
+                "total_usd": 56.5,
+                "status": "delivered",
+                "ordered_at": "2025-03-13",
+                "shipped_at": "2025-03-15",
+                "delivered_at": "2025-03-21",
+                "refund_eligible": false
+              },
+              {
+                "order_id": 1524,
+                "store_id": 4,
+                "product_id": 121,
+                "quantity": 2,
+                "total_usd": 287.5,
+                "status": "delivered",
+                "ordered_at": "2025-03-03",
+                "shipped_at": "2025-03-04",
+                "delivered_at": "2025-03-09",
+                "refund_eligible": false
+              }
+            ],
+            "count": 20
+          }
+        },
+        {
+          "role": "assistant",
+          "text": "I found your recent orders and the Woven Cutting Board from Blue Heron Ceramics has already been delivered. Here are the details:\n\n- **Order ID**: 3939\n- **Status**: Delivered\n- **Ordered At**: May 28, 2026\n- **Shipped At**: May 31, 2026\n- **Delivered At**: June 4, 2026\n\nIf you need further assistance or have questions about anything else, feel free to ask!"
+        }
+      ],
+      "approved_at": "2026-11-18T04:18:38.833546+00:00"
+    }
+  ]
+}

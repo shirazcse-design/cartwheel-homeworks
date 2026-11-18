@@ -1,0 +1,13 @@
+{
+  "mode": "unsupported_factual_claim",
+  "input_path": "analysis/state/hw5_trace_inputs.json",
+  "input_sha256": "cfea5441c66cfd4bf21f309efadd35df9cda6c75454768f8bae6567af5afdb41",
+  "labels_sha256": "2d1c579037059860630cb2fc6731356b187c6de7b638f68f61382ee1b9885ddd",
+  "source_sha256": "892565dacb11d4969c8d66721a86cc8fd2c7b85b16b124c4fd71b24dffd6989c",
+  "counts": {
+    "Fail": 30,
+    "Pass": 69
+  },
+  "conversation_count": 99,
+  "labels_in_inputs": false
+}

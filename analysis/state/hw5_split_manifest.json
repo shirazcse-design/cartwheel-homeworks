@@ -1,0 +1,27 @@
+{
+  "mode": "unsupported_factual_claim",
+  "seed": 7,
+  "fractions": [
+    0.2,
+    0.4,
+    0.4
+  ],
+  "counts": {
+    "train": {
+      "Pass": 14,
+      "Fail": 6
+    },
+    "dev": {
+      "Fail": 12,
+      "Pass": 28
+    },
+    "test": {
+      "Pass": 27,
+      "Fail": 12
+    }
+  },
+  "input_sha256": "cfea5441c66cfd4bf21f309efadd35df9cda6c75454768f8bae6567af5afdb41",
+  "labels_sha256": "2d1c579037059860630cb2fc6731356b187c6de7b638f68f61382ee1b9885ddd",
+  "mode_split_sha256": "3bf102c139591fb3917b67cf9158bd18e462af801f4f94537c50663659684419",
+  "disjoint": true
+}

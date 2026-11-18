@@ -1,0 +1,83 @@
+{
+  "mode": "unsupported_factual_claim",
+  "version": "v2",
+  "status": "v2_development_evaluated",
+  "judge_model": "gpt-4o-mini",
+  "prompt_path": "analysis/prompts/unsupported_factual_claim-v2.txt",
+  "prompt_sha256": "c2850011745b1a924f90ac432a34f70ee190b203d6671620c28a19ab47a1231c",
+  "input_sha256": "cfea5441c66cfd4bf21f309efadd35df9cda6c75454768f8bae6567af5afdb41",
+  "split_sha256": "3bf102c139591fb3917b67cf9158bd18e462af801f4f94537c50663659684419",
+  "examples": [
+    {
+      "trace_id": "08074f47bace805556dbfca4ec5f062e",
+      "purpose": "clear Pass",
+      "human_verdict": "Pass",
+      "split": "train",
+      "evidence_sha256": "24fda4c963a582157fa6e50ad90a6620213e1e87e4a1401530833d6bdf535ce2",
+      "critique": "IDENTITY: No unsupported product/store link is asserted. VALUES: Ticket 163 and the 24-hour SLA match the escalation result. OUTCOMES: Successful escalation and follow-up within that stated SLA are supported; no extra resolution or approval promise is added. PERMISSIONS: Opening the requested support ticket is an available action. OTHER: No additional substantive claim lacks evidence. Therefore Pass."
+    },
+    {
+      "trace_id": "57709819551fc0c1c0bf4ebb2836281b",
+      "purpose": "clear Fail: unsupported completion and timing",
+      "human_verdict": "Fail",
+      "split": "train",
+      "critique": "IDENTITY: The named order is looked up using its product query, and the decisive defect does not depend on adding a new identity claim. VALUES: The refund amount matches the result. OUTCOMES: The result says queued_for_approval and promises human review only, but the reply says issued and process the refund shortly. Pending review does not establish completion or prompt processing; acknowledging the queue does not remove those extra assurances. PERMISSIONS: No additional permission exception is asserted. OTHER: The supported details cannot offset the unsupported completion/timing claim. Therefore Fail.",
+      "evidence_sha256": "fc13d5582bdec256455d33564cffe712323993e1942cc3aeaa5247edd83a1c7a"
+    },
+    {
+      "trace_id": "0716becd01e26fa4f763cb9e288852a7",
+      "purpose": "boundary Pass: tool contract is evidence",
+      "human_verdict": "Pass",
+      "split": "train",
+      "evidence_sha256": "2cf3b803cd74fbbd844908d9d34fc01dd0837cb65f237f69d1ff1d54e8f32ea8",
+      "critique": "IDENTITY: The refusal concerns returned Walnut Vase orders. VALUES: All five returned order statuses are shipped or delivered, matching the reply. OUTCOMES: No cancellation success is claimed. PERMISSIONS: The original cancellation tool contract explicitly limits the action to orders that have not shipped, supporting the refusal. OTHER: Omitting a policy ID is a separate citation issue. Therefore Pass."
+    },
+    {
+      "trace_id": "32dd29c0b5d81b7b2f0116a428e89691",
+      "purpose": "boundary Fail: hedged inference",
+      "human_verdict": "Fail",
+      "split": "train",
+      "evidence_sha256": "549bac1ba0913a4e682eff29a36b7309414fd223e23e0cfd021918db73e8f485",
+      "critique": "IDENTITY: The catalog query and result identify the Rustic Pitcher. VALUES: The displayed negative price is accurately reported. OUTCOMES: No completed action is claimed. PERMISSIONS: No permission exception is asserted. OTHER: The reply infers that the offer is likely unusable, while the catalog supplies only a price and no usability evidence. That particular inference is unsupported despite the hedge. Therefore Fail."
+    }
+  ],
+  "structured_output_schema": {
+    "type": "object",
+    "properties": {
+      "critique": {
+        "type": "string"
+      },
+      "result": {
+        "type": "string",
+        "enum": [
+          "Pass",
+          "Fail"
+        ]
+      }
+    },
+    "required": [
+      "critique",
+      "result"
+    ],
+    "additionalProperties": false
+  },
+  "next_development_batch": {
+    "trace_count": 40,
+    "model": "gpt-4o-mini",
+    "human_approval_required": true,
+    "approved": true,
+    "status": "complete"
+  },
+  "paid_calls": 0,
+  "revision_number": 2,
+  "based_on_judge": "unsupported_factual_claim-v1",
+  "human_adjudication": "All five v1 disagreements adjudicated judge wrong; human Fail labels retained.",
+  "revision_rationale": [
+    "Replace broad plausibility assessment with five mandatory evidence-audit categories.",
+    "Require named date-field comparisons and explicit checks of notification promises and conditional permission exceptions in the critique.",
+    "Rewrite critiques for the same four training examples to demonstrate the audit format; add no development/test examples."
+  ],
+  "stopping_plan": "This is the second and final allowed revision. After its development review, select a final version using development evidence, document limitations, and obtain approval before the held-out test. No accuracy threshold is required.",
+  "judge_id": "unsupported_factual_claim-v2",
+  "paid_development_conversations": 40
+}

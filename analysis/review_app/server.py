@@ -145,6 +145,18 @@ class Store:
         return [r for p in sorted((self.state / 'labels').glob('*.json'))
                 for r in read(p, []) if isinstance(r, dict) and r.get('trace_id') in self.traces]
 
+    def judge_review(self):
+        """Expose saved development comparisons only; never expose test predictions."""
+        doc = read(self.state / 'hw5_development_review.json', {})
+        if not doc:
+            return {'rows': [], 'metrics': {}, 'split': 'dev'}
+        if doc.get('split') != 'dev':
+            raise ValueError('Only development comparisons are available here')
+        ids = set(read(self.state / 'splits.json', {}).get(doc['mode'], {}).get('dev', []))
+        if any(row['trace_id'] not in ids for row in doc.get('rows', [])):
+            raise ValueError('Comparison contains a non-development trace')
+        return doc
+
     def modes(self):
         p = self.data()['patterns']
         return p.get('modes', []) if isinstance(p, dict) else p
@@ -292,6 +304,8 @@ class Handler(BaseHTTPRequestHandler):
                 return self.send(store.summary())
             if u.path == '/api/label-proposals':
                 return self.send(store.label_proposals())
+            if u.path == '/api/judge-review':
+                return self.send(store.judge_review())
             if u.path == '/api/graph':
                 return self.send(store.graph)
             if u.path == '/api/session':
