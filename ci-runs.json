@@ -1,0 +1,17 @@
+{
+  "pull_request": "https://github.com/shirazcse-design/cartwheel-homeworks/pull/1",
+  "case_id": "e-003",
+  "intentional_regression": {
+    "url": "https://github.com/shirazcse-design/cartwheel-homeworks/actions/runs/45924250841",
+    "commit": "247b359e0cd4210c775b1d824e81f66cc75be33e",
+    "result": "failure",
+    "target_case_passes": 0,
+    "target_case_trials": 5,
+    "evidence": "Human-provided GitHub Actions summary screenshot; e-003 and e-004 blocked, e-009 and e-010 passed."
+  },
+  "after_revert": {
+    "url": null,
+    "result": "pending"
+  },
+  "explanation": "A temporary prompt instruction omitted policy identifiers. The e-003 regression case dropped from 5/5 baseline to 0/5 in CI. The instruction is now removed; the second observed result remains pending."
+}
