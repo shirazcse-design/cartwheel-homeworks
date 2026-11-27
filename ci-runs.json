@@ -10,8 +10,11 @@
     "evidence": "Human-provided GitHub Actions summary screenshot; e-003 and e-004 blocked, e-009 and e-010 passed."
   },
   "after_revert": {
-    "url": null,
-    "result": "pending"
+    "url": "https://github.com/shirazcse-design/cartwheel-homeworks/actions/runs/45926726311",
+    "run_id": 45926726311,
+    "commit": "b857c806efabf1a1bedf521de9642b8888ed8acf",
+    "result": "success",
+    "verification": "GitHub API reports offline checks, Harbor trials, summary gate, and artifact upload completed successfully."
   },
-  "explanation": "A temporary prompt instruction omitted policy identifiers. The e-003 regression case dropped from 5/5 baseline to 0/5 in CI. The instruction is now removed; the second observed result remains pending."
+  "explanation": "The temporary instruction omitted policy identifiers: e-003 dropped from 5/5 baseline to 0/5, blocking the first CI run. After removing the instruction, the second run on the same pull request succeeded, including the regression summary gate. This is observed recovery for these trials, not proof of perfect future reliability."
 }

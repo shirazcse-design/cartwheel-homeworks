@@ -1,0 +1,1240 @@
+{
+  "case_id": "e-005",
+  "model": "gpt-4o-mini",
+  "valid_trials": 15,
+  "infrastructure_errors": 0,
+  "judge_calls": 0,
+  "trials": [
+    {
+      "trial_name": "e-005__SLPJqws",
+      "started_at": "2026-11-27T03:04:20.785028Z",
+      "reward": 0.0,
+      "transcript": {
+        "turns": [
+          {
+            "reply": "Stores on Cartwheel typically ship orders within **3 days** of purchase. After that, the standard transit time for delivery is up to **7 days** once the order has shipped. Tracking information will be available on the order page once the store marks the order as shipped.\n\nIf you need more specific information or have questions about an order, let me know!",
+            "tool_calls": [
+              {
+                "name": "search_help_center",
+                "args": {
+                  "query": "shipping time"
+                },
+                "result": {
+                  "ok": true,
+                  "results": [
+                    {
+                      "policy_id": "cw-shipping",
+                      "title": "Cartwheel shipping policy",
+                      "snippet": "# Cartwheel shipping policy\n\nStores ship orders within 3 days of purchase. Standard delivery takes up to 7 days in transit after shipment. Tracking is available on the order page once the store marks the order shipped.",
+                      "score": 3.725
+                    },
+                    {
+                      "policy_id": "cw-cancellations",
+                      "title": "Cartwheel order cancellation policy",
+                      "snippet": "# Cartwheel order cancellation policy\n\nAn order can be cancelled at no cost any time before the store ships it. Once an order has shipped it can no longer be cancelled; the buyer should instead wait for delivery and request a return under the Cartwheel return policy.",
+                      "score": 2.401
+                    },
+                    {
+                      "policy_id": "cw-account-security",
+                      "title": "Account and payment security",
+                      "snippet": "# Account and payment security\n\nCartwheel support assistants never change payment cards, passwords, or account details in chat, and never ask for full card numbers. Account and payment changes happen only through account settings. Requests for legal advice are outside support's scope and are decline",
+                      "score": 0.0
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "search_help_center",
+                "args": {
+                  "query": "transit time after shipping"
+                },
+                "result": {
+                  "ok": true,
+                  "results": [
+                    {
+                      "policy_id": "cw-shipping",
+                      "title": "Cartwheel shipping policy",
+                      "snippet": "# Cartwheel shipping policy\n\nStores ship orders within 3 days of purchase. Standard delivery takes up to 7 days in transit after shipment. Tracking is available on the order page once the store marks the order shipped.",
+                      "score": 8.017
+                    },
+                    {
+                      "policy_id": "cw-cancellations",
+                      "title": "Cartwheel order cancellation policy",
+                      "snippet": "# Cartwheel order cancellation policy\n\nAn order can be cancelled at no cost any time before the store ships it. Once an order has shipped it can no longer be cancelled; the buyer should instead wait for delivery and request a return under the Cartwheel return policy.",
+                      "score": 2.401
+                    },
+                    {
+                      "policy_id": "cw-payouts",
+                      "title": "Cartwheel merchant payout schedule",
+                      "snippet": "# Cartwheel merchant payout schedule\n\nMerchant payouts run weekly, on Fridays. Each payout takes 2 business days to process after the run. Refunds issued during the week are deducted from the next payout.",
+                      "score": 1.671
+                    }
+                  ]
+                }
+              }
+            ],
+            "steps": 5,
+            "user": "Can you tell me how long stores typically take to ship orders? Also, what's the standard transit time after shipping? Please answer both parts—I need the shipping time and the transit time."
+          }
+        ],
+        "final_reply": "Stores on Cartwheel typically ship orders within **3 days** of purchase. After that, the standard transit time for delivery is up to **7 days** once the order has shipped. Tracking information will be available on the order page once the store marks the order as shipped.\n\nIf you need more specific information or have questions about an order, let me know!",
+        "steps": 5,
+        "usage": {
+          "requests": 2,
+          "input_tokens": 2302,
+          "cached_input_tokens": 0,
+          "output_tokens": 126
+        }
+      }
+    },
+    {
+      "trial_name": "e-005__34kB3Ar",
+      "started_at": "2026-11-27T03:04:20.825733Z",
+      "reward": 1.0,
+      "transcript": {
+        "turns": [
+          {
+            "reply": "Stores typically ship orders within **3 days** of purchase. Once an order is shipped, the standard delivery takes up to **7 days** in transit. \n\nIf you want to read more about this policy, it is documented under policy ID [cw-shipping].",
+            "tool_calls": [
+              {
+                "name": "search_help_center",
+                "args": {
+                  "query": "shipping times"
+                },
+                "result": {
+                  "ok": true,
+                  "results": [
+                    {
+                      "policy_id": "cw-shipping",
+                      "title": "Cartwheel shipping policy",
+                      "snippet": "# Cartwheel shipping policy\n\nStores ship orders within 3 days of purchase. Standard delivery takes up to 7 days in transit after shipment. Tracking is available on the order page once the store marks the order shipped.",
+                      "score": 3.725
+                    },
+                    {
+                      "policy_id": "cw-account-security",
+                      "title": "Account and payment security",
+                      "snippet": "# Account and payment security\n\nCartwheel support assistants never change payment cards, passwords, or account details in chat, and never ask for full card numbers. Account and payment changes happen only through account settings. Requests for legal advice are outside support's scope and are decline",
+                      "score": 0.0
+                    },
+                    {
+                      "policy_id": "cw-cancellations",
+                      "title": "Cartwheel order cancellation policy",
+                      "snippet": "# Cartwheel order cancellation policy\n\nAn order can be cancelled at no cost any time before the store ships it. Once an order has shipped it can no longer be cancelled; the buyer should instead wait for delivery and request a return under the Cartwheel return policy.",
+                      "score": 0.0
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "search_help_center",
+                "args": {
+                  "query": "transit time"
+                },
+                "result": {
+                  "ok": true,
+                  "results": [
+                    {
+                      "policy_id": "cw-shipping",
+                      "title": "Cartwheel shipping policy",
+                      "snippet": "# Cartwheel shipping policy\n\nStores ship orders within 3 days of purchase. Standard delivery takes up to 7 days in transit after shipment. Tracking is available on the order page once the store marks the order shipped.",
+                      "score": 2.673
+                    },
+                    {
+                      "policy_id": "cw-cancellations",
+                      "title": "Cartwheel order cancellation policy",
+                      "snippet": "# Cartwheel order cancellation policy\n\nAn order can be cancelled at no cost any time before the store ships it. Once an order has shipped it can no longer be cancelled; the buyer should instead wait for delivery and request a return under the Cartwheel return policy.",
+                      "score": 2.401
+                    },
+                    {
+                      "policy_id": "cw-account-security",
+                      "title": "Account and payment security",
+                      "snippet": "# Account and payment security\n\nCartwheel support assistants never change payment cards, passwords, or account details in chat, and never ask for full card numbers. Account and payment changes happen only through account settings. Requests for legal advice are outside support's scope and are decline",
+                      "score": 0.0
+                    }
+                  ]
+                }
+              }
+            ],
+            "steps": 5,
+            "user": "Can you tell me how long stores typically take to ship orders? Also, what's the standard transit time after shipping? Please answer both parts—I need the shipping time and the transit time."
+          }
+        ],
+        "final_reply": "Stores typically ship orders within **3 days** of purchase. Once an order is shipped, the standard delivery takes up to **7 days** in transit. \n\nIf you want to read more about this policy, it is documented under policy ID [cw-shipping].",
+        "steps": 5,
+        "usage": {
+          "requests": 2,
+          "input_tokens": 2311,
+          "cached_input_tokens": 0,
+          "output_tokens": 105
+        }
+      }
+    },
+    {
+      "trial_name": "e-005__RSBbtig",
+      "started_at": "2026-11-27T03:04:20.834819Z",
+      "reward": 1.0,
+      "transcript": {
+        "turns": [
+          {
+            "reply": "Stores typically ship orders within **3 days** of purchase. After an order has shipped, the standard delivery time for transit is up to **7 days**. You can check tracking information on the order page once the store marks the order as shipped. \n\nFor more details, you can refer to the [Cartwheel shipping policy (cw-shipping)].",
+            "tool_calls": [
+              {
+                "name": "search_help_center",
+                "args": {
+                  "query": "shipping time"
+                },
+                "result": {
+                  "ok": true,
+                  "results": [
+                    {
+                      "policy_id": "cw-shipping",
+                      "title": "Cartwheel shipping policy",
+                      "snippet": "# Cartwheel shipping policy\n\nStores ship orders within 3 days of purchase. Standard delivery takes up to 7 days in transit after shipment. Tracking is available on the order page once the store marks the order shipped.",
+                      "score": 3.725
+                    },
+                    {
+                      "policy_id": "cw-cancellations",
+                      "title": "Cartwheel order cancellation policy",
+                      "snippet": "# Cartwheel order cancellation policy\n\nAn order can be cancelled at no cost any time before the store ships it. Once an order has shipped it can no longer be cancelled; the buyer should instead wait for delivery and request a return under the Cartwheel return policy.",
+                      "score": 2.401
+                    },
+                    {
+                      "policy_id": "cw-account-security",
+                      "title": "Account and payment security",
+                      "snippet": "# Account and payment security\n\nCartwheel support assistants never change payment cards, passwords, or account details in chat, and never ask for full card numbers. Account and payment changes happen only through account settings. Requests for legal advice are outside support's scope and are decline",
+                      "score": 0.0
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "search_help_center",
+                "args": {
+                  "query": "transit time"
+                },
+                "result": {
+                  "ok": true,
+                  "results": [
+                    {
+                      "policy_id": "cw-shipping",
+                      "title": "Cartwheel shipping policy",
+                      "snippet": "# Cartwheel shipping policy\n\nStores ship orders within 3 days of purchase. Standard delivery takes up to 7 days in transit after shipment. Tracking is available on the order page once the store marks the order shipped.",
+                      "score": 2.673
+                    },
+                    {
+                      "policy_id": "cw-cancellations",
+                      "title": "Cartwheel order cancellation policy",
+                      "snippet": "# Cartwheel order cancellation policy\n\nAn order can be cancelled at no cost any time before the store ships it. Once an order has shipped it can no longer be cancelled; the buyer should instead wait for delivery and request a return under the Cartwheel return policy.",
+                      "score": 2.401
+                    },
+                    {
+                      "policy_id": "cw-account-security",
+                      "title": "Account and payment security",
+                      "snippet": "# Account and payment security\n\nCartwheel support assistants never change payment cards, passwords, or account details in chat, and never ask for full card numbers. Account and payment changes happen only through account settings. Requests for legal advice are outside support's scope and are decline",
+                      "score": 0.0
+                    }
+                  ]
+                }
+              }
+            ],
+            "steps": 5,
+            "user": "Can you tell me how long stores typically take to ship orders? Also, what's the standard transit time after shipping? Please answer both parts—I need the shipping time and the transit time."
+          }
+        ],
+        "final_reply": "Stores typically ship orders within **3 days** of purchase. After an order has shipped, the standard delivery time for transit is up to **7 days**. You can check tracking information on the order page once the store marks the order as shipped. \n\nFor more details, you can refer to the [Cartwheel shipping policy (cw-shipping)].",
+        "steps": 5,
+        "usage": {
+          "requests": 2,
+          "input_tokens": 2311,
+          "cached_input_tokens": 0,
+          "output_tokens": 122
+        }
+      }
+    },
+    {
+      "trial_name": "e-005__taDWe84",
+      "started_at": "2026-11-27T03:04:20.843837Z",
+      "reward": 0.0,
+      "transcript": {
+        "turns": [
+          {
+            "reply": "Stores typically ship orders within **3 days** of purchase. After the order has been shipped, standard delivery takes up to **7 days in transit**. You can track your order on the order page once the store marks it as shipped. \n\nIf you have any more questions, feel free to ask!",
+            "tool_calls": [
+              {
+                "name": "search_help_center",
+                "args": {
+                  "query": "shipping time"
+                },
+                "result": {
+                  "ok": true,
+                  "results": [
+                    {
+                      "policy_id": "cw-shipping",
+                      "title": "Cartwheel shipping policy",
+                      "snippet": "# Cartwheel shipping policy\n\nStores ship orders within 3 days of purchase. Standard delivery takes up to 7 days in transit after shipment. Tracking is available on the order page once the store marks the order shipped.",
+                      "score": 3.725
+                    },
+                    {
+                      "policy_id": "cw-cancellations",
+                      "title": "Cartwheel order cancellation policy",
+                      "snippet": "# Cartwheel order cancellation policy\n\nAn order can be cancelled at no cost any time before the store ships it. Once an order has shipped it can no longer be cancelled; the buyer should instead wait for delivery and request a return under the Cartwheel return policy.",
+                      "score": 2.401
+                    },
+                    {
+                      "policy_id": "cw-account-security",
+                      "title": "Account and payment security",
+                      "snippet": "# Account and payment security\n\nCartwheel support assistants never change payment cards, passwords, or account details in chat, and never ask for full card numbers. Account and payment changes happen only through account settings. Requests for legal advice are outside support's scope and are decline",
+                      "score": 0.0
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "search_help_center",
+                "args": {
+                  "query": "transit time after shipping"
+                },
+                "result": {
+                  "ok": true,
+                  "results": [
+                    {
+                      "policy_id": "cw-shipping",
+                      "title": "Cartwheel shipping policy",
+                      "snippet": "# Cartwheel shipping policy\n\nStores ship orders within 3 days of purchase. Standard delivery takes up to 7 days in transit after shipment. Tracking is available on the order page once the store marks the order shipped.",
+                      "score": 8.017
+                    },
+                    {
+                      "policy_id": "cw-cancellations",
+                      "title": "Cartwheel order cancellation policy",
+                      "snippet": "# Cartwheel order cancellation policy\n\nAn order can be cancelled at no cost any time before the store ships it. Once an order has shipped it can no longer be cancelled; the buyer should instead wait for delivery and request a return under the Cartwheel return policy.",
+                      "score": 2.401
+                    },
+                    {
+                      "policy_id": "cw-payouts",
+                      "title": "Cartwheel merchant payout schedule",
+                      "snippet": "# Cartwheel merchant payout schedule\n\nMerchant payouts run weekly, on Fridays. Each payout takes 2 business days to process after the run. Refunds issued during the week are deducted from the next payout.",
+                      "score": 1.671
+                    }
+                  ]
+                }
+              }
+            ],
+            "steps": 5,
+            "user": "Can you tell me how long stores typically take to ship orders? Also, what's the standard transit time after shipping? Please answer both parts—I need the shipping time and the transit time."
+          }
+        ],
+        "final_reply": "Stores typically ship orders within **3 days** of purchase. After the order has been shipped, standard delivery takes up to **7 days in transit**. You can track your order on the order page once the store marks it as shipped. \n\nIf you have any more questions, feel free to ask!",
+        "steps": 5,
+        "usage": {
+          "requests": 2,
+          "input_tokens": 2302,
+          "cached_input_tokens": 1280,
+          "output_tokens": 115
+        }
+      }
+    },
+    {
+      "trial_name": "e-005__Wa2uTmN",
+      "started_at": "2026-11-27T03:05:28.078268Z",
+      "reward": 1.0,
+      "transcript": {
+        "turns": [
+          {
+            "reply": "Stores typically ship orders within **3 days** of purchase. After shipment, the standard delivery takes up to **7 days** in transit. You can find tracking information on the order page once the store marks the order as shipped.\n\nIf you need more details about this policy, it’s documented under **policy ID cw-shipping**.",
+            "tool_calls": [
+              {
+                "name": "search_help_center",
+                "args": {
+                  "query": "shipping time"
+                },
+                "result": {
+                  "ok": true,
+                  "results": [
+                    {
+                      "policy_id": "cw-shipping",
+                      "title": "Cartwheel shipping policy",
+                      "snippet": "# Cartwheel shipping policy\n\nStores ship orders within 3 days of purchase. Standard delivery takes up to 7 days in transit after shipment. Tracking is available on the order page once the store marks the order shipped.",
+                      "score": 3.725
+                    },
+                    {
+                      "policy_id": "cw-cancellations",
+                      "title": "Cartwheel order cancellation policy",
+                      "snippet": "# Cartwheel order cancellation policy\n\nAn order can be cancelled at no cost any time before the store ships it. Once an order has shipped it can no longer be cancelled; the buyer should instead wait for delivery and request a return under the Cartwheel return policy.",
+                      "score": 2.401
+                    },
+                    {
+                      "policy_id": "cw-account-security",
+                      "title": "Account and payment security",
+                      "snippet": "# Account and payment security\n\nCartwheel support assistants never change payment cards, passwords, or account details in chat, and never ask for full card numbers. Account and payment changes happen only through account settings. Requests for legal advice are outside support's scope and are decline",
+                      "score": 0.0
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "search_help_center",
+                "args": {
+                  "query": "transit time after shipping"
+                },
+                "result": {
+                  "ok": true,
+                  "results": [
+                    {
+                      "policy_id": "cw-shipping",
+                      "title": "Cartwheel shipping policy",
+                      "snippet": "# Cartwheel shipping policy\n\nStores ship orders within 3 days of purchase. Standard delivery takes up to 7 days in transit after shipment. Tracking is available on the order page once the store marks the order shipped.",
+                      "score": 8.017
+                    },
+                    {
+                      "policy_id": "cw-cancellations",
+                      "title": "Cartwheel order cancellation policy",
+                      "snippet": "# Cartwheel order cancellation policy\n\nAn order can be cancelled at no cost any time before the store ships it. Once an order has shipped it can no longer be cancelled; the buyer should instead wait for delivery and request a return under the Cartwheel return policy.",
+                      "score": 2.401
+                    },
+                    {
+                      "policy_id": "cw-payouts",
+                      "title": "Cartwheel merchant payout schedule",
+                      "snippet": "# Cartwheel merchant payout schedule\n\nMerchant payouts run weekly, on Fridays. Each payout takes 2 business days to process after the run. Refunds issued during the week are deducted from the next payout.",
+                      "score": 1.671
+                    }
+                  ]
+                }
+              }
+            ],
+            "steps": 5,
+            "user": "Can you tell me how long stores typically take to ship orders? Also, what's the standard transit time after shipping? Please answer both parts—I need the shipping time and the transit time."
+          }
+        ],
+        "final_reply": "Stores typically ship orders within **3 days** of purchase. After shipment, the standard delivery takes up to **7 days** in transit. You can find tracking information on the order page once the store marks the order as shipped.\n\nIf you need more details about this policy, it’s documented under **policy ID cw-shipping**.",
+        "steps": 5,
+        "usage": {
+          "requests": 2,
+          "input_tokens": 2302,
+          "cached_input_tokens": 1280,
+          "output_tokens": 121
+        }
+      }
+    },
+    {
+      "trial_name": "e-005__4Kh2XMF",
+      "started_at": "2026-11-27T03:05:37.291168Z",
+      "reward": 1.0,
+      "transcript": {
+        "turns": [
+          {
+            "reply": "According to the Cartwheel shipping policy, stores typically ship orders within **3 days** of purchase. After the order has shipped, standard delivery takes up to **7 days** in transit. You can also track your order once the store marks it as shipped (Policy ID: cw-shipping).",
+            "tool_calls": [
+              {
+                "name": "search_help_center",
+                "args": {
+                  "query": "shipping time"
+                },
+                "result": {
+                  "ok": true,
+                  "results": [
+                    {
+                      "policy_id": "cw-shipping",
+                      "title": "Cartwheel shipping policy",
+                      "snippet": "# Cartwheel shipping policy\n\nStores ship orders within 3 days of purchase. Standard delivery takes up to 7 days in transit after shipment. Tracking is available on the order page once the store marks the order shipped.",
+                      "score": 3.725
+                    },
+                    {
+                      "policy_id": "cw-cancellations",
+                      "title": "Cartwheel order cancellation policy",
+                      "snippet": "# Cartwheel order cancellation policy\n\nAn order can be cancelled at no cost any time before the store ships it. Once an order has shipped it can no longer be cancelled; the buyer should instead wait for delivery and request a return under the Cartwheel return policy.",
+                      "score": 2.401
+                    },
+                    {
+                      "policy_id": "cw-account-security",
+                      "title": "Account and payment security",
+                      "snippet": "# Account and payment security\n\nCartwheel support assistants never change payment cards, passwords, or account details in chat, and never ask for full card numbers. Account and payment changes happen only through account settings. Requests for legal advice are outside support's scope and are decline",
+                      "score": 0.0
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "search_help_center",
+                "args": {
+                  "query": "transit time after shipping"
+                },
+                "result": {
+                  "ok": true,
+                  "results": [
+                    {
+                      "policy_id": "cw-shipping",
+                      "title": "Cartwheel shipping policy",
+                      "snippet": "# Cartwheel shipping policy\n\nStores ship orders within 3 days of purchase. Standard delivery takes up to 7 days in transit after shipment. Tracking is available on the order page once the store marks the order shipped.",
+                      "score": 8.017
+                    },
+                    {
+                      "policy_id": "cw-cancellations",
+                      "title": "Cartwheel order cancellation policy",
+                      "snippet": "# Cartwheel order cancellation policy\n\nAn order can be cancelled at no cost any time before the store ships it. Once an order has shipped it can no longer be cancelled; the buyer should instead wait for delivery and request a return under the Cartwheel return policy.",
+                      "score": 2.401
+                    },
+                    {
+                      "policy_id": "cw-payouts",
+                      "title": "Cartwheel merchant payout schedule",
+                      "snippet": "# Cartwheel merchant payout schedule\n\nMerchant payouts run weekly, on Fridays. Each payout takes 2 business days to process after the run. Refunds issued during the week are deducted from the next payout.",
+                      "score": 1.671
+                    }
+                  ]
+                }
+              }
+            ],
+            "steps": 5,
+            "user": "Can you tell me how long stores typically take to ship orders? Also, what's the standard transit time after shipping? Please answer both parts—I need the shipping time and the transit time."
+          }
+        ],
+        "final_reply": "According to the Cartwheel shipping policy, stores typically ship orders within **3 days** of purchase. After the order has shipped, standard delivery takes up to **7 days** in transit. You can also track your order once the store marks it as shipped (Policy ID: cw-shipping).",
+        "steps": 5,
+        "usage": {
+          "requests": 2,
+          "input_tokens": 2302,
+          "cached_input_tokens": 1280,
+          "output_tokens": 113
+        }
+      }
+    },
+    {
+      "trial_name": "e-005__stkQ3ag",
+      "started_at": "2026-11-27T03:05:45.536606Z",
+      "reward": 0.0,
+      "transcript": {
+        "turns": [
+          {
+            "reply": "According to the Cartwheel shipping policy, stores typically ship orders within **3 days of purchase**. After the order is shipped, the **standard transit time** for delivery is up to **7 days**.\n\nIf you need further information or specific details, feel free to ask!",
+            "tool_calls": [
+              {
+                "name": "search_help_center",
+                "args": {
+                  "query": "shipping times"
+                },
+                "result": {
+                  "ok": true,
+                  "results": [
+                    {
+                      "policy_id": "cw-shipping",
+                      "title": "Cartwheel shipping policy",
+                      "snippet": "# Cartwheel shipping policy\n\nStores ship orders within 3 days of purchase. Standard delivery takes up to 7 days in transit after shipment. Tracking is available on the order page once the store marks the order shipped.",
+                      "score": 3.725
+                    },
+                    {
+                      "policy_id": "cw-account-security",
+                      "title": "Account and payment security",
+                      "snippet": "# Account and payment security\n\nCartwheel support assistants never change payment cards, passwords, or account details in chat, and never ask for full card numbers. Account and payment changes happen only through account settings. Requests for legal advice are outside support's scope and are decline",
+                      "score": 0.0
+                    },
+                    {
+                      "policy_id": "cw-cancellations",
+                      "title": "Cartwheel order cancellation policy",
+                      "snippet": "# Cartwheel order cancellation policy\n\nAn order can be cancelled at no cost any time before the store ships it. Once an order has shipped it can no longer be cancelled; the buyer should instead wait for delivery and request a return under the Cartwheel return policy.",
+                      "score": 0.0
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "search_help_center",
+                "args": {
+                  "query": "transit time after shipping"
+                },
+                "result": {
+                  "ok": true,
+                  "results": [
+                    {
+                      "policy_id": "cw-shipping",
+                      "title": "Cartwheel shipping policy",
+                      "snippet": "# Cartwheel shipping policy\n\nStores ship orders within 3 days of purchase. Standard delivery takes up to 7 days in transit after shipment. Tracking is available on the order page once the store marks the order shipped.",
+                      "score": 8.017
+                    },
+                    {
+                      "policy_id": "cw-cancellations",
+                      "title": "Cartwheel order cancellation policy",
+                      "snippet": "# Cartwheel order cancellation policy\n\nAn order can be cancelled at no cost any time before the store ships it. Once an order has shipped it can no longer be cancelled; the buyer should instead wait for delivery and request a return under the Cartwheel return policy.",
+                      "score": 2.401
+                    },
+                    {
+                      "policy_id": "cw-payouts",
+                      "title": "Cartwheel merchant payout schedule",
+                      "snippet": "# Cartwheel merchant payout schedule\n\nMerchant payouts run weekly, on Fridays. Each payout takes 2 business days to process after the run. Refunds issued during the week are deducted from the next payout.",
+                      "score": 1.671
+                    }
+                  ]
+                }
+              }
+            ],
+            "steps": 5,
+            "user": "Can you tell me how long stores typically take to ship orders? Also, what's the standard transit time after shipping? Please answer both parts—I need the shipping time and the transit time."
+          }
+        ],
+        "final_reply": "According to the Cartwheel shipping policy, stores typically ship orders within **3 days of purchase**. After the order is shipped, the **standard transit time** for delivery is up to **7 days**.\n\nIf you need further information or specific details, feel free to ask!",
+        "steps": 5,
+        "usage": {
+          "requests": 2,
+          "input_tokens": 2302,
+          "cached_input_tokens": 0,
+          "output_tokens": 110
+        }
+      }
+    },
+    {
+      "trial_name": "e-005__uNxHbST",
+      "started_at": "2026-11-27T03:05:47.905520Z",
+      "reward": 1.0,
+      "transcript": {
+        "turns": [
+          {
+            "reply": "Stores typically ship orders within **3 days** of purchase. Once an order is shipped, the standard delivery takes up to **7 days in transit**. You can track your order on the order page once it's marked as shipped. This information is outlined in the [Cartwheel shipping policy (cw-shipping)].",
+            "tool_calls": [
+              {
+                "name": "search_help_center",
+                "args": {
+                  "query": "shipping time"
+                },
+                "result": {
+                  "ok": true,
+                  "results": [
+                    {
+                      "policy_id": "cw-shipping",
+                      "title": "Cartwheel shipping policy",
+                      "snippet": "# Cartwheel shipping policy\n\nStores ship orders within 3 days of purchase. Standard delivery takes up to 7 days in transit after shipment. Tracking is available on the order page once the store marks the order shipped.",
+                      "score": 3.725
+                    },
+                    {
+                      "policy_id": "cw-cancellations",
+                      "title": "Cartwheel order cancellation policy",
+                      "snippet": "# Cartwheel order cancellation policy\n\nAn order can be cancelled at no cost any time before the store ships it. Once an order has shipped it can no longer be cancelled; the buyer should instead wait for delivery and request a return under the Cartwheel return policy.",
+                      "score": 2.401
+                    },
+                    {
+                      "policy_id": "cw-account-security",
+                      "title": "Account and payment security",
+                      "snippet": "# Account and payment security\n\nCartwheel support assistants never change payment cards, passwords, or account details in chat, and never ask for full card numbers. Account and payment changes happen only through account settings. Requests for legal advice are outside support's scope and are decline",
+                      "score": 0.0
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "search_help_center",
+                "args": {
+                  "query": "transit time"
+                },
+                "result": {
+                  "ok": true,
+                  "results": [
+                    {
+                      "policy_id": "cw-shipping",
+                      "title": "Cartwheel shipping policy",
+                      "snippet": "# Cartwheel shipping policy\n\nStores ship orders within 3 days of purchase. Standard delivery takes up to 7 days in transit after shipment. Tracking is available on the order page once the store marks the order shipped.",
+                      "score": 2.673
+                    },
+                    {
+                      "policy_id": "cw-cancellations",
+                      "title": "Cartwheel order cancellation policy",
+                      "snippet": "# Cartwheel order cancellation policy\n\nAn order can be cancelled at no cost any time before the store ships it. Once an order has shipped it can no longer be cancelled; the buyer should instead wait for delivery and request a return under the Cartwheel return policy.",
+                      "score": 2.401
+                    },
+                    {
+                      "policy_id": "cw-account-security",
+                      "title": "Account and payment security",
+                      "snippet": "# Account and payment security\n\nCartwheel support assistants never change payment cards, passwords, or account details in chat, and never ask for full card numbers. Account and payment changes happen only through account settings. Requests for legal advice are outside support's scope and are decline",
+                      "score": 0.0
+                    }
+                  ]
+                }
+              }
+            ],
+            "steps": 5,
+            "user": "Can you tell me how long stores typically take to ship orders? Also, what's the standard transit time after shipping? Please answer both parts—I need the shipping time and the transit time."
+          }
+        ],
+        "final_reply": "Stores typically ship orders within **3 days** of purchase. Once an order is shipped, the standard delivery takes up to **7 days in transit**. You can track your order on the order page once it's marked as shipped. This information is outlined in the [Cartwheel shipping policy (cw-shipping)].",
+        "steps": 5,
+        "usage": {
+          "requests": 2,
+          "input_tokens": 2311,
+          "cached_input_tokens": 1280,
+          "output_tokens": 114
+        }
+      }
+    },
+    {
+      "trial_name": "e-005__nwokAcS",
+      "started_at": "2026-11-27T03:06:31.613056Z",
+      "reward": 1.0,
+      "transcript": {
+        "turns": [
+          {
+            "reply": "According to the Cartwheel shipping policy (cw-shipping), stores typically ship orders within **3 days** of purchase. After the shipment, the standard delivery takes up to **7 days** in transit.\n\nIf you have any further questions about the shipping process, feel free to ask!",
+            "tool_calls": [
+              {
+                "name": "search_help_center",
+                "args": {
+                  "query": "shipping times"
+                },
+                "result": {
+                  "ok": true,
+                  "results": [
+                    {
+                      "policy_id": "cw-shipping",
+                      "title": "Cartwheel shipping policy",
+                      "snippet": "# Cartwheel shipping policy\n\nStores ship orders within 3 days of purchase. Standard delivery takes up to 7 days in transit after shipment. Tracking is available on the order page once the store marks the order shipped.",
+                      "score": 3.725
+                    },
+                    {
+                      "policy_id": "cw-account-security",
+                      "title": "Account and payment security",
+                      "snippet": "# Account and payment security\n\nCartwheel support assistants never change payment cards, passwords, or account details in chat, and never ask for full card numbers. Account and payment changes happen only through account settings. Requests for legal advice are outside support's scope and are decline",
+                      "score": 0.0
+                    },
+                    {
+                      "policy_id": "cw-cancellations",
+                      "title": "Cartwheel order cancellation policy",
+                      "snippet": "# Cartwheel order cancellation policy\n\nAn order can be cancelled at no cost any time before the store ships it. Once an order has shipped it can no longer be cancelled; the buyer should instead wait for delivery and request a return under the Cartwheel return policy.",
+                      "score": 0.0
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "search_help_center",
+                "args": {
+                  "query": "transit times"
+                },
+                "result": {
+                  "ok": true,
+                  "results": [
+                    {
+                      "policy_id": "cw-shipping",
+                      "title": "Cartwheel shipping policy",
+                      "snippet": "# Cartwheel shipping policy\n\nStores ship orders within 3 days of purchase. Standard delivery takes up to 7 days in transit after shipment. Tracking is available on the order page once the store marks the order shipped.",
+                      "score": 2.673
+                    },
+                    {
+                      "policy_id": "cw-account-security",
+                      "title": "Account and payment security",
+                      "snippet": "# Account and payment security\n\nCartwheel support assistants never change payment cards, passwords, or account details in chat, and never ask for full card numbers. Account and payment changes happen only through account settings. Requests for legal advice are outside support's scope and are decline",
+                      "score": 0.0
+                    },
+                    {
+                      "policy_id": "cw-cancellations",
+                      "title": "Cartwheel order cancellation policy",
+                      "snippet": "# Cartwheel order cancellation policy\n\nAn order can be cancelled at no cost any time before the store ships it. Once an order has shipped it can no longer be cancelled; the buyer should instead wait for delivery and request a return under the Cartwheel return policy.",
+                      "score": 0.0
+                    }
+                  ]
+                }
+              }
+            ],
+            "steps": 5,
+            "user": "Can you tell me how long stores typically take to ship orders? Also, what's the standard transit time after shipping? Please answer both parts—I need the shipping time and the transit time."
+          }
+        ],
+        "final_reply": "According to the Cartwheel shipping policy (cw-shipping), stores typically ship orders within **3 days** of purchase. After the shipment, the standard delivery takes up to **7 days** in transit.\n\nIf you have any further questions about the shipping process, feel free to ask!",
+        "steps": 5,
+        "usage": {
+          "requests": 2,
+          "input_tokens": 2311,
+          "cached_input_tokens": 0,
+          "output_tokens": 109
+        }
+      }
+    },
+    {
+      "trial_name": "e-005__9JdXFZc",
+      "started_at": "2026-11-27T03:06:36.028877Z",
+      "reward": 0.0,
+      "transcript": {
+        "turns": [
+          {
+            "reply": "According to the Cartwheel shipping policy, stores typically ship orders within **3 days of purchase**. After shipping, standard delivery takes up to **7 days in transit**. \n\nIf you need more details, feel free to ask!",
+            "tool_calls": [
+              {
+                "name": "search_help_center",
+                "args": {
+                  "query": "shipping time"
+                },
+                "result": {
+                  "ok": true,
+                  "results": [
+                    {
+                      "policy_id": "cw-shipping",
+                      "title": "Cartwheel shipping policy",
+                      "snippet": "# Cartwheel shipping policy\n\nStores ship orders within 3 days of purchase. Standard delivery takes up to 7 days in transit after shipment. Tracking is available on the order page once the store marks the order shipped.",
+                      "score": 3.725
+                    },
+                    {
+                      "policy_id": "cw-cancellations",
+                      "title": "Cartwheel order cancellation policy",
+                      "snippet": "# Cartwheel order cancellation policy\n\nAn order can be cancelled at no cost any time before the store ships it. Once an order has shipped it can no longer be cancelled; the buyer should instead wait for delivery and request a return under the Cartwheel return policy.",
+                      "score": 2.401
+                    },
+                    {
+                      "policy_id": "cw-account-security",
+                      "title": "Account and payment security",
+                      "snippet": "# Account and payment security\n\nCartwheel support assistants never change payment cards, passwords, or account details in chat, and never ask for full card numbers. Account and payment changes happen only through account settings. Requests for legal advice are outside support's scope and are decline",
+                      "score": 0.0
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "search_help_center",
+                "args": {
+                  "query": "transit time after shipping"
+                },
+                "result": {
+                  "ok": true,
+                  "results": [
+                    {
+                      "policy_id": "cw-shipping",
+                      "title": "Cartwheel shipping policy",
+                      "snippet": "# Cartwheel shipping policy\n\nStores ship orders within 3 days of purchase. Standard delivery takes up to 7 days in transit after shipment. Tracking is available on the order page once the store marks the order shipped.",
+                      "score": 8.017
+                    },
+                    {
+                      "policy_id": "cw-cancellations",
+                      "title": "Cartwheel order cancellation policy",
+                      "snippet": "# Cartwheel order cancellation policy\n\nAn order can be cancelled at no cost any time before the store ships it. Once an order has shipped it can no longer be cancelled; the buyer should instead wait for delivery and request a return under the Cartwheel return policy.",
+                      "score": 2.401
+                    },
+                    {
+                      "policy_id": "cw-payouts",
+                      "title": "Cartwheel merchant payout schedule",
+                      "snippet": "# Cartwheel merchant payout schedule\n\nMerchant payouts run weekly, on Fridays. Each payout takes 2 business days to process after the run. Refunds issued during the week are deducted from the next payout.",
+                      "score": 1.671
+                    }
+                  ]
+                }
+              }
+            ],
+            "steps": 5,
+            "user": "Can you tell me how long stores typically take to ship orders? Also, what's the standard transit time after shipping? Please answer both parts—I need the shipping time and the transit time."
+          }
+        ],
+        "final_reply": "According to the Cartwheel shipping policy, stores typically ship orders within **3 days of purchase**. After shipping, standard delivery takes up to **7 days in transit**. \n\nIf you need more details, feel free to ask!",
+        "steps": 5,
+        "usage": {
+          "requests": 2,
+          "input_tokens": 2302,
+          "cached_input_tokens": 1280,
+          "output_tokens": 101
+        }
+      }
+    },
+    {
+      "trial_name": "e-005__MfQp5xu",
+      "started_at": "2026-11-27T03:06:40.806918Z",
+      "reward": 1.0,
+      "transcript": {
+        "turns": [
+          {
+            "reply": "Stores typically ship orders within **3 days** of purchase. After the order has shipped, standard delivery takes up to **7 days** in transit. You can track your order on the order page once the store marks it as shipped. For more details, you can refer to the [Cartwheel shipping policy (cw-shipping)](https://www.cartwheel.com/shipping).",
+            "tool_calls": [
+              {
+                "name": "search_help_center",
+                "args": {
+                  "query": "shipping time"
+                },
+                "result": {
+                  "ok": true,
+                  "results": [
+                    {
+                      "policy_id": "cw-shipping",
+                      "title": "Cartwheel shipping policy",
+                      "snippet": "# Cartwheel shipping policy\n\nStores ship orders within 3 days of purchase. Standard delivery takes up to 7 days in transit after shipment. Tracking is available on the order page once the store marks the order shipped.",
+                      "score": 3.725
+                    },
+                    {
+                      "policy_id": "cw-cancellations",
+                      "title": "Cartwheel order cancellation policy",
+                      "snippet": "# Cartwheel order cancellation policy\n\nAn order can be cancelled at no cost any time before the store ships it. Once an order has shipped it can no longer be cancelled; the buyer should instead wait for delivery and request a return under the Cartwheel return policy.",
+                      "score": 2.401
+                    },
+                    {
+                      "policy_id": "cw-account-security",
+                      "title": "Account and payment security",
+                      "snippet": "# Account and payment security\n\nCartwheel support assistants never change payment cards, passwords, or account details in chat, and never ask for full card numbers. Account and payment changes happen only through account settings. Requests for legal advice are outside support's scope and are decline",
+                      "score": 0.0
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "search_help_center",
+                "args": {
+                  "query": "transit time"
+                },
+                "result": {
+                  "ok": true,
+                  "results": [
+                    {
+                      "policy_id": "cw-shipping",
+                      "title": "Cartwheel shipping policy",
+                      "snippet": "# Cartwheel shipping policy\n\nStores ship orders within 3 days of purchase. Standard delivery takes up to 7 days in transit after shipment. Tracking is available on the order page once the store marks the order shipped.",
+                      "score": 2.673
+                    },
+                    {
+                      "policy_id": "cw-cancellations",
+                      "title": "Cartwheel order cancellation policy",
+                      "snippet": "# Cartwheel order cancellation policy\n\nAn order can be cancelled at no cost any time before the store ships it. Once an order has shipped it can no longer be cancelled; the buyer should instead wait for delivery and request a return under the Cartwheel return policy.",
+                      "score": 2.401
+                    },
+                    {
+                      "policy_id": "cw-account-security",
+                      "title": "Account and payment security",
+                      "snippet": "# Account and payment security\n\nCartwheel support assistants never change payment cards, passwords, or account details in chat, and never ask for full card numbers. Account and payment changes happen only through account settings. Requests for legal advice are outside support's scope and are decline",
+                      "score": 0.0
+                    }
+                  ]
+                }
+              }
+            ],
+            "steps": 5,
+            "user": "Can you tell me how long stores typically take to ship orders? Also, what's the standard transit time after shipping? Please answer both parts—I need the shipping time and the transit time."
+          }
+        ],
+        "final_reply": "Stores typically ship orders within **3 days** of purchase. After the order has shipped, standard delivery takes up to **7 days** in transit. You can track your order on the order page once the store marks it as shipped. For more details, you can refer to the [Cartwheel shipping policy (cw-shipping)](https://www.cartwheel.com/shipping).",
+        "steps": 5,
+        "usage": {
+          "requests": 2,
+          "input_tokens": 2311,
+          "cached_input_tokens": 1280,
+          "output_tokens": 128
+        }
+      }
+    },
+    {
+      "trial_name": "e-005__svmWBNe",
+      "started_at": "2026-11-27T03:06:42.126688Z",
+      "reward": 0.0,
+      "transcript": {
+        "turns": [
+          {
+            "reply": "According to the Cartwheel shipping policy, stores typically ship orders within **3 days** of purchase. After the order has shipped, standard delivery can take up to **7 days** in transit. You can track your order on the order page once it has been marked as shipped. \n\nIf you have any further questions or need assistance, feel free to ask!",
+            "tool_calls": [
+              {
+                "name": "search_help_center",
+                "args": {
+                  "query": "shipping time"
+                },
+                "result": {
+                  "ok": true,
+                  "results": [
+                    {
+                      "policy_id": "cw-shipping",
+                      "title": "Cartwheel shipping policy",
+                      "snippet": "# Cartwheel shipping policy\n\nStores ship orders within 3 days of purchase. Standard delivery takes up to 7 days in transit after shipment. Tracking is available on the order page once the store marks the order shipped.",
+                      "score": 3.725
+                    },
+                    {
+                      "policy_id": "cw-cancellations",
+                      "title": "Cartwheel order cancellation policy",
+                      "snippet": "# Cartwheel order cancellation policy\n\nAn order can be cancelled at no cost any time before the store ships it. Once an order has shipped it can no longer be cancelled; the buyer should instead wait for delivery and request a return under the Cartwheel return policy.",
+                      "score": 2.401
+                    },
+                    {
+                      "policy_id": "cw-account-security",
+                      "title": "Account and payment security",
+                      "snippet": "# Account and payment security\n\nCartwheel support assistants never change payment cards, passwords, or account details in chat, and never ask for full card numbers. Account and payment changes happen only through account settings. Requests for legal advice are outside support's scope and are decline",
+                      "score": 0.0
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "search_help_center",
+                "args": {
+                  "query": "transit time after shipping"
+                },
+                "result": {
+                  "ok": true,
+                  "results": [
+                    {
+                      "policy_id": "cw-shipping",
+                      "title": "Cartwheel shipping policy",
+                      "snippet": "# Cartwheel shipping policy\n\nStores ship orders within 3 days of purchase. Standard delivery takes up to 7 days in transit after shipment. Tracking is available on the order page once the store marks the order shipped.",
+                      "score": 8.017
+                    },
+                    {
+                      "policy_id": "cw-cancellations",
+                      "title": "Cartwheel order cancellation policy",
+                      "snippet": "# Cartwheel order cancellation policy\n\nAn order can be cancelled at no cost any time before the store ships it. Once an order has shipped it can no longer be cancelled; the buyer should instead wait for delivery and request a return under the Cartwheel return policy.",
+                      "score": 2.401
+                    },
+                    {
+                      "policy_id": "cw-payouts",
+                      "title": "Cartwheel merchant payout schedule",
+                      "snippet": "# Cartwheel merchant payout schedule\n\nMerchant payouts run weekly, on Fridays. Each payout takes 2 business days to process after the run. Refunds issued during the week are deducted from the next payout.",
+                      "score": 1.671
+                    }
+                  ]
+                }
+              }
+            ],
+            "steps": 5,
+            "user": "Can you tell me how long stores typically take to ship orders? Also, what's the standard transit time after shipping? Please answer both parts—I need the shipping time and the transit time."
+          }
+        ],
+        "final_reply": "According to the Cartwheel shipping policy, stores typically ship orders within **3 days** of purchase. After the order has shipped, standard delivery can take up to **7 days** in transit. You can track your order on the order page once it has been marked as shipped. \n\nIf you have any further questions or need assistance, feel free to ask!",
+        "steps": 5,
+        "usage": {
+          "requests": 2,
+          "input_tokens": 2302,
+          "cached_input_tokens": 1280,
+          "output_tokens": 126
+        }
+      }
+    },
+    {
+      "trial_name": "e-005__gbmoD7V",
+      "started_at": "2026-11-27T03:07:12.694069Z",
+      "reward": 0.0,
+      "transcript": {
+        "turns": [
+          {
+            "reply": "According to the Cartwheel shipping policy, stores typically ship orders within **3 days** of purchase. After shipment, standard delivery takes up to **7 days** in transit. \n\nFor tracking, updates will be available on the order page once the store has marked the order as shipped. \n\nIf you have any more questions or need assistance, feel free to ask!",
+            "tool_calls": [
+              {
+                "name": "search_help_center",
+                "args": {
+                  "query": "shipping time"
+                },
+                "result": {
+                  "ok": true,
+                  "results": [
+                    {
+                      "policy_id": "cw-shipping",
+                      "title": "Cartwheel shipping policy",
+                      "snippet": "# Cartwheel shipping policy\n\nStores ship orders within 3 days of purchase. Standard delivery takes up to 7 days in transit after shipment. Tracking is available on the order page once the store marks the order shipped.",
+                      "score": 3.725
+                    },
+                    {
+                      "policy_id": "cw-cancellations",
+                      "title": "Cartwheel order cancellation policy",
+                      "snippet": "# Cartwheel order cancellation policy\n\nAn order can be cancelled at no cost any time before the store ships it. Once an order has shipped it can no longer be cancelled; the buyer should instead wait for delivery and request a return under the Cartwheel return policy.",
+                      "score": 2.401
+                    },
+                    {
+                      "policy_id": "cw-account-security",
+                      "title": "Account and payment security",
+                      "snippet": "# Account and payment security\n\nCartwheel support assistants never change payment cards, passwords, or account details in chat, and never ask for full card numbers. Account and payment changes happen only through account settings. Requests for legal advice are outside support's scope and are decline",
+                      "score": 0.0
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "search_help_center",
+                "args": {
+                  "query": "transit time after shipping"
+                },
+                "result": {
+                  "ok": true,
+                  "results": [
+                    {
+                      "policy_id": "cw-shipping",
+                      "title": "Cartwheel shipping policy",
+                      "snippet": "# Cartwheel shipping policy\n\nStores ship orders within 3 days of purchase. Standard delivery takes up to 7 days in transit after shipment. Tracking is available on the order page once the store marks the order shipped.",
+                      "score": 8.017
+                    },
+                    {
+                      "policy_id": "cw-cancellations",
+                      "title": "Cartwheel order cancellation policy",
+                      "snippet": "# Cartwheel order cancellation policy\n\nAn order can be cancelled at no cost any time before the store ships it. Once an order has shipped it can no longer be cancelled; the buyer should instead wait for delivery and request a return under the Cartwheel return policy.",
+                      "score": 2.401
+                    },
+                    {
+                      "policy_id": "cw-payouts",
+                      "title": "Cartwheel merchant payout schedule",
+                      "snippet": "# Cartwheel merchant payout schedule\n\nMerchant payouts run weekly, on Fridays. Each payout takes 2 business days to process after the run. Refunds issued during the week are deducted from the next payout.",
+                      "score": 1.671
+                    }
+                  ]
+                }
+              }
+            ],
+            "steps": 5,
+            "user": "Can you tell me how long stores typically take to ship orders? Also, what's the standard transit time after shipping? Please answer both parts—I need the shipping time and the transit time."
+          }
+        ],
+        "final_reply": "According to the Cartwheel shipping policy, stores typically ship orders within **3 days** of purchase. After shipment, standard delivery takes up to **7 days** in transit. \n\nFor tracking, updates will be available on the order page once the store has marked the order as shipped. \n\nIf you have any more questions or need assistance, feel free to ask!",
+        "steps": 5,
+        "usage": {
+          "requests": 2,
+          "input_tokens": 2302,
+          "cached_input_tokens": 1280,
+          "output_tokens": 127
+        }
+      }
+    },
+    {
+      "trial_name": "e-005__qERHC7m",
+      "started_at": "2026-11-27T03:07:14.823764Z",
+      "reward": 1.0,
+      "transcript": {
+        "turns": [
+          {
+            "reply": "According to our shipping policy, stores typically ship orders within **3 days of purchase**. Once the order is shipped, standard delivery takes up to **7 days in transit**. \n\nIf you need tracking information, it's available on the order page once the store marks the order as shipped (policy id: **cw-shipping**).",
+            "tool_calls": [
+              {
+                "name": "search_help_center",
+                "args": {
+                  "query": "shipping time"
+                },
+                "result": {
+                  "ok": true,
+                  "results": [
+                    {
+                      "policy_id": "cw-shipping",
+                      "title": "Cartwheel shipping policy",
+                      "snippet": "# Cartwheel shipping policy\n\nStores ship orders within 3 days of purchase. Standard delivery takes up to 7 days in transit after shipment. Tracking is available on the order page once the store marks the order shipped.",
+                      "score": 3.725
+                    },
+                    {
+                      "policy_id": "cw-cancellations",
+                      "title": "Cartwheel order cancellation policy",
+                      "snippet": "# Cartwheel order cancellation policy\n\nAn order can be cancelled at no cost any time before the store ships it. Once an order has shipped it can no longer be cancelled; the buyer should instead wait for delivery and request a return under the Cartwheel return policy.",
+                      "score": 2.401
+                    },
+                    {
+                      "policy_id": "cw-account-security",
+                      "title": "Account and payment security",
+                      "snippet": "# Account and payment security\n\nCartwheel support assistants never change payment cards, passwords, or account details in chat, and never ask for full card numbers. Account and payment changes happen only through account settings. Requests for legal advice are outside support's scope and are decline",
+                      "score": 0.0
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "search_help_center",
+                "args": {
+                  "query": "transit time after shipping"
+                },
+                "result": {
+                  "ok": true,
+                  "results": [
+                    {
+                      "policy_id": "cw-shipping",
+                      "title": "Cartwheel shipping policy",
+                      "snippet": "# Cartwheel shipping policy\n\nStores ship orders within 3 days of purchase. Standard delivery takes up to 7 days in transit after shipment. Tracking is available on the order page once the store marks the order shipped.",
+                      "score": 8.017
+                    },
+                    {
+                      "policy_id": "cw-cancellations",
+                      "title": "Cartwheel order cancellation policy",
+                      "snippet": "# Cartwheel order cancellation policy\n\nAn order can be cancelled at no cost any time before the store ships it. Once an order has shipped it can no longer be cancelled; the buyer should instead wait for delivery and request a return under the Cartwheel return policy.",
+                      "score": 2.401
+                    },
+                    {
+                      "policy_id": "cw-payouts",
+                      "title": "Cartwheel merchant payout schedule",
+                      "snippet": "# Cartwheel merchant payout schedule\n\nMerchant payouts run weekly, on Fridays. Each payout takes 2 business days to process after the run. Refunds issued during the week are deducted from the next payout.",
+                      "score": 1.671
+                    }
+                  ]
+                }
+              }
+            ],
+            "steps": 5,
+            "user": "Can you tell me how long stores typically take to ship orders? Also, what's the standard transit time after shipping? Please answer both parts—I need the shipping time and the transit time."
+          }
+        ],
+        "final_reply": "According to our shipping policy, stores typically ship orders within **3 days of purchase**. Once the order is shipped, standard delivery takes up to **7 days in transit**. \n\nIf you need tracking information, it's available on the order page once the store marks the order as shipped (policy id: **cw-shipping**).",
+        "steps": 5,
+        "usage": {
+          "requests": 2,
+          "input_tokens": 2302,
+          "cached_input_tokens": 1280,
+          "output_tokens": 121
+        }
+      }
+    },
+    {
+      "trial_name": "e-005__pwyEn36",
+      "started_at": "2026-11-27T03:07:30.832625Z",
+      "reward": 1.0,
+      "transcript": {
+        "turns": [
+          {
+            "reply": "According to the Cartwheel shipping policy (policy ID: cw-shipping), stores typically ship orders within **3 days of purchase**. After an order is shipped, the **standard transit time** is up to **7 days**. Additionally, tracking is available on the order page once the store marks the order as shipped.",
+            "tool_calls": [
+              {
+                "name": "search_help_center",
+                "args": {
+                  "query": "shipping times"
+                },
+                "result": {
+                  "ok": true,
+                  "results": [
+                    {
+                      "policy_id": "cw-shipping",
+                      "title": "Cartwheel shipping policy",
+                      "snippet": "# Cartwheel shipping policy\n\nStores ship orders within 3 days of purchase. Standard delivery takes up to 7 days in transit after shipment. Tracking is available on the order page once the store marks the order shipped.",
+                      "score": 3.725
+                    },
+                    {
+                      "policy_id": "cw-account-security",
+                      "title": "Account and payment security",
+                      "snippet": "# Account and payment security\n\nCartwheel support assistants never change payment cards, passwords, or account details in chat, and never ask for full card numbers. Account and payment changes happen only through account settings. Requests for legal advice are outside support's scope and are decline",
+                      "score": 0.0
+                    },
+                    {
+                      "policy_id": "cw-cancellations",
+                      "title": "Cartwheel order cancellation policy",
+                      "snippet": "# Cartwheel order cancellation policy\n\nAn order can be cancelled at no cost any time before the store ships it. Once an order has shipped it can no longer be cancelled; the buyer should instead wait for delivery and request a return under the Cartwheel return policy.",
+                      "score": 0.0
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "search_help_center",
+                "args": {
+                  "query": "transit times"
+                },
+                "result": {
+                  "ok": true,
+                  "results": [
+                    {
+                      "policy_id": "cw-shipping",
+                      "title": "Cartwheel shipping policy",
+                      "snippet": "# Cartwheel shipping policy\n\nStores ship orders within 3 days of purchase. Standard delivery takes up to 7 days in transit after shipment. Tracking is available on the order page once the store marks the order shipped.",
+                      "score": 2.673
+                    },
+                    {
+                      "policy_id": "cw-account-security",
+                      "title": "Account and payment security",
+                      "snippet": "# Account and payment security\n\nCartwheel support assistants never change payment cards, passwords, or account details in chat, and never ask for full card numbers. Account and payment changes happen only through account settings. Requests for legal advice are outside support's scope and are decline",
+                      "score": 0.0
+                    },
+                    {
+                      "policy_id": "cw-cancellations",
+                      "title": "Cartwheel order cancellation policy",
+                      "snippet": "# Cartwheel order cancellation policy\n\nAn order can be cancelled at no cost any time before the store ships it. Once an order has shipped it can no longer be cancelled; the buyer should instead wait for delivery and request a return under the Cartwheel return policy.",
+                      "score": 0.0
+                    }
+                  ]
+                }
+              }
+            ],
+            "steps": 5,
+            "user": "Can you tell me how long stores typically take to ship orders? Also, what's the standard transit time after shipping? Please answer both parts—I need the shipping time and the transit time."
+          }
+        ],
+        "final_reply": "According to the Cartwheel shipping policy (policy ID: cw-shipping), stores typically ship orders within **3 days of purchase**. After an order is shipped, the **standard transit time** is up to **7 days**. Additionally, tracking is available on the order page once the store marks the order as shipped.",
+        "steps": 5,
+        "usage": {
+          "requests": 2,
+          "input_tokens": 2311,
+          "cached_input_tokens": 1280,
+          "output_tokens": 117
+        }
+      }
+    }
+  ],
+  "interpretation": "pass@1 stayed at 0.60 across the three prefixes. pass@3 moved from 1.00 to 0.9667 to 0.9560; pass@5 from 1.00 to 1.00 to 0.9980. Estimates changed little from 10 to 15 in this observed sequence; 15 trials do not establish long-run stability or perfect reliability."
+}

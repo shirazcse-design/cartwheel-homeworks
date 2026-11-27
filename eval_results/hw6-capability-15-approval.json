@@ -1,0 +1,9 @@
+{
+  "approved_by": "human",
+  "approval_text": "yes approved",
+  "approved_at": "2026-11-27T03:04:19.068494+00:00",
+  "model": "gpt-4o-mini",
+  "case_id": "e-005",
+  "agent_runs": 15,
+  "judge_calls": 0
+}
