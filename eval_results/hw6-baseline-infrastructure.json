@@ -1,0 +1,38 @@
+{
+  "status": "interrupted; no cases classified",
+  "completed_agent_conversations": [
+    {
+      "case_id": "e-007",
+      "trial": "e-007__bZ4G4UJ",
+      "evidence_path": ".harbor/jobs/hw6-baseline-10-ready/e-007__bZ4G4UJ/agent/cartwheel-result.json",
+      "verifier_reward": null
+    },
+    {
+      "case_id": "e-009",
+      "trial": "e-009__8mR3kjz",
+      "evidence_path": ".harbor/jobs/hw6-baseline-10-ready/e-009__8mR3kjz/agent/cartwheel-result.json",
+      "verifier_reward": null
+    },
+    {
+      "case_id": "e-008",
+      "trial": "e-008__igybBES",
+      "evidence_path": ".harbor/jobs/hw6-baseline-10-ready/e-008__igybBES/agent/cartwheel-result.json",
+      "verifier_reward": null
+    },
+    {
+      "case_id": "e-001",
+      "trial": "e-001__QNFCDjp",
+      "evidence_path": ".harbor/jobs/hw6-baseline-10-ready/e-001__QNFCDjp/agent/cartwheel-result.json",
+      "verifier_reward": null
+    }
+  ],
+  "additional_agent_runs_needed_for_clean_50_trial_baseline": 50,
+  "reason": "Local Docker cache/keychain/Compose setup errors were fixed. Three merchant case definitions lacked store_id and are corrected. Four agent conversations completed before job interruption while verifier dependencies were installing; no verifier rewards were produced.",
+  "paid_runs_observed": 4,
+  "extra_runs_above_original_50_budget_if_clean_rerun": 4,
+  "merchant_store_ids_fixed": {
+    "e-002": 5,
+    "e-004": 2,
+    "e-006": 8
+  }
+}

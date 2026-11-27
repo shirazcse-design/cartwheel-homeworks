@@ -326,3 +326,46 @@ def test_capability_analysis_uses_5_10_and_15_observed_runs(
         "10",
         "15",
     }
+
+
+def test_baseline_summary_reads_harbor_023_trial_files(tmp_path: Path) -> None:
+    from harbor_adapter.summary import summarize_job
+    cases = tmp_path / "cases.jsonl"
+    _write_cases(cases, [{"id": "e-001"}])
+    job = tmp_path / "job"
+    job.mkdir()
+    (job / "result.json").write_text(json.dumps({"n_total_trials": 5}))
+    for i in range(5):
+        trial_dir = job / f"trial-{i}"
+        trial_dir.mkdir()
+        (trial_dir / "result.json").write_text(json.dumps({
+            "task_name": "cartwheel/evals__e-001",
+            "verifier_result": {"rewards": {"reward": int(i < 3)}},
+            "exception_info": None,
+        }))
+    report, valid = summarize_job(job, cases_path=cases, expected_attempts=5, classify=True)
+    assert valid
+    assert "| `e-001` | 3 | 5 |" in report
+    assert 'baseline_pass_rate: 0.6' in report
+
+
+def test_capability_analysis_reads_023_trials_in_observed_start_order(tmp_path: Path) -> None:
+    job = tmp_path / 'job'
+    job.mkdir()
+    (job / 'result.json').write_text(json.dumps({'n_total_trials': 15}))
+    for i in range(15):
+        directory = job / f'trial-{14-i:02d}'
+        directory.mkdir()
+        (directory / 'result.json').write_text(json.dumps({
+            'task_name': 'cartwheel/evals__e-005',
+            'trial_name': directory.name,
+            'started_at': f'2026-11-26T00:00:{i:02d}Z',
+            'verifier_result': {'rewards': {'reward': int(i < 5)}},
+            'agent_info': {'model_info': {'name': 'gpt-4o-mini'}},
+            'exception_info': None,
+        }))
+    result = analyze_capability_job(job, 'e-005')
+    assert result['trials'][0]['trial_name'] == 'trial-14'
+    assert result['rewards'] == [1] * 5 + [0] * 10
+    assert [r['successes'] for r in result['comparisons']] == [5, 5, 5]
+    assert 'started_at' in result['trial_order']

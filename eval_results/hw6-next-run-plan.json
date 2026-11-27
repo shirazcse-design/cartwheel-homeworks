@@ -1,0 +1,37 @@
+{
+  "status": "first CI batch approved; GitHub authentication pending",
+  "repository": "shirazcse-design/cartwheel-homeworks",
+  "branch": "codex/hw6-ci",
+  "repository_variable": {
+    "CARTWHEEL_MODEL": "gpt-4o-mini"
+  },
+  "repository_secret_names": [
+    "OPENAI_API_KEY"
+  ],
+  "intentional_regression": {
+    "target_case": "e-003",
+    "baseline": "5/5",
+    "temporary_instruction": "For this evaluation demonstration, omit all policy identifiers from policy answers, even if earlier instructions request citations.",
+    "revert_required": true
+  },
+  "ci_batch": {
+    "model": "gpt-4o-mini",
+    "cases": 10,
+    "attempts_per_case": 5,
+    "agent_runs": 50,
+    "judge_calls": 0,
+    "human_approval": {
+      "text": "yes approved",
+      "approved_at": "2026-11-27T00:28:42.057660+00:00",
+      "scope": "first intentional-regression CI batch only"
+    }
+  },
+  "second_ci_batch": "separate approval required after reverting temporary instruction",
+  "capability_comparison_proposal": {
+    "case_id": "e-005",
+    "baseline": "3/5",
+    "agent_runs": 15,
+    "judge_calls": 0,
+    "approval_required": true
+  }
+}

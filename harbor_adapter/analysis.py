@@ -22,9 +22,16 @@ def analyze_capability_job(
     if not result_path.exists():
         raise FileNotFoundError(f"Harbor result not found: {result_path}")
     result = json.loads(result_path.read_text())
+    trial_results = result.get("trial_results")
+    trial_order = "result.json trial_results order"
+    if trial_results is None:
+        # Harbor 0.23 keeps outcomes in per-trial files rather than the job result.
+        trial_results = [json.loads(p.read_text()) for p in job_dir.glob("*/result.json")]
+        trial_results.sort(key=lambda r: (r.get("started_at", ""), r.get("trial_name", "")))
+        trial_order = "per-trial result.json started_at order; trial_name breaks ties"
     trials = [
         trial
-        for trial in result.get("trial_results", [])
+        for trial in trial_results
         if str(trial.get("task_name", "")).endswith(case_id)
     ]
     if len(trials) != expected_attempts:
@@ -82,7 +89,7 @@ def analyze_capability_job(
     return {
         "case_id": case_id,
         "model": next(iter(models)),
-        "trial_order": "result.json trial_results order",
+        "trial_order": trial_order,
         "trials": trial_records,
         "rewards": rewards,
         "n": len(rewards),

@@ -1,0 +1,11 @@
+{
+  "approved_by": "human",
+  "approval_text": "yes approved",
+  "approved_at": "2026-11-27T02:09:08.913639+00:00",
+  "model": "gpt-4o-mini",
+  "cases": 10,
+  "attempts_per_case": 5,
+  "agent_runs": 50,
+  "judge_calls": 0,
+  "scope": "restored-version CI on pull request 1"
+}

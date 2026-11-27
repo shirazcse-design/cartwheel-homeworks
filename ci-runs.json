@@ -1,0 +1,20 @@
+{
+  "pull_request": "https://github.com/shirazcse-design/cartwheel-homeworks/pull/1",
+  "case_id": "e-003",
+  "intentional_regression": {
+    "url": "https://github.com/shirazcse-design/cartwheel-homeworks/actions/runs/45924250841",
+    "commit": "247b359e0cd4210c775b1d824e81f66cc75be33e",
+    "result": "failure",
+    "target_case_passes": 0,
+    "target_case_trials": 5,
+    "evidence": "Human-provided GitHub Actions summary screenshot; e-003 and e-004 blocked, e-009 and e-010 passed."
+  },
+  "after_revert": {
+    "url": "https://github.com/shirazcse-design/cartwheel-homeworks/actions/runs/45926726311",
+    "run_id": 45926726311,
+    "commit": "b857c806efabf1a1bedf521de9642b8888ed8acf",
+    "result": "success",
+    "verification": "GitHub API reports offline checks, Harbor trials, summary gate, and artifact upload completed successfully."
+  },
+  "explanation": "The temporary instruction omitted policy identifiers: e-003 dropped from 5/5 baseline to 0/5, blocking the first CI run. After removing the instruction, the second run on the same pull request succeeded, including the regression summary gate. This is observed recovery for these trials, not proof of perfect future reliability."
+}
