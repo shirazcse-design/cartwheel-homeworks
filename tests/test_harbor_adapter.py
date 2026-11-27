@@ -326,3 +326,24 @@ def test_capability_analysis_uses_5_10_and_15_observed_runs(
         "10",
         "15",
     }
+
+
+def test_baseline_summary_reads_harbor_023_trial_files(tmp_path: Path) -> None:
+    from harbor_adapter.summary import summarize_job
+    cases = tmp_path / "cases.jsonl"
+    _write_cases(cases, [{"id": "e-001"}])
+    job = tmp_path / "job"
+    job.mkdir()
+    (job / "result.json").write_text(json.dumps({"n_total_trials": 5}))
+    for i in range(5):
+        trial_dir = job / f"trial-{i}"
+        trial_dir.mkdir()
+        (trial_dir / "result.json").write_text(json.dumps({
+            "task_name": "cartwheel/evals__e-001",
+            "verifier_result": {"rewards": {"reward": int(i < 3)}},
+            "exception_info": None,
+        }))
+    report, valid = summarize_job(job, cases_path=cases, expected_attempts=5, classify=True)
+    assert valid
+    assert "| `e-001` | 3 | 5 |" in report
+    assert 'baseline_pass_rate: 0.6' in report

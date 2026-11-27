@@ -1,0 +1,11 @@
+{
+  "approved_by": "human",
+  "approval_text": "yes",
+  "model": "gpt-4o-mini",
+  "cases": 10,
+  "attempts_per_case": 5,
+  "agent_runs": 50,
+  "judge_calls": 0,
+  "cases_sha256": "97771584dcd9be17201e8d9d1da49b624569b74cddd024df177832c1be9dae0b",
+  "approved_at": "2026-11-26T22:26:04.239563+00:00"
+}
